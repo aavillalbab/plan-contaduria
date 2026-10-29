@@ -1103,16 +1103,24 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     init_db()
-    srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
-    url = "http://localhost:%d" % PORT
+    
+    # Obtener el puerto dinámico de Render o usar el predeterminado
+    port = int(os.environ.get("PORT", PORT))
+    host = "0.0.0.0"
+
+    srv = ThreadingHTTPServer((host, port), Handler)
+    url = f"http://{host}:{port}"
     print("=" * 60)
     print(" Plan de estudio · Contaduría Pública (Colombia)")
-    print(" Abre:", url)
+    print(" Escuchando en:", url)
     print(" Progreso guardado en:", DB_PATH)
     print(" Para detener el servidor: Ctrl+C")
     print("=" * 60)
-    if "--no-browser" not in sys.argv:
-        threading.Timer(0.8, lambda: webbrowser.open(url)).start()
+
+    # Solo intentar abrir el navegador si estás en tu PC local (no en Render)
+    if "PORT" not in os.environ and "--no-browser" not in sys.argv:
+        threading.Timer(0.8, lambda: webbrowser.open(f"http://localhost:{port}")).start()
+
     try:
         srv.serve_forever()
     except KeyboardInterrupt:
