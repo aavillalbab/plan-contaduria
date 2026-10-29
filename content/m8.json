@@ -1,0 +1,34 @@
+{
+"id":"m8","orden":8,"titulo":"Tecnología, proyectos y práctica profesional","semestres":"Semestres VIII–IX","descripcion":"Sistemas de información, analítica de datos y formulación de proyectos.",
+"materias":[
+{"id":"m8s1","nombre":"Sistemas de información contable y analítica de datos","area":"FUN","descripcion":"ERP, controles de TI, XBRL, protección de datos y herramientas de análisis.",
+"temas":[["ERP y controles de tecnología de la información",2],["Excel avanzado: tablas dinámicas y funciones de búsqueda",2],["Analítica de datos, BI y automatización",2],["Protección de datos personales (Ley 1581 de 2012)",1]],
+"cards":[
+["ERP","Sistema integrado que centraliza módulos (contabilidad, compras, inventarios, nómina) sobre una base de datos común.","Reduce duplicidad de información pero exige buenos controles de acceso."],
+["Controles generales y de aplicación","Generales: accesos, cambios en sistemas y operación. De aplicación: validación de entradas, procesamiento y salidas de una aplicación específica.","Ambos son necesarios para confiar en la información contable."],
+["XBRL","Lenguaje estándar para reportar información financiera en formato digital con taxonomías definidas.","Se usa en los reportes a supervisores."],
+["Ley 1581 de 2012","Régimen general de protección de datos personales (habeas data). Exige autorización del titular y política de tratamiento; la autoridad es la SIC.","Aplica a bases de datos de clientes, empleados y proveedores."],
+["Tablas dinámicas y BUSCARX","Las tablas dinámicas resumen y cruzan datos; XLOOKUP/BUSCARX reemplaza a BUSCARV y permite buscar en cualquier dirección.","Útiles para conciliaciones y análisis de cartera."]
+],
+"qs":[
+["Un ERP se caracteriza por:",["Módulos aislados con bases de datos separadas","Integrar los procesos del negocio sobre una base de datos común","Ser exclusivamente contable","Funcionar solo sin conexión"],1,1,"La integración evita datos duplicados."],
+["La autoridad de protección de datos personales en Colombia es:",["Superintendencia de Industria y Comercio (SIC)","DIAN","Supersociedades","Registraduría"],0,1,"La SIC vigila el cumplimiento de la Ley 1581."],
+["Un control que valida que un campo de monto no acepte valores negativos es un control:",["General","De aplicación","De seguridad física","Estratégico"],1,2,"Valida entradas de una aplicación específica."],
+["XBRL se utiliza para:",["Cifrar bases de datos","Reportar información financiera en formato estandarizado digital","Calcular depreciaciones","Hacer copias de seguridad"],1,1,"Facilita la comparabilidad y el procesamiento."]
+]},
+{"id":"m8s2","nombre":"Formulación y evaluación de proyectos","area":"FIN","descripcion":"Estudios de mercado y técnico, flujo de caja del proyecto e indicadores.",
+"temas":[["Estudio de mercado, técnico y organizacional",2],["Flujo de caja del proyecto y supuestos",2],["Indicadores: VPN, TIR, B/C y análisis de sensibilidad",3]],
+"cards":[
+["Etapas de un proyecto","Idea → perfil → prefactibilidad → factibilidad → diseño → ejecución.","Cada etapa profundiza y reduce la incertidumbre."],
+["Flujo de caja del proyecto","Inversión inicial + flujos operativos (utilidad operativa después de impuestos + depreciación − inversiones − cambios en capital de trabajo) + valor terminal.","Los costos hundidos no deben incluirse."],
+["Relación beneficio/costo","VP de los beneficios / VP de los costos. Si es mayor que 1, el proyecto es viable.","Es equivalente al VPN positivo."],
+["Análisis de sensibilidad","Mide cómo cambia el VPN al variar una variable clave (precio, volumen, costo).","Se complementa con escenarios optimista, probable y pesimista."],
+["Costo de oportunidad","Rendimiento de la mejor alternativa sacrificada; base de la tasa de descuento (TIO).","El inversionista exige al menos esa rentabilidad."]
+],
+"qs":[
+["Una inversión de $1.000 genera flujos de $600 en cada uno de dos años. Con tasa de descuento del 10%, el VPN es aproximadamente:",["$41,3","$200","$141","−$41"],0,2,"600/1,1 + 600/1,21 ≈ 1.041,3; VPN ≈ 41,3."],
+["¿Cuál de los siguientes NO debe incluirse en el flujo de caja de un proyecto?",["Inversión en capital de trabajo","Costos hundidos","Impuestos sobre la utilidad","Valor de salvamento"],1,2,"Los costos hundidos ya ocurrieron y no cambian con la decisión."],
+["Una relación beneficio/costo de 1,2 indica que:",["El proyecto no es viable","El proyecto es viable","El VPN es cero","La TIR es menor a la TIO"],1,1,"B/C > 1 indica valor creado."],
+["Si la TIR de un proyecto es mayor que la tasa de oportunidad (TIO):",["Se acepta","Se rechaza","Es indiferente","No puede evaluarse"],0,1,"Ofrece más rentabilidad que la mejor alternativa."]
+]}
+]}

@@ -1,0 +1,64 @@
+{
+"id":"m1","orden":1,"titulo":"Fundamentos de la profesión","semestres":"Semestres I–II","descripcion":"Bases contables, matemáticas financieras, economía y ética profesional.",
+"materias":[
+{"id":"m1s1","nombre":"Contabilidad básica y ciclo contable","area":"CON","descripcion":"Ecuación patrimonial, partida doble, PUC, libros y ciclo contable completo.",
+"temas":[["Ecuación contable y partida doble",2],["Plan de cuentas (PUC) y naturaleza de las cuentas",2],["Soportes, libros y ciclo contable",2],["Balance de prueba, ajustes y cierre",3]],
+"cards":[
+["Ecuación patrimonial","Activo = Pasivo + Patrimonio. Toda transacción mantiene la igualdad.","Es la base de la partida doble: cada hecho económico afecta al menos dos cuentas."],
+["Partida doble","Todo débito tiene un crédito de igual valor: Σ débitos = Σ créditos.","Aumentan por el débito: activos, gastos y costos. Aumentan por el crédito: pasivos, patrimonio e ingresos."],
+["Clases del PUC (Decreto 2650 de 1993)","1 Activo · 2 Pasivo · 3 Patrimonio · 4 Ingresos · 5 Gastos · 6 Costos de ventas · 7 Costos de producción · 8 y 9 Cuentas de orden.","Hoy el marco vigente son las NIF (Decreto 2420 de 2015); el PUC se usa como referencia práctica de codificación."],
+["Conservación de libros y papeles","Los libros y papeles del comerciante se conservan por 10 años (art. 60 C. Co., modificado por el art. 28 de la Ley 962 de 2005).","Aplica a libros de contabilidad, comprobantes y correspondencia relacionada."],
+["Ciclo contable","Documento fuente → comprobante → registro en el diario → mayorización → balance de prueba → ajustes → estados financieros → cierre.","El balance de prueba solo verifica igualdad aritmética: puede cuadrar y aun así tener errores."]
+],
+"qs":[
+["Una empresa compra mercancía a crédito por $1.000.000. ¿Cómo cambia la ecuación contable?",["Activo +1.000.000 y Pasivo +1.000.000","Activo +1.000.000 y Patrimonio +1.000.000","Activo −1.000.000 y Pasivo +1.000.000","Solo cambia el activo"],0,1,"Aumenta el inventario (activo) y la cuenta por pagar a proveedores (pasivo); la igualdad se conserva."],
+["¿Cuál de las siguientes cuentas tiene naturaleza crédito?",["Caja","Proveedores","Gastos de administración","Inventarios"],1,1,"Los pasivos (como Proveedores) aumentan por el crédito. Caja, gastos e inventarios son de naturaleza débito."],
+["En el PUC, ¿qué clase corresponde al costo de ventas?",["Clase 5","Clase 6","Clase 7","Clase 4"],1,1,"Clase 4 ingresos, 5 gastos, 6 costo de ventas y 7 costos de producción."],
+["Un balance de prueba arroja débitos por $50.000.000 y créditos por $48.500.000. Esto indica:",["Que los estados financieros son correctos","Que existe un error de registro o mayorización que debe localizarse","Una utilidad de $1.500.000","Una pérdida de $1.500.000"],1,2,"Σ débitos debe ser igual a Σ créditos. Una diferencia revela un error; además, aunque cuadre, pueden existir errores que no afectan la igualdad (omisiones, cuentas equivocadas)."]
+]},
+{"id":"m1s2","nombre":"Matemáticas financieras","area":"FUN","descripcion":"Interés simple y compuesto, equivalencia de tasas, anualidades y amortización.",
+"temas":[["Interés simple y compuesto",2],["Tasas nominal, efectiva y equivalencias",3],["Anualidades y gradientes",3],["Sistemas de amortización",2]],
+"cards":[
+["Interés compuesto","VF = VP · (1 + i)^n","Los intereses generan nuevos intereses. VP = VF / (1 + i)^n."],
+["Tasa efectiva vs. nominal","i_EA = (1 + j/m)^m − 1, con j = tasa nominal y m = capitalizaciones por año.","Ej.: 24% NM → (1 + 0,02)^12 − 1 ≈ 26,82% EA."],
+["Equivalencia de tasas","(1 + i_EA) = (1 + i_periódica)^m","Para pasar de EA a mensual: (1 + EA)^(1/12) − 1."],
+["Valor presente de una anualidad vencida","VP = A · [1 − (1 + i)^−n] / i","Para anualidad anticipada se multiplica por (1 + i)."],
+["Sistemas de amortización","Cuota fija (francés): cuota constante, abono a capital creciente. Abono constante a capital (alemán): cuota decreciente.","En ambos, los intereses se calculan sobre el saldo insoluto."]
+],
+"qs":[
+["¿Cuál es el valor futuro de $10.000.000 invertidos al 2% mensual compuesto durante 6 meses?",["$11.200.000","$11.261.624","$11.000.000","$12.000.000"],1,1,"VF = 10.000.000 × 1,02^6 = 11.261.624."],
+["Una tasa nominal del 12% anual capitalizable mensualmente equivale a una tasa efectiva anual de:",["12,00%","12,36%","12,68%","13,00%"],2,2,"i_EA = (1 + 0,12/12)^12 − 1 = 1,01^12 − 1 ≈ 12,68%."],
+["La tasa efectiva mensual equivalente al 30% EA es aproximadamente:",["2,50%","2,21%","2,81%","1,95%"],1,2,"(1,30)^(1/12) − 1 ≈ 2,21%. Dividir 30%/12 = 2,5% es un error común (confunde nominal con efectiva)."],
+["¿Cuál es el valor presente de 12 cuotas mensuales vencidas de $100.000 a una tasa de 1% mensual?",["$1.200.000","$1.125.508","$1.100.000","$1.268.250"],1,3,"VP = 100.000 × [1 − 1,01^−12]/0,01 ≈ 1.125.508. El valor $1.268.250 corresponde al valor futuro de la anualidad."]
+]},
+{"id":"m1s3","nombre":"Fundamentos de economía","area":"FUN","descripcion":"Oferta y demanda, macroeconomía, política monetaria y fiscal, sector externo.",
+"temas":[["Oferta, demanda y elasticidad",2],["Macroeconomía: PIB, inflación y desempleo",2],["Política monetaria, fiscal y Banco de la República",2],["Sector externo y tasa de cambio",2]],
+"cards":[
+["PIB","Valor de los bienes y servicios finales producidos en un país en un período. PIB = C + I + G + (X − M).","En Colombia lo mide el DANE."],
+["Inflación e IPC","Aumento sostenido y generalizado de precios; se mide con el IPC (DANE).","El Banco de la República tiene una meta de inflación de 3% (con un rango de tolerancia de ±1 punto)."],
+["Banco de la República","Banco central con autonomía constitucional (art. 371 C.P.); su Junta Directiva define la política monetaria, cambiaria y crediticia.","Su herramienta principal es la tasa de intervención."],
+["Elasticidad precio de la demanda","E = %ΔCantidad demandada / %ΔPrecio. |E| > 1 elástica; |E| < 1 inelástica.","Los bienes de primera necesidad suelen ser inelásticos."],
+["Política fiscal vs. monetaria","Fiscal: gasto público e impuestos (Gobierno). Monetaria: tasas de interés y cantidad de dinero (banco central).","Ambas buscan estabilidad macroeconómica pero con instrumentos y autoridades distintos."]
+],
+"qs":[
+["¿Cuál es la identidad del PIB por el método del gasto?",["C + I + G + (X − M)","C + S + T","I + G − X + M","C + I − G"],0,1,"Consumo + Inversión + Gasto público + Exportaciones netas."],
+["Si el Banco de la República aumenta su tasa de intervención, el efecto esperado es:",["Disminuye el costo del crédito","Se encarece el crédito y tiende a moderar la inflación","Aumenta el gasto público","Se reduce la deuda externa de inmediato"],1,1,"Una tasa de intervención más alta transmite mayores tasas al sistema financiero, frena el consumo y modera la inflación."],
+["Un bien con elasticidad precio de la demanda de −0,4 es:",["Elástico","Inelástico","De elasticidad unitaria","Perfectamente elástico"],1,1,"|−0,4| < 1: la cantidad demandada reacciona menos que proporcionalmente al precio."],
+["Una devaluación del peso frente al dólar tiende a:",["Abaratar las importaciones","Encarecer las importaciones y favorecer las exportaciones","No afectar los precios internos","Reducir siempre la inflación"],1,2,"Se necesitan más pesos por dólar: las importaciones se encarecen (presión inflacionaria) y las exportaciones ganan competitividad."]
+]},
+{"id":"m1s4","nombre":"Ética profesional y Ley 43 de 1990","area":"LEG","descripcion":"Marco legal de la profesión contable, fe pública, principios éticos y régimen disciplinario.",
+"temas":[["Ley 43 de 1990 y fe pública",2],["Principios éticos del contador",2],["Junta Central de Contadores y régimen disciplinario",2]],
+"cards":[
+["Ley 43 de 1990","Reglamenta la profesión de contador público en Colombia: definición, requisitos, fe pública, ética y régimen disciplinario.","Es la norma base de la profesión junto con la Ley 1314 de 2009 (normas contables y de aseguramiento)."],
+["Fe pública (art. 10)","La atestación o firma de un contador público en actos propios de su profesión hace presumir, salvo prueba en contrario, que el acto se ajusta a los requisitos legales y que las cifras reflejan fielmente la situación financiera.","Genera responsabilidad civil, penal y disciplinaria."],
+["Principios éticos (art. 37)","Integridad, objetividad, independencia, responsabilidad, confidencialidad, observancia de las disposiciones normativas, competencia y actualización profesional, difusión y colaboración, respeto entre colegas y conducta ética.","Aceptar trabajos para los que no se tiene competencia viola el principio de competencia y actualización profesional."],
+["Junta Central de Contadores (JCC)","Autoridad que inscribe a los contadores, expide la tarjeta profesional y ejerce la inspección y vigilancia disciplinaria de la profesión.","Es distinta de la DIAN, la Supersociedades y el CTCP."],
+["Sanciones disciplinarias","Amonestación escrita, multa, suspensión de la inscripción y cancelación de la inscripción, según la gravedad de la falta.","La graduación depende de la falta, los antecedentes y el daño causado."]
+],
+"qs":[
+["¿Qué ley reglamenta el ejercicio de la profesión de contador público en Colombia?",["Ley 43 de 1990","Ley 1314 de 2009","Ley 222 de 1995","Decreto 2420 de 2015"],0,1,"La Ley 43 de 1990 reglamenta la profesión. La Ley 1314 de 2009 regula las normas de contabilidad, información financiera y aseguramiento."],
+["Un contador acepta un trabajo para el que no tiene la preparación necesaria. ¿Qué principio vulnera principalmente?",["Confidencialidad","Competencia y actualización profesional","Difusión y colaboración","Respeto entre colegas"],1,1,"Debe aceptar solo encargos que pueda ejecutar con la competencia requerida."],
+["La fe pública del contador implica que:",["Su firma garantiza resultados económicos futuros","Su firma hace presumir, salvo prueba en contrario, que las cifras reflejan fielmente la situación financiera","Sustituye la auditoría externa","Solo aplica al revisor fiscal"],1,2,"Es una presunción legal (art. 10, Ley 43/1990) que también compromete su responsabilidad."],
+["¿Quién ejerce la inspección y vigilancia disciplinaria sobre los contadores públicos?",["Supersociedades","DIAN","Junta Central de Contadores","Contraloría General"],2,1,"La JCC inscribe, expide tarjeta profesional y sanciona disciplinariamente."]
+]}
+]}

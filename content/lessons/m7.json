@@ -1,0 +1,146 @@
+{
+ "m7s1": {
+  "recursos": [
+   {
+    "titulo": "Ley 2466 de 2025 en el Gestor Normativo",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=260676",
+    "tipo": "norma",
+    "fuente": "Función Pública"
+   },
+   {
+    "titulo": "Ley 2101 de 2021: reducción gradual de la jornada laboral",
+    "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_2101_2021.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   },
+   {
+    "titulo": "Aportes parafiscales: aspectos clave",
+    "url": "https://actualicese.com/contribuciones-parafiscales-aspectos-clave/",
+    "tipo": "articulo",
+    "fuente": "Actualícese"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nReconocer cuándo existe un contrato de trabajo, distinguir salario de pagos no salariales y calcular los recargos básicos de la jornada con las reglas vigentes tras la Ley 2466 de 2025.\n\n## Conceptos clave\n### Elementos del contrato (art. 23 CST)\nHay contrato de trabajo cuando concurren tres elementos: la **actividad personal** del trabajador, la **continuada subordinación o dependencia** y un **salario** como retribución del servicio. Si los tres existen, hay contrato aunque las partes lo llamen \"prestación de servicios\" (primacía de la realidad sobre la forma).\n\n### Modalidades\nLa Ley 2466 de 2025 (art. 5, que modifica el art. 47 del CST) fija como regla general el contrato a **término indefinido**. Son excepciones el término fijo (por escrito y hasta cuatro años; si incumple, se entiende indefinido), el de obra o labor y los ocasionales.\n\n### Salario\nEs todo lo que el trabajador recibe, en dinero o en especie, como retribución directa del servicio: sueldo, comisiones, recargos y horas extras (art. 127 CST). No son salario los pagos ocasionales por mera liberalidad ni los que las partes pacten expresamente como no salariales (art. 128), si no encubren la retribución del trabajo.\n\n### Jornada y recargos\n- La jornada máxima semanal bajó de forma gradual por la Ley 2101 de 2021 hasta **42 horas**; el último paso se cumplió en julio de 2026 (verifica el calendario para periodos anteriores).\n- El trabajo **nocturno** empieza a las 7:00 p. m. y termina a las 6:00 a. m. (Ley 2466, art. 10, vigente seis meses después de su sanción).\n- Recargos del art. 168 CST: nocturno ordinario 35 %, hora extra diurna 25 % y hora extra nocturna 75 %.\n- Trabajo en día de descanso obligatorio (dominical o festivo): recargo de 80 % desde el 1 de julio de 2025, **90 % desde el 1 de julio de 2026** y 100 % desde el 1 de julio de 2027 (art. 14 de la Ley 2466).\n\n## Ejemplo resuelto\n> **Ejemplo:** salario mensual *ilustrativo* de $3.000.000, jornada de 42 horas. Divisor de referencia: 210 horas al mes (7 horas × 30 días); verifica el divisor que use tu empresa.\n\n1. Valor de la hora ordinaria: 3.000.000 / 210 = **$14.285,71**.\n2. Hora extra diurna: 14.285,71 × 1,25 = **$17.857,14**.\n3. Recargo de una hora nocturna ordinaria: 14.285,71 × 0,35 = **$5.000**.\n4. Ocho horas en un festivo (recargo del 90 %): 8 × 14.285,71 × 0,90 = **$102.857,14**, adicionales al salario mensual.\n\n## Puntos clave\n- Tres elementos del art. 23: actividad personal, subordinación y salario.\n- Regla general: contrato indefinido; el término fijo es excepción y máximo cuatro años.\n- Nocturno desde las 7:00 p. m.; recargo dominical y festivo en 90 % desde julio de 2026.\n\n## Errores frecuentes\n- Creer que el nombre del contrato define su naturaleza.\n- Declarar como \"no salariales\" pagos que retribuyen directamente el trabajo.\n- Liquidar el recargo festivo con porcentajes de 2025.",
+    "recursos": [
+     {
+      "titulo": "Ley 2466 de 2025 (reforma laboral), texto con vigencias",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_2466_2025.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Ley 2101 de 2021: reducción gradual de la jornada laboral",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_2101_2021.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nLiquidar cesantías, intereses sobre cesantías, prima de servicios y vacaciones, y conocer sus fechas de pago y su provisión contable mensual.\n\n## Conceptos clave\nLas **prestaciones sociales** son sumas que el empleador paga al trabajador, además del salario, para cubrir riesgos o necesidades derivadas del trabajo. Se causan con el tiempo trabajado y se liquidan proporcionalmente si el contrato termina antes del año. En la práctica se usa el año comercial de 360 días.\n\n### Cesantías e intereses\n- **Cesantías:** un mes de salario por cada año de servicio, proporcional por fracciones. Base: último salario mensual más auxilio de transporte cuando aplica (si el salario es variable, se promedia). El valor del auxilio cambia cada año: verifica el valor vigente.\n- Se consignan en el fondo a más tardar el **14 de febrero** del año siguiente.\n- **Intereses:** 12 % anual sobre las cesantías, proporcional al tiempo; se pagan directamente al trabajador antes del **31 de enero**.\n\n### Prima de servicios\nEquivale a **30 días de salario por año**: 15 días por semestre, pagaderos a más tardar el **30 de junio** y el **20 de diciembre**. La base incluye el auxilio de transporte.\n\n### Vacaciones\n**15 días hábiles** remunerados por cada año. Se liquidan sobre el salario ordinario, sin auxilio de transporte. Solo puede compensarse en dinero una parte, en los casos que permite la ley.\n\n### Otros conceptos\nEn la liquidación final también se pagan salarios pendientes y, si procede, indemnizaciones. Pagar tarde la liquidación puede generar sanción moratoria; verifica el régimen aplicable.\n\n## Ejemplo resuelto\n> **Ejemplo:** trabajador con salario *ilustrativo* de $2.000.000 y auxilio de transporte *ilustrativo* de $200.000. Ingresó el 1 de enero y se retira el 30 de septiembre (270 días). Se supone que la prima del primer semestre ya se pagó y que las cesantías de este año no se han consignado.\n\n1. Base de cesantías y prima: 2.000.000 + 200.000 = $2.200.000.\n2. Cesantías: 2.200.000 × 270 / 360 = **$1.650.000**.\n3. Intereses: 1.650.000 × 270 × 0,12 / 360 = **$148.500**.\n4. Prima del segundo semestre (julio a septiembre, 90 días): 2.200.000 × 90 / 360 = **$550.000**.\n5. Vacaciones proporcionales: 2.000.000 × 270 / 720 = **$750.000**.\n6. Total de prestaciones: 1.650.000 + 148.500 + 550.000 + 750.000 = **$3.098.500**, sin contar salarios pendientes.\n\n### Provisión mensual\nCon las mismas bases, el empleador provisiona cada mes:\n\n| Concepto | Cálculo | Valor mensual |\n|---|---|---|\n| Cesantías | 2.200.000 / 12 | $183.333 |\n| Intereses | 2.200.000 × 1 % | $22.000 |\n| Prima | 2.200.000 / 12 | $183.333 |\n| Vacaciones | 2.000.000 × 15 / 360 | $83.333 |\n\n## Puntos clave\n- Cesantías: un mes por año; intereses del 12 % anual.\n- Consignación de cesantías hasta el 14 de febrero; intereses hasta el 31 de enero.\n- Prima: 15 días por semestre, hasta el 30 de junio y el 20 de diciembre.\n- Vacaciones: 15 días hábiles por año, sin auxilio de transporte en la base.\n\n## Errores frecuentes\n- Olvidar el auxilio de transporte en la base de cesantías y prima.\n- Incluirlo en la base de vacaciones.\n- Liquidar los intereses sobre el salario en lugar de sobre las cesantías.\n- Confundir la fecha de consignación (14 de febrero) con la de pago de intereses (31 de enero).",
+    "recursos": [
+     {
+      "titulo": "Ley 50 de 1990 (régimen de cesantías y reforma laboral)",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=281",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular los aportes a seguridad social y parafiscales de una nómina, entender el ingreso base de cotización y cómo se declaran en la PILA.\n\n## Conceptos clave\nAdemás del salario, el empleador debe aportar al **Sistema General de Seguridad Social** (pensión, salud y riesgos laborales) y pagar **aportes parafiscales**. Todo se paga mensualmente en la **PILA** (Planilla Integrada de Liquidación de Aportes).\n\n### Tarifas\n| Concepto | Empleador | Trabajador | Total |\n|---|---|---|---|\n| Pensión | 12 % | 4 % | 16 % |\n| Salud | 8,5 % | 4 % | 12,5 % |\n| ARL | según clase de riesgo | no aporta | |\n| Caja de compensación | 4 % | no aporta | |\n| SENA | 2 % | no aporta | |\n| ICBF | 3 % | no aporta | |\n\nLa ARL tiene cinco clases de riesgo; para la clase I la tarifa es 0,522 % (verifica la tabla vigente). Los empleadores obligados pueden estar exonerados de SENA, ICBF y de la salud del empleador por trabajadores que devenguen menos de 10 SMMLV (art. 114-1 del ET); la caja de compensación nunca se exonera.\n\n### Ingreso base de cotización (IBC)\nParte del salario. Los pagos no salariales entran en el IBC solo en lo que excedan el 40 % del total de la remuneración. Hay un piso de 1 SMMLV y un tope de 25 SMMLV.\n\n### PILA y control\nLa planilla se paga en fechas que dependen del documento del aportante (consulta el calendario vigente). Pagar tarde genera intereses de mora, y la **UGPP** fiscaliza los aportes.\n\n## Ejemplo resuelto\n> **Ejemplo:** empleado con salario *ilustrativo* de $3.000.000, riesgo clase I, empleador exonerado de SENA, ICBF y salud (art. 114-1 ET).\n\n1. Pensión empleador: 3.000.000 × 12 % = **$360.000**.\n2. Salud empleador: exonerada, **$0** (sin exoneración serían $255.000).\n3. ARL: 3.000.000 × 0,522 % = **$15.660**.\n4. Caja de compensación: 3.000.000 × 4 % = **$120.000**.\n5. Aportes del empleador: 360.000 + 15.660 + 120.000 = **$495.660**.\n6. Descuentos al trabajador: pensión 4 % ($120.000) + salud 4 % ($120.000) = $240.000; neto de salario 3.000.000 − 240.000 = **$2.760.000**.\n\n### Regla del 40 %\nSi además recibe una bonificación no salarial de $2.500.000: remuneración total 5.500.000; el 40 % es 2.200.000; exceso 300.000; **IBC = 3.300.000**.\n\n## Puntos clave\n- Pensión 16 % (12 % empleador y 4 % trabajador) y salud 12,5 % (8,5 % y 4 %).\n- Parafiscales: caja 4 %, SENA 2 % e ICBF 3 %.\n- Exoneración del art. 114-1 ET para salarios inferiores a 10 SMMLV, sin cobijar la caja.\n- Los pagos no salariales por encima del 40 % integran el IBC.\n\n## Errores frecuentes\n- Aplicar la exoneración también a la caja de compensación.\n- Excluir del IBC bonificaciones que superan el 40 %.",
+    "recursos": [
+     {
+      "titulo": "Aportes parafiscales: aspectos clave",
+      "url": "https://actualicese.com/contribuciones-parafiscales-aspectos-clave/",
+      "tipo": "articulo",
+      "fuente": "Actualícese"
+     }
+    ]
+   }
+  ]
+ },
+ "m7s2": {
+  "recursos": [
+   {
+    "titulo": "Ley 1116 de 2006 en el Gestor Normativo",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=22657",
+    "tipo": "norma",
+    "fuente": "Función Pública"
+   },
+   {
+    "titulo": "Cartilla del nuevo régimen de insolvencia empresarial (Ley 1116)",
+    "url": "https://www.supersociedades.gov.co/documents/58444/306717/Libro_3_CARTILLA_LEY_1116_DE_2006.pdf/ea9f10fb-6947-0150-ec90-d9e68fb3d1a4?t=1663097829234&download=true",
+    "tipo": "articulo",
+    "fuente": "Superintendencia de Sociedades"
+   },
+   {
+    "titulo": "Los acuerdos de reorganización como herramienta para empresas en crisis",
+    "url": "https://incp.org.co/publicaciones/2024/09/los-acuerdos-de-reorganizacion-son-una-herramienta-clave-para-empresas-en-crisis/",
+    "tipo": "articulo",
+    "fuente": "INCP"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar los supuestos que habilitan un proceso de insolvencia y describir las etapas del proceso de reorganización de la Ley 1116 de 2006.\n\n## Conceptos clave\nLa **Ley 1116 de 2006** regula el régimen de insolvencia empresarial con dos procesos: la **reorganización**, que busca salvar la empresa viable mediante un acuerdo con los acreedores, y la **liquidación judicial**, que realiza el patrimonio. Aplica a personas jurídicas no excluidas y a personas naturales comerciantes; quedan excluidas, entre otras, las entidades vigiladas por la Superintendencia Financiera y las empresas de servicios públicos domiciliarios. La **Superintendencia de Sociedades** ejerce funciones jurisdiccionales sobre sociedades, empresas unipersonales y sucursales de sociedades extranjeras; en los demás casos conoce el juez civil del circuito.\n\n### Supuestos (art. 9)\n- **Cesación de pagos:** mora de más de 90 días en dos o más obligaciones a favor de dos o más acreedores, o al menos dos demandas de ejecución, siempre que el valor acumulado represente **no menos del 10 % del pasivo total**.\n- **Incapacidad de pago inminente:** circunstancias que afectan gravemente el cumplimiento de obligaciones con vencimiento igual o inferior a un año.\n\n### Etapas de la reorganización\n1. Solicitud con estados financieros, inventario de activos y pasivos, memoria de las causas de la crisis, flujo de caja y plan de negocios (art. 13).\n2. Admisión: se protege a la empresa frente a ejecuciones mientras se negocia.\n3. Calificación y graduación de créditos y determinación de derechos de voto.\n4. **Acuerdo de reorganización**: se aprueba con el voto favorable de acreedores que representen al menos la mayoría absoluta de los votos admitidos, distribuidos por categorías (laborales, entidades públicas, financieras, internos y otros externos). Verifica el plazo y las reglas completas del art. 31.\n5. Confirmación por el juez y ejecución del acuerdo.\n\nVerifica su reglamentación vigente.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** una sociedad tiene pasivo total de $1.000.000.000. Tiene mora de más de 90 días con dos acreedores distintos: $60.000.000 y $70.000.000.\n\n1. Mora acumulada: 60.000.000 + 70.000.000 = $130.000.000.\n2. Proporción: 130.000.000 / 1.000.000.000 = **13 %**.\n3. Como supera 10 %, hay cesación de pagos. Con mora de $80.000.000 (8 %) no se cumpliría el supuesto.\n\n### Votación simplificada\nCon 10.000 votos admitidos, votan a favor: laborales 900, financieras 3.000, internos 1.500 y otros externos 1.000. Total: 6.400 votos (64 %), con cuatro categorías a favor; supera la mayoría absoluta. Es una simplificación: el art. 31 contiene reglas adicionales.\n\n## Puntos clave\n- La Ley 1116 contempla reorganización y liquidación judicial.\n- Cesación de pagos: más de 90 días, dos o más obligaciones, dos o más acreedores, 10 % del pasivo.\n- La reorganización busca un acuerdo que mantenga la empresa operando.\n\n## Errores frecuentes\n- Pensar que basta una sola obligación vencida.\n- Comparar el 10 % con el activo y no con el pasivo total.\n- Confundir reorganización con liquidación.",
+    "recursos": [
+     {
+      "titulo": "Ley 1116 de 2006: régimen de insolvencia empresarial",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1116_2006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Cartilla del nuevo régimen de insolvencia empresarial (Ley 1116)",
+      "url": "https://www.supersociedades.gov.co/documents/58444/306717/Libro_3_CARTILLA_LEY_1116_DE_2006.pdf/ea9f10fb-6947-0150-ec90-d9e68fb3d1a4?t=1663097829234&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Los acuerdos de reorganización como herramienta para empresas en crisis",
+      "url": "https://incp.org.co/publicaciones/2024/09/los-acuerdos-de-reorganizacion-son-una-herramienta-clave-para-empresas-en-crisis/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar cuándo procede la liquidación judicial, qué efectos produce y cómo se pagan los acreedores según el orden de prelación.\n\n## Conceptos clave\nLa **liquidación judicial** es el proceso concursal que busca realizar el patrimonio del deudor para pagar a los acreedores según el orden legal de prelación. A diferencia de la reorganización, su finalidad no es salvar la empresa como negocio en marcha, aunque la ley permite que se enajene como unidad de explotación económica.\n\n### Cuándo procede\n- Por incumplimiento del acuerdo de reorganización.\n- Por los supuestos de liquidación judicial inmediata que señala la ley, o por solicitud del propio deudor.\n- Cuando fracasa la negociación o el acuerdo no es confirmado.\n\nVerifica en el texto vigente de la Ley 1116 (arts. 47 y siguientes) el listado completo de causales.\n\n### Efectos principales\n1. Se designa un **liquidador**, que asume la representación de la sociedad.\n2. La sociedad queda disuelta y en estado de liquidación; cesan las funciones de los administradores y de los órganos de fiscalización.\n3. Se elabora el inventario de bienes y se realiza el activo.\n4. Se califican y gradúan los créditos y se **adjudican o pagan** según la prelación.\n\n### Orden de prelación\nPrimero se atienden los **gastos de administración** causados durante el proceso. Luego se pagan los créditos por clases, tomadas del Código Civil y de la ley concursal: primera clase (entre ellos los créditos laborales), segunda (con garantía prendaria), tercera (con garantía hipotecaria), cuarta y quinta (**quirografarios**, sin garantía). El acreedor con garantía real tiene preferencia sobre el bien gravado. La posición de los créditos fiscales ha tenido cambios legislativos: verifica la norma vigente.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** el liquidador realiza bienes libres de garantías por $400.000.000. Hay gastos de administración por $60.000.000, créditos laborales (primera clase) por $150.000.000 y proveedores quirografarios por $500.000.000.\n\n1. Gastos de administración: se pagan $60.000.000. Quedan 400.000.000 − 60.000.000 = $340.000.000.\n2. Créditos laborales: se pagan $150.000.000. Quedan 340.000.000 − 150.000.000 = $190.000.000.\n3. Quirografarios: reclaman $500.000.000 y hay $190.000.000.\n4. Porcentaje de pago: 190.000.000 / 500.000.000 = **38 %**, repartido a prorrata entre los quirografarios.\n\nUn proveedor quirografario con crédito de $50.000.000 recibe 50.000.000 × 38 % = **$19.000.000**.\n\n## Puntos clave\n- La liquidación judicial realiza el patrimonio y paga conforme a la prelación.\n- Procede, entre otros casos, por incumplimiento del acuerdo de reorganización.\n- Los quirografarios se pagan al final y a prorrata.\n\n## Errores frecuentes\n- Pagar a los acreedores en el orden en que presentaron sus créditos.\n- Creer que todos los acreedores reciben el mismo porcentaje.\n- Olvidar que los gastos de administración se pagan primero.",
+    "recursos": [
+     {
+      "titulo": "Ley 1116 de 2006: régimen de insolvencia empresarial",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1116_2006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Cartilla del nuevo régimen de insolvencia empresarial (Ley 1116)",
+      "url": "https://www.supersociedades.gov.co/documents/58444/306717/Libro_3_CARTILLA_LEY_1116_DE_2006.pdf/ea9f10fb-6947-0150-ec90-d9e68fb3d1a4?t=1663097829234&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender qué información financiera se exige en un proceso de insolvencia y qué responsabilidades asume el contador público.\n\n## Conceptos clave\nEn un proceso de insolvencia, el juez y los acreedores deciden con base en la información que presenta el deudor. Por eso la solicitud debe acompañarse de estados financieros de los últimos ejercicios, estados con corte reciente (el último día del mes anterior a la solicitud), un **inventario de activos y pasivos**, flujo de caja, memoria de las causas de la crisis y proyecto de calificación de créditos (art. 13, Ley 1116).\n\n### Papel del contador\n- **Preparar y certificar** las cifras: los estados financieros y el inventario deben ir firmados por contador público o revisor fiscal, según el caso; el representante legal también los certifica (art. 37, Ley 222 de 1995).\n- **Verificar la consistencia** entre contabilidad, inventarios y acreedores, y **evaluar los supuestos de insolvencia**.\n- **Responder por la veracidad:** información falsa o incompleta puede acarrear responsabilidad disciplinaria, civil y penal. En liquidación, la información se prepara sin la hipótesis de negocio en marcha; verifica el marco técnico aplicable.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** el contador revisa si la empresa cumple el supuesto de cesación de pagos. Pasivo total: $800.000.000. Dos obligaciones con mora de 95 y 120 días, con acreedores distintos, por $50.000.000 y $45.000.000.\n\n1. Mora acumulada: 50.000.000 + 45.000.000 = $95.000.000.\n2. Proporción: 95.000.000 / 800.000.000 = **11,875 %**.\n3. Ambas superan 90 días y hay dos acreedores; la proporción supera 10 %. Se cumple el supuesto y se informa a la gerencia.\n\n## Puntos clave\n- Los documentos financieros son la base de la solicitud y del proceso.\n- El contador y el revisor fiscal responden por la veracidad de las cifras.\n\n## Errores frecuentes\n- Usar cortes desactualizados o inventarios sin soporte.\n- Omitir pasivos o acreedores.",
+    "recursos": [
+     {
+      "titulo": "Ley 1116 de 2006: régimen de insolvencia empresarial",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1116_2006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Cartilla del nuevo régimen de insolvencia empresarial (Ley 1116)",
+      "url": "https://www.supersociedades.gov.co/documents/58444/306717/Libro_3_CARTILLA_LEY_1116_DE_2006.pdf/ea9f10fb-6947-0150-ec90-d9e68fb3d1a4?t=1663097829234&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   }
+  ]
+ }
+}

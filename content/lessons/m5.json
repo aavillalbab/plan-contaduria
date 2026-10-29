@@ -1,0 +1,448 @@
+{
+ "m5s1": {
+  "recursos": [
+   {
+    "titulo": "NIC 16 Propiedades, Planta y Equipo (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2023/issued/ias16.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "NIC 38 Activos Intangibles (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2023/issued/ias38.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "NIC 36 Deterioro del Valor de los Activos (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2022/issued/ias36.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nAplicar la NIC 16 para reconocer, medir y depreciar propiedades, planta y equipo (PPE), y comprender cuándo y cómo funciona el modelo de revaluación frente al modelo del costo.\n\n## Conceptos clave\n### Qué es una PPE y cuándo se reconoce\nSon activos tangibles que la entidad usa en la producción, el suministro de bienes o servicios, o en la administración, y que espera usar durante más de un período. Se reconocen cuando es **probable** que generen beneficios económicos futuros y su costo se pueda **medir con fiabilidad**.\n\n### Medición inicial\nEl costo incluye el precio de compra (más aranceles e impuestos no recuperables, menos descuentos), todo costo directamente atribuible para dejar el activo en condiciones de operar (transporte, instalación, pruebas) y la estimación inicial de costos de desmantelamiento cuando exista obligación. Los costos generales de administración y las pérdidas operativas iniciales **no** se capitalizan.\n\n### Medición posterior: dos modelos\nLa entidad elige una política **por clase de activo** y la aplica de forma uniforme:\n\n- **Modelo del costo:** costo menos depreciación acumulada menos deterioro acumulado.\n- **Modelo de revaluación:** valor razonable a la fecha de la revaluación menos depreciación y deterioro posteriores. Exige revaluar con regularidad para que el valor en libros no difiera significativamente del valor razonable, y revaluar toda la clase a la vez.\n\n### Depreciación\nSe distribuye el **monto depreciable** (costo menos valor residual) a lo largo de la vida útil, con el método que refleje el patrón de consumo de beneficios (línea recta, unidades de producción, etc.). Cada parte con costo significativo en relación con el total se deprecia por separado (**componentes**). Vida útil, valor residual y método se revisan al menos al cierre de cada período.\n\n### Tratamiento de la revaluación\nEl aumento se acredita al **otro resultado integral (ORI)** como superávit de revaluación, salvo que revierta una disminución previa que se llevó a resultados. La disminución se lleva a resultados, salvo que exista superávit previo de ese mismo activo, caso en el cual se carga primero al ORI.\n\n## Ejemplo resuelto\nUna máquina se compra por $200.000.000, con vida útil de 10 años y valor residual de $20.000.000.\n\n1. Depreciación anual = (200.000.000 − 20.000.000) / 10 = **$18.000.000**.\n2. Tras 2 años, depreciación acumulada = $36.000.000 y valor en libros = **$164.000.000**.\n3. Se revalúa y el valor razonable es $190.000.000: superávit = 190.000.000 − 164.000.000 = **$26.000.000**.\n\n| Cuenta | Débito | Crédito |\n|---|---|---|\n| Depreciación acumulada | 36.000.000 | |\n| Maquinaria (costo) | | 36.000.000 |\n| Maquinaria | 26.000.000 | |\n| Superávit por revaluación (ORI) | | 26.000.000 |\n\nSi luego el valor razonable cae a $150.000.000, la disminución es de $40.000.000: **$26.000.000** se cargan al superávit (ORI) y los **$14.000.000** restantes van al gasto del período.\n\n> **Clave:** la revaluación nunca es \"gratuita\" en resultados: el aumento va al patrimonio vía ORI y solo la parte que excede el superávit previo toca el estado de resultados.\n\n## Puntos clave\n- La política (costo o revaluación) se define por clase de PPE.\n- Los componentes significativos se deprecian por separado.\n- Los terrenos no se deprecian, porque su vida útil es ilimitada.\n- La depreciación contable puede diferir de la fiscal; esa diferencia genera impuesto diferido (consulta la normativa tributaria vigente).\n\n## Errores frecuentes\n- Capitalizar costos de mantenimiento rutinario, que son gasto.\n- Revaluar un solo activo de la clase y dejar los demás al costo.\n- Llevar el aumento por revaluación directamente a ingresos.\n- Olvidar revisar vida útil y valor residual cada año.",
+    "recursos": [
+     {
+      "titulo": "Método de revaluación de activos según NIC 16",
+      "url": "https://www.youtube.com/watch?v=2COv32Tuvdc",
+      "tipo": "video",
+      "fuente": "Susana Bagnarello Kepfer (YouTube)"
+     },
+     {
+      "titulo": "NIC 16 Propiedades, Planta y Equipo (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2023/issued/ias16.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDistinguir los activos intangibles de los gastos, aplicar los criterios de reconocimiento de la NIC 38 y amortizar correctamente.\n\n## Conceptos clave\n### Definición\nUn intangible es un activo **identificable**, de carácter no monetario y **sin sustancia física**, que la entidad **controla** y del que espera **beneficios económicos futuros**. Identificable significa separable (puede venderse, licenciarse) o surgido de derechos contractuales o legales. Ejemplos: software, licencias, marcas adquiridas, patentes, derechos de franquicia.\n\n### Reconocimiento\nSe reconoce si es probable que genere beneficios futuros y su costo se mide con fiabilidad. Los adquiridos por separado se miden al costo; los generados internamente siguen reglas especiales:\n\n- **Fase de investigación:** todo desembolso es gasto cuando se incurre.\n- **Fase de desarrollo:** se capitaliza solo si se demuestra viabilidad técnica, intención y capacidad de completar y usar o vender el activo, la forma en que generará beneficios, disponibilidad de recursos y medición fiable del gasto atribuible.\n- **Plusvalía, marcas, cabeceras de periódicos y listas de clientes generadas internamente:** no se reconocen como activo.\n\n### Vida útil y amortización\nSi la vida útil es **finita**, se amortiza de forma sistemática durante ella (valor residual normalmente cero). Si es **indefinida**, no se amortiza, pero se somete a prueba de deterioro al menos cada año y se revisa si la evaluación de vida indefinida sigue vigente. Después del reconocimiento se usa el modelo del costo o, si existe mercado activo (poco común), el de revaluación.\n\n## Ejemplo resuelto\nUna empresa desarrolla un nuevo sistema de gestión. Durante el año gasta $30.000.000 en investigación y $80.000.000 en desarrollo, que desde la fecha en que cumple todos los criterios sí son capitalizables. El sistema entra en uso con vida útil de 5 años.\n\n1. Investigación: Débito Gasto de investigación $30.000.000 / Crédito Efectivo $30.000.000.\n2. Desarrollo: Débito Intangible – software $80.000.000 / Crédito Efectivo $80.000.000.\n3. Amortización anual = 80.000.000 / 5 = **$16.000.000**: Débito Gasto por amortización $16.000.000 / Crédito Amortización acumulada $16.000.000.\n\n> **Ejemplo:** si el proyecto cumple los criterios solo desde el mes 8, los desembolsos de los primeros 7 meses ya reconocidos como gasto **no** se reclasifican a activo.\n\n## Puntos clave\n- Investigación siempre es gasto; desarrollo puede ser activo si se cumplen todos los criterios.\n- Documenta la evidencia de cada criterio; sin soporte, se lleva a gasto.\n- Vida indefinida: sin amortización, con prueba anual de deterioro.\n\n## Errores frecuentes\n- Capitalizar costos de capacitación, publicidad o reubicación.\n- Amortizar la plusvalía como si fuera un intangible ordinario en NIIF plenas.\n- Retroactivar la capitalización de gastos ya reconocidos.",
+    "recursos": [
+     {
+      "titulo": "NIC 38: activos intangibles",
+      "url": "https://www.youtube.com/watch?v=u-hA2otQalY",
+      "tipo": "video",
+      "fuente": "UAM Costa Rica (YouTube)"
+     },
+     {
+      "titulo": "NIC 38 Activos Intangibles (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2023/issued/ias38.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender cuándo existe deterioro de un activo, cómo se mide el valor recuperable y cómo se contabiliza la pérdida según la NIC 36.\n\n## Conceptos clave\n### Principio\nUn activo no puede estar en libros por más de lo que se puede recuperar de él, ya sea usándolo o vendiéndolo. Si el valor en libros excede el **valor recuperable**, hay deterioro.\n\n### Indicios\nEn cada cierre se evalúa si hay indicios, externos (caída del valor de mercado, cambios adversos tecnológicos o legales, aumento de tasas) o internos (obsolescencia, daño físico, bajo desempeño frente a lo presupuestado). Si hay indicio, se estima el valor recuperable. Para la plusvalía y los intangibles de vida indefinida o aún no disponibles para uso, la prueba es **anual**, haya o no indicios.\n\n### Valor recuperable\nEs el **mayor** entre:\n\n- **Valor razonable menos costos de disposición:** lo que se obtendría por venderlo en una transacción ordenada, menos los costos de venta.\n- **Valor en uso:** valor presente de los flujos de efectivo futuros esperados del activo, con una tasa de descuento antes de impuestos que refleje el riesgo.\n\nSi no se puede estimar para un activo individual, se hace para la **unidad generadora de efectivo (UGE)**, el grupo más pequeño de activos que genera entradas de efectivo en gran medida independientes. La plusvalía se asigna a las UGE.\n\n### Contabilización y reversión\nLa pérdida se reconoce en **resultados**, salvo que el activo esté revaluado, caso en que se trata como disminución de revaluación (primero ORI). Luego se ajusta la depreciación futura. En una UGE, la pérdida reduce primero la plusvalía y después los demás activos de forma proporcional. Se puede **revertir** la pérdida de otros activos si cambian las estimaciones, sin superar el valor que habría tenido sin deterioro; la pérdida de la **plusvalía nunca se revierte**.\n\n## Ejemplo resuelto\nUn activo tiene valor en libros de $500.000.000, valor razonable menos costos de venta de $400.000.000 y valor en uso de $450.000.000.\n\n1. Valor recuperable = el mayor entre 400 y 450 = **$450.000.000**.\n2. Pérdida = 500.000.000 − 450.000.000 = **$50.000.000**.\n3. Asiento: Débito Pérdida por deterioro $50.000.000 / Crédito Deterioro acumulado de PPE $50.000.000.\n\nPara ver cómo sale un valor en uso: flujos de $100.000.000 por 3 años descontados al 10% dan 100/1,10 + 100/1,21 + 100/1,331 = **$248.685.199** (aprox.).\n\n> **Clave:** se compara con el *mayor* de los dos valores; usar el menor sobreestima la pérdida.\n\n## Puntos clave\n- Evalúa indicios cada cierre; plusvalía e intangibles indefinidos, prueba anual.\n- La reversión está permitida para activos distintos de la plusvalía.\n\n## Errores frecuentes\n- Comparar contra el menor de los dos valores.\n- Descontar con tasa después de impuestos sin consistencia con los flujos.\n- Intentar revertir deterioro de plusvalía.",
+    "recursos": [
+     {
+      "titulo": "Deterioro del valor de los activos (NIC 36)",
+      "url": "https://www.youtube.com/watch?v=zhSxfCSmKfE",
+      "tipo": "video",
+      "fuente": "Thomson Reuters Chile (YouTube)"
+     },
+     {
+      "titulo": "NIC 36 Deterioro de valor de activos: presentación con ejemplo de UGE",
+      "url": "https://www.supersociedades.gov.co/documents/80312/341848/03_NIC_36_Deterioro_Valor_Activos.pdf",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "NIC 36 Deterioro del Valor de los Activos (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2022/issued/ias36.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar las propiedades de inversión y elegir entre el modelo del costo y el del valor razonable según la NIC 40.\n\n## Conceptos clave\nUna **propiedad de inversión** es un terreno o edificio (o parte de él) mantenido para obtener **rentas, plusvalía o ambas**, y no para uso propio ni para la venta en el curso ordinario. Si el edificio se usa en la administración, es PPE (NIC 16); si se construye para vender, es inventario. Cuando un inmueble tiene uso mixto y las partes se pueden vender por separado, se separan; si no, es propiedad de inversión solo si la parte de uso propio es insignificante.\n\nLa medición inicial es al costo. Después se elige **una política para todas** las propiedades de inversión:\n\n- **Modelo del valor razonable:** se mide a valor razonable cada cierre, **sin depreciar**, y la ganancia o pérdida va a resultados.\n- **Modelo del costo:** como en la NIC 16 (costo menos depreciación y deterioro), revelando el valor razonable.\n\n## Ejemplo resuelto\nUna empresa compra un local en arriendo por $1.000.000.000. Al cierre, un avalúo lo fija en $1.060.000.000.\n\n1. Reconocimiento inicial: Débito Propiedades de inversión $1.000.000.000 / Crédito Efectivo $1.000.000.000.\n2. Ganancia = 1.060.000.000 − 1.000.000.000 = **$60.000.000**: Débito Propiedades de inversión $60.000.000 / Crédito Ganancia por valor razonable $60.000.000 (resultados).\n\n## Puntos clave\n- Sin depreciación bajo valor razonable.\n- Los cambios de uso exigen reclasificar entre PPE, inventario y propiedad de inversión.\n\n## Errores frecuentes\n- Aplicar valor razonable solo a algunos inmuebles.\n- Llevar la ganancia al ORI en lugar de a resultados.",
+    "recursos": [
+     {
+      "titulo": "Contabilidad: NIC 40 - Propiedades de Inversión",
+      "url": "https://www.youtube.com/watch?v=ObQYcLERlR4",
+      "tipo": "video",
+      "fuente": "RGW Perú (YouTube)"
+     },
+     {
+      "titulo": "NIC 40 Propiedades de Inversión: Fundamentos de las Conclusiones",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2023/issued/ias40-bciasc.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   }
+  ]
+ },
+ "m5s2": {
+  "recursos": [
+   {
+    "titulo": "NIIF 15 Ingresos de Actividades Ordinarias procedentes de Contratos con Clientes",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs15.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "NIIF 16 Arrendamientos (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs16.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "NIIF 9 Instrumentos Financieros (traducción oficial al español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/amendments/spanish/2014/niif-9-instrumentos-financieros.pdf",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nAplicar el modelo de cinco pasos de la NIIF 15 para saber cuánto ingreso reconocer y cuándo.\n\n## Conceptos clave\nEl principio central: la entidad reconoce ingresos para reflejar la transferencia de bienes o servicios prometidos a los clientes, por el importe que espera recibir. El ingreso se reconoce cuando se **transfiere el control** del bien o servicio.\n\n### Los cinco pasos\n1. **Identificar el contrato** con el cliente: acuerdo aprobado, derechos y condiciones de pago identificables, sustancia comercial y cobro probable.\n2. **Identificar las obligaciones de desempeño:** promesas de bienes o servicios distintos. Si el cliente puede beneficiarse de cada uno por separado y la promesa es identificable por separado, son obligaciones distintas.\n3. **Determinar el precio de la transacción:** monto al que se espera tener derecho, considerando consideraciones variables (descuentos, bonos, devoluciones, penalidades), componente significativo de financiación y contraprestaciones no monetarias. No incluye los impuestos recaudados por cuenta de terceros, como el IVA.\n4. **Asignar el precio** a cada obligación según sus **precios de venta independientes** relativos.\n5. **Reconocer el ingreso** al satisfacer cada obligación, **a lo largo del tiempo** (si el cliente recibe y consume los beneficios mientras se prestan, si la entidad crea o mejora un activo que el cliente controla, o si el activo no tiene uso alternativo y existe derecho de cobro por lo ejecutado) o **en un punto del tiempo**.\n\n### Otros conceptos\n- **Principal frente a agente:** si la entidad controla el bien antes de transferirlo, es principal y reconoce el ingreso bruto; si solo gestiona, es agente y reconoce su comisión.\n- **Pasivo del contrato:** cobros recibidos antes de transferir el bien o servicio.\n\n## Ejemplo resuelto\nUna empresa vende un equipo y un servicio de mantenimiento por 12 meses en un solo contrato por **$4.200.000**, cobrados por anticipado. Precios independientes: equipo $3.000.000 y mantenimiento $1.800.000 (total $4.800.000).\n\n1. Contrato y obligaciones: dos obligaciones distintas.\n2. Precio de la transacción: $4.200.000.\n3. Asignación: equipo = 4.200.000 × 3.000.000 / 4.800.000 = **$2.625.000**; mantenimiento = 4.200.000 × 1.800.000 / 4.800.000 = **$1.575.000**.\n4. Al entregar el equipo: Débito Efectivo $4.200.000 / Crédito Ingresos por venta $2.625.000 / Crédito Pasivo del contrato $1.575.000.\n5. Cada mes: 1.575.000 / 12 = **$131.250**: Débito Pasivo del contrato $131.250 / Crédito Ingresos por servicios $131.250.\n\n> **Clave:** el descuento del paquete se reparte proporcionalmente; no se asigna todo a un solo elemento.\n\n### Ejemplo adicional: ingreso a lo largo del tiempo\nUna constructora firma un contrato de obra por $900.000.000 y mide el avance por costos incurridos. Al cierre del año 1 ha incurrido en $270.000.000 de costos sobre un total estimado de $600.000.000, es decir, un avance de 270.000.000 / 600.000.000 = **45%**. Ingreso del año = 45% × 900.000.000 = **$405.000.000**; costo reconocido = $270.000.000; utilidad bruta = 405.000.000 − 270.000.000 = **$135.000.000**. Asiento: Débito Activo del contrato (o cuenta por cobrar) $405.000.000 / Crédito Ingresos de actividades ordinarias $405.000.000 y Débito Costo de ventas $270.000.000 / Crédito Efectivo y cuentas por pagar $270.000.000. Si las estimaciones cambian, el avance se actualiza como un cambio de estimación.\n\n## Puntos clave\n- El cobro no determina el reconocimiento; lo determina la transferencia del control.\n- Los anticipos generan un pasivo, no un ingreso.\n\n## Errores frecuentes\n- Reconocer el ingreso cuando se factura o cobra.\n- Asignar el descuento solo al bien o solo al servicio.\n- Incluir el IVA dentro del ingreso.",
+    "recursos": [
+     {
+      "titulo": "NIIF 15 - Ingreso proveniente de contratos con clientes: resumen y casos prácticos",
+      "url": "https://www.youtube.com/watch?v=CUtkRT2Clow",
+      "tipo": "video",
+      "fuente": "Temas Contables y Financieros (YouTube)"
+     },
+     {
+      "titulo": "NIIF 15 Ingresos de Actividades Ordinarias procedentes de Contratos con Clientes",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs15.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nContabilizar un arrendamiento como arrendatario con el modelo único de la NIIF 16 y reconocer la postura del arrendador.\n\n## Conceptos clave\nUn contrato contiene un arrendamiento si transmite el **derecho a controlar el uso de un activo identificado** durante un período a cambio de una contraprestación.\n\n### Arrendatario: un solo modelo\nEn la fecha de inicio reconoce un **activo por derecho de uso** y un **pasivo por arrendamiento**:\n\n- **Pasivo:** valor presente de los pagos futuros, descontados con la tasa implícita o, si no se conoce, la **tasa incremental de endeudamiento**.\n- **Activo:** el pasivo más pagos anticipados y costos directos iniciales (menos incentivos recibidos).\n\nPosteriormente, el pasivo genera intereses y se reduce con los pagos; el activo se deprecia durante el menor entre el plazo del arrendamiento y su vida útil. En resultados aparecen **depreciación e intereses**, y no un gasto de arriendo.\n\n### Excepciones opcionales\nArrendamientos de **corto plazo** (12 meses o menos) y de **activos de bajo valor**: el gasto se reconoce linealmente.\n\n### Arrendador\nClasifica como **financiero** (transfiere sustancialmente los riesgos y beneficios) u **operativo**. Su contabilidad cambió poco frente a la NIC 17.\n\n## Ejemplo resuelto\nUna empresa arrienda una oficina por 3 años, con pagos de **$24.000.000** al final de cada año y una tasa de 10%.\n\n1. Pasivo inicial = 24.000.000 / 1,10 + 24.000.000 / 1,21 + 24.000.000 / 1,331 = **$59.684.448**.\n2. Inicio: Débito Activo por derecho de uso $59.684.448 / Crédito Pasivo por arrendamiento $59.684.448.\n\n| Año | Interés (10%) | Pago | Saldo final |\n|---|---|---|---|\n| 1 | 5.968.445 | 24.000.000 | 41.652.893 |\n| 2 | 4.165.289 | 24.000.000 | 21.818.182 |\n| 3 | 2.181.818 | 24.000.000 | 0 |\n\n3. Año 1, interés: Débito Gasto financiero $5.968.445 / Crédito Pasivo $5.968.445; pago: Débito Pasivo $24.000.000 / Crédito Efectivo $24.000.000.\n4. Depreciación anual = 59.684.448 / 3 = **$19.894.816**: Débito Gasto por depreciación / Crédito Depreciación acumulada.\n\n> **Clave:** el gasto total de los 3 años es mayor al inicio del contrato y menor al final, porque los intereses decrecen.\n\n### Ejemplos de clasificación del arrendador\nUn arrendamiento es **financiero** si, por ejemplo, transfiere la propiedad al final del plazo, el plazo cubre la mayor parte de la vida económica o el valor presente de los pagos equivale sustancialmente al valor razonable del activo. Si no, es **operativo**: el arrendador mantiene el activo en su estado de situación financiera, lo deprecia y reconoce los ingresos por arrendamiento de forma lineal. Si es financiero, da de baja el activo y reconoce una cuenta por cobrar igual a la inversión neta en el arrendamiento. Un arrendamiento puede modificarse (cambio de plazo o alcance): se remide el pasivo con una tasa de descuento actualizada y se ajusta el activo por derecho de uso.\n\n## Puntos clave\n- Un arrendamiento de 8 meses puede acogerse a la exención de corto plazo.\n- Los pagos variables ligados a un índice o tasa forman parte del pasivo.\n\n## Errores frecuentes\n- Descontar con la tasa del arrendador sin conocerla, en vez de usar la tasa incremental.\n- Seguir registrando el arriendo como gasto mensual en contratos de más de 12 meses.",
+    "recursos": [
+     {
+      "titulo": "Análisis y caso práctico de la NIIF 16 Arrendamientos",
+      "url": "https://www.youtube.com/watch?v=w6yYUL5_-HE",
+      "tipo": "video",
+      "fuente": "Adrián Torres - Experto en NIIF (YouTube)"
+     },
+     {
+      "titulo": "NIIF 16 Arrendamientos (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs16.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nClasificar y medir activos financieros según la NIIF 9 y estimar el deterioro con el modelo de pérdida crediticia esperada.\n\n## Conceptos clave\n### Clasificación de activos financieros\nDepende de dos pruebas:\n\n1. **Modelo de negocio:** ¿se mantiene para cobrar flujos contractuales, para cobrar y vender, o para otro propósito?\n2. **Características de los flujos (SPPI):** ¿los flujos son solo pagos de capital e intereses?\n\nResultado:\n\n| Condición | Medición |\n|---|---|\n| Mantenido para cobrar y flujos SPPI | **Costo amortizado** |\n| Cobrar y vender, flujos SPPI | Valor razonable con cambios en **ORI** |\n| Cualquier otro caso | Valor razonable con cambios en **resultados** |\n\nLos instrumentos de patrimonio suelen medirse a valor razonable; para los que no se mantienen para negociar, se puede elegir de forma irrevocable llevar los cambios al ORI.\n\n### Deterioro: pérdida esperada\nNo se espera a que ocurra el incumplimiento. Hay tres etapas:\n\n1. **Etapa 1:** sin aumento significativo de riesgo; pérdida esperada a **12 meses**.\n2. **Etapa 2:** aumento significativo del riesgo; pérdida esperada durante **toda la vida** del instrumento.\n3. **Etapa 3:** deterioro crediticio; pérdida de por vida con intereses sobre el valor neto.\n\nLa pérdida combina probabilidad de incumplimiento, pérdida dada el incumplimiento y exposición. Para **cuentas por cobrar comerciales** se permite el **enfoque simplificado**: siempre pérdida de por vida, normalmente con una **matriz de provisión** por antigüedad.\n\n## Ejemplo resuelto\nCartera comercial de $350.000.000 con la siguiente matriz de provisión:\n\n| Antigüedad | Saldo | % pérdida | Pérdida esperada |\n|---|---|---|---|\n| Sin vencer | 200.000.000 | 1% | 2.000.000 |\n| 1 a 30 días | 80.000.000 | 5% | 4.000.000 |\n| 31 a 90 días | 50.000.000 | 15% | 7.500.000 |\n| Más de 90 días | 20.000.000 | 40% | 8.000.000 |\n\n1. Pérdida esperada total = 2.000.000 + 4.000.000 + 7.500.000 + 8.000.000 = **$21.500.000**.\n2. Si la provisión previa era de $15.000.000, el ajuste es de $6.500.000: Débito Gasto por deterioro de cartera $6.500.000 / Crédito Deterioro acumulado de cuentas por cobrar $6.500.000.\n\n> **Ejemplo:** un bono de $100.000.000 en etapa 1 con probabilidad de incumplimiento de 2% y pérdida dada el incumplimiento de 40% tiene pérdida esperada a 12 meses de 100.000.000 × 2% × 40% = **$800.000**.\n\n### Costo amortizado con tasa de interés efectiva\nSe compra un bono con valor nominal de $100.000.000 a $95.000.000, a 3 años, cupón anual de 5% ($5.000.000), para cobrar flujos. La tasa efectiva que iguala los flujos al precio pagado es de aproximadamente **6,9018%**.\n\n| Año | Ingreso por interés efectivo | Cupón cobrado | Saldo final (aprox.) |\n|---|---|---|---|\n| 1 | 6.557.000 | 5.000.000 | 96.557.000 |\n| 2 | 6.664.000 | 5.000.000 | 98.221.000 |\n| 3 | 6.779.000 | 5.000.000 | 100.000.000 |\n\nAsiento del año 1: Débito Efectivo $5.000.000 / Débito Inversión a costo amortizado $1.557.000 / Crédito Ingreso por intereses $6.557.000. El descuento se amortiza hasta que el saldo llega al valor nominal.\n\n## Puntos clave\n- Un instrumento de deuda para cobrar capital e intereses se mide a costo amortizado.\n- Los porcentajes de la matriz deben basarse en experiencia histórica ajustada por información prospectiva.\n\n## Errores frecuentes\n- Provisionar solo cuando ya hay mora (modelo de pérdida incurrida).\n- Aplicar las tres etapas a cuentas por cobrar comerciales, para las que existe el enfoque simplificado.",
+    "recursos": [
+     {
+      "titulo": "NIIF 9 - Instrumentos financieros",
+      "url": "https://www.youtube.com/watch?v=yj77FtcY1yU",
+      "tipo": "video",
+      "fuente": "Actualícese Video (YouTube)"
+     },
+     {
+      "titulo": "Orientaciones generales de la NIIF 9 - Instrumentos financieros",
+      "url": "https://incp.org.co/ContArte/?p=5525",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     },
+     {
+      "titulo": "NIIF 9 Instrumentos Financieros (traducción oficial al español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/amendments/spanish/2014/niif-9-instrumentos-financieros.pdf",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   }
+  ]
+ },
+ "m5s3": {
+  "recursos": [
+   {
+    "titulo": "NIIF para las PYMES (traducción al español, edición 2009)",
+    "url": "https://incp.org.co/Site/2014/mailing/spatia/ES_IFRS_for_SMEs_Standard.pdf",
+    "tipo": "norma",
+    "fuente": "INCP"
+   },
+   {
+    "titulo": "Anexo 3 del Decreto 2420 de 2015: marco técnico para microempresas",
+    "url": "https://cdn.actualicese.com/normatividad/2015/Decretos/D2420-15/Anexo-3-D2420-15.pdf",
+    "tipo": "norma",
+    "fuente": "Actualícese"
+   },
+   {
+    "titulo": "Decreto 2420 de 2015: normas de contabilidad, información financiera y aseguramiento",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745",
+    "tipo": "norma",
+    "fuente": "Función Pública - Gestor Normativo"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nConocer la estructura de la NIIF para las PYMES y su lugar dentro de los marcos técnicos normativos colombianos.\n\n## Conceptos clave\n### Qué es\nEs una norma **única y autocontenida** emitida por el IASB para entidades **sin obligación pública de rendir cuentas** (no cotizan en bolsa ni captan ahorro del público como negocio principal) que publican estados financieros con propósito general. En Colombia se incorpora como **Anexo 2 del Decreto Único Reglamentario 2420 de 2015** y aplica al **Grupo 2**. Existe una tercera edición internacional (2025); verifica qué edición está adoptada en el decreto vigente.\n\n### Las 35 secciones\nSe agrupan así (numeración de la norma):\n\n| Bloque | Secciones |\n|---|---|\n| Alcance y conceptos | 1 (PYMES), 2 (conceptos y principios) |\n| Presentación | 3 a 8 (estados financieros, situación financiera, resultado integral, cambios en el patrimonio, flujos de efectivo, notas) |\n| Consolidación y políticas | 9 (consolidados y separados), 10 (políticas, estimaciones y errores) |\n| Activos y pasivos | 11 y 12 (instrumentos financieros), 13 (inventarios), 14 a 16 (asociadas, negocios conjuntos, propiedades de inversión), 17 (PPE), 18 (intangibles), 19 (combinaciones y plusvalía), 20 (arrendamientos), 21 (provisiones) |\n| Patrimonio e ingresos | 22 (pasivos y patrimonio), 23 (ingresos), 24 (subvenciones), 25 (costos por préstamos) |\n| Otras | 26 a 34 (pagos basados en acciones, deterioro, beneficios a empleados, impuesto, conversión, hiperinflación, hechos posteriores, partes relacionadas, actividades especiales) |\n| Transición | 35 |\n\n### Estados financieros completos\nEstado de situación financiera, estado de resultado integral (o de resultados), estado de cambios en el patrimonio, estado de flujos de efectivo y **notas**. Si los únicos cambios en el patrimonio son resultados, dividendos y correcciones, puede presentarse un **estado de resultados y ganancias acumuladas** combinado.\n\n### Jerarquía ante vacíos\nSi la norma no trata un tema, se usa el juicio de la gerencia guiándose por la propia norma, por los conceptos de la Sección 2 y, en último caso, por las NIIF plenas.\n\n## Ejemplo resuelto\nClasifica tres empresas colombianas, ninguna emisora de valores ni de interés público:\n\n1. Una constructora con 120 trabajadores y activos superiores al umbral de microempresa: **Grupo 2**, aplica la NIIF para las PYMES.\n2. Una panadería con 4 trabajadores, que cumple los topes de microempresa: **Grupo 3**.\n3. Una sociedad cuyas acciones cotizan en bolsa: **Grupo 1**, NIIF plenas.\n\n> **Clave:** el marco depende de las características de la entidad (obligación pública, tamaño, vinculación a emisores), no de la voluntad del contador.\n\n## Puntos clave\n- La NIIF para las PYMES se basa en la versión de las NIIF plenas simplificada.\n- Las secciones 11 y 12 tratan los instrumentos financieros.\n\n## Errores frecuentes\n- Aplicar una NIIF plena (por ejemplo NIIF 15) a un Grupo 2 sin que la Sección 23 lo exija.\n- Olvidar las notas como parte integrante del juego completo.",
+    "recursos": [
+     {
+      "titulo": "NIIF Pymes - Generalidades",
+      "url": "https://www.youtube.com/watch?v=_8Y1kkL6qv0",
+      "tipo": "video",
+      "fuente": "Globuss Biogestión (YouTube)"
+     },
+     {
+      "titulo": "NIIF para las PYMES (traducción al español, edición 2009)",
+      "url": "https://incp.org.co/Site/2014/mailing/spatia/ES_IFRS_for_SMEs_Standard.pdf",
+      "tipo": "norma",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "Decreto 2420 de 2015: normas de contabilidad, información financiera y aseguramiento",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745",
+      "tipo": "norma",
+      "fuente": "Función Pública - Gestor Normativo"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComparar los principios de reconocimiento y medición de la NIIF para las PYMES con los de las NIIF plenas y anticipar su efecto contable.\n\n## Conceptos clave\nLa NIIF para las PYMES conserva los conceptos básicos, pero **simplifica**:\n\n- **Menos revelaciones** y lenguaje más sencillo; no incluye temas como utilidades por acción, información por segmentos o información financiera intermedia.\n- **Menos opciones de política contable.**\n- **Principios simplificados** de reconocimiento y medición. Se elimina lo que rara vez se necesita en una PYME y se reducen las pruebas complejas.\n- Cuando la medición a valor razonable implica costo o esfuerzo desproporcionado, se usa el costo.\n\n### Diferencias típicas\n| Tema | NIIF plenas | NIIF para las PYMES |\n|---|---|---|\n| Estructura | Muchas normas separadas | Una norma de 35 secciones |\n| Plusvalía | No se amortiza; prueba de deterioro anual | Se amortiza durante su vida útil; si no se puede estimar, no más de 10 años |\n| Desarrollo | Se capitaliza si cumple criterios | Se reconoce como gasto en la edición adoptada; verifica el texto vigente |\n| Instrumentos financieros | NIIF 9, pérdida esperada | Secciones 11 y 12, modelo más simple |\n| Ingresos | NIIF 15, cinco pasos | Sección 23, con enfoque más cercano a riesgos y beneficios en la edición adoptada |\n| Revelaciones | Extensas | Reducidas |\n\nEstas diferencias son una guía; confirma siempre en el texto vigente, porque las ediciones evolucionan.\n\n## Ejemplo resuelto\nUna empresa adquiere otra y registra una plusvalía de **$100.000.000**. Su vida útil no se puede estimar con fiabilidad.\n\n1. **NIIF para las PYMES:** se amortiza en el máximo de 10 años: 100.000.000 / 10 = **$10.000.000** por año. Asiento: Débito Gasto por amortización de plusvalía $10.000.000 / Crédito Plusvalía (amortización acumulada) $10.000.000.\n2. **NIIF plenas:** no se amortiza; se somete a prueba de deterioro cada año. Si el recuperable de la unidad cae $15.000.000 por debajo del valor en libros, el asiento es Débito Pérdida por deterioro $15.000.000 / Crédito Plusvalía $15.000.000.\n\n> **Clave:** mismo hecho económico, distinto patrón de gasto. Por eso cambiar de marco exige analizar impactos.\n\n## Puntos clave\n- Las PYMES son más simples, no menos rigurosas.\n- Una entidad puede, en ciertos casos, elegir aplicar un marco superior; verifica las condiciones del decreto.\n\n## Errores frecuentes\n- Aplicar a un Grupo 2 una política de NIIF plenas sin sustento en la Sección 10.\n- Creer que las PYMES no exigen notas.",
+    "recursos": [
+     {
+      "titulo": "Webinar: NIIF para Pymes vs NIIF Completas. Principales diferencias normativas",
+      "url": "https://www.youtube.com/watch?v=4cwYf2mLkoc",
+      "tipo": "video",
+      "fuente": "JDCCPP (YouTube)"
+     },
+     {
+      "titulo": "NIIF para las PYMES (traducción al español, edición 2009)",
+      "url": "https://incp.org.co/Site/2014/mailing/spatia/ES_IFRS_for_SMEs_Standard.pdf",
+      "tipo": "norma",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nReconocer los requisitos del marco de información financiera para microempresas (Grupo 3) y aplicar su contabilidad simplificada.\n\n## Conceptos clave\n### Dónde está y a quién aplica\nEl marco se encuentra en el **Anexo 3 del Decreto Único Reglamentario 2420 de 2015**. Se aplica a las **microempresas**: entidades que cumplen los criterios de tamaño del decreto, que, según los criterios recogidos en este curso, son hasta **10 trabajadores**, activos totales **inferiores a 500 SMMLV** e ingresos brutos anuales **inferiores a 6.000 SMMLV**. No deben ser emisoras de valores ni entidades de interés público, ni estar vinculadas a grupos que apliquen otros marcos. Verifica los requisitos vigentes en el texto del decreto.\n\n### Características del marco\n- **Base de acumulación o devengo.** Esta es la diferencia más importante frente a la contabilidad de caja.\n- Marco **simplificado**: reconocimiento y medición más sencillos que las NIIF para las PYMES, generalmente al costo, con pocas estimaciones.\n- Conjunto reducido de estados (situación financiera, resultados y notas), con menos revelaciones. Verifica el detalle en el Anexo 3.\n- Mismo orden contable: partida doble, soportes y libros.\n\n### Transición y ESFA\nAl adoptar un nuevo marco se elabora el **Estado de Situación Financiera de Apertura (ESFA)** en la fecha de transición, aplicando las políticas del nuevo marco de forma retroactiva.\n\n## Ejemplo resuelto\nUna tienda (microempresa) compra mercancía a crédito por $5.000.000 y la vende por $8.000.000, cobrados en efectivo.\n\n1. Compra: Débito Inventarios $5.000.000 / Crédito Proveedores $5.000.000.\n2. Venta: Débito Efectivo $8.000.000 / Crédito Ingresos por ventas $8.000.000.\n3. Costo de venta: Débito Costo de ventas $5.000.000 / Crédito Inventarios $5.000.000.\n4. Margen bruto = 8.000.000 − 5.000.000 = **$3.000.000**.\n\nAunque el proveedor aún no se haya pagado, la compra y el pasivo ya están en libros: eso es el devengo.\n\n> **Ejemplo:** un microempresario que lleva solo \"lo que entró y salió de caja\" no cumple el marco; debe reconocer cuentas por pagar y por cobrar.\n\n## Puntos clave\n- Grupo 3: marco simplificado con devengo.\n- Si la entidad deja de cumplir los requisitos de tamaño, debe cambiar de marco; verifica las reglas de transición.\n\n## Errores frecuentes\n- Confundir contabilidad simplificada con contabilidad de caja.\n- Clasificar como Grupo 3 a una entidad que supera algún criterio.",
+    "recursos": [
+     {
+      "titulo": "Anexo 3 del Decreto 2420 de 2015: marco técnico para microempresas",
+      "url": "https://cdn.actualicese.com/normatividad/2015/Decretos/D2420-15/Anexo-3-D2420-15.pdf",
+      "tipo": "norma",
+      "fuente": "Actualícese"
+     },
+     {
+      "titulo": "Contabilidad simplificada: Grupo 3",
+      "url": "https://incp.org.co/ContArte/contenidos/2019/08/contabilidad-simplificada-grupo-3/",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     },
+     {
+      "titulo": "Decreto 2420 Anexo 3 de 2015",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76055",
+      "tipo": "norma",
+      "fuente": "Función Pública - Gestor Normativo"
+     }
+    ]
+   }
+  ]
+ },
+ "m5s4": {
+  "recursos": [
+   {
+    "titulo": "NIIF 10 Estados Financieros Consolidados (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs10.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "NIIF 3 Combinaciones de Negocios (texto en español)",
+    "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2021/issued/ifrs3.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "Guía práctica de aplicación del método de la participación y preparación de estados financieros consolidados y combinados",
+    "url": "https://www.supersociedades.gov.co/documents/80312/342055/GU%C3%8DA+ESTADOS+FINANCIEROS.pdf/095267c8-25f7-79d0-6220-d530c389b185?t=1662408544172&download=true",
+    "tipo": "articulo",
+    "fuente": "Superintendencia de Sociedades"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDeterminar cuándo una entidad controla a otra según la NIIF 10 y elaborar estados financieros consolidados.\n\n## Conceptos clave\n### Control\nUn inversor controla una participada cuando reúne los **tres elementos**:\n\n1. **Poder** sobre la participada (derechos que le dan la capacidad actual de dirigir sus actividades relevantes).\n2. **Exposición o derechos** a rendimientos variables por su implicación.\n3. **Capacidad de usar su poder** para influir en esos rendimientos.\n\nEl control **no depende solo del porcentaje**: puede existir con menos del 50% (por derechos de voto potenciales, acuerdos contractuales, control de hecho) y no existir con más (por ejemplo, derechos protectores de otros).\n\n### Consolidación\nLa matriz presenta estados financieros consolidados como si el grupo fuera **una sola entidad económica**:\n\n1. Se combinan **línea a línea** activos, pasivos, patrimonio, ingresos y gastos de matriz y subsidiarias.\n2. Se **elimina** el importe en libros de la inversión de la matriz contra la parte que le corresponde del patrimonio de cada subsidiaria.\n3. Se **eliminan** saldos, transacciones, ingresos, gastos y dividendos intragrupo, y las ganancias no realizadas en activos que siguen en el grupo.\n4. Se presenta la **participación no controladora (PNC)** dentro del patrimonio, por separado del de los propietarios de la controladora.\n5. Se usan políticas contables uniformes y fechas de reporte iguales o ajustadas.\n\n## Ejemplo resuelto\nLa matriz P posee el 80% de S, que tiene patrimonio de $500.000.000 (suponiendo valor razonable igual a valor en libros, sin plusvalía). La inversión en P está en $400.000.000.\n\n1. Eliminación de la inversión: Débito Patrimonio de S $500.000.000 / Crédito Inversión en subsidiaria $400.000.000 / Crédito Participación no controladora **$100.000.000** (20% de 500.000.000).\n2. P vendió a S mercancía con costo de $60.000.000 por $80.000.000 y S aún la conserva. La utilidad no realizada es 80.000.000 − 60.000.000 = **$20.000.000**. Eliminación: Débito Ingresos por ventas $80.000.000 / Crédito Costo de ventas $60.000.000 / Crédito Inventarios $20.000.000.\n3. Si P le prestó $50.000.000 a S, se eliminan la cuenta por cobrar de P y la por pagar de S.\n\n> **Clave:** el grupo no puede ganar vendiéndose a sí mismo; mientras el inventario siga dentro del grupo, la utilidad se elimina.\n\n### Pérdida de control y subsidiarias con pérdidas\nSi la matriz vende parte de su participación pero conserva el control, es una transacción entre propietarios: la diferencia entre el precio y el valor de la participación transferida se lleva **directamente al patrimonio**, sin afectar resultados. Si pierde el control, da de baja los activos, pasivos y la PNC de la subsidiaria, reconoce a valor razonable cualquier inversión retenida y lleva la ganancia o pérdida a **resultados**. En cuanto al resultado consolidado, este se reparte entre la controladora y la PNC: si S gana $50.000.000 en el año y la PNC es 20%, a la PNC le corresponden 20% × 50.000.000 = **$10.000.000** y a los propietarios de la controladora los $40.000.000 restantes (más la utilidad propia de P).\n\n## Puntos clave\n- Los dividendos intragrupo se eliminan.\n- La PNC puede quedar con saldo deudor si la subsidiaria acumula pérdidas.\n- La pérdida de control exige dar de baja los activos y pasivos de la subsidiaria.\n\n## Errores frecuentes\n- Consolidar solo por tener más del 50%, sin evaluar el poder.\n- Eliminar las ventas internas pero olvidar la utilidad en inventarios.\n- Presentar la PNC como pasivo.",
+    "recursos": [
+     {
+      "titulo": "Consolidación de Estados financieros bajo NIIF - CTCP",
+      "url": "https://www.youtube.com/watch?v=PvkR0fJll4M",
+      "tipo": "video",
+      "fuente": "iA School (YouTube)"
+     },
+     {
+      "titulo": "NIIF 10 Estados Financieros Consolidados (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2024/issued/ifrs10.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     },
+     {
+      "titulo": "Guía práctica de aplicación del método de la participación y preparación de estados financieros consolidados y combinados",
+      "url": "https://www.supersociedades.gov.co/documents/80312/342055/GU%C3%8DA+ESTADOS+FINANCIEROS.pdf/095267c8-25f7-79d0-6220-d530c389b185?t=1662408544172&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAplicar el método de adquisición de la NIIF 3 y calcular la plusvalía o la ganancia por compra en condiciones ventajosas.\n\n## Conceptos clave\nUna **combinación de negocios** es una transacción en la que un adquirente obtiene el control de uno o más **negocios** (conjunto integrado de actividades y activos capaz de generar productos). Si lo adquirido no es un negocio, se contabiliza como compra de activos.\n\n### Método de adquisición\n1. **Identificar al adquirente** (quien obtiene el control).\n2. **Determinar la fecha de adquisición** (cuando se obtiene el control).\n3. **Reconocer y medir a valor razonable** los activos identificables adquiridos y los pasivos asumidos (con excepciones), incluyendo intangibles no reconocidos antes por la adquirida.\n4. **Reconocer la plusvalía o la ganancia** por compra en condiciones ventajosas, y la participación no controladora.\n\nLos **costos de transacción** (honorarios, asesorías) se llevan a **gasto**; no forman parte de la contraprestación.\n\n### Plusvalía\nPlusvalía = contraprestación transferida + participación no controladora + valor razonable de la participación previa − valor razonable de los activos netos identificables. La PNC se puede medir al valor razonable o a la parte proporcional de los activos netos identificables (elección por transacción).\n\nDespués, la plusvalía **no se amortiza** en NIIF plenas; se somete a prueba de deterioro **al menos cada año** (NIC 36). Si el resultado es negativo (**compra en condiciones ventajosas**), tras revisar las mediciones la ganancia se reconoce en resultados.\n\n## Ejemplo resuelto\nSe compra el 100% de una empresa pagando **$800.000.000** en efectivo. Los valores razonables: activos identificables $1.000.000.000 (incluye un intangible de $150.000.000 antes no registrado) y pasivos $300.000.000. Los honorarios fueron de $20.000.000.\n\n1. Activos netos identificables = 1.000.000.000 − 300.000.000 = **$700.000.000**.\n2. Plusvalía = 800.000.000 − 700.000.000 = **$100.000.000**.\n3. Asiento: Débito Activos identificables $1.000.000.000 / Débito Plusvalía $100.000.000 / Crédito Pasivos asumidos $300.000.000 / Crédito Efectivo $800.000.000.\n4. Honorarios: Débito Gasto $20.000.000 / Crédito Efectivo $20.000.000.\n\nVariante con 80%: se paga $600.000.000 por el 80%.\n- PNC proporcional: 20% × 700.000.000 = $140.000.000; plusvalía = 600.000.000 + 140.000.000 − 700.000.000 = **$40.000.000**.\n- PNC a valor razonable ($160.000.000): plusvalía = 600.000.000 + 160.000.000 − 700.000.000 = **$60.000.000**.\n\nVariante de compra en condiciones ventajosas: si se pagan solo $650.000.000 por el 100%, la ganancia es 700.000.000 − 650.000.000 = **$50.000.000**, tras reevaluar.\n\n### Contraprestación contingente y período de medición\nSi el precio incluye un pago adicional condicionado (por ejemplo, $50.000.000 si la adquirida alcanza cierta utilidad), se reconoce a su **valor razonable en la fecha de adquisición** como parte de la contraprestación. Si luego se estima que se pagará $60.000.000, el cambio de una obligación clasificada como pasivo se lleva a **resultados** (no a la plusvalía). Por otra parte, si al cierre del período la medición inicial es provisional, la norma da un **período de medición de hasta un año** desde la fecha de adquisición para ajustar los valores razonables con información sobre hechos existentes en esa fecha, con efecto en la plusvalía.\n\n## Puntos clave\n- La plusvalía solo se reconoce en adquisiciones, no se genera internamente.\n- Los costos de transacción son gasto.\n- La contraprestación contingente se mide a valor razonable en la fecha de adquisición.\n\n## Errores frecuentes\n- Capitalizar los honorarios como parte de la plusvalía.\n- Medir los activos adquiridos por su valor en libros en lugar de su valor razonable.\n- Amortizar la plusvalía en NIIF plenas.",
+    "recursos": [
+     {
+      "titulo": "NIIF 3 Combinaciones de Negocios (texto en español)",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/html-standards/spanish/2021/issued/ifrs3.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     },
+     {
+      "titulo": "Guía práctica de aplicación del método de la participación y preparación de estados financieros consolidados y combinados",
+      "url": "https://www.supersociedades.gov.co/documents/80312/342055/GU%C3%8DA+ESTADOS+FINANCIEROS.pdf/095267c8-25f7-79d0-6220-d530c389b185?t=1662408544172&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAplicar el método de participación a asociadas y negocios conjuntos según la NIC 28.\n\n## Conceptos clave\n### Asociadas y negocios conjuntos\nUna **asociada** es una entidad sobre la que el inversor tiene **influencia significativa**: poder de participar en las decisiones de política financiera y de operación sin controlarlas. Se **presume** cuando se posee el **20% o más** del poder de voto (presunción refutable), y puede existir con menos si hay representación en la junta, participación en decisiones o transacciones importantes. Un **negocio conjunto** es un acuerdo con control conjunto, donde las partes tienen derecho a los activos netos.\n\n### Método de participación\nSe mide la inversión inicialmente al **costo** y luego:\n\n- Se **aumenta o disminuye** por la participación del inversor en el **resultado** de la participada (a resultados) y en su **ORI** (a ORI).\n- Los **dividendos recibidos reducen** el valor de la inversión; no son ingreso.\n- Se eliminan las ganancias no realizadas de transacciones entre inversor y asociada en la proporción de participación.\n- Si las pérdidas superan la inversión, se deja de reconocer la participación (el valor llega a cero), salvo obligaciones asumidas.\n- Se evalúa deterioro de la inversión con la NIC 36.\n\nEl método no se aplica cuando la inversión se mantiene bajo exenciones previstas en la norma o bajo NIIF 5. En estados financieros separados, la NIC 27 permite costo, valor razonable o participación; verifica qué aplica en Colombia.\n\n## Ejemplo resuelto\nUna empresa adquiere el 30% de la asociada A por **$300.000.000**. En el año, A obtiene utilidad de $100.000.000 y decreta dividendos de $40.000.000.\n\n1. Inicio: Débito Inversión en asociada $300.000.000 / Crédito Efectivo $300.000.000.\n2. Participación en resultados = 30% × 100.000.000 = **$30.000.000**: Débito Inversión en asociada $30.000.000 / Crédito Ingreso por método de participación $30.000.000.\n3. Dividendos recibidos = 30% × 40.000.000 = **$12.000.000**: Débito Efectivo $12.000.000 / Crédito Inversión en asociada $12.000.000.\n4. Saldo final = 300.000.000 + 30.000.000 − 12.000.000 = **$318.000.000**.\n\n> **Clave:** el saldo de la inversión siempre refleja la parte del inversor en los activos netos de la participada.\n\n## Puntos clave\n- Influencia significativa desde 20% (presunción).\n- Los dividendos disminuyen la inversión.\n- El resultado de la asociada no se consolida línea a línea.\n\n## Errores frecuentes\n- Reconocer los dividendos como ingreso.\n- Aplicar el método de participación a una subsidiaria en estados consolidados.\n- Ignorar el ORI de la asociada.",
+    "recursos": [
+     {
+      "titulo": "NIC 28 Inversiones en Asociadas y Negocios Conjuntos: explicación y caso práctico",
+      "url": "https://www.youtube.com/watch?v=h7Lmyoudexg",
+      "tipo": "video",
+      "fuente": "Penelope Llontop Calero (YouTube)"
+     },
+     {
+      "titulo": "Guía 205: NIC 28 Inversiones en asociadas y negocios conjuntos",
+      "url": "https://incp.org.co/revista-el-contador-publico/wp-content/uploads/2020/07/guia-nic28.pdf",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "Guía práctica de aplicación del método de la participación y preparación de estados financieros consolidados y combinados",
+      "url": "https://www.supersociedades.gov.co/documents/80312/342055/GU%C3%8DA+ESTADOS+FINANCIEROS.pdf/095267c8-25f7-79d0-6220-d530c389b185?t=1662408544172&download=true",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   }
+  ]
+ },
+ "m5s5": {
+  "recursos": [
+   {
+    "titulo": "Régimen de Contabilidad Pública",
+    "url": "https://www.contaduria.gov.co/rcp",
+    "tipo": "articulo",
+    "fuente": "Contaduría General de la Nación"
+   },
+   {
+    "titulo": "Resolución 533 de 2015 de la CGN: marco normativo para entidades de gobierno",
+    "url": "https://www.contaduria.gov.co/documents/20127/36444/Res_+533.pdf/b513cc87-7726-04ab-02e4-8691544220c6",
+    "tipo": "norma",
+    "fuente": "Contaduría General de la Nación"
+   },
+   {
+    "titulo": "Decreto 111 de 1996: Estatuto Orgánico del Presupuesto",
+    "url": "http://www.secretariasenado.gov.co/senado/basedoc/decreto_0111_1996.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar la autoridad contable pública en Colombia y elegir el marco normativo aplicable a cada entidad.\n\n## Conceptos clave\n### La Contaduría General de la Nación (CGN)\nEs la **autoridad de regulación contable pública** en Colombia, con fundamento en el artículo 354 de la Constitución Política y la Ley 298 de 1996. Determina las normas de reconocimiento, medición, revelación y presentación de la información financiera pública, y consolida la contabilidad del sector público. Esto se concreta en el **Régimen de Contabilidad Pública**, que incluye los marcos normativos, el catálogo general de cuentas, los procedimientos contables y la doctrina contable pública.\n\n### Marcos normativos\nSe aplican según la naturaleza de la entidad:\n\n| Marco | Aplica a | Base |\n|---|---|---|\n| **Resolución 533 de 2015** | Entidades de gobierno | NICSP |\n| **Resolución 414 de 2014** | Empresas que no cotizan en el mercado de valores ni captan ni administran ahorro del público | NIIF (marco basado en las NIIF plenas) |\n\nExisten otros marcos para casos especiales (por ejemplo, entidades en liquidación o empresas que cotizan); verifica la resolución vigente aplicable.\n\n### Catálogo de cuentas\nLas cuentas se organizan por clases: 1 Activos, 2 Pasivos, 3 Patrimonio, 4 Ingresos, 5 Gastos, 6 Costos de ventas, 7 Costos de producción y 8 y 9 Cuentas de orden deudoras y acreedoras.\n\n## Ejemplo resuelto\nClasifica por marco, sin cifras:\n\n1. Un ministerio nacional: **entidad de gobierno**, aplica la Resolución 533 de 2015.\n2. Una alcaldía municipal: **entidad de gobierno**, Resolución 533.\n3. Una empresa de servicios públicos de propiedad estatal que no cotiza en bolsa ni capta ahorro: **Resolución 414 de 2014**.\n\n> **Clave:** el criterio es la naturaleza y la actividad de la entidad, no su tamaño. Si hay duda, consulta la doctrina de la CGN.\n\n## Puntos clave\n- La CGN regula la contabilidad pública, no la de las empresas privadas; para estas el regulador técnico es el CTCP.\n- Los marcos 533 y 414 convergen con estándares internacionales (NICSP y NIIF).\n\n## Errores frecuentes\n- Aplicar el Decreto 2420 a una entidad de gobierno.\n- Confundir la CGN con la Contraloría o con la DIAN.",
+    "recursos": [
+     {
+      "titulo": "Régimen de Contabilidad Pública",
+      "url": "https://www.contaduria.gov.co/rcp",
+      "tipo": "articulo",
+      "fuente": "Contaduría General de la Nación"
+     },
+     {
+      "titulo": "Funciones de la Contaduría General de la Nación",
+      "url": "https://www.contaduria.gov.co/funciones",
+      "tipo": "articulo",
+      "fuente": "Contaduría General de la Nación"
+     },
+     {
+      "titulo": "Marco normativo para entidades de gobierno",
+      "url": "https://www.contaduria.gov.co/marco-normativo-para-entidades-de-gobierno",
+      "tipo": "articulo",
+      "fuente": "Contaduría General de la Nación"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDescribir el ciclo del gasto presupuestal en el sector público colombiano y distinguir el registro presupuestal del contable.\n\n## Conceptos clave\n### Estatuto Orgánico del Presupuesto\nEstá compilado en el **Decreto 111 de 1996**. Sus principios: planificación, anualidad, universalidad, unidad de caja, programación integral, especialización, inembargabilidad, coherencia macroeconómica y homeostasis. La ejecución es **anual**: las apropiaciones no comprometidas al cierre caducan, salvo excepciones legales.\n\n### Etapas del gasto\n1. **CDP (Certificado de Disponibilidad Presupuestal):** garantiza que existe **apropiación libre de afectación** para el gasto. Se expide **antes** de abrir un proceso de contratación o asumir un compromiso. Reserva el cupo, pero no genera obligación frente a terceros.\n2. **Compromiso o Registro Presupuestal (RP):** perfeccionado el contrato o acto, se afecta en forma definitiva la apropiación y se identifica el beneficiario.\n3. **Obligación:** se causa cuando el bien o servicio se recibe a satisfacción y nace la exigibilidad de pago.\n4. **Ordenación del pago:** orden del ordenador del gasto de pagar la obligación.\n5. **Pago:** salida efectiva de los recursos.\n\n### Presupuesto y contabilidad\nSon sistemas distintos. El presupuesto controla la autorización y la ejecución de recursos (base de compromisos y caja); la contabilidad reconoce hechos económicos por **devengo**. La obligación presupuestal suele coincidir con la causación contable de un pasivo o gasto, pero el CDP y el RP **no** generan asientos contables de pasivo.\n\n## Ejemplo resuelto\nUna entidad tiene una apropiación de **$500.000.000** para servicios.\n\n1. CDP por $120.000.000: apropiación libre = 500.000.000 − 120.000.000 = **$380.000.000**.\n2. Se firma el contrato y se expide el RP por $120.000.000: el compromiso queda en firme.\n3. Se recibe el 50% del servicio: obligación por **$60.000.000**; saldo por obligar = 120.000.000 − 60.000.000 = **$60.000.000**.\n4. Se paga la obligación: contablemente, Débito Cuentas por pagar $60.000.000 / Crédito Efectivo $60.000.000 (la causación previa fue Débito Gasto $60.000.000 / Crédito Cuentas por pagar $60.000.000, sin IVA).\n\n> **Clave:** sin CDP no se debe iniciar ningún compromiso; el CDP es el primer control del ciclo.\n\n## Puntos clave\n- Orden: CDP, compromiso, obligación, ordenación del pago, pago.\n- El CDP no es un compromiso ni un gasto.\n\n## Errores frecuentes\n- Firmar un contrato sin CDP.\n- Creer que el RP ya es un gasto contable.\n- Pagar sin obligación previamente causada.",
+    "recursos": [
+     {
+      "titulo": "Estatuto Orgánico de Presupuesto",
+      "url": "https://www.youtube.com/watch?v=HItVxZWrOIY",
+      "tipo": "video",
+      "fuente": "Profe Luis H Rincón (YouTube)"
+     },
+     {
+      "titulo": "Registrar la obligación presupuestal (SIIF Nación)",
+      "url": "https://www.youtube.com/watch?v=Fd7PN82V4Ok",
+      "tipo": "video",
+      "fuente": "Ministerio de Hacienda y Crédito Público (YouTube)"
+     },
+     {
+      "titulo": "Presupuesto público: módulo de gerentes públicos (CDP, compromisos y obligaciones)",
+      "url": "https://www.funcionpublica.gov.co/eva/gerentes/Modulo3/pdf/presupuesto%20publico.pdf",
+      "tipo": "articulo",
+      "fuente": "Función Pública"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComprender qué son las NICSP, por qué las usan las entidades de gobierno en Colombia y qué cambia frente a las NIIF.\n\n## Conceptos clave\n### Qué son\nLas **Normas Internacionales de Contabilidad del Sector Público (NICSP, IPSAS)** son emitidas por el **IPSASB** y se basan en las NIIF, adaptadas a entidades públicas. Su propósito es la **rendición de cuentas** y la toma de decisiones sobre recursos públicos, más que la utilidad para inversionistas.\n\n### Rasgos principales\n- Base de **devengo**: reconoce activos, pasivos, ingresos y gastos cuando ocurren los hechos, no cuando hay flujo de caja.\n- Atención a **transacciones sin contraprestación** (impuestos, transferencias, donaciones), propias del Estado.\n- Reconoce activos particulares, como bienes de uso público, patrimonio histórico y cultural.\n- Revela información presupuestal comparada cuando la entidad hace público su presupuesto.\n\n### En Colombia\nEl marco para **entidades de gobierno** (Resolución 533 de 2015 de la CGN) se basa en las NICSP e incluye normas de reconocimiento, medición, revelación y presentación, y un catálogo de cuentas. Los estados financieros comprenden situación financiera, resultados, cambios en el patrimonio y notas, con el detalle fijado por la CGN. Verifica los últimos ajustes de la CGN.\n\n## Ejemplo resuelto\nUna entidad de gobierno recibe una transferencia de **$200.000.000** de otra entidad.\n\n1. **Sin condición de devolución:** se reconoce el ingreso al recibirla. Débito Efectivo $200.000.000 / Crédito Ingresos por transferencias $200.000.000.\n2. **Con condición** (debe usarse en un proyecto o se devuelve): se reconoce un pasivo y el ingreso a medida que se cumple. Débito Efectivo $200.000.000 / Crédito Pasivo por transferencias condicionadas $200.000.000.\n3. Al cumplir la condición por $80.000.000: Débito Pasivo $80.000.000 / Crédito Ingresos $80.000.000; queda un pasivo de 200.000.000 − 80.000.000 = **$120.000.000**.\n\n> **Clave:** la sustancia de la condición decide si es ingreso inmediato o pasivo.\n\n## Puntos clave\n- NICSP: devengo y rendición de cuentas.\n- Se aplican en Colombia a las entidades de gobierno vía Resolución 533 de 2015.\n\n## Errores frecuentes\n- Confundir la ejecución presupuestal con el reconocimiento contable.\n- Aplicar NIIF directamente a una entidad de gobierno.",
+    "recursos": [
+     {
+      "titulo": "NICSP - Normas Internacionales de Contabilidad del Sector Público",
+      "url": "https://www.youtube.com/watch?v=zEIYmKPAn40",
+      "tipo": "video",
+      "fuente": "Profe Lucho (YouTube)"
+     },
+     {
+      "titulo": "Aplicación del nuevo marco normativo contable público bajo las NICSP (IPSAS) y NIIF",
+      "url": "https://www.youtube.com/watch?v=nuUKv36AclY",
+      "tipo": "video",
+      "fuente": "EAFIT+ (YouTube)"
+     },
+     {
+      "titulo": "Resolución 533 de 2015 de la CGN: marco normativo para entidades de gobierno",
+      "url": "https://www.contaduria.gov.co/documents/20127/36444/Res_+533.pdf/b513cc87-7726-04ab-02e4-8691544220c6",
+      "tipo": "norma",
+      "fuente": "Contaduría General de la Nación"
+     }
+    ]
+   }
+  ]
+ }
+}

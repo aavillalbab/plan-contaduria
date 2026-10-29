@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan de estudio · Contaduría Pública</title>
+<script>(function(){try{var p=localStorage.getItem("tema")||"auto";var d=p==="dark"||(p==="auto"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.dataset.theme=d?"dark":"light";document.documentElement.dataset.pref=p}catch(e){document.documentElement.dataset.theme="light"}})()</script>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><span class="logo">CP</span><div><b>Contaduría Pública</b><small>Plan de estudio · Colombia</small></div></div>
+    <nav id="nav">
+      <a href="#inicio" data-v="inicio">Inicio</a>
+      <a href="#plan" data-v="plan">Plan y módulos</a>
+      <a href="#flashcards" data-v="flashcards">Flashcards</a>
+      <a href="#evaluaciones" data-v="evaluaciones">Evaluaciones</a>
+      <a href="#cronograma" data-v="cronograma">Cronograma</a>
+      <a href="#talleres" data-v="talleres">Talleres</a>
+      <a href="#ajustes" data-v="ajustes">Ajustes</a>
+    </nav>
+    <div class="theme" id="theme" role="group" aria-label="Tema de color">
+      <button data-act="theme" data-v="auto" aria-pressed="false" title="Seguir el sistema"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>Auto</button>
+      <button data-act="theme" data-v="light" aria-pressed="false" title="Modo claro"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>Claro</button>
+      <button data-act="theme" data-v="dark" aria-pressed="false" title="Modo oscuro"><svg viewBox="0 0 24 24"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg>Oscuro</button>
+    </div>
+    <div class="side-foot" id="sidefoot"></div>
+  </aside>
+  <main id="main" tabindex="-1"><p class="muted pad">Cargando…</p></main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+</body>
+</html>

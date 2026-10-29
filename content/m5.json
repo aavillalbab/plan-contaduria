@@ -1,0 +1,79 @@
+{
+"id":"m5","orden":5,"titulo":"NIIF y reporte financiero avanzado","semestres":"Semestres VI–VIII","descripcion":"NIIF plenas, NIIF para PYMES, consolidación y contabilidad pública.",
+"materias":[
+{"id":"m5s1","nombre":"NIIF plenas I: PPE, intangibles y deterioro","area":"CON","descripcion":"NIC 16, NIC 38, NIC 36 y NIC 40.",
+"temas":[["NIC 16: modelo del costo y de revaluación",3],["NIC 38: activos intangibles",2],["NIC 36: deterioro del valor de los activos",2],["NIC 40: propiedades de inversión",1]],
+"cards":[
+["NIC 16: modelos de medición","Costo (costo − depreciación acumulada − deterioro) o revaluación (valor razonable − depreciación − deterioro posterior), por clase de activo.","El superávit por revaluación se lleva al ORI; la disminución afecta resultados solo si excede el superávit previo."],
+["Depreciación por componentes","Cada parte significativa de una PPE con costo importante en relación con el total se deprecia por separado.","Ej.: motores y fuselaje de una aeronave."],
+["NIC 38: intangibles","Activo identificable, sin sustancia física, controlado y que genera beneficios futuros. Investigación → gasto; desarrollo → activo si cumple los criterios de reconocimiento.","La plusvalía generada internamente no se reconoce."],
+["NIC 36: valor recuperable","Valor recuperable = el mayor entre valor razonable menos costos de venta y valor en uso. Hay deterioro si el valor en libros lo supera.","La pérdida se reconoce en resultados (o en ORI si el activo estaba revaluado)."],
+["NIC 40: propiedades de inversión","Terrenos o edificios mantenidos para obtener rentas o plusvalía. Se miden por modelo del costo o del valor razonable.","Si usa valor razonable, los cambios van a resultados y no se deprecia."]
+],
+"qs":[
+["El valor recuperable de un activo según la NIC 36 es:",["El valor en libros","El mayor entre el valor razonable menos costos de venta y el valor en uso","El menor entre costo y valor de mercado","El valor residual"],1,2,"Si el valor en libros supera el recuperable, hay deterioro."],
+["Según la NIC 38, los costos de la fase de investigación:",["Se capitalizan","Se reconocen como gasto cuando se incurren","Se difieren por cinco años","Se llevan directamente al patrimonio"],1,1,"Solo la fase de desarrollo puede capitalizarse cuando cumple los criterios."],
+["Un activo tiene valor en libros $500M, valor razonable menos costos de venta $400M y valor en uso $450M. La pérdida por deterioro es:",["$100M","$50M","$0","$150M"],1,3,"Valor recuperable = 450 (el mayor). Pérdida = 500 − 450 = 50."],
+["Un incremento por revaluación de una PPE se registra normalmente en:",["Resultados del período","Otro resultado integral (superávit de revaluación)","Gastos","No se registra"],1,2,"Salvo que revierta una disminución previa reconocida en resultados."]
+]},
+{"id":"m5s2","nombre":"NIIF plenas II: ingresos, arrendamientos e instrumentos financieros","area":"CON","descripcion":"NIIF 15, NIIF 16 y NIIF 9.",
+"temas":[["NIIF 15: modelo de cinco pasos",3],["NIIF 16: arrendamientos",3],["NIIF 9: clasificación, medición y deterioro",3]],
+"cards":[
+["NIIF 15: cinco pasos","1) Identificar el contrato · 2) Identificar obligaciones de desempeño · 3) Determinar el precio de la transacción · 4) Asignar el precio · 5) Reconocer el ingreso al satisfacer cada obligación.","El ingreso se reconoce cuando se transfiere el control del bien o servicio."],
+["NIIF 16: arrendatario","Reconoce un activo por derecho de uso y un pasivo por arrendamiento (valor presente de los pagos).","Excepciones opcionales: arrendamientos de corto plazo (≤12 meses) y de bajo valor."],
+["NIIF 16: arrendador","Clasifica el arrendamiento como financiero u operativo según transfiera o no sustancialmente los riesgos y beneficios.","La contabilidad del arrendador cambió poco frente a la NIC 17."],
+["NIIF 9: clasificación","Costo amortizado, valor razonable con cambios en ORI o en resultados, según el modelo de negocio y las características de los flujos (solo capital e intereses).","Los instrumentos de patrimonio suelen ir a valor razonable."],
+["NIIF 9: pérdida esperada","Modelo de tres etapas: pérdida a 12 meses; pérdida durante toda la vida si el riesgo aumenta significativamente; y deterioro crediticio.","Para cuentas por cobrar comerciales se permite el enfoque simplificado."]
+],
+"qs":[
+["¿Cuántos pasos tiene el modelo de reconocimiento de ingresos de la NIIF 15?",["3","4","5","7"],2,1,"Contrato, obligaciones, precio, asignación y reconocimiento."],
+["Una empresa arrienda una oficina por 3 años. Según la NIIF 16, como arrendataria debe reconocer:",["Solo un gasto mensual por arrendamiento","Un activo por derecho de uso y un pasivo por arrendamiento","Solo un pasivo contingente","Nada, es un contrato por ejecutar"],1,2,"El contrato de 3 años no cae en la excepción de corto plazo."],
+["Un arrendamiento de maquinaria por 8 meses, para el arrendatario bajo NIIF 16:",["Siempre se capitaliza","Puede aplicar la exención de corto plazo y reconocer el gasto linealmente","Se reconoce como inversión","Debe registrarse a valor razonable"],1,2,"Los arrendamientos de 12 meses o menos pueden quedar fuera del modelo."],
+["Un instrumento de deuda mantenido para cobrar flujos contractuales que son solo capital e intereses se mide a:",["Costo amortizado","Valor razonable con cambios en resultados","Valor razonable con cambios en ORI","Costo histórico sin intereses"],0,2,"Cumple el modelo de negocio y la prueba SPPI."]
+]},
+{"id":"m5s3","nombre":"NIIF para PYMES y Grupo 3","area":"CON","descripcion":"Estructura, diferencias con NIIF plenas y marco para microempresas.",
+"temas":[["Estructura de la NIIF para las PYMES",2],["Diferencias principales con NIIF plenas",2],["Marco para microempresas (Grupo 3)",2]],
+"cards":[
+["NIIF para las PYMES","Norma única de 35 secciones para entidades sin obligación pública de rendir cuentas.","En Colombia corresponde al Anexo 2 del DUR 2420 de 2015."],
+["Diferencias con NIIF plenas","Menos revelaciones, principios de reconocimiento y medición simplificados y menos opciones de política contable.","Es más corta y con lenguaje más sencillo."],
+["Grupo 3","Marco simplificado para microempresas (Anexo 3 del DUR 2420 de 2015), con base de acumulación o devengo.","Aplica hasta 10 trabajadores, activos < 500 SMMLV e ingresos < 6.000 SMMLV."],
+["Estados financieros PYMES","Estado de situación financiera, resultado integral (o de resultados), cambios en el patrimonio, flujos de efectivo y notas.","Si solo hay resultados y utilidades retenidas, puede presentarse un único estado combinado."],
+["ESFA","Estado de situación financiera de apertura: punto de partida en la transición al nuevo marco.","Se prepara en la fecha de transición aplicando de forma retroactiva las políticas del nuevo marco."]
+],
+"qs":[
+["La NIIF para las PYMES está dirigida a entidades:",["Sin obligación pública de rendir cuentas","Que cotizan en bolsa","Únicamente grandes empresas","Del sector público"],0,1,"Las entidades de interés público aplican NIIF plenas."],
+["¿Cuántas secciones tiene la NIIF para las PYMES?",["20","35","41","50"],1,1,"35 secciones, incluida la de transición."],
+["Una empresa con 150 trabajadores y activos de 20.000 SMMLV, no emisora de valores ni de interés público, normalmente es:",["Grupo 1","Grupo 2","Grupo 3","Excluida"],1,2,"No supera los criterios de tamaño del Grupo 1 ni cumple los de microempresa."],
+["El ESFA es:",["Un estado de flujos de efectivo","El estado de situación financiera de apertura bajo el nuevo marco normativo","Un informe de auditoría","Un estado de resultados proyectado"],1,1,"Se elabora en la transición."]
+]},
+{"id":"m5s4","nombre":"Estados financieros consolidados y combinaciones de negocios","area":"CON","descripcion":"NIIF 10, NIIF 3, NIC 28 y estados separados.",
+"temas":[["Control y consolidación (NIIF 10)",3],["Combinaciones de negocios y plusvalía (NIIF 3)",3],["Método de participación (NIC 28)",2]],
+"cards":[
+["Control (NIIF 10)","Poder sobre la participada + exposición a rendimientos variables + capacidad de usar ese poder para influir en los rendimientos.","Control no depende solo del porcentaje de propiedad."],
+["Consolidación","Se suman línea a línea activos, pasivos, ingresos y gastos; se eliminan saldos y transacciones intragrupo; se presenta la participación no controladora.","Las ventas internas y los dividendos intragrupo se eliminan."],
+["Método de adquisición (NIIF 3)","Identificar al adquirente y la fecha de adquisición; reconocer activos y pasivos a valor razonable; reconocer plusvalía o ganancia por compra en condiciones ventajosas.","Los costos de transacción se llevan a gasto."],
+["Plusvalía","Contraprestación + participación no controladora + valor razonable de la participación previa − valor razonable de los activos netos identificables.","No se amortiza en NIIF plenas; se somete a prueba de deterioro al menos anualmente."],
+["Método de participación (NIC 28)","Para asociadas (influencia significativa, presumida desde 20% de poder de voto) y negocios conjuntos: la inversión se ajusta por la participación en resultados y ORI.","Los dividendos recibidos reducen el valor de la inversión."]
+],
+"qs":[
+["La influencia significativa se presume cuando se posee al menos:",["20% del poder de voto","50% del poder de voto","10% del poder de voto","100% del poder de voto"],0,1,"Es una presunción refutable (NIC 28)."],
+["Se adquiere el 100% de una subsidiaria pagando $800M; el valor razonable de sus activos netos identificables es $700M. La plusvalía es:",["$100M","$800M","$700M","$0"],0,2,"800 − 700 = 100."],
+["Las ventas entre la matriz y su subsidiaria, en los estados consolidados:",["Se mantienen","Se eliminan","Se presentan solo en notas","Se duplican"],1,2,"El grupo se presenta como una sola entidad económica."],
+["En NIIF plenas, la plusvalía posterior al reconocimiento:",["Se amortiza en 10 años","Se somete a prueba de deterioro anual","Se mantiene sin revisión","Se lleva a resultados inmediatamente"],1,2,"No se amortiza, pero se evalúa cada año."]
+]},
+{"id":"m5s5","nombre":"Contabilidad pública y presupuesto","area":"CON","descripcion":"Contaduría General de la Nación, marcos normativos, NICSP y presupuesto público.",
+"temas":[["Contaduría General de la Nación y marcos normativos",2],["Presupuesto público: CDP, RP y obligación",2],["NICSP en entidades de gobierno",2]],
+"cards":[
+["Contaduría General de la Nación (CGN)","Autoridad de regulación de la contabilidad pública en Colombia (art. 354 C.P. y Ley 298 de 1996).","Expide el Régimen de Contabilidad Pública y el catálogo de cuentas."],
+["Marcos normativos CGN","Res. 533 de 2015: entidades de gobierno (basado en NICSP). Res. 414 de 2014: empresas que no cotizan ni captan ahorro del público (basado en NIIF).","Los marcos se aplican según la naturaleza de la entidad."],
+["Etapas del gasto presupuestal","CDP → compromiso (registro presupuestal) → obligación → ordenación del pago → pago.","El CDP garantiza que existe apropiación disponible antes de contratar."],
+["Estatuto Orgánico del Presupuesto","Decreto 111 de 1996. Principios: planificación, anualidad, universalidad, unidad de caja, programación integral, especialización, inembargabilidad, coherencia macroeconómica y homeostasis.","La ejecución presupuestal es anual."],
+["NICSP","Normas internacionales de contabilidad del sector público, emitidas por el IPSASB.","Se basan en el devengo y buscan rendición de cuentas."]
+],
+"qs":[
+["La autoridad de regulación de la contabilidad pública en Colombia es:",["Contaduría General de la Nación","DIAN","CTCP","Superintendencia Financiera"],0,1,"Es el regulador de la contabilidad del sector público."],
+["El certificado de disponibilidad presupuestal (CDP) sirve para:",["Pagar una obligación","Garantizar que existe apropiación presupuestal libre de afectación antes de comprometer recursos","Cerrar el presupuesto","Reconocer ingresos"],1,2,"Es el primer paso del gasto."],
+["¿Cuál es el orden correcto del ciclo del gasto presupuestal?",["Pago → obligación → CDP → compromiso","CDP → compromiso → obligación → pago","Compromiso → CDP → pago → obligación","Obligación → CDP → compromiso → pago"],1,2,"Disponibilidad, compromiso, obligación y pago."],
+["El Estatuto Orgánico del Presupuesto de Colombia está compilado en:",["Decreto 111 de 1996","Ley 43 de 1990","Decreto 2420 de 2015","Ley 1314 de 2009"],0,1,"Es la base del sistema presupuestal."]
+]}
+]}

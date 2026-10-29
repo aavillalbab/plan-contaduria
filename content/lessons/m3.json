@@ -1,0 +1,352 @@
+{
+ "m3s1": {
+  "recursos": [
+   {
+    "titulo": "Costos y gastos (Contabilidad Gerencial)",
+    "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(Lumen)/01%3A_Naturaleza_de_la_Contabilidad_Gerencial_y_Costos/1.04%3A_Costos_y_Gastos",
+    "tipo": "curso",
+    "fuente": "LibreTexts Español"
+   },
+   {
+    "titulo": "Sistema de costos por órdenes de producción",
+    "url": "https://www.gerencie.com/sistema-de-costos-por-ordenes.html",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar los tres elementos del costo de producción (MPD, MOD y CIF), calcular el costo primo y el costo de conversión, y distinguir entre costo y gasto.\n\n## Conceptos clave\n### Costo y gasto\nUn **costo** es el sacrificio de recursos para fabricar un bien o prestar un servicio; mientras el producto no se venda, se acumula en el inventario (activo). Un **gasto** es el recurso consumido en administrar y vender; se lleva directamente al estado de resultados del período. Cuando el producto se vende, su costo deja el inventario y se reconoce como **costo de ventas**.\n\n### Los tres elementos\n- **Materia prima directa (MPD):** materiales que se incorporan físicamente al producto y son fácilmente identificables con él (la madera de un mueble).\n- **Mano de obra directa (MOD):** salarios y prestaciones de quienes transforman el producto (el carpintero que arma el mueble).\n- **Costos indirectos de fabricación (CIF):** todo costo de la fábrica que no se identifica de forma económica con una unidad: materiales indirectos (pegante, lijas), mano de obra indirecta (supervisor), depreciación de la planta, energía y arrendamiento de la bodega de producción.\n\n### Combinaciones útiles\n> **Clave:** Costo primo = MPD + MOD. Costo de conversión = MOD + CIF. Costo de producción = MPD + MOD + CIF.\n\nEl costo primo es lo que se puede rastrear directamente; la conversión es lo que cuesta transformar la materia prima en producto terminado.\n\n## Ejemplo resuelto\nUna fábrica de pupitres produjo 500 unidades en el mes, sin inventarios iniciales. Registró: MPD $18.000.000, MOD $9.000.000, CIF $6.000.000, gastos de administración $4.000.000 y gastos de ventas $3.000.000. Vendió 400 unidades a $100.000 cada una.\n\n1. Costo primo = 18.000.000 + 9.000.000 = **$27.000.000**.\n2. Costo de conversión = 9.000.000 + 6.000.000 = **$15.000.000**.\n3. Costo de producción = 27.000.000 + 6.000.000 = **$33.000.000**; costo unitario = 33.000.000 / 500 = **$66.000**.\n4. Costo de ventas = 400 × 66.000 = **$26.400.000**.\n5. Inventario final de producto terminado = 100 × 66.000 = **$6.600.000** (sigue como activo).\n6. Ventas 40.000.000 − costo de ventas 26.400.000 = utilidad bruta **$13.600.000**; restando gastos (4.000.000 + 3.000.000) queda utilidad operacional de **$6.600.000**.\n\n> **Ejemplo:** los $6.600.000 de las 100 unidades sin vender no afectan el resultado del mes; solo lo harán cuando se vendan.\n\n## Puntos clave\n- Los costos de producción son inventariables; los gastos de administración y ventas, no.\n- Lo directo se rastrea al producto; lo indirecto se asigna con una base razonable.\n- El mismo rubro puede ser directo o indirecto según el producto y la importancia relativa.\n\n## Errores frecuentes\n- Llevar a los CIF el salario del vendedor o del gerente administrativo (son gastos).\n- Confundir costo primo con costo de producción: el primo excluye los CIF.\n- Reconocer como gasto del mes todo lo producido, en lugar de solo lo vendido.",
+    "recursos": [
+     {
+      "titulo": "¿Cuáles son los elementos del costo de producción?",
+      "url": "https://www.youtube.com/watch?v=WQPv-4Z-MkU",
+      "tipo": "video",
+      "fuente": "YouTube - Nataly Silva Contabilidades"
+     },
+     {
+      "titulo": "Costos y gastos (Contabilidad Gerencial)",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(Lumen)/01%3A_Naturaleza_de_la_Contabilidad_Gerencial_y_Costos/1.04%3A_Costos_y_Gastos",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComprender cómo se acumulan los costos por lote o pedido, calcular la tasa predeterminada de CIF y determinar el costo de una orden.\n\n## Conceptos clave\n### ¿Cuándo se usa?\nEl sistema por **órdenes de producción** (o por trabajos) se aplica cuando cada pedido es distinto o se fabrica por lotes identificables: muebles a la medida, impresión de revistas, astilleros, talleres de confección por pedido. Cada orden tiene una **hoja de costos** donde se acumulan MPD, MOD y CIF aplicados; el costo unitario se obtiene dividiendo el total de la orden entre las unidades del lote.\n\n### El problema de los CIF y la tasa predeterminada\nLos CIF reales solo se conocen al final del período, pero el precio y el costo de la orden se necesitan antes. Por eso se usa una **tasa predeterminada**:\n\n> **Clave:** Tasa de CIF = CIF presupuestados / base de aplicación presupuestada (horas MOD, horas máquina, costo de MOD, etc.).\n\nCada orden recibe CIF = tasa × base real consumida. La base debe tener relación causal con el consumo de recursos indirectos.\n\n### Sub y sobreaplicación\nAl cierre se comparan CIF reales con CIF aplicados. Si los reales son mayores, hay **subaplicación**; si son menores, **sobreaplicación**. La diferencia, si es pequeña, se lleva al costo de ventas; si es material, se prorratea entre inventarios y costo de ventas.\n\n## Ejemplo resuelto\nUna carpintería presupuesta CIF por $90.000.000 y 5.000 horas MOD para el año.\n\n1. Tasa = 90.000.000 / 5.000 = **$18.000 por hora MOD**.\n2. La orden 105 (40 escritorios) consume MPD $4.200.000 y 80 horas MOD pagadas a $15.000: MOD = 80 × 15.000 = $1.200.000.\n3. CIF aplicados = 80 × 18.000 = **$1.440.000**.\n4. Costo total de la orden = 4.200.000 + 1.200.000 + 1.440.000 = **$6.840.000**.\n5. Costo unitario = 6.840.000 / 40 = **$171.000**.\n\nAl cierre del año se trabajaron 4.700 horas MOD y los CIF reales fueron $88.000.000:\n\n1. CIF aplicados = 4.700 × 18.000 = $84.600.000.\n2. Diferencia = 88.000.000 − 84.600.000 = **$3.400.000 subaplicados**.\n3. Si es inmaterial, se carga al costo de ventas: aumenta el costo y reduce la utilidad.\n\n## Puntos clave\n- Un sistema por órdenes acumula costos por pedido, no por período ni por departamento.\n- La tasa se calcula con presupuestos, y se aplica con la base real.\n- Una orden terminada y no vendida queda en inventario de producto terminado.\n\n## Errores frecuentes\n- Aplicar CIF con los datos reales del mes en vez de la tasa predeterminada.\n- Usar una base que no se relaciona con el consumo (por ejemplo, horas MOD en una planta muy automatizada).\n- Olvidar ajustar la subaplicación o sobreaplicación al cierre.",
+    "recursos": [
+     {
+      "titulo": "Ejercicio práctico de costos con el método de órdenes de producción",
+      "url": "https://www.youtube.com/watch?v=KRHC5fQXEiI",
+      "tipo": "video",
+      "fuente": "YouTube - Beatriz Rocha UQROO"
+     },
+     {
+      "titulo": "Sistema de costos por órdenes de producción",
+      "url": "https://www.gerencie.com/sistema-de-costos-por-ordenes.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender el costeo por procesos, calcular unidades equivalentes por el método de promedio ponderado y asignar costos entre producción terminada e inventario en proceso.\n\n## Conceptos clave\n### Cuándo usar procesos\nEn producción continua y homogénea (cemento, bebidas, harina, papel) no tiene sentido costear \"cada pedido\". Los costos se acumulan por **departamento o proceso** durante un período y se dividen entre las unidades producidas. Cada departamento tiene su informe de costos de producción.\n\n### El inventario en proceso y las unidades equivalentes\nAl cierre del período quedan unidades parcialmente terminadas. Para no tratarlas como si estuvieran completas, se convierten en **unidades equivalentes**: cuántas unidades terminadas representa el trabajo realizado.\n\n> **Clave:** Unidades equivalentes = unidades terminadas + (unidades en proceso × porcentaje de avance). Se calculan por separado para materiales y para conversión, porque su avance suele diferir.\n\n### Pasos del informe de costos\n1. Flujo físico de unidades (cuántas hay, cuántas terminadas, cuántas en proceso).\n2. Unidades equivalentes por elemento.\n3. Costos a asignar (inventario inicial más costos del período).\n4. Costo por unidad equivalente = costo total del elemento / unidades equivalentes.\n5. Costo de unidades transferidas y del inventario final.\n\nEn el **promedio ponderado** se suman los costos del inventario inicial a los del período y se cuentan las unidades terminadas del inventario inicial como parte de las terminadas; con PEPS (FIFO) se separa el trabajo del período. En la práctica la elección depende de la política de la empresa.\n\n## Ejemplo resuelto\nDepartamento de mezclado: inventario inicial 200 unidades (materiales 100%, conversión 50%) con costos acumulados de MP $3.000.000 y conversión $1.500.000. Se iniciaron 800 unidades; se terminaron y transfirieron 700; quedan 300 (materiales 100%, conversión 40%). Costos del período: MP $12.000.000 y conversión $8.750.000.\n\n1. Flujo físico: 200 + 800 = 1.000 = 700 + 300.\n2. Equivalentes de materiales = 700 + 300 × 100% = **1.000**.\n3. Equivalentes de conversión = 700 + 300 × 40% = **820**.\n4. Costo por equivalente de materiales = (3.000.000 + 12.000.000) / 1.000 = **$15.000**.\n5. Costo por equivalente de conversión = (1.500.000 + 8.750.000) / 820 = 10.250.000 / 820 = **$12.500**.\n6. Costo unitario total = 15.000 + 12.500 = $27.500.\n7. Transferidas: 700 × 27.500 = **$19.250.000**.\n8. Inventario final: materiales 300 × 15.000 = 4.500.000; conversión 120 × 12.500 = 1.500.000; total **$6.000.000**.\n9. Comprobación: 19.250.000 + 6.000.000 = 25.250.000 = 15.000.000 + 10.250.000.\n\n> **Ejemplo:** con otro dato, 1.000 unidades terminadas y 400 al 50% de conversión equivalen a 1.200 unidades de conversión.\n\n### Método PEPS (FIFO) en una frase\nCon PEPS se supone que primero se termina el inventario inicial y luego lo iniciado en el período; por eso el costo del inventario inicial no se mezcla con el del período y el costo por unidad equivalente refleja solo el trabajo actual. Es más exacto para controlar eficiencia, pero requiere más cálculos.\n\n### Pérdidas y unidades dañadas\nEn muchos procesos hay unidades que se dañan o se pierden por evaporación. Si la pérdida es normal e inherente al proceso, su costo se absorbe por las unidades buenas; si es anormal, se reconoce como gasto o pérdida del período. En el flujo físico debe aparecer una línea para estas unidades, de lo contrario el informe no cuadra.\n\n### Costos de un departamento a otro\nCuando el producto pasa al siguiente departamento, llega con un costo acumulado, llamado costo transferido. En el segundo departamento ese costo se trata como un material 100% completo, al que se suman sus propios costos de conversión y, a veces, nuevos materiales.\n\n## Puntos clave\n- Se acumulan costos por proceso y se dividen entre unidades equivalentes.\n- Materiales y conversión se calculan por separado.\n- El total asignado siempre debe igualar el total a asignar.\n\n## Errores frecuentes\n- Contar las unidades en proceso como terminadas.\n- Aplicar el mismo porcentaje de avance a materiales y conversión sin verificar.\n- Olvidar incluir los costos del inventario inicial en el promedio ponderado.\n- No comprobar que las cifras cuadren.",
+    "recursos": [
+     {
+      "titulo": "Unidades equivalentes en el costeo por procesos: qué son y cómo se calculan",
+      "url": "https://www.youtube.com/watch?v=MrJwlU7FuKY",
+      "tipo": "video",
+      "fuente": "YouTube - Profe Lavín"
+     },
+     {
+      "titulo": "Costeo de procesos: método de promedio ponderado",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(Lumen)/03%3A_Sistema_de_costos_de_proceso/3.04%3A_Costeo_de_Procesos_(Promedio_Ponderado)",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar cómo el costeo basado en actividades (ABC) asigna los CIF según el consumo de actividades y por qué puede cambiar el costo de los productos frente al sistema tradicional.\n\n## Conceptos clave\n### El problema del costeo tradicional\nCuando los CIF se reparten con una sola base de volumen (horas MOD, por ejemplo), se supone que todos los productos consumen recursos indirectos en proporción a ese volumen. Eso distorsiona: los productos pequeños, simples o de alto volumen subsidian a los especiales o complejos.\n\n### La lógica ABC\nEl **costeo basado en actividades** funciona en dos etapas:\n1. Los CIF se agrupan por **actividad** (preparación de máquinas, inspección, manejo de materiales) y se calcula una tasa por **generador de costo** (*cost driver*): número de preparaciones, horas de inspección, movimientos.\n2. Cada producto recibe costo según cuántas unidades de generador consume.\n\n> **Clave:** Tasa de actividad = costo de la actividad / total de unidades del generador. Costo asignado = tasa × generadores consumidos por el producto.\n\n### Cuándo conviene\nABC es más útil con gran variedad de productos, CIF significativos y diferencias grandes en complejidad. Es más costoso de implementar y mantener; por eso se justifica cuando la mejor información compensa ese costo.\n\n## Ejemplo resuelto\nUna planta tiene CIF por $60.000.000 y fabrica 10.000 unidades del producto A (estándar, 0,8 horas MOD cada una) y 2.000 del B (especial, 1 hora MOD cada una).\n\n**Sistema tradicional (horas MOD):** horas = 8.000 + 2.000 = 10.000; tasa = 60.000.000 / 10.000 = $6.000/h. A: 0,8 × 6.000 = **$4.800** por unidad; B: 1 × 6.000 = **$6.000**.\n\n**ABC:**\n\n| Actividad | Costo | Generador | Total | Tasa |\n|---|---|---|---|---|\n| Preparaciones | 24.000.000 | Nº preparaciones | 120 | 200.000 |\n| Inspección | 18.000.000 | Horas de inspección | 600 | 30.000 |\n| Manejo de materiales | 18.000.000 | Movimientos | 360 | 50.000 |\n\nConsumo: A usa 20 preparaciones, 100 h de inspección y 260 movimientos; B usa 100, 500 y 100.\n\n1. A = 20 × 200.000 + 100 × 30.000 + 260 × 50.000 = 4.000.000 + 3.000.000 + 13.000.000 = **$20.000.000**; por unidad: 20.000.000 / 10.000 = **$2.000**.\n2. B = 100 × 200.000 + 500 × 30.000 + 100 × 50.000 = 20.000.000 + 15.000.000 + 5.000.000 = **$40.000.000**; por unidad: 40.000.000 / 2.000 = **$20.000**.\n3. Total = 60.000.000, igual al costo asignado antes.\n\nEl producto especial cuesta realmente mucho más en CIF ($20.000 frente a $6.000), y el estándar mucho menos.\n\n## Puntos clave\n- ABC no cambia el total de CIF, cambia su distribución entre productos.\n- Un buen generador tiene relación causal con el costo de la actividad.\n- Sirve para decisiones de precio, mezcla de productos y mejora de procesos.\n\n## Errores frecuentes\n- Escoger como generador una variable de volumen sin relación causal.\n- Crear demasiadas actividades y volver el sistema inmanejable.\n- Dar por hecho que ABC siempre es mejor, sin evaluar su costo de implementación.",
+    "recursos": [
+     {
+      "titulo": "Costos basados en actividades: costeo ABC",
+      "url": "https://www.youtube.com/watch?v=FZsffvLzRLA",
+      "tipo": "video",
+      "fuente": "YouTube - Estudia Conmigo (LanzerWeb)"
+     },
+     {
+      "titulo": "Costeo basado en actividades (ABC) para fabricantes",
+      "url": "https://www.mrpeasy.com/blog/es/costeo-basado-en-actividades/",
+      "tipo": "articulo",
+      "fuente": "MRPeasy"
+     }
+    ]
+   }
+  ]
+ },
+ "m3s2": {
+  "recursos": [
+   {
+    "titulo": "Costos estándar y variaciones (OpenStax)",
+    "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(OpenStax)/08%3A_Costos_est%C3%A1ndar_y_variaciones",
+    "tipo": "curso",
+    "fuente": "LibreTexts Español"
+   },
+   {
+    "titulo": "Presupuesto maestro: qué es y sus componentes",
+    "url": "https://economipedia.com/definiciones/presupuesto-maestro.html",
+    "tipo": "articulo",
+    "fuente": "Economipedia"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nClasificar los costos según su comportamiento frente al volumen y separar los costos mixtos en componente fijo y variable con el método alto-bajo.\n\n## Conceptos clave\n### Comportamiento frente al volumen\n- **Costos variables:** su total cambia en proporción al volumen de actividad dentro del rango relevante; por unidad son constantes (materia prima, comisiones por unidad).\n- **Costos fijos:** su total no cambia dentro del rango relevante; por unidad disminuyen cuando aumenta el volumen (arrendamiento, depreciación en línea recta, salarios administrativos).\n- **Costos mixtos (semivariables):** tienen una parte fija y otra variable (energía con cargo fijo más consumo, teléfono, mantenimiento).\n\n> **Clave:** El **rango relevante** es el intervalo de actividad dentro del cual los supuestos de fijo y variable son válidos. Fuera de él, el costo fijo puede escalar (nueva planta, nuevo turno).\n\n### Fórmula del costo mixto\nCosto total = costo fijo + (costo variable por unidad de actividad × nivel de actividad).\n\n### Método alto-bajo\nSe toman el período de mayor y el de menor actividad (no los de mayor y menor costo) y se calcula:\n1. Variable por unidad = (costo alto − costo bajo) / (actividad alta − actividad baja).\n2. Fijo = costo total en cualquiera de los dos puntos − variable por unidad × actividad de ese punto.\n\nEs simple pero usa solo dos observaciones; la regresión o el diagrama de dispersión usan más datos y son más confiables.\n\n## Ejemplo resuelto\nLa factura de energía de una planta, en el mes de mayor actividad, fue $3.900.000 con 5.000 horas-máquina; en el de menor, $2.100.000 con 2.000 horas.\n\n1. Diferencia de costo = 3.900.000 − 2.100.000 = $1.800.000.\n2. Diferencia de actividad = 5.000 − 2.000 = 3.000 horas.\n3. Variable = 1.800.000 / 3.000 = **$600 por hora-máquina**.\n4. Fijo = 3.900.000 − (5.000 × 600) = 3.900.000 − 3.000.000 = **$900.000**.\n5. Comprobación con el punto bajo: 900.000 + 2.000 × 600 = 2.100.000.\n6. Presupuesto para 3.500 horas: 900.000 + 3.500 × 600 = **$3.000.000**.\n\n> **Ejemplo:** si el costo fijo mensual de arrendamiento es $4.000.000 y se producen 1.000 unidades, el fijo unitario es $4.000; con 2.000 unidades baja a $2.000, aunque el total no cambió.\n\n## Puntos clave\n- Fijo y variable se definen respecto a una base de actividad y a un rango relevante.\n- El costo fijo unitario baja con el volumen; el variable unitario se mantiene.\n- Separar los costos mixtos es requisito para el análisis costo-volumen-utilidad.\n\n## Errores frecuentes\n- Tomar los meses de mayor y menor costo en vez de mayor y menor actividad.\n- Pensar que un costo fijo no cambia nunca, aun fuera del rango relevante.\n- Confundir costo fijo total con costo fijo unitario.",
+    "recursos": [
+     {
+      "titulo": "Costos fijos, costos variables y costos mixtos",
+      "url": "https://www.youtube.com/watch?v=Kj6htrSFvm8",
+      "tipo": "video",
+      "fuente": "YouTube - Profe Lavín"
+     },
+     {
+      "titulo": "Métodos de estimación de costos (alto-bajo y otros)",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial/05%3A_%C2%BFC%C3%B3mo_identifican_las_organizaciones_los_patrones_de_comportamiento_de_costos%3F/5.03%3A_M%C3%A9todos_de_estimaci%C3%B3n_de_costos",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular el margen de contribución, el punto de equilibrio, el margen de seguridad y el volumen necesario para alcanzar una utilidad objetivo.\n\n## Conceptos clave\n### Margen de contribución\n> **Clave:** Margen de contribución unitario (MC) = precio de venta − costo variable unitario.\n\nEs lo que cada unidad aporta primero a cubrir los costos fijos y después a generar utilidad. La **razón de margen de contribución** es MC / precio.\n\n### Punto de equilibrio\nEs el nivel de ventas en que utilidad = 0, es decir, el margen de contribución total iguala a los costos fijos:\n- En unidades: PE = CF / MC unitario.\n- En pesos: PE = CF / razón de MC.\n- Con utilidad deseada antes de impuestos: (CF + utilidad) / MC unitario.\n\nSi se quiere una utilidad después de impuestos, se divide la utilidad deseada entre (1 − tasa de impuestos) para llevarla a antes de impuestos.\n\n### Margen de seguridad\nMS = ventas reales o presupuestadas − ventas en el punto de equilibrio. Mide cuánto pueden caer las ventas antes de entrar en pérdidas; se expresa en unidades, pesos o porcentaje.\n\n### Varios productos\nSe usa un margen de contribución promedio ponderado según la mezcla de ventas, y se supone que la mezcla se mantiene.\n\n## Ejemplo resuelto\nUna empresa vende a $50.000 la unidad, con costo variable unitario de $30.000 y costos fijos de $40.000.000 al mes.\n\n1. MC = 50.000 − 30.000 = **$20.000**; razón de MC = 20.000 / 50.000 = **40%**.\n2. PE en unidades = 40.000.000 / 20.000 = **2.000 unidades**.\n3. PE en pesos = 40.000.000 / 0,40 = **$100.000.000** (= 2.000 × 50.000).\n4. Para utilidad de $10.000.000: (40.000.000 + 10.000.000) / 20.000 = **2.500 unidades**.\n5. Si se presupuestan 3.000 unidades: utilidad = 3.000 × 20.000 − 40.000.000 = **$20.000.000**; margen de seguridad = 3.000 − 2.000 = 1.000 unidades, es decir **33,3%** de las ventas presupuestadas.\n6. Si el precio subiera a $55.000, MC = 25.000 y PE = 40.000.000 / 25.000 = **1.600 unidades**.\n\n> **Ejemplo:** subir el precio reduce el punto de equilibrio porque cada unidad aporta más; bajar costos variables tiene el mismo efecto.\n\n### Mezcla de ventas\nCon varios productos, el punto de equilibrio depende de la mezcla. Si A aporta MC de $20.000 y B de $40.000, y se vende en proporción 3 a 1, el MC promedio ponderado es (3 × 20.000 + 1 × 40.000) / 4 = $25.000. Con costos fijos de $40.000.000 el equilibrio sería de 1.600 unidades, de las cuales 1.200 serían de A y 400 de B. Si la mezcla cambia hacia el producto de menor margen, el punto de equilibrio sube.\n\n### Utilidad después de impuestos\nPara lograr una utilidad neta de $7.000.000 con una tasa del 30% (cifra solo ilustrativa), la utilidad antes de impuestos debe ser 7.000.000 / (1 − 0,30) = $10.000.000, y con ella se calcula el volumen requerido.\n\n### Límites del modelo\nEl análisis supone precio y costo variable unitario constantes, costos fijos estables dentro del rango relevante y una mezcla de ventas estable. Es una herramienta de decisión, no una predicción exacta.\n\n## Puntos clave\n- El análisis supone comportamientos lineales y un rango relevante.\n- Los costos fijos solo se cubren con el margen de contribución total.\n- Mayor margen de seguridad significa menor riesgo operativo.\n\n## Errores frecuentes\n- Dividir los costos fijos entre el precio en lugar de entre el margen de contribución.\n- Incluir costos fijos en el costo variable unitario.\n- Calcular la utilidad deseada después de impuestos sin convertirla a antes de impuestos.\n- Usar la fórmula con varios productos sin mantener la mezcla.",
+    "recursos": [
+     {
+      "titulo": "Margen de contribución: ejercicio resuelto",
+      "url": "https://www.youtube.com/watch?v=yCiE-2jwIhI",
+      "tipo": "video",
+      "fuente": "YouTube - Felipe Delgado"
+     },
+     {
+      "titulo": "Punto de equilibrio para un solo producto",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(Lumen)/05%3A_Comportamiento_de_costos_y_an%C3%A1lisis_costo-volumen-beneficio/5.07%3A_Punto_de_ruptura_%E2%80%94_par_para_un_solo_producto",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDescribir cómo se integra el presupuesto maestro y calcular los presupuestos operativos básicos de ventas, producción, compras y mano de obra.\n\n## Conceptos clave\n### ¿Qué es?\nEl **presupuesto maestro** es el plan financiero integral de la empresa para un período, normalmente un año con desglose trimestral o mensual. Combina los presupuestos operativos (los que describen la actividad) y los financieros (los que describen el efecto en caja y balance).\n\n### Estructura\n1. **Presupuestos operativos:** ventas, producción, compras de materiales, mano de obra directa, costos indirectos de fabricación, costo de ventas y gastos de administración y ventas.\n2. **Presupuestos financieros:** inversiones de capital, flujo de caja y estados financieros proyectados (estado de resultados y balance).\n\n> **Clave:** Todo parte del **presupuesto de ventas**, porque las demás actividades dependen de cuánto se espera vender.\n\n### Fórmulas básicas\n- Producción = ventas + inventario final deseado − inventario inicial.\n- Compras de materiales (unidades) = necesidades de producción + inventario final deseado de materiales − inventario inicial.\n- MOD = unidades producidas × horas por unidad × tarifa por hora.\n\nEl presupuesto es también herramienta de control: se compara lo real con lo presupuestado y se analizan las desviaciones.\n\n## Ejemplo resuelto\nUna empresa presupone para el trimestre ventas de 1.200 unidades a $80.000. Inventario inicial de producto terminado 150 unidades; final deseado 100. Cada unidad requiere 2 kg de material a $5.000 el kg y 0,5 horas de MOD a $14.000. Inventario inicial de material 200 kg; final deseado 300 kg.\n\n1. Ventas = 1.200 × 80.000 = **$96.000.000**.\n2. Producción = 1.200 + 100 − 150 = **1.150 unidades**.\n3. Material requerido = 1.150 × 2 = 2.300 kg.\n4. Compras = 2.300 + 300 − 200 = **2.400 kg**; valor = 2.400 × 5.000 = **$12.000.000**.\n5. Horas MOD = 1.150 × 0,5 = 575 horas; costo = 575 × 14.000 = **$8.050.000**.\n\nCon estos resultados se presupuestan los CIF y los gastos, se elabora el flujo de caja (cobros de ventas, pagos a proveedores y nómina) y los estados proyectados.\n\n## Puntos clave\n- El presupuesto de ventas es el primero y el más incierto; condiciona a todos los demás.\n- Los inventarios deseados enlazan ventas, producción y compras.\n- Un presupuesto es útil si se compara con lo real y se ajusta.\n\n## Errores frecuentes\n- Elaborar producción sin considerar inventarios inicial y final.\n- Presupuestar ventas con optimismo sin respaldo en histórico o mercado.\n- Confundir el presupuesto de compras con el de consumo de materiales.\n- No conectar los presupuestos operativos con el flujo de caja.",
+    "recursos": [
+     {
+      "titulo": "Presupuesto maestro",
+      "url": "https://www.youtube.com/watch?v=wsTcEAAEGy0",
+      "tipo": "video",
+      "fuente": "YouTube - Aula contable con Mercy Flores"
+     },
+     {
+      "titulo": "Presupuesto maestro: qué es y sus componentes",
+      "url": "https://economipedia.com/definiciones/presupuesto-maestro.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar qué es un costo estándar y calcular e interpretar las variaciones de precio, cantidad, tarifa y eficiencia para materiales y mano de obra.\n\n## Conceptos clave\n### Costo estándar\nEs un costo predeterminado, con base en estudios técnicos, para producir una unidad en condiciones normales de eficiencia. Se define para cada elemento con un **estándar de cantidad** (kg o horas por unidad) y un **estándar de precio** (costo por kg u hora). Sirve para presupuestar, valorar inventarios, controlar y evaluar responsables.\n\n### Variaciones\n> **Clave:** Variación de precio = (precio real − precio estándar) × cantidad real. Variación de cantidad o eficiencia = (cantidad real − cantidad estándar permitida) × precio estándar.\n\nLa cantidad estándar permitida es la que debió usarse para el nivel de producción real alcanzado. En mano de obra la variación de precio se llama **tarifa** y la de cantidad, **eficiencia**. Si el costo real supera al estándar, la variación es **desfavorable**; si es menor, es **favorable**.\n\nLa suma de las dos variaciones debe ser igual a la diferencia total entre costo real y costo estándar. Interpretar con cuidado: una variación favorable de precio (material barato) puede causar una desfavorable de cantidad si la calidad es inferior.\n\n## Ejemplo resuelto\nEstándar por unidad: 3 kg de material a $4.000 y 2 horas de MOD a $10.000. Se producen 1.000 unidades. Real: se usaron 3.150 kg a $4.200 y 2.100 horas a $9.800.\n\n**Materiales**\n1. Cantidad estándar permitida = 1.000 × 3 = 3.000 kg.\n2. Precio = (4.200 − 4.000) × 3.150 = **$630.000 desfavorable**.\n3. Cantidad = (3.150 − 3.000) × 4.000 = **$600.000 desfavorable**.\n4. Total = 630.000 + 600.000 = $1.230.000; verificación: real 3.150 × 4.200 = 13.230.000 menos estándar 3.000 × 4.000 = 12.000.000 = 1.230.000.\n\n**Mano de obra**\n1. Horas estándar permitidas = 1.000 × 2 = 2.000.\n2. Tarifa = (9.800 − 10.000) × 2.100 = **$420.000 favorable**.\n3. Eficiencia = (2.100 − 2.000) × 10.000 = **$1.000.000 desfavorable**.\n4. Neto = 1.000.000 − 420.000 = $580.000 desfavorable; verificación: 2.100 × 9.800 = 20.580.000 menos 2.000 × 10.000 = 20.000.000 = 580.000.\n\n> **Ejemplo:** pagar menos por hora fue favorable, pero se necesitaron más horas de las debidas; el efecto neto es desfavorable.\n\n## Puntos clave\n- Precio usa la cantidad real; cantidad usa el precio estándar.\n- Una variación es una señal para investigar causas, no una sentencia.\n- Los estándares deben revisarse cuando cambian precios o procesos.\n\n## Errores frecuentes\n- Usar la cantidad estándar en lugar de la real en la variación de precio.\n- Comparar con la producción presupuestada en lugar de la producción real.\n- Atribuir toda variación a un responsable sin analizar su causa.",
+    "recursos": [
+     {
+      "titulo": "Costos estándar: ejemplo práctico de análisis de 7 variaciones",
+      "url": "https://www.youtube.com/watch?v=3BasGeIYOTQ",
+      "tipo": "video",
+      "fuente": "YouTube - Bay Kiong Afu Calderon"
+     },
+     {
+      "titulo": "Costos estándar y variaciones (OpenStax)",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Gerencial_(OpenStax)/08%3A_Costos_est%C3%A1ndar_y_variaciones",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   }
+  ]
+ },
+ "m3s3": {
+  "recursos": [
+   {
+    "titulo": "Modelo de valoración de activos financieros (CAPM)",
+    "url": "https://economipedia.com/definiciones/modelo-valoracion-activos-financieros-capm.html",
+    "tipo": "articulo",
+    "fuente": "Economipedia"
+   },
+   {
+    "titulo": "WACC: coste medio ponderado del capital",
+    "url": "https://economipedia.com/definiciones/coste-medio-ponderado-del-capital-wacc.html",
+    "tipo": "articulo",
+    "fuente": "Economipedia"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nAplicar el valor del dinero en el tiempo (valor presente y futuro, anualidades) y explicar la relación entre riesgo y retorno esperado.\n\n## Conceptos clave\n### El dinero tiene valor en el tiempo\nUn peso hoy vale más que un peso mañana porque puede invertirse y generar rendimiento, la inflación erosiona el poder adquisitivo y el futuro es incierto. De ahí que todo flujo de caja se compare en una misma fecha.\n\n> **Clave:** Valor futuro: VF = VP × (1 + i)^n. Valor presente: VP = VF / (1 + i)^n. Anualidad vencida: VP = cuota × [1 − (1 + i)^−n] / i.\n\nLa tasa **i** debe corresponder al período (efectiva anual para períodos anuales). Una tasa nominal con capitalización mensual se convierte así: efectiva anual = (1 + nominal/12)^12 − 1.\n\n### Riesgo y retorno\nEl **retorno esperado** es el promedio ponderado de los posibles resultados según su probabilidad. El **riesgo** es la variabilidad de esos resultados (por ejemplo, la desviación estándar). A mayor riesgo, los inversionistas exigen mayor rendimiento: la **prima de riesgo**. La diversificación elimina el riesgo propio de cada activo; el riesgo de mercado (sistemático) permanece.\n\n## Ejemplo resuelto\n1. **Valor futuro:** $10.000.000 invertidos 3 años al 8% efectivo anual: 10.000.000 × 1,08³ = **$12.597.120**.\n2. **Valor presente:** ¿cuánto vale hoy recibir $15.000.000 dentro de 4 años con tasa del 9%? 15.000.000 / 1,09⁴ = 15.000.000 / 1,4116 ≈ **$10.626.378**.\n3. **Anualidad:** 5 cuotas de $2.000.000 al final de cada año al 10%: factor = [1 − 1,10⁻⁵] / 0,10 = 3,7908; VP = 2.000.000 × 3,7908 ≈ **$7.581.574**.\n4. **Tasa efectiva:** 12% nominal con capitalización mensual: 1,01¹² − 1 = **12,68%** efectivo anual.\n5. **Retorno esperado:** escenarios con rendimiento de 25% (probabilidad 30%), 12% (50%) y −10% (20%): 0,30 × 25 + 0,50 × 12 + 0,20 × (−10) = 7,5 + 6 − 2 = **11,5%**.\n\n## Puntos clave\n- Para sumar o comparar flujos, deben estar en la misma fecha.\n- La tasa y el período deben coincidir.\n- Mayor riesgo exige mayor retorno esperado.\n\n## Errores frecuentes\n- Usar una tasa nominal como si fuera efectiva.\n- Mezclar períodos mensuales con tasa anual sin convertir.\n- Confundir riesgo con pérdida: es variabilidad, hacia arriba y hacia abajo.",
+    "recursos": [
+     {
+      "titulo": "El valor del dinero en el tiempo: valor presente y valor futuro",
+      "url": "https://www.youtube.com/watch?v=gy4SRdVLCwU",
+      "tipo": "video",
+      "fuente": "YouTube - Fernando Sandoya"
+     },
+     {
+      "titulo": "Valor del dinero en el tiempo: fórmulas y ejemplos",
+      "url": "https://www.lifeder.com/valor-del-dinero-tiempo/",
+      "tipo": "articulo",
+      "fuente": "Lifeder"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular el costo del patrimonio con el modelo CAPM y el costo promedio ponderado de capital (WACC), y entender su uso como tasa de descuento.\n\n## Conceptos clave\n### Costo de capital\nEs el rendimiento mínimo que una empresa debe obtener en sus inversiones para satisfacer a quienes la financian. Se compone del costo de la deuda (Kd) y del costo del patrimonio (Ke).\n\n### Costo de la deuda\nEs la tasa que se paga a los acreedores. Como los intereses son deducibles de impuestos, el costo efectivo es **Kd × (1 − T)**. La tarifa general del impuesto de renta de las sociedades en Colombia ha sido 35% en los últimos años; verifica el valor vigente.\n\n### CAPM\n> **Clave:** Ke = Rf + β × (Rm − Rf).\n\nRf es la tasa libre de riesgo, β mide el riesgo sistemático (no diversificable) frente al mercado y (Rm − Rf) es la prima de riesgo de mercado. β > 1 indica más sensibilidad que el mercado. En mercados emergentes suele añadirse una prima por riesgo país; la elección de Rf y de la prima es un juicio profesional que debe documentarse.\n\n### WACC\n> **Clave:** WACC = E/(D+E) × Ke + D/(D+E) × Kd × (1 − T).\n\nLos pesos deben reflejar la estructura de capital objetivo, preferiblemente a valores de mercado.\n\n## Ejemplo resuelto\nDatos: Rf = 8%, β = 1,2, prima de mercado (Rm − Rf) = 6%, Kd = 10%, T = 35%, estructura de capital E = 60% y D = 40%.\n\n1. Ke = 8% + 1,2 × 6% = 8% + 7,2% = **15,2%**.\n2. Kd después de impuestos = 10% × (1 − 0,35) = **6,5%**.\n3. Aporte del patrimonio = 0,60 × 15,2% = 9,12%.\n4. Aporte de la deuda = 0,40 × 6,5% = 2,60%.\n5. WACC = 9,12% + 2,60% = **11,72%**.\n\nCon Ke = 15% (como en un ejercicio alternativo) el resultado sería 0,6 × 15 + 0,4 × 10 × 0,65 = 9 + 2,6 = 11,6%.\n\n> **Ejemplo:** si el proyecto rinde 11,72% o más, cubre el costo de sus fuentes; si rinde menos, destruye valor.\n\n### Costo de oportunidad y la lógica del costo de capital\nEl patrimonio no tiene un costo contractual visible, pero sí un costo de oportunidad: los accionistas podrían invertir en otra alternativa de riesgo similar. Por eso se estima con modelos como el CAPM. En cambio, la deuda tiene tasa pactada, aunque puede variar con el riesgo de la empresa y las condiciones del mercado.\n\n### Costo de capital propio en empresas no listadas\nEn empresas que no cotizan en bolsa no se observa un beta. Una práctica común es tomar el beta de empresas comparables del mismo sector, desapalancarlo (quitarle el efecto de la deuda) y volverlo a apalancar con la estructura de la empresa evaluada. Se debe documentar la fuente de los datos y la fecha.\n\n### Uso del WACC\nEl WACC sirve de tasa de descuento para el flujo de caja libre de la empresa y como tasa mínima de aceptación de proyectos. Si cambia la estructura de capital, cambia también el WACC y el valor calculado.\n\n## Puntos clave\n- La deuda tiene escudo fiscal; el patrimonio no.\n- El WACC es la tasa de descuento apropiada para proyectos de riesgo similar al de la empresa.\n- El patrimonio es más costoso que la deuda porque soporta más riesgo.\n\n## Errores frecuentes\n- Olvidar el (1 − T) en el costo de la deuda.\n- Usar el valor en libros del patrimonio para los pesos sin considerar su valor de mercado.\n- Aplicar el WACC de la empresa a un proyecto de riesgo muy distinto.\n- Mezclar tasas en pesos con tasas en dólares.",
+    "recursos": [
+     {
+      "titulo": "WACC: costo promedio ponderado de capital con ejemplo",
+      "url": "https://www.youtube.com/watch?v=F6Tezq3gbpU",
+      "tipo": "video",
+      "fuente": "YouTube - ContableFiel"
+     },
+     {
+      "titulo": "WACC: coste medio ponderado del capital",
+      "url": "https://economipedia.com/definiciones/coste-medio-ponderado-del-capital-wacc.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     },
+     {
+      "titulo": "Modelo de valoración de activos financieros (CAPM)",
+      "url": "https://economipedia.com/definiciones/modelo-valoracion-activos-financieros-capm.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEvaluar un proyecto de inversión con VPN, TIR y período de recuperación, y decidir si crea valor.\n\n## Conceptos clave\n### Flujos del proyecto\nSe estiman la inversión inicial (t = 0) y los flujos de caja futuros esperados, después de impuestos. Se descuentan con el costo de capital (WACC o una tasa que refleje el riesgo del proyecto).\n\n### Criterios\n- **VPN (valor presente neto):** suma de flujos descontados menos la inversión inicial. Si VPN > 0 el proyecto crea valor; es el criterio más consistente con la maximización de la riqueza de los propietarios.\n- **TIR (tasa interna de retorno):** tasa que hace el VPN igual a cero. Se acepta si TIR > costo de capital. Puede dar resultados múltiples con flujos no convencionales y puede contradecir al VPN al comparar proyectos excluyentes.\n- **Período de recuperación (payback):** tiempo en que se recupera la inversión. El simple ignora el valor del dinero en el tiempo y los flujos posteriores; el **descontado** usa flujos descontados.\n\n> **Clave:** Para flujos convencionales, VPN > 0 equivale a TIR > tasa de descuento.\n\n## Ejemplo resuelto\nUn proyecto exige una inversión de $100.000.000 y genera flujos de $30.000.000, $40.000.000, $50.000.000 y $40.000.000 en los años 1 a 4. El costo de capital es 12%.\n\n1. Valores presentes: 30/1,12 = 26,79; 40/1,12² = 31,89; 50/1,12³ = 35,59; 40/1,12⁴ = 25,42 (millones).\n2. Suma = 119,68 millones; **VPN = 119,68 − 100 ≈ $19.683.000** (positivo: acepta).\n3. **TIR ≈ 20,5%**, mayor que 12%: coincide con el VPN.\n4. **Payback simple:** acumulado 30, 70, 120. Se recupera entre los años 2 y 3: 2 + 30/50 = **2,6 años**.\n5. **Payback descontado:** acumulados 26,79; 58,67; 94,26; 119,68. Se recupera entre los años 3 y 4: 3 + (100 − 94,26)/25,42 ≈ **3,23 años**.\n\n> **Ejemplo:** el payback descontado es mayor porque cada flujo futuro vale menos hoy.\n\n### Proyectos mutuamente excluyentes y racionamiento de capital\nCuando se debe escoger un solo proyecto, se prefiere el de mayor VPN, no necesariamente el de mayor TIR. Un proyecto pequeño puede tener TIR muy alta y crear poco valor en pesos; uno grande con TIR menor puede crear mucho más. Cuando el capital es limitado, se puede usar el índice de rentabilidad (valor presente de los flujos / inversión) para ordenar alternativas.\n\n### TIR múltiple y flujos no convencionales\nSi los flujos cambian de signo más de una vez (por ejemplo, una gran inversión de reposición a mitad de la vida del proyecto), pueden existir varias TIR matemáticas y ninguna es confiable. En esos casos se prefiere el VPN o la TIR modificada.\n\n### Qué flujos incluir\nSe incluyen solo flujos incrementales, es decir, los que cambian por aceptar el proyecto: ingresos adicionales, costos adicionales, impuestos, inversión en capital de trabajo y valor de rescate. No se incluyen los costos hundidos ni los intereses, que ya están en la tasa de descuento.\n\n## Puntos clave\n- VPN mide valor creado en pesos; TIR mide rentabilidad en porcentaje.\n- Con proyectos excluyentes, prevalece el VPN.\n- El payback sirve como indicador de liquidez y riesgo, no como criterio único.\n\n## Errores frecuentes\n- Descontar flujos con una tasa que no refleja el riesgo.\n- Incluir costos hundidos o ignorar el capital de trabajo.\n- Aceptar un proyecto solo porque recupera pronto la inversión.\n- Elegir el proyecto con mayor TIR sin considerar la escala.",
+    "recursos": [
+     {
+      "titulo": "Entender a profundidad el VPN (VAN) y la TIR",
+      "url": "https://www.youtube.com/watch?v=P6QeIBw0Fn0",
+      "tipo": "video",
+      "fuente": "YouTube - Ricardo Castellanos"
+     },
+     {
+      "titulo": "Comparación entre VAN y TIR",
+      "url": "https://economipedia.com/definiciones/comparacion-entre-van-y-tir.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender la estructura de capital y calcular los grados de apalancamiento operativo, financiero y combinado.\n\n## Conceptos clave\n### Estructura de capital\nEs la mezcla de deuda y patrimonio con la que se financian los activos. La deuda suele ser más barata que el patrimonio y sus intereses son deducibles (escudo fiscal), pero aumenta el riesgo de insolvencia. Existe una combinación que minimiza el WACC y maximiza el valor, aunque encontrarla en la práctica es un ejercicio de juicio.\n\n### Apalancamiento operativo\nSurge por los **costos fijos de operación**. Mide cuánto varía la utilidad operacional (EBIT) frente a un cambio en ventas.\n> **Clave:** GAO = margen de contribución total / EBIT.\n\n### Apalancamiento financiero\nSurge por los **costos financieros fijos** (intereses). Mide cuánto varía la utilidad antes de impuestos frente a un cambio en EBIT.\n> **Clave:** GAF = EBIT / (EBIT − intereses). Apalancamiento total: GAC = GAO × GAF.\n\nMás apalancamiento amplifica tanto las ganancias como las pérdidas.\n\n## Ejemplo resuelto\nPrecio $50.000, costo variable $30.000, costos fijos $40.000.000, ventas de 3.000 unidades e intereses de $8.000.000.\n\n1. Margen de contribución total = 3.000 × 20.000 = $60.000.000.\n2. EBIT = 60.000.000 − 40.000.000 = **$20.000.000**.\n3. **GAO** = 60.000.000 / 20.000.000 = **3,0**.\n4. Utilidad antes de impuestos = 20.000.000 − 8.000.000 = $12.000.000.\n5. **GAF** = 20.000.000 / 12.000.000 = **1,67**.\n6. **GAC** = 3,0 × 1,67 = **5,0** (= 60.000.000 / 12.000.000).\n\nPrueba: si las ventas suben 10% (3.300 unidades): margen de contribución = 66.000.000; EBIT = 26.000.000 (+30%, es decir 10% × 3); utilidad antes de impuestos = 18.000.000 (+50%, es decir 10% × 5).\n\n> **Ejemplo:** si las ventas cayeran 10%, la utilidad antes de impuestos caería 50%: el apalancamiento también amplifica las pérdidas.\n\n## Puntos clave\n- El apalancamiento operativo depende de la estructura de costos; el financiero, de la deuda.\n- Más apalancamiento significa más riesgo y potencialmente más retorno para el accionista.\n- Los GAO y GAF cambian con el nivel de ventas; se calculan para un punto concreto.\n\n## Errores frecuentes\n- Confundir apalancamiento financiero con endeudamiento: el primero mide la sensibilidad de la utilidad.\n- Calcular el GAO con la utilidad neta en lugar del EBIT.\n- Suponer que más deuda siempre aumenta el valor de la empresa.",
+    "recursos": [
+     {
+      "titulo": "Apalancamiento operativo y financiero",
+      "url": "https://www.youtube.com/watch?v=t_C_fillDUk",
+      "tipo": "video",
+      "fuente": "YouTube - José Luis Pocota"
+     },
+     {
+      "titulo": "Apalancamiento: qué es, tipos y ejemplos",
+      "url": "https://economipedia.com/definiciones/apalancamiento.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   }
+  ]
+ },
+ "m3s4": {
+  "recursos": [
+   {
+    "titulo": "Razones financieras: clases, fórmulas e interpretación",
+    "url": "https://www.gerencie.com/razones-financieras.html",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   },
+   {
+    "titulo": "Ejercicio de KTNO (capital de trabajo neto operativo)",
+    "url": "https://www.youtube.com/watch?v=klhMt_pL-so",
+    "tipo": "video",
+    "fuente": "YouTube - Gerencia Financiera"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nAplicar el análisis vertical y el horizontal a estados financieros e interpretar los resultados.\n\n## Conceptos clave\n### Análisis vertical\nExpresa cada cuenta como porcentaje de una cifra base **del mismo período**: el total de activos en el estado de situación financiera o las ventas en el estado de resultados. Muestra la **estructura**: cuánto pesan los inventarios, cuentas por cobrar, el costo de ventas o los gastos.\n\n> **Clave:** % vertical = cuenta / cifra base × 100.\n\n### Análisis horizontal\nCompara una misma cuenta entre dos o más períodos. Muestra la **tendencia**.\n> **Clave:** Variación absoluta = valor actual − valor anterior. Variación relativa = variación absoluta / valor anterior × 100.\n\n### Cómo interpretarlos\nAmbos son descriptivos: señalan dónde mirar, no explican por qué. Un crecimiento de cuentas por cobrar superior al de las ventas puede indicar relajación del crédito; un aumento del peso del costo de ventas sobre ventas, pérdida de margen. Para que las comparaciones sean válidas, los estados deben prepararse bajo los mismos criterios contables; se debe considerar la inflación cuando se comparan varios años.\n\n## Ejemplo resuelto\nDatos (millones de pesos):\n\n| Cuenta | Año 1 | Año 2 |\n|---|---|---|\n| Cuentas por cobrar | 100 | 150 |\n| Inventarios | 150 | 180 |\n| Total activo | 500 | 600 |\n| Ventas | 800 | 880 |\n\n**Vertical (sobre el total de activos)**\n1. Cuentas por cobrar: 100/500 = **20%** en el año 1; 150/600 = **25%** en el año 2.\n2. Inventarios: 150/500 = **30%**; 180/600 = **30%** (sin cambio).\n\n**Horizontal**\n1. Cuentas por cobrar: 150 − 100 = +50; 50/100 = **+50%**.\n2. Inventarios: +30; 30/150 = **+20%**.\n3. Ventas: +80; 80/800 = **+10%**.\n\nInterpretación: las cuentas por cobrar crecen 50% frente a ventas de 10%; el crédito se está otorgando más o se está cobrando peor, y los recursos están quedando atrapados en cartera.\n\n### Ejemplo en el estado de resultados\nEn el estado de resultados la base vertical son las ventas. Si las ventas son $880 millones y el costo de ventas es $572 millones, el costo de ventas pesa 572/880 = 65%, y la utilidad bruta, 35%. Si el año anterior pesaba 62%, el margen bruto se redujo tres puntos porcentuales, señal para revisar precios o costos de producción.\n\n## Puntos clave\n- Vertical: estructura dentro de un período. Horizontal: cambio entre períodos.\n- Se interpretan mejor al comparar con el sector y con el comportamiento de ventas.\n- Son el primer paso antes de calcular indicadores.\n\n## Errores frecuentes\n- Usar como base en el balance un rubro distinto del total de activos sin aclararlo.\n- Calcular la variación relativa dividiendo entre el año actual.\n- Sacar conclusiones sin considerar inflación ni cambios de política contable.",
+    "recursos": [
+     {
+      "titulo": "Análisis vertical y horizontal de los estados financieros: interpretación",
+      "url": "https://www.youtube.com/watch?v=Pftd-ZlGQws",
+      "tipo": "video",
+      "fuente": "YouTube - Diego Méndez Sanez"
+     },
+     {
+      "titulo": "Análisis vertical: qué es y para qué sirve",
+      "url": "https://economipedia.com/definiciones/analisis-vertical.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular e interpretar los indicadores de liquidez (razón corriente, prueba ácida, capital de trabajo) y de endeudamiento.\n\n## Conceptos clave\n### Liquidez\nMide la capacidad de pagar las obligaciones de corto plazo.\n- **Razón corriente** = activo corriente / pasivo corriente.\n- **Prueba ácida** = (activo corriente − inventarios) / pasivo corriente. Excluye los inventarios por ser el activo corriente menos líquido.\n- **Capital de trabajo** = activo corriente − pasivo corriente.\n\n### Endeudamiento\n- **Endeudamiento total** = pasivo total / activo total: proporción de los activos financiada por terceros.\n- **Pasivo / patrimonio**: cuántos pesos de deuda hay por cada peso aportado por los dueños.\n- **Cobertura de intereses** = EBIT / gastos financieros: cuántas veces la utilidad operacional cubre los intereses.\n\n### Cómo leerlos\nNo hay un valor \"bueno\" universal: depende del sector, del ciclo de caja y de la calidad de los activos. Una razón corriente alta puede esconder inventarios obsoletos o cartera vencida. Los indicadores deben compararse con períodos anteriores y con empresas similares.\n\n## Ejemplo resuelto\nCifras (millones): activo corriente 800, inventarios 300, pasivo corriente 400, activo total 1.500, pasivo total 900, EBIT 180, gastos financieros 60.\n\n1. Razón corriente = 800 / 400 = **2,00**.\n2. Prueba ácida = (800 − 300) / 400 = **1,25**.\n3. Capital de trabajo = 800 − 400 = **$400 millones**.\n4. Endeudamiento = 900 / 1.500 = **60%**.\n5. Patrimonio = 1.500 − 900 = 600; pasivo / patrimonio = 900 / 600 = **1,5**.\n6. Cobertura de intereses = 180 / 60 = **3 veces**.\n\n> **Ejemplo:** por cada peso de deuda corriente la empresa tiene 1,25 pesos de activos líquidos sin contar inventarios: cumple sus obligaciones de corto plazo sin vender inventario.\n\n### Relación con el ciclo de operación\nLos indicadores de liquidez se complementan con los de actividad: rotación de cartera, de inventarios y de proveedores. Si la empresa cobra en 60 días, paga a 30 y mantiene inventario de 45 días, necesita financiar su operación entre el pago y el cobro. Una razón corriente de 2,0 con cartera muy vieja es menos tranquilizadora que una de 1,2 con cartera sana.\n\n## Puntos clave\n- La prueba ácida es más exigente que la razón corriente.\n- Mayor endeudamiento significa más riesgo financiero, pero también posible mayor retorno para el accionista.\n- Los indicadores son relativos: se comparan con el sector.\n\n## Errores frecuentes\n- Pensar que una razón corriente alta siempre es buena.\n- Olvidar que el pasivo corriente incluye la parte corriente de la deuda a largo plazo.\n- Comparar empresas de sectores con ciclos de operación muy distintos.",
+    "recursos": [
+     {
+      "titulo": "Indicadores de liquidez: razón corriente y prueba ácida",
+      "url": "https://www.youtube.com/watch?v=N71JebB4-N0",
+      "tipo": "video",
+      "fuente": "YouTube - lepatru007"
+     },
+     {
+      "titulo": "Razones financieras: clases, fórmulas e interpretación",
+      "url": "https://www.gerencie.com/razones-financieras.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular los indicadores de rentabilidad y descomponer el ROE con el modelo DuPont para identificar el origen del rendimiento.\n\n## Conceptos clave\n### Rentabilidad\n- **Margen bruto** = utilidad bruta / ventas.\n- **Margen operacional** = utilidad operacional / ventas.\n- **Margen neto** = utilidad neta / ventas.\n- **ROA** (rentabilidad del activo) = utilidad neta / activo total.\n- **ROE** (rentabilidad del patrimonio) = utilidad neta / patrimonio.\n\n### Modelo DuPont\nDescompone el ROE en tres palancas:\n> **Clave:** ROE = margen neto × rotación de activos × multiplicador de capital, donde rotación = ventas / activo y multiplicador = activo / patrimonio.\n\n- **Margen neto:** rentabilidad de cada venta (eficiencia en costos y precios).\n- **Rotación de activos:** cuántas ventas genera cada peso invertido en activos (eficiencia en el uso de activos).\n- **Multiplicador de capital:** apalancamiento financiero.\n\nROA = margen neto × rotación. Permite ver si el retorno viene del margen, de la eficiencia o del apalancamiento. Un ROE alto sustentado solo en deuda es más riesgoso que uno basado en margen y rotación.\n\n## Ejemplo resuelto\nEmpresa A (millones): ventas 1.200, utilidad neta 96, activo 800, patrimonio 400.\n\n1. Margen neto = 96 / 1.200 = **8%**.\n2. Rotación = 1.200 / 800 = **1,5 veces**.\n3. Multiplicador = 800 / 400 = **2,0**.\n4. ROA = 8% × 1,5 = **12%** (= 96/800).\n5. ROE = 8% × 1,5 × 2,0 = **24%** (= 96/400).\n\nEmpresa B (supermercado de bajo margen): margen neto 4%, rotación 3,0 y multiplicador 2,0.\nROE = 0,04 × 3,0 × 2,0 = **24%**: el mismo ROE, pero obtenido con volumen y rotación, no con margen.\n\nOtro caso: margen neto 10%, rotación 1,5 y multiplicador 2 dan un ROE de 0,10 × 1,5 × 2 = **30%**.\n\n### Costo de la deuda y utilidad\nEl apalancamiento mejora el ROE solo cuando el ROA supera el costo de la deuda después de impuestos. Si una empresa gana 12% sobre sus activos y paga 6,5% neto por la deuda, cada peso financiado con deuda deja un excedente para el accionista. Si el ROA cae por debajo del costo de la deuda, el apalancamiento lo deteriora.\n\n## Puntos clave\n- El ROE puede subir por margen, rotación o apalancamiento.\n- Las empresas de alto margen suelen tener baja rotación, y viceversa.\n- Se debe vigilar que la mejora del ROE no provenga solo de un endeudamiento excesivo.\n\n## Errores frecuentes\n- Dividir la utilidad neta entre ventas y llamarlo ROE.\n- Olvidar que el multiplicador usa activo/patrimonio, no pasivo/patrimonio.\n- Comparar ROE de sectores diferentes sin considerar su estructura de margen y rotación.",
+    "recursos": [
+     {
+      "titulo": "Análisis DuPont: ROA y ROE",
+      "url": "https://www.youtube.com/watch?v=Zsmy75_H03I",
+      "tipo": "video",
+      "fuente": "YouTube - Antony Rivero"
+     },
+     {
+      "titulo": "Razones financieras: clases, fórmulas e interpretación",
+      "url": "https://www.gerencie.com/razones-financieras.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular el EBITDA, el capital de trabajo neto operativo (KTNO) y el flujo de caja libre, e interpretar su relación con la generación de caja.\n\n## Conceptos clave\n### EBITDA\nEs la utilidad antes de intereses, impuestos, depreciaciones y amortizaciones. Se obtiene sumando a la utilidad operacional las depreciaciones y amortizaciones.\n> **Clave:** EBITDA = utilidad operacional (EBIT) + depreciación + amortización.\n\nAproxima la generación operativa de caja, pero **no es caja**: no descuenta inversión en capital de trabajo, inversiones en activos ni impuestos. No es una medida definida por las NIIF; debe presentarse con su definición.\n\n### Capital de trabajo neto operativo (KTNO)\nEs lo que la operación necesita invertir en el ciclo corriente:\n> **Clave:** KTNO = cuentas por cobrar + inventarios − proveedores.\n\nSi las ventas crecen, normalmente el KTNO crece y consume caja.\n\n### Flujo de caja libre (FCL)\nEs la caja que genera la operación disponible para acreedores y accionistas:\n> FCL = EBIT × (1 − T) + depreciación y amortización − inversión en activos fijos (CAPEX) − aumento del KTNO.\n\n## Ejemplo resuelto\nCifras (millones): EBIT 180, depreciación 40, amortización 10, tasa de impuestos 35% (verifica la vigente), CAPEX 60. Cuentas por cobrar 200, inventarios 300 y proveedores 250 este año; el KTNO del año anterior fue 230.\n\n1. EBITDA = 180 + 40 + 10 = **230**.\n2. KTNO = 200 + 300 − 250 = **250**.\n3. Aumento del KTNO = 250 − 230 = **20**.\n4. EBIT × (1 − T) = 180 × 0,65 = **117**.\n5. FCL = 117 + 50 − 60 − 20 = **87 millones**.\n\nEl EBITDA es 230 pero la caja libre es 87: la diferencia la explican impuestos, inversión en activos y mayor capital de trabajo.\n\n> **Ejemplo:** una empresa con buen EBITDA puede quedarse sin caja si cada peso de ventas nuevas exige inventarios y cartera.\n\n### Productividad del capital de trabajo\nAl comparar el KTNO con las ventas se obtiene el KTNO sobre ventas: con KTNO de $250 millones y ventas de $880 millones, el indicador es 28,4%, es decir, por cada peso vendido se necesitan unos 28 centavos de recursos en el ciclo operativo. Si la empresa crece sin mejorar cobros, inventarios o pagos, este indicador sube y presiona la caja.\n\n## Puntos clave\n- EBITDA ≠ flujo de caja.\n- El KTNO mide la inversión operativa del ciclo corriente.\n- El FCL es la base para valorar empresas y proyectos.\n\n## Errores frecuentes\n- Tratar el EBITDA como si fuera caja disponible.\n- Incluir deuda financiera en el KTNO.\n- Olvidar restar la inversión en capital de trabajo y activos fijos para llegar al FCL.",
+    "recursos": [
+     {
+      "titulo": "KTNO: capital de trabajo neto operativo y PKT",
+      "url": "https://www.youtube.com/watch?v=4JPtCXb_7kc",
+      "tipo": "video",
+      "fuente": "YouTube - ContableFiel"
+     },
+     {
+      "titulo": "EBITDA: qué es, cómo se calcula y limitaciones",
+      "url": "https://economipedia.com/definiciones/ebitda.html",
+      "tipo": "articulo",
+      "fuente": "Economipedia"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,34 @@
+{
+"id":"m7","orden":7,"titulo":"Laboral, seguridad social e insolvencia","semestres":"Semestres VI–VIII","descripcion":"Nómina, prestaciones sociales, seguridad social y régimen de insolvencia empresarial.",
+"materias":[
+{"id":"m7s1","nombre":"Legislación laboral y seguridad social","area":"LEG","descripcion":"Contrato de trabajo, liquidación de prestaciones, aportes y parafiscales.",
+"temas":[["Contrato de trabajo, salario y jornada",2],["Liquidación de prestaciones sociales",3],["Seguridad social, parafiscales y PILA",2]],
+"cards":[
+["Elementos del contrato de trabajo (art. 23 CST)","Actividad personal del trabajador, continuada subordinación o dependencia y un salario como retribución del servicio.","Si concurren los tres, existe contrato de trabajo sin importar el nombre que se le dé."],
+["Cesantías e intereses","Cesantías: un mes de salario por año de servicio (proporcional). Intereses: 12% anual sobre las cesantías.","Se consignan en el fondo a más tardar el 14 de febrero; los intereses se pagan al trabajador antes del 31 de enero."],
+["Prima de servicios","Equivale a 30 días de salario por año: 15 días por semestre, pagaderos a más tardar el 30 de junio y el 20 de diciembre.","Se liquida sobre el salario más el auxilio de transporte cuando aplica."],
+["Vacaciones","15 días hábiles remunerados por cada año de servicio.","Se compensan en dinero solo parcialmente y en los casos permitidos por la ley."],
+["Aportes de seguridad social","Pensión: 16% (12% empleador + 4% trabajador). Salud: 12,5% (8,5% empleador + 4% trabajador). ARL a cargo del empleador.","Parafiscales: caja de compensación 4%, SENA 2% e ICBF 3%; SENA, ICBF y salud del empleador pueden estar exonerados para salarios inferiores a 10 SMMLV (art. 114-1 ET)."]
+],
+"qs":[
+["El aporte total a pensión (empleador + trabajador) sobre el ingreso base de cotización es:",["12%","16%","10%","8,5%"],1,1,"12% a cargo del empleador y 4% del trabajador."],
+["Un trabajador devenga $2.000.000 y trabajó el año completo. Sus cesantías, sin tener en cuenta otros factores, equivalen a:",["$1.000.000","$2.000.000","$4.000.000","$240.000"],1,1,"Un mes de salario por año de servicio."],
+["Un trabajador devenga $3.000.000. La prima de servicios del primer semestre equivale a:",["$1.500.000","$3.000.000","$750.000","$1.000.000"],0,2,"3.000.000 / 30 × 15 días = 1.500.000."],
+["La fecha límite para consignar las cesantías del año anterior en el fondo es:",["14 de febrero","31 de enero","30 de junio","15 de marzo"],0,1,"Aplica el 14 de febrero."]
+]},
+{"id":"m7s2","nombre":"Régimen de insolvencia empresarial","area":"LEG","descripcion":"Ley 1116 de 2006: reorganización, liquidación judicial y papel del contador.",
+"temas":[["Supuestos de insolvencia y proceso de reorganización",2],["Liquidación judicial",2],["Información financiera y papel del contador",1]],
+"cards":[
+["Ley 1116 de 2006","Régimen de insolvencia empresarial: procesos de reorganización y liquidación judicial.","La Superintendencia de Sociedades ejerce funciones jurisdiccionales en estos procesos."],
+["Supuestos de insolvencia","Cesación de pagos: mora de más de 90 días en dos o más obligaciones con dos o más acreedores que representen no menos del 10% del pasivo total; o incapacidad de pago inminente.","Son los supuestos que habilitan el proceso."],
+["Acuerdo de reorganización","Convenio con los acreedores para reestructurar pasivos y mantener la empresa operando.","Se aprueba con las mayorías que exige la ley."],
+["Liquidación judicial","Proceso para realizar el patrimonio del deudor y pagar a los acreedores según el orden legal de prelación de créditos.","Procede, entre otros casos, por incumplimiento del acuerdo de reorganización."],
+["Información financiera en insolvencia","El deudor debe presentar estados financieros y un inventario de activos y pasivos con corte reciente, suscritos por contador y representante legal.","El contador y el revisor fiscal responden por la veracidad de las cifras."]
+],
+"qs":[
+["La Ley 1116 de 2006 regula:",["El régimen de insolvencia empresarial","El estatuto tributario","La profesión contable","El régimen laboral"],0,1,"Procesos de reorganización y liquidación judicial."],
+["Un supuesto de cesación de pagos es:",["Mora de más de 90 días en dos o más obligaciones con dos o más acreedores por no menos del 10% del pasivo","Una pérdida contable en un trimestre","Una disminución de ventas del 5%","Un aumento de la nómina"],0,2,"Es el supuesto de cesación de pagos del art. 9."],
+["En liquidación judicial, los acreedores se pagan:",["Según el orden legal de prelación de créditos","En el orden en que llegaron","A prorrata sin excepción","Al arbitrio del liquidador"],0,2,"Hay créditos privilegiados y de primera clase que se pagan antes."],
+["¿Quién ejerce funciones jurisdiccionales en procesos de insolvencia empresarial para sociedades?",["Superintendencia de Sociedades","DIAN","JCC","Contraloría"],0,1,"Es la autoridad concursal."]
+]}
+]}

@@ -1,0 +1,564 @@
+{
+ "m4s1": {
+  "recursos": [
+   {
+    "titulo": "Impuesto sobre la renta y complementario, personas jurídicas (parte 1)",
+    "url": "https://www.youtube.com/watch?v=jUIpxv8F4dY",
+    "tipo": "video",
+    "fuente": "DIANColombia"
+   },
+   {
+    "titulo": "Tarifas del impuesto de renta de personas jurídicas",
+    "url": "https://www.gerencie.com/tarifas-del-impuesto-de-renta.html",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   },
+   {
+    "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+    "tipo": "norma",
+    "fuente": "DIAN - Compilación Jurídica"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar quién es contribuyente del impuesto de renta como persona jurídica, qué hecho lo genera y cómo se aplica la tarifa a la renta líquida gravable.\n\n## Conceptos clave\n### Sujetos pasivos\nEl impuesto de renta y complementarios es un tributo nacional, de periodo anual (1 de enero a 31 de diciembre) y de causación en el momento en que termina el año gravable. Son contribuyentes las **sociedades y entidades nacionales**, que tributan sobre su renta y ganancias ocasionales **mundiales**, y las **sociedades y entidades extranjeras**, que tributan solo por sus rentas de **fuente nacional**. Existen además los establecimientos permanentes y las entidades sin ánimo de lucro, con reglas propias (régimen tributario especial).\n\n### Hecho generador\nEs la obtención de ingresos, ordinarios o extraordinarios, que incrementen el patrimonio del contribuyente y no estén expresamente exceptuados. La base es la **renta líquida gravable**, que se estudia en el siguiente tema.\n\n### Tarifas\nLa tarifa general para sociedades nacionales es del **35%** (art. 240 ET, según Ley 2277 de 2022). Existen tarifas diferenciales para zonas francas, algunos sectores y puntos adicionales para ciertas entidades financieras y generadoras; además, las ganancias ocasionales de las sociedades se gravan por separado al **15%**. Estas tarifas especiales cambian con frecuencia: **verifica el valor vigente del año gravable** en el Estatuto Tributario y en la normativa de la DIAN.\n\n> **Clave:** la renta ordinaria y la ganancia ocasional se liquidan por separado, cada una con su propia tarifa.\n\n## Ejemplo resuelto\nUna sociedad nacional obtiene en el año una renta líquida gravable de $800.000.000 y una utilidad de $100.000.000 en la venta de un activo fijo poseído por más de dos años.\n\n1. Impuesto de renta ordinario: 800.000.000 × 35% = **$280.000.000**.\n2. Ganancia ocasional: 100.000.000 × 15% = **$15.000.000** (se liquida aparte).\n3. Total antes de descuentos y anticipos: $295.000.000.\n\n> **Ejemplo:** si el mismo activo se hubiera vendido a los 18 meses de poseerlo, la utilidad sería renta ordinaria gravada al 35%, no ganancia ocasional.\n\n## Puntos clave\n- Nacionales: renta mundial; extranjeras: solo fuente nacional.\n- Tarifa general del 35% sobre la renta líquida gravable.\n- Ganancia ocasional al 15%, liquidada aparte.\n- Zonas francas y regímenes especiales tienen tarifas distintas.\n\n## Errores frecuentes\n- Aplicar la tarifa sobre la utilidad contable en lugar de la renta líquida fiscal.\n- Mezclar la ganancia ocasional dentro de la renta ordinaria.\n- Usar tarifas de años anteriores sin revisar el año gravable.",
+    "recursos": [
+     {
+      "titulo": "Tarifa del impuesto de renta en personas jurídicas en la reforma tributaria",
+      "url": "https://www.youtube.com/watch?v=EZeC6cHAiJY",
+      "tipo": "video",
+      "fuente": "Legis Colombia"
+     },
+     {
+      "titulo": "Tarifas del impuesto de renta de personas jurídicas",
+      "url": "https://www.gerencie.com/tarifas-del-impuesto-de-renta.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDepurar los ingresos y reconocer qué costos y gastos son deducibles según el art. 107 del Estatuto Tributario y los requisitos formales de soporte.\n\n## Conceptos clave\n### De los ingresos a la renta líquida\nLa estructura básica del cálculo es:\n\n1. **Ingresos brutos** ordinarios y extraordinarios.\n2. (−) Devoluciones, rebajas y descuentos.\n3. (−) **Ingresos no constitutivos de renta ni ganancia ocasional** (por ejemplo, la utilidad que ya fue gravada en cabeza de otro, o aportes de capital).\n4. = **Ingresos netos**.\n5. (−) **Costos** imputables a los ingresos.\n6. = **Renta bruta**.\n7. (−) **Deducciones** (gastos de administración, ventas, financieros, etc.).\n8. = **Renta líquida**.\n\n### Costos y deducciones: requisitos del art. 107 ET\nUna expensa es deducible cuando cumple tres condiciones de fondo:\n\n- **Causalidad:** tiene relación con la actividad productora de renta.\n- **Necesidad:** es indispensable o conveniente para esa actividad, con criterio comercial.\n- **Proporcionalidad:** guarda razonable relación con la actividad y con los ingresos.\n\nA ellas se suman los requisitos formales: **soporte** (factura electrónica de venta o documento soporte en adquisiciones a no obligados a facturar), pagos por los medios permitidos cuando el valor supera los límites legales, y cumplimiento de la retención en la fuente y de los aportes a seguridad social que correspondan. La carga de probar los requisitos recae en el contribuyente.\n\n> **Clave:** un gasto real pero sin soporte válido puede ser rechazado fiscalmente aunque esté bien contabilizado.\n\n### Algunas reglas especiales\nHay deducciones con tratamiento propio, como la depreciación (con tasas máximas fiscales), los impuestos pagados (el ICA y otros tributos son deducibles, salvo el impuesto de renta; **verifica el tratamiento vigente**) y las limitaciones a ciertos gastos (por ejemplo, los no relacionados con la actividad).\n\n### Ingresos que no son renta y costo fiscal\nNo todo lo que ingresa a la caja es renta gravable. Los **ingresos no constitutivos de renta** (art. 36 y siguientes ET) no se gravan por mandato legal, por ejemplo los aportes de los socios al capital o la prima en colocación de acciones. El **costo** de bienes vendidos se determina con el método de inventarios que adopte el contribuyente (promedio ponderado, PEPS, etc.), y para activos fijos el costo fiscal puede diferir del contable. Un ingreso se reconoce fiscalmente, por regla general, en el periodo en que se causa; **verifica las reglas especiales** del art. 28 ET (por ejemplo, para contratos de largo plazo o diferencia en cambio).\n\n### Qué suele limitar una deducción\nAdemás del art. 107, las normas de renta restringen o exigen condiciones a ciertos gastos: pagos en efectivo por encima de los topes legales, pagos al exterior sin retención, gastos de personas vinculadas sin soporte de precios de mercado o gastos en seguridad social omitidos. En la práctica, el contador evalúa cada partida con tres preguntas: ¿tiene causalidad?, ¿tiene soporte válido?, ¿cumple condiciones especiales de forma?\n\n## Ejemplo resuelto\nUna empresa registra: ingresos brutos $2.000.000.000; devoluciones $50.000.000; ingresos no constitutivos $30.000.000; costos $1.100.000.000; deducciones contabilizadas $320.000.000, de las cuales $20.000.000 carecen de soporte.\n\n1. Ingresos netos = 2.000 − 50 − 30 = **$1.920 millones**.\n2. Renta bruta = 1.920 − 1.100 = **$820 millones**.\n3. Deducciones aceptadas = 320 − 20 = $300 millones.\n4. Renta líquida = 820 − 300 = **$520 millones**.\n5. Impuesto al 35% = **$182 millones**. Si se hubiera aceptado el gasto sin soporte, el impuesto habría sido $7 millones menor, y la DIAN puede reclamar esa diferencia con sanciones.\n\n## Puntos clave\n- Causalidad, necesidad y proporcionalidad son los criterios de fondo.\n- Los soportes (factura electrónica, documento soporte) son requisito de forma indispensable.\n- Costos se restan de ingresos netos; deducciones, de la renta bruta.\n\n## Errores frecuentes\n- Deducir gastos personales de los socios.\n- Olvidar el documento soporte en compras a personas no obligadas a facturar.\n- Confundir costo con gasto al armar el cálculo.",
+    "recursos": [
+     {
+      "titulo": "Requisitos para que los costos y gastos sean deducibles en renta",
+      "url": "https://www.gerencie.com/requisitos-generales-de-las-deducciones-en-el-impuesto-a-la-renta.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Impuesto sobre la renta y complementario, personas jurídicas (parte 1)",
+      "url": "https://www.youtube.com/watch?v=jUIpxv8F4dY",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular la renta líquida gravable aplicando la compensación de pérdidas fiscales y entender cuándo se activa la tasa mínima de tributación del 15%.\n\n## Conceptos clave\n### Pérdidas fiscales\nCuando los costos y deducciones fiscales superan los ingresos fiscales, hay **pérdida fiscal**, que no coincide con la pérdida contable. Las sociedades pueden **compensarla con rentas líquidas ordinarias de los 12 períodos gravables siguientes** (art. 147 ET). La pérdida compensada reduce la base antes de aplicar la tarifa. Las pérdidas no se reajustan por inflación.\n\n### Renta líquida gravable\nRenta líquida ordinaria, menos pérdidas fiscales compensadas, menos rentas exentas aplicables = **renta líquida gravable**. Sobre ella se aplica la tarifa y, del resultado, se restan los descuentos tributarios permitidos (con sus límites). La renta presuntiva está fijada actualmente en 0%; **verifica el valor vigente**.\n\n### Tasa mínima de tributación (TTD)\nPara evitar que el beneficio de rentas exentas, descuentos y otros tratamientos deje impuestos muy bajos frente a la utilidad, el art. 240 (par. 6) ET exige que la **tasa de tributación depurada** sea al menos 15%:\n\n- TTD = **impuesto depurado (ID) / utilidad depurada (UD)**.\n- Si TTD < 15%, se paga un **impuesto adicional** = (UD × 15%) − ID.\n\nID y UD resultan de ajustar el impuesto de renta y la utilidad contable con partidas definidas por la norma. Algunos contribuyentes están excluidos (por ejemplo, zonas francas, entidades del régimen especial, entre otros): consúltalos en la norma vigente.\n\n> **Clave:** la tasa mínima no es otro impuesto aparte; se calcula en la misma declaración y se suma al impuesto de renta cuando hace falta.\n\n## Ejemplo resuelto\n**Parte 1 (pérdidas).** Una sociedad tiene una pérdida fiscal acumulada de $200.000.000 y este año su renta líquida ordinaria es $500.000.000.\n\n1. Renta líquida gravable = 500 − 200 = **$300 millones**.\n2. Impuesto al 35% = **$105 millones**.\n\n**Parte 2 (TTD).** Otra empresa tiene utilidad depurada de $1.000.000.000 e impuesto depurado de $120.000.000.\n\n1. TTD = 120 / 1.000 = **12%**, menor al 15%.\n2. Impuesto adicional = 1.000 × 15% − 120 = **$30 millones**.\n3. Impuesto total = 120 + 30 = 150 millones (15%).\n\n## Puntos clave\n- Compensación de pérdidas: 12 períodos gravables siguientes.\n- Pérdida fiscal ≠ pérdida contable.\n- TTD mínima del 15%; adición = (UD × 15%) − ID.\n\n## Errores frecuentes\n- Compensar pérdidas contra ganancias ocasionales o rentas no permitidas.\n- Calcular la TTD con la utilidad contable sin las depuraciones de la norma.\n- Olvidar revisar los contribuyentes excluidos de la tasa mínima.",
+    "recursos": [
+     {
+      "titulo": "Tasa mínima de tributación en renta personas jurídicas, art. 240 ET",
+      "url": "https://www.youtube.com/watch?v=MyqhsLBM5qE",
+      "tipo": "video",
+      "fuente": "Martín Rey de los Impuestos"
+     },
+     {
+      "titulo": "Cómo calcular la tasa de tributación depurada y sus implicaciones",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/impuestos/2025/01/aprende-a-calcular-la-tasa-de-tributacion-depurada-y-sus-implicaciones-tributarias/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "Compensación de las pérdidas fiscales",
+      "url": "https://www.gerencie.com/compensacion-de-perdidas-fiscales.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar por qué la contabilidad (NIIF) y la norma fiscal arrojan resultados distintos, y conciliar ambas bases, incluyendo el efecto del impuesto diferido.\n\n## Conceptos clave\n### Dos bases, dos reglas\nDesde la adopción de las NIIF, la contabilidad se rige por los marcos técnicos y la determinación del impuesto por el Estatuto Tributario. El art. 772-1 ET exige llevar una **conciliación fiscal** que soporte las diferencias; los contribuyentes con ingresos fiscales superiores al umbral de la DIAN presentan además el **Formato 2516** (reporte de conciliación fiscal) con la declaración de renta. **Verifica el umbral vigente** (expresado en UVT).\n\n### Tipos de diferencias\n- **Permanentes:** no se revierten. Ejemplo: una multa o sanción contabilizada como gasto que fiscalmente no es deducible.\n- **Temporarias:** se revierten en el tiempo. Se miden comparando el valor en libros de un activo o pasivo con su **base fiscal**.\n  - *Imponibles*: generan un **pasivo por impuesto diferido**.\n  - *Deducibles*: generan un **activo por impuesto diferido** (si es probable recuperarlo).\n\nEl impuesto diferido se mide con la tarifa que se espera aplicar cuando se revierta la diferencia.\n\n> **Clave:** impuesto corriente = lo que se declara y paga; impuesto diferido = efecto futuro de las diferencias temporarias; gasto por impuesto contable = corriente ± diferido.\n\n## Ejemplo resuelto\nUna empresa compra una máquina por $600.000.000. Contablemente se deprecia en 5 años ($120.000.000 anuales); fiscalmente se usa una vida de 10 años ($60.000.000 anuales, valor ilustrativo). Su utilidad contable antes de impuestos es $400.000.000 e incluye una multa de $10.000.000 no deducible. Tarifa: 35%.\n\n1. Renta líquida fiscal = 400 + 120 − 60 + 10 = **$470 millones**.\n2. Impuesto corriente = 470 × 35% = **$164,5 millones**.\n3. Diferencia temporaria deducible = 60 millones (valor en libros $480; base fiscal $540).\n4. Activo por impuesto diferido = 60 × 35% = **$21 millones**.\n5. Gasto por impuesto del período = 164,5 − 21 = **$143,5 millones**.\n\nLa multa es una diferencia permanente: eleva el impuesto corriente pero no genera diferido.\n\n## Puntos clave\n- La conciliación une la utilidad contable con la renta fiscal.\n- Permanentes no se revierten; temporarias sí y producen impuesto diferido.\n- Valor en libros frente a base fiscal es la medición clave.\n\n## Errores frecuentes\n- Reconocer diferido sobre diferencias permanentes.\n- Usar una tarifa equivocada al medir el diferido.\n- Presentar el Formato 2516 sin conciliar contra los estados financieros.",
+    "recursos": [
+     {
+      "titulo": "Diferencias temporales y permanentes y su impacto en la conciliación fiscal",
+      "url": "https://www.youtube.com/watch?v=m-Kx0wapy9w",
+      "tipo": "video",
+      "fuente": "Actualícese Video"
+     },
+     {
+      "titulo": "Guía de diligenciamiento del Formato 2516, reporte de conciliación fiscal",
+      "url": "https://www.garrigues.com/sites/default/files/documents/anexo_explicativo_conciliacion_formato_2516.pdf",
+      "tipo": "articulo",
+      "fuente": "Garrigues"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   }
+  ]
+ },
+ "m4s2": {
+  "recursos": [
+   {
+    "titulo": "Impuesto sobre la renta, personas naturales y asimiladas (parte 2)",
+    "url": "https://www.youtube.com/watch?v=38SVTfQHMrQ",
+    "tipo": "video",
+    "fuente": "DIANColombia"
+   },
+   {
+    "titulo": "Guía de renta: cédula general",
+    "url": "https://www.gerencie.com/guia-renta/cedula-general",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   },
+   {
+    "titulo": "¿Qué es la retención en la fuente? Procedimientos 1 y 2",
+    "url": "https://www.youtube.com/watch?v=_EvmWoyPuOE",
+    "tipo": "video",
+    "fuente": "DIANColombia"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDeterminar si una persona natural debe declarar renta y clasificar sus ingresos en la cédula que les corresponde.\n\n## Conceptos clave\n### Residencia y alcance\nLas personas naturales **residentes** fiscales en Colombia tributan sobre sus rentas mundiales; las no residentes, solo sobre las de fuente nacional. Se es residente, entre otros casos, al permanecer en el país más de 183 días calendario en un periodo de 365 días.\n\n### Obligación de declarar\nQuien no pertenezca a un régimen especial debe declarar si supera **cualquiera** de estos topes, entre otros (todos en UVT y revisables cada año gravable; **verifica los valores vigentes**):\n\n- Patrimonio bruto a 31 de diciembre superior a **4.500 UVT**.\n- Ingresos brutos iguales o superiores a **1.400 UVT**.\n- Consumos con tarjeta de crédito, compras y consumos, o consignaciones y depósitos, iguales o superiores a **1.400 UVT**.\n\nBasta cumplir uno solo; la norma incluye otros supuestos (responsables de IVA, quienes tienen saldo en el exterior, etc.).\n\n### Cédulas\nLas rentas se clasifican por su origen y cada cédula tiene su propia depuración:\n\n| Cédula | Qué incluye |\n|---|---|\n| General | Rentas de trabajo (salarios, honorarios), de capital (arriendos, intereses) y no laborales |\n| Pensiones | Pensiones de jubilación, invalidez, vejez, sobrevivientes |\n| Dividendos | Dividendos y participaciones recibidos |\n\nAdemás, la **ganancia ocasional** (venta de activos poseídos dos años o más, herencias, loterías) se liquida aparte, con tarifa propia.\n\n> **Clave:** el salario y los honorarios van a la cédula general; los dividendos tienen cédula separada aunque provengan de la misma empresa.\n\n## Ejemplo resuelto\nCarlos, residente, tuvo en el año: patrimonio bruto de 4.200 UVT, ingresos brutos de 1.500 UVT y consumos con tarjeta de 900 UVT.\n\n1. Patrimonio: 4.200 < 4.500, no supera ese tope.\n2. Ingresos: 1.500 ≥ 1.400, **cumple**.\n3. Tarjeta: 900 < 1.400, no cumple.\n4. Conclusión: basta un tope, por lo que **debe declarar**.\n\n## Puntos clave\n- Se revisan todos los topes; con uno basta.\n- Residentes: renta mundial.\n- Tres cédulas más la ganancia ocasional aparte.\n\n## Errores frecuentes\n- Creer que se declara solo si hay impuesto a pagar.\n- Comparar el patrimonio con el tope sin usar el valor a 31 de diciembre.\n- Mezclar dividendos con rentas de trabajo.",
+    "recursos": [
+     {
+      "titulo": "Impuesto sobre la renta, personas naturales y asimiladas (parte 2)",
+      "url": "https://www.youtube.com/watch?v=38SVTfQHMrQ",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Cédula general: rentas de trabajo, capital y no laborales",
+      "url": "https://www.gerencie.com/guia-renta/cedula-general",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular el impuesto de la cédula general aplicando la tabla progresiva del art. 241 ET sobre una base depurada.\n\n## Conceptos clave\n### Depuración de la cédula general\nPasos generales:\n\n1. **Ingresos brutos** de la cédula.\n2. (−) **Ingresos no constitutivos de renta** (por ejemplo, aportes obligatorios a salud y pensión).\n3. = **Ingresos netos**.\n4. (−) Costos (en rentas de trabajo independiente que opten por ellos y en rentas de capital y no laborales).\n5. (−) **Deducciones y rentas exentas**, sujetas al límite general (tema siguiente), incluida la renta exenta del 25% de rentas laborales con su tope anual.\n6. = **Renta líquida gravable** (base para la tabla).\n\n### La tabla del art. 241 ET (UVT)\nLas tarifas son **marginales**: cada porcentaje se aplica solo al tramo correspondiente. Valores según Ley 2277 de 2022; **verifica el valor vigente**.\n\n| Base gravable (UVT) | Tarifa marginal | Impuesto |\n|---|---|---|\n| 0 a 1.090 | 0% | 0 |\n| > 1.090 a 1.700 | 19% | (Base − 1.090) × 19% |\n| > 1.700 a 4.100 | 28% | (Base − 1.700) × 28% + 116 |\n| > 4.100 a 8.670 | 33% | (Base − 4.100) × 33% + 788 |\n| > 8.670 a 18.970 | 35% | (Base − 8.670) × 35% + 2.296 |\n| > 18.970 a 31.000 | 37% | (Base − 18.970) × 37% + 5.901 |\n| > 31.000 | 39% | (Base − 31.000) × 39% + 10.352 |\n\nLos valores fijos (116, 788…) son el impuesto acumulado de los tramos anteriores, redondeado como la norma. El resultado en UVT se convierte a pesos con la UVT del año gravable.\n\n> **Clave:** \"tarifa marginal\" significa que subir de tramo no encarece todos tus ingresos, solo el excedente.\n\n### Pensiones, dividendos y ganancias ocasionales\nLa **cédula de pensiones** tiene su propia depuración y una renta exenta anual por pensiones con tope en UVT, y luego se aplica la tabla del art. 241 sobre la suma de la renta líquida de la cédula general y la de pensiones. Los **dividendos** se liquidan en su cédula: la parte gravada se integra a la tabla del art. 241 y se concede un descuento tributario sobre dividendos, con reglas distintas según el origen de la utilidad que los generó; **verifica el tratamiento vigente del año gravable**. La **ganancia ocasional** no pasa por la tabla: se grava aparte con tarifa fija.\n\n### UVT y redondeo\nTodos los topes y tramos se expresan en UVT para que se actualicen cada año con el valor que fija la DIAN. Al convertir, se usa la UVT del año gravable (no la del año de presentación), y el impuesto se aproxima al múltiplo de mil más cercano en el formulario.\n\n## Ejemplo resuelto\nUn empleado tuvo ingresos laborales de 3.000 UVT en el año y aportes obligatorios de salud y pensión del 8% (cifras ilustrativas).\n\n1. Ingresos no constitutivos: 3.000 × 8% = 240 UVT.\n2. Ingresos netos: 3.000 − 240 = **2.760 UVT**.\n3. Renta exenta del 25%: 2.760 × 25% = 690 UVT, por debajo del tope anual de 790 UVT.\n4. Límite global: 40% × 2.760 = 1.104 UVT (menor que 1.340); 690 está dentro.\n5. Base gravable: 2.760 − 690 = **2.070 UVT**.\n6. Impuesto: (2.070 − 1.700) × 28% + 116 = 103,6 + 116 = **219,6 UVT**.\n\nCon una UVT ilustrativa de $50.000, serían $10.980.000 (sin considerar retenciones ya practicadas).\n\n## Puntos clave\n- Tarifas marginales por tramos en UVT.\n- La base sale de ingresos netos menos rentas exentas y deducciones permitidas.\n- Se convierte a pesos con la UVT del año.\n\n## Errores frecuentes\n- Aplicar la tarifa del tramo a toda la base.\n- Olvidar sumar el impuesto acumulado fijo del tramo.\n- Usar la UVT de un año distinto al gravable.",
+    "recursos": [
+     {
+      "titulo": "Impuesto sobre la renta, personas naturales y asimiladas (parte 2)",
+      "url": "https://www.youtube.com/watch?v=38SVTfQHMrQ",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Guía de renta: cédula general",
+      "url": "https://www.gerencie.com/guia-renta/cedula-general",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Ley 2277 de 2022 (reforma tributaria), gestor normativo",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=199883",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAplicar el límite global a rentas exentas y deducciones imputables en la cédula general y distinguir qué partidas lo consumen.\n\n## Conceptos clave\n### Rentas exentas\nSon ingresos que, aunque hacen parte de la renta, la ley no grava (dentro de límites). El caso más común es la **renta exenta del 25% de los pagos laborales**, con un tope anual propio (790 UVT, **verifica el valor vigente**). También existen exenciones por aportes voluntarios a pensiones y cuentas AFC y otras rentas que fija el ET.\n\n### Deducciones imputables\nSon algunas deducciones permitidas a personas naturales, como intereses por préstamos de vivienda, medicina prepagada, dependientes y aportes voluntarios; cada una tiene su propio tope. Los valores específicos cambian: **verifica el valor vigente del año gravable**.\n\n### El límite del art. 336 ET\nLa suma de rentas exentas y deducciones imputables de la cédula general no puede exceder el **40% del ingreso neto**, ni **1.340 UVT** anuales. Se toma el **menor** de los dos valores; el exceso se pierde, no se traslada a otros años.\n\n> **Clave:** primero respeta el tope individual de cada beneficio y después el límite global conjunto.\n\n## Ejemplo resuelto\n**Caso A.** Ingreso neto: 1.200 UVT. Beneficios solicitados: renta exenta del 25% = 300 UVT; intereses de vivienda = 200 UVT; otras deducciones = 144 UVT. Total = 644 UVT.\n\n1. 40% × 1.200 = 480 UVT. El tope de 1.340 UVT es mayor, así que el límite es **480 UVT**.\n2. Beneficios aceptados: 480 UVT (644 > 480).\n3. Se pierde el exceso: 644 − 480 = **164 UVT**.\n\n**Caso B.** Ingreso neto: 5.000 UVT. 40% × 5.000 = 2.000 UVT, pero el tope absoluto es 1.340 UVT. El límite aplicable es **1.340 UVT**.\n\n## Puntos clave\n- Límite: el menor entre 40% del ingreso neto y 1.340 UVT.\n- La renta exenta del 25% tiene tope propio (790 UVT).\n- El exceso sobre el límite no se arrastra a otros años.\n\n## Errores frecuentes\n- Aplicar el 40% sobre el ingreso bruto en vez del neto.\n- Olvidar el tope en UVT cuando los ingresos son altos.\n- Sumar el límite al tope individual como si fueran independientes.",
+    "recursos": [
+     {
+      "titulo": "Límite general a las rentas exentas y deducciones especiales",
+      "url": "https://www.gerencie.com/guia-renta/conceptos/limite-general-a-las-rentas-exentas-y-deducciones-especiales",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Impuesto sobre la renta, personas naturales y asimiladas (parte 2)",
+      "url": "https://www.youtube.com/watch?v=38SVTfQHMrQ",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar qué es la retención en la fuente, quién actúa como agente retenedor y cómo se calcula y se declara.\n\n## Conceptos clave\n### Naturaleza\nLa retención en la fuente es un **mecanismo de recaudo anticipado**: el agente retenedor descuenta una parte del impuesto al momento de pagar o abonar en cuenta, y la entrega a la DIAN. Lo retenido se **acredita** en la declaración del impuesto del beneficiario. No es un impuesto independiente.\n\n### Agentes de retención\nActúan como agentes, entre otros, las entidades públicas, las personas jurídicas y sociedades de hecho, las personas naturales comerciantes que cumplan ciertos topes de ingresos o patrimonio, y quienes la ley designe. Los agentes presentan mensualmente la declaración de retención (formulario 350) y responden por lo retenido; no consignar lo retenido tiene consecuencias tributarias y penales.\n\n### Conceptos, bases y tarifas\nCada pago se clasifica por concepto (salarios, honorarios, servicios, compras, arrendamientos, rendimientos financieros, etc.). Para cada concepto hay una **base mínima** (en UVT) por debajo de la cual no se retiene y una **tarifa** que se aplica sobre el valor del pago sin IVA. Las tarifas dependen de si el beneficiario es declarante o no declarante. **Verifica los porcentajes y bases vigentes** (Decreto Único Reglamentario 1625 de 2016 y UVT del año).\n\n### Retención sobre salarios\nSe calcula con la tabla del art. 383 ET (**procedimiento 1**, mes a mes) o con el porcentaje fijo semestral (**procedimiento 2**), tomando los pagos laborales menos aportes obligatorios, deducciones y la renta exenta permitida.\n\n> **Clave:** la retención es un pago anticipado, no un gasto: se registra como activo (retención a favor) en quien la sufre y como pasivo en quien la practica.\n\n## Ejemplo resuelto\nUna empresa compra bienes por $4.000.000 (sin IVA) a un proveedor declarante. Supongamos, como ejemplo, base mínima de 27 UVT (UVT ilustrativa de $50.000, es decir $1.350.000) y tarifa del 2,5%; **verifica los valores reales**.\n\n1. Base mínima: 27 × 50.000 = $1.350.000; la compra la supera, se retiene.\n2. Retención: 4.000.000 × 2,5% = **$100.000**.\n3. Pago al proveedor (sin considerar IVA): 4.000.000 − 100.000 = **$3.900.000**.\n4. La empresa declara y paga los $100.000 en el formulario 350 del mes; el proveedor los usa como crédito en su renta.\n\n## Puntos clave\n- Recaudo anticipado, no impuesto autónomo.\n- Se retiene sobre pagos que superan la base mínima del concepto.\n- El agente declara mensualmente y responde por lo retenido.\n\n## Errores frecuentes\n- Calcular la retención sobre el valor con IVA incluido.\n- No practicar retención por creer que el pago es pequeño sin revisar la base mínima.\n- No consignar lo retenido a tiempo.",
+    "recursos": [
+     {
+      "titulo": "¿Qué es la retención en la fuente? Procedimientos 1 y 2",
+      "url": "https://www.youtube.com/watch?v=_EvmWoyPuOE",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   }
+  ]
+ },
+ "m4s3": {
+  "recursos": [
+   {
+    "titulo": "Todo sobre el IVA en Colombia",
+    "url": "https://siemprealdia.co/colombia/estudiantes/todo-sobre-el-iva-en-colombia/",
+    "tipo": "articulo",
+    "fuente": "Siempre al Día"
+   },
+   {
+    "titulo": "Clasificación de bienes gravados, excluidos o exentos de IVA",
+    "url": "https://www.youtube.com/watch?v=GPE77a9lTz8",
+    "tipo": "video",
+    "fuente": "Actualícese Video"
+   },
+   {
+    "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+    "tipo": "norma",
+    "fuente": "DIAN - Compilación Jurídica"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar los hechos generadores del IVA, el momento de causación y la base gravable para calcular el impuesto de una operación.\n\n## Conceptos clave\n### Naturaleza\nEl IVA es un impuesto **indirecto, nacional y de periodo**, que grava el consumo en cada etapa de la cadena y se traslada al comprador. Quien lo recauda (el responsable) actúa como intermediario con la DIAN.\n\n### Hechos generadores (art. 420 ET)\n- La **venta e importación** de bienes corporales muebles no excluidos.\n- La **prestación de servicios** en el territorio nacional.\n- La venta o explotación de juegos de suerte y azar, y otros previstos en la norma.\n\n### Causación\nEn la venta de bienes, generalmente en la fecha de la factura o documento equivalente, o en la entrega. En servicios, en la fecha de la factura o de terminación de los servicios, lo que ocurra primero. En importaciones, al nacionalizar la mercancía. Las reglas finas están en el art. 429 ET.\n\n### Base gravable\nRegla general: el **valor total de la operación**, incluyendo gastos accesorios cobrados al comprador (fletes, seguros, intereses) aunque se facturen aparte, y restando los descuentos comerciales concedidos de forma incondicional y las devoluciones. La tarifa general es del **19%**; hay tarifa diferencial del **5%** para ciertos bienes y servicios. **Verifica los valores vigentes**.\n\n> **Clave:** IVA = base gravable × tarifa; precio con IVA = base × (1 + tarifa).\n\n## Ejemplo resuelto\nUn comerciante vende bienes gravados a tarifa general por $10.000.000, concede un descuento incondicional de $200.000 y cobra un flete de $500.000 en la misma factura.\n\n1. Base gravable = 10.000.000 − 200.000 + 500.000 = **$10.300.000**.\n2. IVA = 10.300.000 × 19% = **$1.957.000**.\n3. Total facturado = 10.300.000 + 1.957.000 = **$12.257.000**.\n\nSin flete ni descuento: 10.000.000 × 1,19 = $11.900.000.\n\n## Puntos clave\n- Hechos generadores: venta, importación y servicios en el país (más los que fije la norma).\n- La base incluye gastos accesorios cobrados al cliente.\n- Tarifa general del 19% y diferencial del 5%.\n\n## Errores frecuentes\n- Calcular IVA sobre el precio que ya lo incluye.\n- Olvidar incluir el flete o seguro en la base.\n- Confundir fecha de pago con fecha de causación.",
+    "recursos": [
+     {
+      "titulo": "Cómo calcular el IVA en Colombia, explicación completa",
+      "url": "https://www.youtube.com/watch?v=sE9QOo6V3d0",
+      "tipo": "video",
+      "fuente": "El Profesor Lunar"
+     },
+     {
+      "titulo": "Todo sobre el IVA en Colombia",
+      "url": "https://siemprealdia.co/colombia/estudiantes/todo-sobre-el-iva-en-colombia/",
+      "tipo": "articulo",
+      "fuente": "Siempre al Día"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDistinguir los bienes y servicios gravados, exentos y excluidos, y entender su efecto en el IVA pagado en los insumos.\n\n## Conceptos clave\n### Tres categorías\n- **Gravados:** causan IVA a la tarifa general (19%) o diferencial (5%).\n- **Exentos:** gravados con tarifa del **0%**. La venta no genera IVA, pero el productor **puede descontar el IVA** de sus insumos y solicitar devolución del saldo a favor. Ejemplo típico: las exportaciones.\n- **Excluidos:** están fuera del ámbito del impuesto. No causan IVA y el IVA pagado en las compras **no es descontable**: se convierte en mayor costo o gasto. Ejemplos: ciertos alimentos y los servicios de salud.\n\nLas listas concretas están en la ley (art. 424 para bienes excluidos, 476 para servicios excluidos, 477 y 481 para exentos), y se modifican con las reformas: **verifica la lista vigente**.\n\n### Consecuencia económica\nEl exento recupera todo el IVA de su cadena de producción; el excluido no recupera el IVA de insumos y lo incorpora a su costo. Por eso, para el exportador la exención es una ventaja; para el excluido puede ser un costo oculto.\n\n> **Clave:** exento = tarifa 0% con derecho a descuento; excluido = sin IVA y sin derecho a descuento.\n\n## Ejemplo resuelto\nDos productores compran insumos por $5.000.000 más IVA del 19%.\n\n**Productor A (exportador, exento):**\n1. IVA pagado en insumos = 5.000.000 × 19% = $950.000.\n2. Vende en el exterior por $20.000.000 con IVA 0%.\n3. IVA generado = 0; IVA descontable = 950.000 → **saldo a favor de $950.000** que puede imputar o pedir en devolución.\n\n**Productor B (bien excluido):**\n1. IVA pagado en insumos = $950.000, no descontable.\n2. Costo del insumo = 5.000.000 + 950.000 = **$5.950.000**.\n3. Vende sin IVA; su precio de venta debe cubrir el costo mayor.\n\n## Puntos clave\n- Exento: 0% y derecho a recuperar el IVA.\n- Excluido: sin IVA y sin recuperación.\n- Las listas legales cambian con las reformas.\n\n## Errores frecuentes\n- Tratar \"exento\" y \"excluido\" como sinónimos.\n- Descontar IVA de insumos de bienes excluidos.\n- Aplicar listas de años anteriores.",
+    "recursos": [
+     {
+      "titulo": "Clasificación de bienes gravados, excluidos o exentos de IVA",
+      "url": "https://www.youtube.com/watch?v=GPE77a9lTz8",
+      "tipo": "video",
+      "fuente": "Actualícese Video"
+     },
+     {
+      "titulo": "¿Cuál es la diferencia entre bienes gravados, exentos y excluidos de IVA?",
+      "url": "https://siemprealdia.co/colombia/impuestos/bienes-gravados-exentos-y-excluidos-de-iva/",
+      "tipo": "articulo",
+      "fuente": "Siempre al Día"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDeterminar quién es responsable del IVA, con qué periodicidad declara y qué contiene la declaración.\n\n## Conceptos clave\n### Responsables\nSon responsables de IVA los comerciantes, productores, importadores y prestadores de servicios gravados (art. 437 ET). Están **no responsables** las personas naturales comerciantes y prestadoras que cumplan **todos** los requisitos del parágrafo 3 del art. 437, entre ellos ingresos brutos totales inferiores a **3.500 UVT** en el año anterior y en el año en curso, un solo establecimiento de comercio, no ser usuario aduanero ni tener franquicias, y no superar topes en contratos y consignaciones. **Verifica los topes vigentes.** Si se incumple alguno, debe inscribirse como responsable en el RUT.\n\n### Periodicidad (art. 600 ET)\n- **Bimestral:** responsables con ingresos brutos del año anterior **≥ 92.000 UVT** (también grandes contribuyentes, nuevos responsables y otros casos señalados por la DIAN).\n- **Cuatrimestral:** ingresos del año anterior menores a 92.000 UVT.\n\nPeriodos bimestrales: ene-feb, mar-abr, may-jun, jul-ago, sep-oct, nov-dic. Periodos cuatrimestrales: ene-abr, may-ago, sep-dic. El IVA **no** se declara mensualmente. Se presenta en el formulario 300 con los plazos del calendario tributario del año.\n\n### Contenido de la declaración\nIngresos gravados por tarifa, exentos y excluidos; IVA generado; compras y IVA descontable; ajustes y saldo a pagar o a favor.\n\n> **Clave:** la periodicidad se define con los ingresos del año anterior, no del actual.\n\n## Ejemplo resuelto\nDos contribuyentes personas naturales:\n\n1. Ana: ingresos de 3.800 UVT el año anterior. Supera 3.500 UVT, así que **debe ser responsable de IVA**.\n2. Empresa X: ingresos de 100.000 UVT el año anterior. 100.000 ≥ 92.000 → declara **bimestralmente**.\n3. Empresa Y: ingresos de 40.000 UVT el año anterior. 40.000 < 92.000 → declara **cuatrimestralmente**.\n\n## Puntos clave\n- No responsable solo si cumple todos los requisitos del par. 3 del art. 437.\n- Umbral de periodicidad: 92.000 UVT de ingresos del año anterior.\n- El IVA no es mensual.\n\n## Errores frecuentes\n- Considerar solo el tope de 3.500 UVT e ignorar los otros requisitos.\n- Usar los ingresos del año en curso para fijar la periodicidad.\n- Declarar con fechas de un año anterior.",
+    "recursos": [
+     {
+      "titulo": "IVA bimestral: quiénes declaran",
+      "url": "https://www.dian.gov.co/impuestos/sociedades/IVA/Paginas/Bimestral.aspx",
+      "tipo": "articulo",
+      "fuente": "DIAN"
+     },
+     {
+      "titulo": "Todo sobre el IVA en Colombia",
+      "url": "https://siemprealdia.co/colombia/estudiantes/todo-sobre-el-iva-en-colombia/",
+      "tipo": "articulo",
+      "fuente": "Siempre al Día"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular el IVA a pagar o el saldo a favor de un periodo, aplicando correctamente los impuestos descontables.\n\n## Conceptos clave\n### Impuestos descontables\nEl responsable puede restar del IVA generado el **IVA pagado en compras e importaciones** de bienes y servicios que constituyan costo o gasto y que se destinen a operaciones **gravadas o exentas** (art. 485 y siguientes ET). Requisitos básicos: soporte válido (factura electrónica o documento soporte) y relación con operaciones que den derecho a descuento. Las **devoluciones en ventas** reducen el IVA generado.\n\n### Bienes mixtos y prorrateo\nSi un insumo se usa tanto en operaciones con derecho a descuento como en operaciones excluidas, el IVA descontable se **prorratea** según la proporción de ingresos (art. 490 ET).\n\n### Saldos a favor\nSi el IVA descontable supera al generado, hay **saldo a favor**. Puede imputarse al periodo siguiente o solicitarse en **devolución o compensación**, cumpliendo requisitos del procedimiento. El IVA descontable debe llevarse en el periodo en que se causa o en uno de los periodos siguientes dentro del plazo que fija la ley; **verifica el plazo vigente** (art. 496 ET).\n\n> **Clave:** IVA a pagar = IVA generado − devoluciones en ventas − IVA descontable.\n\n## Ejemplo resuelto\nEn un periodo: ventas gravadas $100.000.000; devoluciones en ventas $2.000.000; compras gravadas $60.000.000.\n\n1. IVA generado = 100.000.000 × 19% = $19.000.000.\n2. IVA de devoluciones = 2.000.000 × 19% = $380.000.\n3. IVA descontable = 60.000.000 × 19% = $11.400.000.\n4. IVA a pagar = 19.000.000 − 380.000 − 11.400.000 = **$7.220.000**.\n\n**Prorrateo:** un IVA común de $1.000.000 en un periodo con ingresos gravados y exentos de 80 y excluidos de 20 (millones): proporción 80/(80+20) = 80%, descontable = **$800.000**.\n\n**Saldo a favor:** generado $5.000.000 y descontable $8.000.000 → saldo a favor **$3.000.000**.\n\n## Puntos clave\n- El descontable exige soporte y vínculo con operaciones gravadas o exentas.\n- Se prorratea el IVA de bienes de uso común.\n- El saldo a favor se imputa o se solicita en devolución.\n\n## Errores frecuentes\n- Descontar IVA de gastos personales o de operaciones excluidas.\n- No restar las devoluciones del IVA generado.\n- Perder el plazo para llevar el descontable.",
+    "recursos": [
+     {
+      "titulo": "Impuestos descontables en operaciones con bienes y servicios gravados, excluidos y exentos",
+      "url": "https://www.youtube.com/watch?v=MY9lYmk-sY0",
+      "tipo": "video",
+      "fuente": "Actualícese Video"
+     },
+     {
+      "titulo": "¿Cuál es la diferencia entre bienes gravados, exentos y excluidos de IVA?",
+      "url": "https://siemprealdia.co/colombia/impuestos/bienes-gravados-exentos-y-excluidos-de-iva/",
+      "tipo": "articulo",
+      "fuente": "Siempre al Día"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComprender qué es el impuesto nacional al consumo (INC), a quién se aplica y en qué se diferencia del IVA.\n\n## Conceptos clave\n### Naturaleza\nEl INC es un impuesto nacional, **monofásico** (se cobra una sola vez, en la venta al consumidor final) y **no genera IVA descontable** para el comprador. \n\n### Qué grava\nEntre otros: el **servicio de restaurantes, bares y similares** (tarifa del **8%**), la telefonía móvil y datos, y ciertos vehículos y bienes de lujo. Las tarifas por categoría pueden cambiar; **verifica los valores vigentes**. El responsable lo declara en el formulario del impuesto al consumo.\n\n### Diferencias con el IVA\n- No se descuenta: el INC pagado en compras es mayor valor del costo o gasto.\n- En restaurantes, el servicio no genera IVA sino INC.\n\n> **Clave:** un mismo servicio no causa IVA e INC a la vez; si es restaurante, es INC.\n\n## Ejemplo resuelto\nUna cena en un restaurante tiene un consumo de $200.000.\n\n1. INC = 200.000 × 8% = **$16.000**.\n2. Total = 200.000 + 16.000 = **$216.000**.\n3. El cliente no puede tomar los $16.000 como IVA descontable; el restaurante los declara y paga a la DIAN.\n\n## Puntos clave\n- Monofásico y sin derecho a descuento.\n- Restaurantes y bares: 8% (verifica vigencia).\n\n## Errores frecuentes\n- Tratar el INC pagado como IVA descontable.\n- Cobrar IVA y INC sobre el mismo servicio de restaurante.\n- Aplicar la tarifa del INC sin revisar la categoría del bien.",
+    "recursos": [
+     {
+      "titulo": "ABC del Impuesto Nacional al Consumo",
+      "url": "https://www.youtube.com/watch?v=QbvK94IDiSY",
+      "tipo": "video",
+      "fuente": "Repase Tu Clase"
+     },
+     {
+      "titulo": "¿Qué es el impuesto nacional al consumo?",
+      "url": "https://www.gerencie.com/que-es-el-impuesto-al-consumo.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   }
+  ]
+ },
+ "m4s4": {
+  "recursos": [
+   {
+    "titulo": "Conozca el RUT",
+    "url": "https://www.dian.gov.co/impuestos/RUT/Paginas/Conozca-el-RUT.aspx",
+    "tipo": "articulo",
+    "fuente": "DIAN"
+   },
+   {
+    "titulo": "Firmeza de las declaraciones tributarias",
+    "url": "https://www.gerencie.com/firmeza-de-las-declaraciones-tributarias.html",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   },
+   {
+    "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+    "tipo": "norma",
+    "fuente": "DIAN - Compilación Jurídica"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nExplicar para qué sirven el RUT, el NIT y la factura electrónica, y qué consecuencias tiene incumplirlos.\n\n## Conceptos clave\n### RUT y NIT\nEl **Registro Único Tributario (RUT)** es el mecanismo con el que la DIAN identifica, ubica y clasifica a quienes tienen obligaciones administradas por ella. Deben inscribirse, entre otros, los contribuyentes declarantes de renta, los responsables de IVA y del impuesto al consumo, los agentes de retención, los importadores y exportadores. El **NIT** es el número de identificación tributaria que se asigna con la inscripción. Cada persona tiene en el RUT sus **responsabilidades** (códigos) y su actividad económica; hay que actualizarlo cuando cambian.\n\n### Factura electrónica de venta\nEs el documento que respalda la venta de bienes y servicios. Se genera en formato XML, pasa por **validación previa de la DIAN** y se identifica con el **CUFE** (código único de factura electrónica). Tiene sus requisitos técnicos en las resoluciones de la DIAN y sus anexos técnicos; la obligación, los plazos y las excepciones se actualizan por resolución: **verifica la norma vigente**.\n\n### Documento soporte\nCuando se compra a quien **no está obligado a facturar**, el comprador emite un **documento soporte en adquisiciones** electrónico para poder sustentar costos y deducciones, e IVA descontable cuando aplique.\n\n### Efectos\nSin factura o documento soporte válido, la DIAN puede rechazar costos, deducciones e IVA descontable (art. 771-2 ET). Además hay sanciones por no expedir factura y por incumplir el RUT.\n\n> **Clave:** la factura electrónica prueba el ingreso del vendedor y habilita el costo del comprador.\n\n## Ejemplo resuelto\nUna empresa contrata un servicio por $2.000.000 con una persona natural no obligada a facturar y **no emite documento soporte**. Tarifa de renta: 35%.\n\n1. Gasto rechazado fiscalmente: $2.000.000.\n2. Impuesto adicional = 2.000.000 × 35% = **$700.000**, más posibles sanciones por inexactitud.\n3. Si emite el documento soporte, el gasto (si cumple el art. 107 ET) es deducible y el riesgo desaparece.\n\n## Puntos clave\n- RUT = identificación y responsabilidades; NIT = número.\n- Factura electrónica con validación previa y CUFE.\n- Documento soporte para compras a no obligados a facturar.\n\n## Errores frecuentes\n- No actualizar el RUT al cambiar de actividad o responsabilidades.\n- Pensar que la factura sin validación DIAN es suficiente.\n- Omitir el documento soporte.",
+    "recursos": [
+     {
+      "titulo": "¿Cómo habilitarse para ser facturador electrónico? DIAN x 3",
+      "url": "https://www.youtube.com/watch?v=y6njbuWtjXI",
+      "tipo": "video",
+      "fuente": "DIANColombia"
+     },
+     {
+      "titulo": "Conozca el RUT",
+      "url": "https://www.dian.gov.co/impuestos/RUT/Paginas/Conozca-el-RUT.aspx",
+      "tipo": "articulo",
+      "fuente": "DIAN"
+     },
+     {
+      "titulo": "Anexo técnico de la factura electrónica de venta (Resolución 165 de 2023)",
+      "url": "https://www.dian.gov.co/impuestos/factura-electronica/Documents/Anexo-Tecnico-Factura-Electronica-de-Venta-vr-1-9.pdf",
+      "tipo": "norma",
+      "fuente": "DIAN"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender cómo y cuándo se corrige una declaración y cuándo adquiere firmeza, es decir, cuándo ya no puede ser discutida.\n\n## Conceptos clave\n### Corrección de declaraciones\nEl contribuyente puede corregir voluntariamente sus declaraciones. Las reglas generales:\n\n- Si la corrección **aumenta** el impuesto o **disminuye** el saldo a favor, se puede hacer en los plazos del art. 588 ET y se liquida la **sanción por corrección** (art. 644).\n- Si **disminuye** el impuesto o **aumenta** el saldo a favor, aplica el art. 589 ET, con plazo más corto y revisión por la DIAN.\n- Luego de la notificación de ciertos actos de la DIAN (emplazamiento para corregir, liquidación), cambian los procedimientos.\n\nLos plazos de corrección se han ajustado por reformas: **verifica los plazos vigentes**.\n\n### Firmeza\nUna declaración queda **en firme** cuando la DIAN ya no puede modificarla ni el contribuyente corregirla. La **regla general** es **3 años** contados desde la fecha de vencimiento del plazo para declarar, o desde la fecha de presentación si fue extemporánea (art. 714 ET). Reglas especiales:\n\n- Con **solicitud de devolución o compensación**, el término se cuenta desde la solicitud.\n- Con **pérdidas fiscales** o precios de transferencia, el término es mayor (cinco años según la regla vigente; **verifica**).\n- Con **beneficio de auditoría**, el término se reduce a 6 o 12 meses.\n- La notificación del **requerimiento especial** dentro del término impide que la declaración quede en firme.\n\n> **Clave:** el término de firmeza protege al contribuyente de revisiones indefinidas, pero se interrumpe si la DIAN actúa a tiempo.\n\n## Ejemplo resuelto\nLa declaración de renta de una sociedad vencía el 12 de mayo de 2026 (fecha ilustrativa).\n\n1. **Presentada a tiempo** (el 10 de mayo de 2026): firmeza = 12 de mayo de 2026 + 3 años = **12 de mayo de 2029**.\n2. **Presentada extemporáneamente** (el 20 de junio de 2026): firmeza = 20 de junio de 2026 + 3 años = **20 de junio de 2029**.\n3. Si la DIAN notifica requerimiento especial el 15 de marzo de 2029, la declaración **no queda en firme** en mayo de 2029 mientras avance el proceso.\n\n## Puntos clave\n- Firmeza general: 3 años desde el vencimiento o la presentación tardía.\n- Hay términos especiales (pérdidas, devolución, beneficio de auditoría).\n- Corregir a favor del contribuyente exige cumplir el procedimiento.\n\n## Errores frecuentes\n- Contar la firmeza desde el año gravable y no desde el vencimiento.\n- Corregir una declaración ya en firme.\n- Ignorar la sanción por corrección.",
+    "recursos": [
+     {
+      "titulo": "¿Cuál es el tiempo de la firmeza de las declaraciones tributarias?",
+      "url": "https://www.youtube.com/watch?v=f7doQM9lge4",
+      "tipo": "video",
+      "fuente": "Repase Tu Clase"
+     },
+     {
+      "titulo": "Firmeza de las declaraciones tributarias",
+      "url": "https://www.gerencie.com/firmeza-de-las-declaraciones-tributarias.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular las sanciones más comunes del procedimiento tributario: extemporaneidad, corrección, inexactitud y sanción mínima.\n\n## Conceptos clave\n### Sanción mínima (art. 639 ET)\nNinguna sanción puede ser inferior a **10 UVT**; si el cálculo da menos, se liquida el mínimo. Su valor en pesos depende de la UVT del año: **verifica el valor vigente del año gravable**.\n\n### Sanción por extemporaneidad (art. 641 ET)\nSi la declaración se presenta después del plazo y **sin** emplazamiento previo, la sanción es del **5% del impuesto a cargo por cada mes o fracción de mes** de retardo, sin exceder el **100%** del impuesto. Cuando no hay impuesto a cargo, se calcula sobre otras bases (ingresos brutos o patrimonio líquido) con porcentajes y topes que fija la norma. Tras un emplazamiento para declarar, el porcentaje se duplica (art. 642).\n\n### Sanción por corrección (art. 644 ET)\nAplica cuando la corrección aumenta el impuesto o reduce el saldo a favor: **10%** de la diferencia si es antes del emplazamiento para corregir, **20%** si es después y antes del requerimiento especial.\n\n### Sanción por inexactitud (art. 647 ET)\nSe genera cuando en la declaración se omiten ingresos, se incluyen costos o deducciones inexistentes o se declaran datos falsos. Es del **100%** de la diferencia entre el saldo a pagar (o a favor) determinado oficialmente y el declarado. Se **reduce** si el contribuyente acepta los hechos o corrige oportunamente; **verifica los porcentajes de reducción**.\n\n> **Clave:** la diferencia de criterio no es inexactitud; sí lo es el dato falso o la omisión de ingresos.\n\n### Sanciones sin impuesto a cargo y reducción\nCuando una declaración extemporánea no tiene impuesto a cargo, la sanción se calcula sobre una base alternativa, por ejemplo un porcentaje de los **ingresos brutos** del periodo o del **patrimonio líquido** del año anterior, con topes. También existe la sanción por **no declarar** (art. 643) y por **corregir** después del emplazamiento, con porcentajes mayores. En muchas sanciones, si el contribuyente acepta los hechos y paga, la norma otorga una **reducción** (según la etapa del proceso); la tabla de reducciones cambia, **verifica** el artículo aplicable.\n\n### Intereses moratorios\nAparte de las sanciones, quien paga tarde debe **intereses moratorios** a la tasa de usura certificada por la Superfinanciera menos dos puntos, liquidados por cada día de mora desde el vencimiento del plazo. Los intereses no son sanción: compensan el retraso en el pago del impuesto.\n\n## Ejemplo resuelto\n1. **Extemporaneidad.** Impuesto a cargo $20.000.000, presentada con 2 meses y 10 días de retraso → 3 meses o fracción. Sanción = 3 × 5% = 15% × 20.000.000 = **$3.000.000**.\n2. **Corrección.** Un contribuyente corrige y su impuesto sube $10.000.000, antes del emplazamiento: sanción = 10.000.000 × 10% = **$1.000.000**.\n3. **Inexactitud.** Saldo a pagar declarado $50.000.000; la DIAN determina $80.000.000. Diferencia = $30.000.000; sanción = 100% × 30.000.000 = **$30.000.000** (antes de reducciones).\n4. **Mínima.** Impuesto de $100.000 con 1 mes de retraso: 5% = $5.000. Con una UVT ilustrativa de $50.000, el mínimo es 10 × 50.000 = **$500.000**, que prevalece.\n\n## Puntos clave\n- Extemporaneidad: 5% mensual, tope 100% del impuesto.\n- Corrección: 10% o 20% de la diferencia.\n- Inexactitud: 100% de la diferencia, con reducciones posibles.\n- Sanción mínima de 10 UVT.\n\n## Errores frecuentes\n- Contar los meses sin aplicar la regla de \"o fracción\".\n- Olvidar la sanción mínima.\n- Presentar una corrección sin liquidar la sanción por corrección.",
+    "recursos": [
+     {
+      "titulo": "Sanción de extemporaneidad en declaraciones tributarias, art. 641 ET",
+      "url": "https://www.youtube.com/watch?v=BwMulLhX_Nk",
+      "tipo": "video",
+      "fuente": "Martín Rey de los Impuestos"
+     },
+     {
+      "titulo": "Sanción por extemporaneidad",
+      "url": "https://www.gerencie.com/sancion-por-extemporaneidad.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Sanción por corrección",
+      "url": "https://www.gerencie.com/sancion-por-correccion.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDescribir las etapas de la determinación oficial del impuesto, los recursos del contribuyente y el cobro de las deudas.\n\n## Conceptos clave\n### Fiscalización y determinación oficial\nLa DIAN puede revisar las declaraciones dentro del término de firmeza. La secuencia habitual es:\n\n1. **Requerimiento especial** (art. 703 ET): propone modificaciones y sanciones. El contribuyente lo responde en **3 meses**.\n2. **Liquidación oficial de revisión** (art. 702 ET): la DIAN la notifica dentro de los **6 meses** siguientes al vencimiento del plazo para responder (art. 710). Si no lo hace, la declaración queda en firme.\n3. Si el contribuyente no declara, la DIAN puede emplazarlo y proferir una **liquidación de aforo**.\n\n### Recursos\nContra la liquidación procede el **recurso de reconsideración**, que debe interponerse dentro de los **2 meses** siguientes a la notificación (art. 720 ET). La DIAN lo resuelve en el plazo legal (un año). Agotado este, procede la acción ante la jurisdicción contencioso-administrativa. Estos plazos se han ajustado en reformas: **verifica los términos vigentes**.\n\n### Cobro\nCon un acto en firme que presta mérito ejecutivo, la DIAN adelanta **cobro persuasivo** y luego **cobro coactivo**: mandamiento de pago, excepciones, embargos y remate. La acción de cobro prescribe en cinco años contados desde que la obligación es exigible, con reglas de interrupción.\n\n> **Clave:** los términos son perentorios; perderlos puede dejar en firme una liquidación contraria al contribuyente.\n\n## Ejemplo resuelto\nUna declaración vence el 12 de mayo de 2026 (ilustrativo) y la DIAN notifica requerimiento especial el 10 de marzo de 2028, dentro de los tres años.\n\n1. Respuesta del contribuyente: hasta el **10 de junio de 2028** (3 meses).\n2. Liquidación de revisión: la DIAN debe notificarla a más tardar el **10 de diciembre de 2028** (6 meses después).\n3. Si se notifica el 15 de noviembre de 2028, el recurso de reconsideración puede interponerse hasta el **15 de enero de 2029** (2 meses).\n\n## Puntos clave\n- Requerimiento especial, liquidación de revisión, recurso de reconsideración.\n- Plazos: 3 meses, 6 meses y 2 meses, respectivamente.\n- Cobro coactivo con prescripción de cinco años.\n\n## Errores frecuentes\n- Dejar vencer el plazo de respuesta o del recurso.\n- Pensar que la DIAN puede revisar sin límite de tiempo.\n- No pedir pruebas en la respuesta al requerimiento.",
+    "recursos": [
+     {
+      "titulo": "Recursos de reconsideración contra liquidaciones oficiales",
+      "url": "https://www.youtube.com/watch?v=C744hs-oub4",
+      "tipo": "video",
+      "fuente": "OCH Group"
+     },
+     {
+      "titulo": "Liquidación oficial de revisión",
+      "url": "https://www.gerencie.com/liquidacion-oficial-de-revision.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Estatuto Tributario (Decreto 624 de 1989), compilación DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/estatuto_tributario.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   }
+  ]
+ },
+ "m4s5": {
+  "recursos": [
+   {
+    "titulo": "Impuesto de industria y comercio (ICA)",
+    "url": "https://www.gerencie.com/impuesto-de-industria-y-comercio.html",
+    "tipo": "articulo",
+    "fuente": "Gerencie.com"
+   },
+   {
+    "titulo": "Como calcular impuestos de las importaciones: tributos aduaneros en Colombia",
+    "url": "https://www.youtube.com/watch?v=QSVn453MVBw",
+    "tipo": "video",
+    "fuente": "Legistrade"
+   },
+   {
+    "titulo": "Decreto 1165 de 2019, Régimen de Aduanas",
+    "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1165_2019.htm",
+    "tipo": "norma",
+    "fuente": "DIAN - Compilación Jurídica"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nEntender qué grava el ICA, quién lo administra y cómo se calcula su base y su impuesto complementario de avisos y tableros.\n\n## Conceptos clave\n### Naturaleza\nEl **impuesto de industria y comercio (ICA)** es un tributo **territorial**, municipal o distrital, que grava el ejercicio de actividades industriales, comerciales y de servicios en la jurisdicción. Su marco general es la **Ley 14 de 1983** y el **Decreto Ley 1333 de 1986**, y cada concejo lo desarrolla mediante acuerdo (tarifas, plazos, periodicidad, formularios).\n\n### Base gravable\nSon los **ingresos brutos ordinarios y extraordinarios** del año gravable, **menos** las deducciones y exclusiones permitidas: devoluciones, ventas de activos fijos, exportaciones, y otros conceptos señalados por la ley y el acuerdo municipal. Se grava el ingreso, no la utilidad.\n\n### Tarifa\nSe expresa **por mil** y varía según la actividad y el municipio, dentro de los rangos que fija la ley. **Verifica el acuerdo municipal vigente.** Si el contribuyente actúa en varios municipios, debe distribuir ingresos entre ellos conforme a las reglas de territorialidad.\n\n### Avisos y tableros\nImpuesto complementario al ICA: **15% del valor del ICA** para quienes usan avisos y tableros en el espacio público (art. 37 Ley 14 de 1983). Se liquida junto con el ICA.\n\n> **Clave:** el ICA es deducible en renta en la proporción que determine la norma vigente; **verifica** el tratamiento actual.\n\n## Ejemplo resuelto\nUna empresa de comercio tiene ingresos brutos de $1.000 millones en el año; devoluciones $40 millones; exportaciones $100 millones; venta de activos fijos $60 millones. Tarifa ilustrativa: 9,66 por mil.\n\n1. Base = 1.000 − 40 − 100 − 60 = **$800 millones**.\n2. ICA = 800.000.000 × 9,66/1.000 = **$7.728.000**.\n3. Avisos y tableros = 7.728.000 × 15% = **$1.159.200**.\n4. Total a pagar = 7.728.000 + 1.159.200 = **$8.887.200**.\n\n## Puntos clave\n- Impuesto territorial sobre actividades industriales, comerciales y de servicios.\n- Base: ingresos brutos menos deducciones permitidas.\n- Avisos y tableros: 15% del ICA.\n\n## Errores frecuentes\n- Calcular el ICA sobre la utilidad.\n- Aplicar la tarifa de un municipio a ingresos de otro.\n- Olvidar el impuesto de avisos y tableros cuando aplica.",
+    "recursos": [
+     {
+      "titulo": "Base gravable y tarifas del Impuesto de Industria y Comercio (ICA)",
+      "url": "https://www.youtube.com/watch?v=M2e250mm_F8",
+      "tipo": "video",
+      "fuente": "Repase Tu Clase"
+     },
+     {
+      "titulo": "Impuesto de industria y comercio (ICA)",
+      "url": "https://www.gerencie.com/impuesto-de-industria-y-comercio.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     },
+     {
+      "titulo": "Impuesto de avisos y tableros",
+      "url": "https://www.gerencie.com/impuesto-de-avisos-y-tableros.html",
+      "tipo": "articulo",
+      "fuente": "Gerencie.com"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nReconocer el impuesto predial y otros tributos locales, y calcular el predial con base en el avalúo catastral.\n\n## Conceptos clave\n### Impuesto predial\nGrava la **propiedad inmueble** ubicada en el municipio. Base gravable: el **avalúo catastral**, fijado por la autoridad catastral (IGAC o catastros descentralizados). Las tarifas las fijan los concejos municipales **dentro de los rangos legales** (por mil sobre el avalúo; Ley 44 de 1990 y Ley 1450 de 2011). Varían según destino y estrato. **Verifica el acuerdo municipal vigente.**\n\n### Otros impuestos locales\n- Impuesto de **vehículos automotores** (departamental).\n- **Plusvalía** y **valorización**, relacionadas con obras o cambios de uso del suelo.\n- **Sobretasas** (por ejemplo, bomberil) y **estampillas**.\n\n> **Clave:** el predial se calcula sobre el avalúo catastral, no sobre el precio comercial.\n\n## Ejemplo resuelto\nUn inmueble tiene avalúo catastral de $250.000.000 y su tarifa ilustrativa es 8 por mil.\n\n1. Impuesto = 250.000.000 × 8/1.000 = **$2.000.000** al año.\n2. Si el avalúo se actualiza a $300.000.000, el impuesto sería $2.400.000 (a igual tarifa).\n\n## Puntos clave\n- Base: avalúo catastral.\n- Tarifa fijada por el concejo dentro de rangos legales.\n- Existen otros tributos locales: vehículos, plusvalía, valorización.\n\n## Errores frecuentes\n- Usar el valor comercial en vez del avalúo.\n- Ignorar los descuentos y plazos municipales.\n- Confundir predial con valorización.",
+    "recursos": [
+     {
+      "titulo": "¿Qué relación tiene el avalúo catastral con el impuesto predial?",
+      "url": "https://www.youtube.com/watch?v=MdEnftfuqmU",
+      "tipo": "video",
+      "fuente": "Comunicaciones Catastro"
+     },
+     {
+      "titulo": "Ley 44 de 1990, impuesto predial unificado",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=283",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar los tributos aduaneros en una importación, calcular la base y distinguir cómo los Incoterms reparten costos y riesgos.\n\n## Conceptos clave\n### Tributos aduaneros\nSe pagan al importar mercancías: los **derechos de aduana (arancel)** y el **IVA a la importación**. La base es el **valor en aduana**, que se determina según el Acuerdo de Valoración de la OMC: normalmente el precio pagado más los costos de transporte y seguro hasta el lugar de importación (equivalente a CIF). El régimen aduanero se encuentra en el **Decreto 1165 de 2019**.\n\n### Cálculo\n1. Valor en aduana (en pesos con la tasa de cambio aduanera).\n2. **Arancel** = valor en aduana × tarifa de la subpartida arancelaria.\n3. **IVA** = (valor en aduana + arancel) × tarifa de IVA.\n\nEl arancel depende de la subpartida y de los acuerdos comerciales vigentes: **verifica el arancel y la tarifa de IVA vigentes**.\n\n### Incoterms\nSon reglas de la Cámara de Comercio Internacional (ICC) que reparten costos, riesgos y responsabilidades entre comprador y vendedor (EXW, FOB, CIF, DAP, DDP, entre otros). Definen hasta dónde asume el vendedor el transporte y el seguro, lo que cambia el valor que se debe ajustar para llegar al valor en aduana.\n\n> **Clave:** el IVA de importación se calcula sobre el valor en aduana más el arancel.\n\n## Ejemplo resuelto\nCompra FOB de $10.000 USD; flete y seguro internacionales $1.000 USD; TRM aduanera ilustrativa $4.000; arancel 10% y IVA 19% (ilustrativos).\n\n1. Valor en aduana = 10.000 + 1.000 = 11.000 USD → **$44.000.000**.\n2. Arancel = 44.000.000 × 10% = **$4.400.000**.\n3. Base IVA = 44.000.000 + 4.400.000 = $48.400.000.\n4. IVA = 48.400.000 × 19% = **$9.196.000**.\n5. Tributos totales = 4.400.000 + 9.196.000 = **$13.596.000**.\n\n## Puntos clave\n- Tributos: arancel e IVA de importación.\n- Base: valor en aduana; IVA sobre valor en aduana + arancel.\n- Los Incoterms determinan quién asume transporte y seguro.\n\n## Errores frecuentes\n- Calcular el IVA solo sobre el valor FOB.\n- Olvidar sumar flete y seguro al valor en aduana.\n- Usar el arancel de una subpartida equivocada.",
+    "recursos": [
+     {
+      "titulo": "Como calcular impuestos de las importaciones: tributos aduaneros en Colombia",
+      "url": "https://www.youtube.com/watch?v=QSVn453MVBw",
+      "tipo": "video",
+      "fuente": "Legistrade"
+     },
+     {
+      "titulo": "Abecé de conceptos aduaneros, regímenes y procedimientos",
+      "url": "https://www.dian.gov.co/aduanas/Documents/abece-conceptos-aduaneros-regimenes-procedimientos.pdf",
+      "tipo": "articulo",
+      "fuente": "DIAN"
+     },
+     {
+      "titulo": "Decreto 1165 de 2019, Régimen de Aduanas",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1165_2019.htm",
+      "tipo": "norma",
+      "fuente": "DIAN - Compilación Jurídica"
+     }
+    ]
+   }
+  ]
+ }
+}

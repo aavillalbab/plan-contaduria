@@ -1,0 +1,64 @@
+{
+"id":"m6","orden":6,"titulo":"Auditoría, revisoría fiscal y control","semestres":"Semestres VII–IX","descripcion":"Auditoría bajo NIA, revisoría fiscal, control interno y prevención de fraude y LA/FT.",
+"materias":[
+{"id":"m6s1","nombre":"Auditoría financiera y NIA","area":"AUD","descripcion":"Seguridad razonable, materialidad, riesgo, evidencia y tipos de opinión.",
+"temas":[["Marco de aseguramiento y NIA",2],["Planeación, materialidad y evaluación del riesgo",3],["Evidencia de auditoría y procedimientos",3],["Opinión e informe del auditor (NIA 700, 705 y 706)",2]],
+"cards":[
+["Seguridad razonable","Nivel alto, pero no absoluto, de seguridad de que los estados financieros están libres de incorrección material (NIA 200).","Por limitaciones inherentes la seguridad nunca es absoluta."],
+["Materialidad (NIA 320)","Importe a partir del cual las incorrecciones, individuales o agregadas, pueden influir en las decisiones económicas de los usuarios.","La materialidad de ejecución es inferior a la materialidad global."],
+["Riesgo de auditoría","RA = riesgo inherente × riesgo de control × riesgo de detección.","Si el riesgo de control es alto, el auditor reduce el riesgo de detección con más pruebas sustantivas."],
+["Tipos de opinión (NIA 705)","Favorable (sin salvedades), con salvedades, desfavorable o adversa, y abstención de opinión.","Adversa: incorrecciones materiales y generalizadas. Abstención: no se obtuvo evidencia suficiente y adecuada."],
+["Procedimientos de auditoría (NIA 500)","Inspección, observación, indagación, confirmación externa, recálculo, reejecución y procedimientos analíticos.","La confirmación externa directa es más fiable que la indagación oral."]
+],
+"qs":[
+["Una opinión adversa (desfavorable) se emite cuando:",["Hay incorrecciones materiales y generalizadas en los estados financieros","El auditor no pudo obtener evidencia suficiente y adecuada","No existen incorrecciones","Solo hay errores formales de presentación"],0,2,"Si la limitación en el alcance es el problema, procede la abstención de opinión."],
+["Una auditoría de estados financieros ofrece, según la NIA 200:",["Seguridad absoluta","Seguridad razonable","Seguridad limitada","Ninguna seguridad"],1,1,"Es un nivel alto pero no absoluto."],
+["¿Cuál evidencia es, en general, más fiable?",["Indagación oral con la gerencia","Confirmación externa recibida directamente por el auditor","Un documento interno sin firmar","Una explicación verbal del contador"],1,2,"La evidencia externa y obtenida directamente por el auditor es más fiable."],
+["Si el riesgo de control evaluado es alto, el auditor debe:",["Reducir las pruebas sustantivas","Aumentar las pruebas sustantivas","Suspender la auditoría","Confiar plenamente en el control interno"],1,2,"Al no poder apoyarse en los controles, reduce el riesgo de detección con más pruebas sustantivas."]
+]},
+{"id":"m6s2","nombre":"Revisoría fiscal","area":"AUD","descripcion":"Obligados, funciones, incompatibilidades, dictamen y responsabilidad.",
+"temas":[["Obligados y requisitos",2],["Funciones del revisor fiscal (art. 207 C. Co.)",3],["Dictamen e informes",2],["Incompatibilidades y responsabilidad",2]],
+"cards":[
+["Obligados a tener revisor fiscal","Sociedades por acciones, sucursales de sociedades extranjeras y cualquier sociedad comercial con activos brutos ≥ 5.000 SMMLV y/o ingresos brutos ≥ 3.000 SMMLV a 31 de diciembre del año anterior (art. 13 Ley 43/1990).","Los umbrales también aplican a las S.A.S. que los superen."],
+["Funciones (art. 207 C. Co.)","Cerciorarse de la legalidad de las operaciones; informar oportunamente las irregularidades; velar por la contabilidad y los libros; inspeccionar bienes; impartir instrucciones de control interno; dictaminar los estados financieros; convocar a asamblea extraordinaria.","Su función es de fiscalización integral, no solo de auditoría de estados financieros."],
+["Dictamen y reporte de cumplimiento","El dictamen expresa su opinión sobre los estados financieros. Además informa si los actos de los administradores se ajustan a estatutos y decisiones de la asamblea, y si el control interno es adecuado (art. 209 C. Co.).","Lo firma el revisor fiscal junto con los estados financieros."],
+["Incompatibilidades (art. 205 C. Co.)","No puede ser socio de la compañía ni de sus subordinadas, ni tener parentesco con administradores o el contador dentro de ciertos grados, ni desempeñar otro cargo en la sociedad.","Protege el principio de independencia."],
+["Nombramiento y responsabilidad","Lo elige la asamblea o junta de socios. Responde civil, penal y disciplinariamente por negligencia o dolo.","Debe denunciar actos de corrupción de los que tenga conocimiento en el término legal (Ley 1474 de 2011)."]
+],
+"qs":[
+["Una sociedad con activos brutos a 31 de diciembre superiores a 5.000 SMMLV:",["Debe tener revisor fiscal","No debe tener revisor fiscal","Solo si es sociedad anónima","Solo si lo decide el gerente"],0,1,"Art. 13 de la Ley 43 de 1990 fija los umbrales de activos y ingresos."],
+["¿Quién elige al revisor fiscal?",["La asamblea general o junta de socios","El gerente","La DIAN","La Junta Central de Contadores"],0,1,"Es un órgano de control elegido por los socios."],
+["¿Cuál de los siguientes NO podría ser revisor fiscal de una sociedad?",["Un contador público independiente","Un socio de la misma sociedad","Un contador con tarjeta profesional vigente","Una firma de contadores sin vínculos con la sociedad"],1,1,"El art. 205 C. Co. prohíbe ser socio de la compañía."],
+["Si el revisor fiscal detecta una irregularidad grave en los actos de los administradores, debe:",["Ignorarla si es de bajo monto","Dar cuenta oportuna por escrito a la asamblea, junta o gerente según el caso","Esperar al cierre del año","Corregirla personalmente contabilizándola"],1,2,"Es una de sus funciones legales (art. 207 C. Co.)."]
+]},
+{"id":"m6s3","nombre":"Control interno y gestión de riesgos","area":"AUD","descripcion":"COSO, tres líneas, tipos de controles y segregación de funciones.",
+"temas":[["COSO 2013: componentes y principios",3],["Gestión de riesgos empresariales (COSO ERM)",2],["Modelo de tres líneas",2]],
+"cards":[
+["Componentes de COSO 2013","Ambiente de control, evaluación de riesgos, actividades de control, información y comunicación, y actividades de monitoreo.","Son 5 componentes y 17 principios."],
+["COSO ERM 2017","Gestión de riesgos empresariales integrada con estrategia y desempeño: gobernanza y cultura; estrategia y objetivos; desempeño; revisión y ajustes; información, comunicación y reporte.","Son 5 componentes y 20 principios."],
+["Tipos de controles","Preventivos (evitan el error), detectivos (lo identifican) y correctivos (lo corrigen).","Ej.: autorización previa (preventivo); conciliación (detectivo)."],
+["Segregación de funciones","Separar autorización, custodia, registro y ejecución para que una sola persona no controle una transacción completa.","Reduce el riesgo de error y fraude."],
+["Modelo de tres líneas (IIA)","1.ª: gestión operativa. 2.ª: gestión de riesgos y cumplimiento. 3.ª: auditoría interna independiente.","La auditoría interna ofrece aseguramiento objetivo a la junta."]
+],
+"qs":[
+["¿Cuál NO es un componente del marco COSO 2013?",["Ambiente de control","Evaluación de riesgos","Presupuesto de ventas","Actividades de monitoreo"],2,1,"Los componentes son cinco."],
+["En el modelo de tres líneas, la auditoría interna corresponde a:",["Primera línea","Segunda línea","Tercera línea","No hace parte del modelo"],2,1,"La tercera línea ofrece aseguramiento independiente."],
+["Una conciliación bancaria mensual es un control:",["Preventivo","Detectivo","Correctivo","Directivo"],1,2,"Detecta diferencias después de ocurridas."],
+["Un empleado que autoriza compras, las recibe y registra los pagos evidencia deficiencia en:",["Segregación de funciones","Depreciación","Valoración de inventarios","Cierre contable"],0,1,"Concentrar funciones incompatibles facilita el fraude."]
+]},
+{"id":"m6s4","nombre":"Fraude y prevención de lavado de activos (LA/FT)","area":"AUD","descripcion":"Triángulo del fraude, SAGRILAFT, PTEE, debida diligencia y reportes a la UIAF.",
+"temas":[["Fraude: triángulo y señales de alerta",2],["Sistemas de autocontrol LA/FT (SAGRILAFT y PTEE)",2],["Debida diligencia y reporte de operaciones sospechosas",2]],
+"cards":[
+["Triángulo del fraude","Presión (incentivo), oportunidad y racionalización.","Los controles internos buscan reducir la oportunidad."],
+["Fases del lavado de activos","Colocación, estratificación (diversificación) e integración.","El objetivo es dar apariencia de legalidad a recursos ilícitos."],
+["SAGRILAFT","Sistema de Autocontrol y Gestión del Riesgo Integral de LA/FT/FPADM que la Superintendencia de Sociedades exige a ciertas empresas.","Incluye identificación, medición, control y monitoreo del riesgo."],
+["PTEE","Programa de Transparencia y Ética Empresarial, orientado a prevenir el soborno transnacional y la corrupción (Ley 1778 de 2016).","Complementa al SAGRILAFT."],
+["UIAF y ROS","La UIAF (Unidad de Información y Análisis Financiero) recibe los Reportes de Operaciones Sospechosas (ROS).","El reporte de buena fe no genera responsabilidad."]
+],
+"qs":[
+["Los tres elementos del triángulo del fraude son:",["Presión, oportunidad y racionalización","Dolo, culpa y negligencia","Riesgo, control y monitoreo","Activo, pasivo y patrimonio"],0,1,"Teoría de Cressey."],
+["Las fases del lavado de activos son:",["Colocación, estratificación e integración","Planeación, ejecución y cierre","Captación, intermediación y reporte","Detección, prevención y sanción"],0,1,"Se busca introducir y legitimar recursos en el sistema."],
+["¿A qué entidad se reportan las operaciones sospechosas (ROS)?",["UIAF","DIAN","JCC","Superintendencia de Industria y Comercio"],0,1,"Es la unidad de inteligencia financiera del país."],
+["El PTEE se enfoca principalmente en:",["Soborno transnacional y corrupción","Cálculo de impuestos","Costos de producción","Contabilidad pública"],0,2,"Es complementario al SAGRILAFT."]
+]}
+]}

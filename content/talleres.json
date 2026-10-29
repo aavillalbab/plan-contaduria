@@ -1,0 +1,2398 @@
+[
+ {
+  "id": "t01",
+  "tipo": "excel",
+  "titulo": "Ciclo contable completo: Libro Diario, Mayor y Estados financieros",
+  "nivel": "Básico",
+  "minutos": 150,
+  "subject_id": "m1s1",
+  "objetivo": "Llevar la contabilidad en libros: registrar, mayorizar, probar y presentar estados financieros.",
+  "enunciado": "## Contexto\n**Papelería El Estudiante S.A.S.** es una pequeña comercializadora. Durante enero lleva su contabilidad con el **sistema de inventario permanente** (cada venta genera su costo de ventas). Debes llevar el ciclo contable completo en Excel. *No consideres IVA ni retenciones.*\n\n## Datos\n**Plan de cuentas a usar** (basado en el PUC):\n\n| Código | Cuenta | Naturaleza |\n|---|---|---|\n| 1105 | Caja | Débito |\n| 1110 | Bancos | Débito |\n| 1305 | Clientes | Débito |\n| 1435 | Mercancías no fabricadas por la empresa (inventario) | Débito |\n| 1524 | Equipo de oficina (muebles y enseres) | Débito |\n| 1528 | Equipo de computación y comunicación | Débito |\n| 1592 | Depreciación acumulada | Crédito |\n| 2205 | Proveedores nacionales | Crédito |\n| 3105 | Capital suscrito y pagado | Crédito |\n| 4135 | Ingresos por comercio al por mayor y al por menor | Crédito |\n| 5105 | Gastos de personal | Débito |\n| 5120 | Arrendamientos | Débito |\n| 5135 | Servicios | Débito |\n| 5160 | Depreciaciones | Débito |\n| 5305 | Gastos financieros | Débito |\n| 6135 | Costo de ventas | Débito |\n\n**Balance inicial (1 de enero):**\n\n| Código | Cuenta | Valor |\n|---|---|---|\n| 1105 | Caja | $2.000.000 |\n| 1110 | Bancos | $8.000.000 |\n| 1435 | Mercancías no fabricadas por la empresa (inventario) | $10.000.000 |\n| 1524 | Equipo de oficina (muebles y enseres) | $6.000.000 |\n| 2205 | Proveedores nacionales | $4.000.000 |\n| 3105 | Capital suscrito y pagado | $22.000.000 |\n\n**Operaciones del mes:**\n\n| Fecha | Operación | Valor / detalle |\n|---|---|---|\n| 3 ene | Compra de mercancía a crédito (sin IVA) | Dr 1435 $5.000.000 · Cr 2205 $5.000.000 |\n| 5 ene | Venta de contado por $9.000.000 (costo de la mercancía: $5.400.000) | Dr 1105 $9.000.000 · Cr 4135 $9.000.000 · Dr 6135 $5.400.000 · Cr 1435 $5.400.000 |\n| 8 ene | Venta a crédito por $3.000.000 (costo: $1.800.000) | Dr 1305 $3.000.000 · Cr 4135 $3.000.000 · Dr 6135 $1.800.000 · Cr 1435 $1.800.000 |\n| 10 ene | Pago a proveedores con transferencia bancaria | Dr 2205 $3.000.000 · Cr 1110 $3.000.000 |\n| 12 ene | Consignación de efectivo en el banco | Dr 1110 $5.000.000 · Cr 1105 $5.000.000 |\n| 15 ene | Pago del arriendo del local por transferencia | Dr 5120 $1.200.000 · Cr 1110 $1.200.000 |\n| 18 ene | Cobro en efectivo a un cliente (abono) | Dr 1105 $2.000.000 · Cr 1305 $2.000.000 |\n| 20 ene | Compra de un computador, pagado desde bancos | Dr 1528 $2.400.000 · Cr 1110 $2.400.000 |\n| 25 ene | Pago de salarios por transferencia | Dr 5105 $2.500.000 · Cr 1110 $2.500.000 |\n| 28 ene | Pago de servicios públicos en efectivo | Dr 5135 $450.000 · Cr 1105 $450.000 |\n| 30 ene | El banco descuenta gastos bancarios | Dr 5305 $60.000 · Cr 1110 $60.000 |\n| 31 ene | Ajuste: depreciación mensual del equipo de oficina | Dr 5160 $100.000 · Cr 1592 $100.000 |\n\n> **Nota:** la columna de detalle es una *pista* de la mecánica; escribe tú los asientos con su descripción en el Libro Diario.\n\n## Qué debes hacer\n1. Registra el **asiento de apertura** (comprobante 0) y los 12 asientos del mes en el **Libro Diario** (fecha, comprobante, código, cuenta, descripción, débito, crédito). Verifica que cada asiento cuadre.\n2. **Mayoriza** en el Libro Mayor: una sección o tabla por cuenta con movimientos y saldo final.\n3. Elabora el **Balance de prueba** (saldos débito y crédito por cuenta) con totales iguales.\n4. Elabora el **Estado de resultados** del mes y el **Estado de situación financiera** al 31 de enero.\n5. Escribe 3 líneas de **conclusión** sobre el resultado del mes y la liquidez.",
+  "entrega": "Un archivo **.xlsx** con las hojas: **Diario**, **Mayor**, **Balance de prueba** y **Estados financieros**. Usa fórmulas (sumas, SUMAR.SI, BUSCARV/XLOOKUP) para que los totales y saldos se calculen solos.",
+  "rubrica": [
+   {
+    "criterio": "Libro Diario",
+    "puntos": 25,
+    "detalle": "Apertura y 12 asientos con fecha, comprobante, descripción y partida doble que cuadra."
+   },
+   {
+    "criterio": "Libro Mayor",
+    "puntos": 20,
+    "detalle": "Mayorización correcta por cuenta con saldo final y naturaleza adecuada."
+   },
+   {
+    "criterio": "Balance de prueba",
+    "puntos": 20,
+    "detalle": "Saldos correctos y totales iguales; ordenado por código."
+   },
+   {
+    "criterio": "Estados financieros",
+    "puntos": 25,
+    "detalle": "Estado de resultados y de situación financiera consistentes entre sí (A = P + Pat)."
+   },
+   {
+    "criterio": "Fórmulas, orden y conclusión",
+    "puntos": 10,
+    "detalle": "Uso de fórmulas, formato legible y conclusión breve."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Diario",
+     "Mayor",
+     "Balance de prueba",
+     "Estados financieros"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total débitos del Libro Diario (incluye la apertura)",
+    "value": 66910000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de la columna Débito: apertura + 12 asientos. Debe ser igual a la de Crédito.",
+    "sheet": "Diario",
+    "label": "total"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total del Balance de prueba (saldos)",
+    "value": 40100000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma los saldos débito; debe ser igual a la suma de saldos crédito.",
+    "sheet": "Balance de prueba",
+    "label": "total"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de Caja",
+    "value": 7550000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Caja: inicial + ventas contado + cobro − consignación − servicios.",
+    "sheet": "Mayor"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de Bancos",
+    "value": 3840000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Considera consignación, pagos, arriendo, computador, salarios y gastos bancarios.",
+    "sheet": "Mayor"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de Clientes",
+    "value": 1000000,
+    "puntos": 4,
+    "tol": 1,
+    "abs": true,
+    "pista": "Venta a crédito menos el abono.",
+    "sheet": "Mayor"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo del inventario de mercancías",
+    "value": 7800000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Inicial + compra − costo de las dos ventas.",
+    "sheet": "Mayor"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de Proveedores",
+    "value": 6000000,
+    "puntos": 4,
+    "tol": 1,
+    "abs": true,
+    "pista": "Inicial + compra a crédito − pago.",
+    "sheet": "Mayor"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ingresos del mes",
+    "value": 12000000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Venta de contado + venta a crédito.",
+    "sheet": "Estados financieros"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo de ventas",
+    "value": 7200000,
+    "puntos": 4,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de los costos de las dos ventas.",
+    "sheet": "Estados financieros"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Utilidad neta del mes",
+    "value": 490000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ingresos − costo de ventas − gastos (arriendo, salarios, servicios, financieros, depreciación).",
+    "sheet": "Estados financieros",
+    "label": "utilidad"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total activos",
+    "value": 28490000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "La depreciación acumulada resta.",
+    "sheet": "Estados financieros",
+    "label": "activo"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total patrimonio (capital + utilidad)",
+    "value": 22490000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Capital + utilidad del período.",
+    "sheet": "Estados financieros",
+    "label": "patrimonio"
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Balance de prueba",
+    "min": 8,
+    "puntos": 10,
+    "desc": "Uso de fórmulas en el Balance de prueba",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Estados financieros",
+    "min": 5,
+    "puntos": 8,
+    "desc": "Uso de fórmulas en los Estados financieros",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t01.xlsx"
+ },
+ {
+  "id": "t02",
+  "tipo": "excel",
+  "titulo": "Libro de bancos y conciliación bancaria",
+  "nivel": "Básico",
+  "minutos": 75,
+  "subject_id": "m2s1",
+  "objetivo": "Conciliar el libro de bancos con el extracto e identificar los ajustes contables.",
+  "enunciado": "## Contexto\nAl cierre del mes debes **conciliar** el libro auxiliar de bancos de la empresa con el extracto del banco.\n\n## Datos\n**Libro de bancos (según la empresa):**\n\n| Día | Detalle | Valor |\n|---|---|---|\n| Saldo inicial |  | $12.500.000 |\n| 02 | Consignación | $4.200.000 |\n| 03 | Cheque 1001 | -$1.850.000 |\n| 10 | Consignación | $3.600.000 |\n| 12 | Cheque 1002 | -$2.300.000 |\n| 14 | Cheque 1003 | -$980.000 |\n| 18 | Consignación | $5.100.000 |\n| 20 | Cheque 1004 | -$1.450.000 |\n| 22 | Cheque 1005 | -$620.000 |\n| 30 | Consignación | $2.750.000 |\n| 30 | Cheque 1006 | -$1.100.000 |\n\n**Extracto bancario:**\n\n| Detalle | Valor |\n|---|---|\n| Saldo inicial | $12.500.000 |\n| 02 Consignación | $4.200.000 |\n| 05 Cheque 1001 | -$1.850.000 |\n| 10 Consignación | $3.600.000 |\n| 15 Cheque 1002 | -$2.300.000 |\n| 18 Consignación | $5.100.000 |\n| 26 Cheque 1005 | -$620.000 |\n| 30 Nota débito: comisiones bancarias | -$45.000 |\n| 30 Nota crédito: intereses de la cuenta | $18.000 |\n\n## Qué debes hacer\n1. Registra el **Libro de bancos** con saldo acumulado y determina el **saldo en libros**.\n2. Determina el **saldo del extracto**.\n3. Identifica las **partidas conciliatorias**: cheques girados no cobrados, consignaciones en tránsito, notas débito/crédito no contabilizadas.\n4. Elabora la **conciliación bancaria** hasta llegar al **saldo conciliado** por ambos lados (deben coincidir).\n5. Escribe los **asientos de ajuste** que debe hacer la empresa (notas débito y crédito).",
+  "entrega": "Un **.xlsx** con las hojas **Libro de bancos**, **Conciliación** y **Ajustes**. Ambos lados de la conciliación deben terminar en el mismo saldo.",
+  "rubrica": [
+   {
+    "criterio": "Libro de bancos",
+    "puntos": 20,
+    "detalle": "Registro y saldo acumulado correctos."
+   },
+   {
+    "criterio": "Identificación de partidas",
+    "puntos": 25,
+    "detalle": "Clasifica bien cheques pendientes, consignaciones en tránsito y notas."
+   },
+   {
+    "criterio": "Conciliación",
+    "puntos": 30,
+    "detalle": "Ambos saldos terminan iguales con el formato estándar."
+   },
+   {
+    "criterio": "Asientos de ajuste",
+    "puntos": 15,
+    "detalle": "Asientos balanceados con las cuentas adecuadas."
+   },
+   {
+    "criterio": "Fórmulas y orden",
+    "puntos": 10,
+    "detalle": "Fórmulas y presentación clara."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Libro de bancos",
+     "Conciliación",
+     "Ajustes"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo en libros antes de ajustes",
+    "value": 19850000,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Saldo inicial + consignaciones − cheques girados.",
+    "sheet": "Libro de bancos"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo según extracto",
+    "value": 20603000,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Saldo inicial + movimientos del extracto."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total de cheques pendientes de cobro",
+    "value": 3530000,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "Cheques 1003, 1004 y 1006."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Consignaciones en tránsito",
+    "value": 2750000,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "La consignación del día 30 que el banco aún no registra."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo conciliado",
+    "value": 19823000,
+    "puntos": 18,
+    "tol": 1,
+    "abs": true,
+    "pista": "Extracto + consignaciones en tránsito − cheques pendientes."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ajuste neto en libros (nota débito − nota crédito)",
+    "value": 27000,
+    "puntos": 7,
+    "tol": 1,
+    "abs": true,
+    "pista": "Comisiones 45.000 − intereses 18.000."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Conciliación",
+    "min": 4,
+    "puntos": 12,
+    "desc": "Uso de fórmulas en la conciliación",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t02.xlsx"
+ },
+ {
+  "id": "t03",
+  "tipo": "excel",
+  "titulo": "Kardex: PEPS vs. promedio ponderado",
+  "nivel": "Básico",
+  "minutos": 75,
+  "subject_id": "m2s1",
+  "objetivo": "Valorar inventarios con dos métodos y analizar su efecto en la utilidad.",
+  "enunciado": "## Contexto\nUna papelería maneja un solo producto, el **cuaderno argollado**. Debes llevar su **kardex** con dos métodos de valoración y comparar el efecto en el costo de ventas y la utilidad bruta. Precio de venta: **$8.000** por unidad.\n\n## Datos\n| Movimiento | Tipo | Unidades | Costo unitario |\n|---|---|---|---|\n| Inventario inicial | entrada | 100 | $4.000 |\n| Compra 1 | entrada | 200 | $4.200 |\n| Venta 1 | salida | 150 | (según método) |\n| Compra 2 | entrada | 100 | $4.500 |\n| Venta 2 | salida | 180 | (según método) |\n\n## Qué debes hacer\n1. Elabora el **kardex PEPS (FIFO)** con columnas de entradas, salidas y saldo (unidades, costo unitario y valor).\n2. Elabora el **kardex por promedio ponderado móvil**.\n3. Calcula para cada método: **costo de ventas** e **inventario final**.\n4. Calcula las **ventas** y la **utilidad bruta** con cada método y explica en 3 líneas por qué difieren (hay inflación de costos).",
+  "entrega": "Un **.xlsx** con las hojas **Kardex PEPS**, **Kardex Promedio** y **Comparación**.",
+  "rubrica": [
+   {
+    "criterio": "Kardex PEPS",
+    "puntos": 30,
+    "detalle": "Capas de costo bien consumidas; saldos coherentes."
+   },
+   {
+    "criterio": "Kardex promedio",
+    "puntos": 30,
+    "detalle": "Promedio móvil recalculado en cada entrada."
+   },
+   {
+    "criterio": "Comparación",
+    "puntos": 25,
+    "detalle": "Costo de ventas, inventario y utilidad bruta con ambos métodos."
+   },
+   {
+    "criterio": "Explicación y orden",
+    "puntos": 15,
+    "detalle": "Explica el efecto de los costos crecientes."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Kardex PEPS",
+     "Kardex Promedio",
+     "Comparación"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo de ventas PEPS",
+    "value": 1375000,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "Venta 1 consume 100@4.000 + 50@4.200; venta 2 consume 150@4.200 + 30@4.500."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Inventario final PEPS",
+    "value": 315000,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Quedan 70 unidades al costo de la última compra."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo de ventas promedio ponderado",
+    "value": 1390400.0,
+    "puntos": 14,
+    "tol": 2,
+    "abs": true,
+    "pista": "Recalcula el promedio tras cada entrada."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Inventario final promedio",
+    "value": 299600.0,
+    "puntos": 12,
+    "tol": 2,
+    "abs": true,
+    "pista": "70 unidades al último costo promedio."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ventas totales",
+    "value": 2640000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "330 unidades × precio."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Utilidad bruta con PEPS",
+    "value": 1265000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ventas − costo de ventas PEPS."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Utilidad bruta con promedio",
+    "value": 1249600.0,
+    "puntos": 8,
+    "tol": 2,
+    "abs": true,
+    "pista": "Ventas − costo de ventas promedio."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Kardex PEPS",
+    "min": 6,
+    "puntos": 8,
+    "desc": "Fórmulas en el kardex PEPS",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Kardex Promedio",
+    "min": 6,
+    "puntos": 8,
+    "desc": "Fórmulas en el kardex por promedio",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t03.xlsx"
+ },
+ {
+  "id": "t04",
+  "tipo": "excel",
+  "titulo": "Depreciación de PPE con tres métodos (SLN, DDB y unidades)",
+  "nivel": "Intermedio",
+  "minutos": 90,
+  "subject_id": "m5s1",
+  "objetivo": "Aplicar NIC 16 en Excel y comparar métodos de depreciación.",
+  "enunciado": "## Contexto\nUna empresa adquiere una **máquina industrial** y debe compararla bajo tres métodos de depreciación (NIC 16).\n\n## Datos\n- Costo de adquisición: **$48.000.000**\n- Valor residual: **$6.000.000**\n- Vida útil: **5 años**\n- Producción total estimada en la vida útil: **200,000 unidades**\n\n| Año | Unidades producidas |\n|---|---|\n| 1 | 45.000 |\n| 2 | 52.000 |\n| 3 | 38.000 |\n| 4 | 41.000 |\n| 5 | 24.000 |\n\n## Qué debes hacer\n1. Calcula la depreciación **línea recta** por año, con depreciación acumulada y valor en libros (usa la función `SLN`).\n2. Calcula la depreciación por **saldo decreciente doble** (usa `DDB`) y verifica que el valor en libros **nunca baje del residual**.\n3. Calcula la depreciación por **unidades de producción** (tasa por unidad × producción de cada año).\n4. Elabora un cuadro comparativo y un **gráfico de líneas** del valor en libros por método.\n5. Escribe el **asiento de depreciación del año 1** con cada método y comenta cuál elegirías para esta máquina y por qué.",
+  "entrega": "Un **.xlsx** con las hojas **Línea recta**, **Saldo decreciente**, **Unidades de producción** y **Comparativo** (incluye el gráfico).",
+  "rubrica": [
+   {
+    "criterio": "Línea recta",
+    "puntos": 15,
+    "detalle": "Tabla anual completa con acumulada y valor en libros."
+   },
+   {
+    "criterio": "Saldo decreciente",
+    "puntos": 25,
+    "detalle": "Uso correcto de DDB y límite del residual."
+   },
+   {
+    "criterio": "Unidades de producción",
+    "puntos": 20,
+    "detalle": "Tasa y depreciación por año correctas."
+   },
+   {
+    "criterio": "Comparativo y gráfico",
+    "puntos": 20,
+    "detalle": "Cuadro y gráfico legibles."
+   },
+   {
+    "criterio": "Asiento y criterio",
+    "puntos": 20,
+    "detalle": "Asiento correcto y recomendación argumentada."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Línea recta",
+     "Saldo decreciente",
+     "Unidades de producción",
+     "Comparativo"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Depreciación anual en línea recta",
+    "value": 8400000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "(Costo − residual) / vida útil."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo decreciente: año 1",
+    "value": 19200000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "Valor en libros × 2/vida."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo decreciente: año 2",
+    "value": 11520000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "Sobre el valor en libros del año 1."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo decreciente: año 5 (limitado al residual)",
+    "value": 220800.0,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "No puedes depreciar por debajo del valor residual."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Tasa por unidad producida",
+    "value": 210.0,
+    "puntos": 8,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "(Costo − residual) / producción total estimada."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Unidades de producción: año 2",
+    "value": 10920000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "Producción del año 2 × tasa."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Valor en libros al final del año 5",
+    "value": 6000000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Debe ser igual al valor residual con los tres métodos."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Línea recta",
+    "min": 5,
+    "puntos": 7,
+    "desc": "Fórmulas en línea recta",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Saldo decreciente",
+    "min": 5,
+    "puntos": 7,
+    "desc": "Fórmulas en saldo decreciente",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Unidades de producción",
+    "min": 5,
+    "puntos": 6,
+    "desc": "Fórmulas en unidades de producción",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t04.xlsx"
+ },
+ {
+  "id": "t05",
+  "tipo": "excel",
+  "titulo": "Crédito, ahorro y arrendamiento con funciones financieras",
+  "nivel": "Intermedio",
+  "minutos": 90,
+  "subject_id": "m1s2",
+  "objetivo": "Aplicar PAGO, VF y VA, y construir una tabla de amortización.",
+  "enunciado": "## Contexto\nResuelve tres problemas de matemáticas financieras construyendo un **modelo en Excel con funciones financieras** (`PAGO`, `VF`, `VA`, `PAGOINT`, `PAGOPRIN`).\n\n## Datos\n- **Problema 1 (crédito):** préstamo de **$120.000.000**, tasa **1,8% mensual**, **36 cuotas** mensuales fijas vencidas.\n- **Problema 2 (ahorro programado):** depósitos de **$5.000.000** al final de cada mes durante **24 meses** a **1% mensual**.\n- **Problema 3 (arrendamiento, NIIF 16):** cuotas de **$2.000.000** al **inicio** de cada mes durante **36 meses**; tasa de descuento **1% mensual**.\n\n## Qué debes hacer\n1. **Problema 1:** calcula la **cuota**, construye la **tabla de amortización** (interés, abono a capital y saldo de los 36 meses), el **total de intereses**, el **saldo después de la cuota 12** y la **tasa efectiva anual** equivalente.\n2. **Problema 2:** calcula el **valor futuro** del ahorro y cuánto corresponde a intereses.\n3. **Problema 3:** calcula el **valor presente** de los pagos del arrendamiento (anualidad **anticipada**), que sería el pasivo inicial por arrendamiento.\n4. Parametriza tasas y plazos en celdas (sin escribirlos dentro de las fórmulas) y verifica con una segunda forma de cálculo (por ejemplo, fórmula manual vs. función).",
+  "entrega": "Un **.xlsx** con las hojas **Crédito**, **Ahorro** y **Arrendamiento**.",
+  "rubrica": [
+   {
+    "criterio": "Crédito y amortización",
+    "puntos": 40,
+    "detalle": "Cuota, tabla de 36 filas, intereses y saldo."
+   },
+   {
+    "criterio": "Tasa efectiva",
+    "puntos": 10,
+    "detalle": "Conversión correcta de tasas."
+   },
+   {
+    "criterio": "Ahorro programado",
+    "puntos": 15,
+    "detalle": "VF correcto e intereses ganados."
+   },
+   {
+    "criterio": "Arrendamiento",
+    "puntos": 20,
+    "detalle": "Anualidad anticipada bien tratada."
+   },
+   {
+    "criterio": "Parametrización y verificación",
+    "puntos": 15,
+    "detalle": "Celdas de entrada, sin números dentro de fórmulas, doble verificación."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Crédito",
+     "Ahorro",
+     "Arrendamiento"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Cuota mensual del crédito",
+    "value": 4558059.821074767,
+    "puntos": 18,
+    "tol": 5,
+    "abs": true,
+    "pista": "PAGO(tasa; 36; −préstamo).",
+    "sheet": "Crédito"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total de intereses pagados",
+    "value": 44090153.55869162,
+    "puntos": 12,
+    "tol": 100,
+    "abs": true,
+    "pista": "Cuota × 36 − préstamo.",
+    "sheet": "Crédito"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo después de la cuota 12",
+    "value": 88196326.93128422,
+    "puntos": 14,
+    "tol": 100,
+    "abs": true,
+    "pista": "Saldo tras 12 períodos de amortización.",
+    "sheet": "Crédito"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Tasa efectiva anual del crédito",
+    "value": 0.2387205315755283,
+    "puntos": 10,
+    "tol": 0.0005,
+    "abs": true,
+    "pista": "(1 + 1,8%)^12 − 1.",
+    "sheet": "Crédito",
+    "alts": [
+     23.87205315755283
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Valor futuro del ahorro",
+    "value": 134867324.26595736,
+    "puntos": 14,
+    "tol": 10,
+    "abs": true,
+    "pista": "VF con 24 pagos de 5.000.000 al 1%.",
+    "sheet": "Ahorro"
+   },
+   {
+    "tipo": "valor",
+    "desc": "Valor presente del arrendamiento (anticipada)",
+    "value": 60817160.17529374,
+    "puntos": 14,
+    "tol": 10,
+    "abs": true,
+    "pista": "Anualidad anticipada: multiplica por (1 + i).",
+    "sheet": "Arrendamiento"
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Crédito",
+    "min": 36,
+    "puntos": 13,
+    "desc": "Tabla de amortización con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t05.xlsx"
+ },
+ {
+  "id": "t06",
+  "tipo": "excel",
+  "titulo": "Nómina, aportes y provisiones de prestaciones",
+  "nivel": "Intermedio",
+  "minutos": 100,
+  "subject_id": "m7s1",
+  "objetivo": "Liquidar nómina y calcular el costo laboral total de una empresa.",
+  "enunciado": "## Contexto\nDebes liquidar la **nómina mensual** de una empresa con 4 empleados, con sus aportes y provisiones de prestaciones. *Los valores del salario mínimo y del auxilio de transporte son **ilustrativos** para este ejercicio; en un caso real usa los vigentes. Las reglas se simplifican para practicar.*\n\n## Parámetros\n| Parámetro | Valor / regla |\n|---|---|\n| SMMLV ilustrativo | $1.500.000 |\n| Auxilio de transporte ilustrativo | $200.000 (si el salario es ≤ 2 SMMLV) |\n| Descuentos al empleado | Salud 4% y pensión 4% sobre el salario; fondo de solidaridad pensional 1% si el salario es ≥ 4 SMMLV |\n| Aportes del empleador | Pensión 12%, ARL 0,522% (riesgo I, ilustrativo) y caja de compensación 4%, sobre el salario |\n| Exoneración | Salud del empleador, SENA e ICBF exonerados (todos los salarios son < 10 SMMLV) |\n| Provisiones mensuales | Cesantías = (salario + auxilio)/12 · Intereses sobre cesantías = 1% de las cesantías del mes · Prima = (salario + auxilio)/12 · Vacaciones = salario × 15/360 |\n| Base del auxilio | El auxilio no hace parte de la base de aportes ni de vacaciones; sí de cesantías y prima |\n\n**Empleados (30 días trabajados):**\n\n| Empleado | Salario mensual |\n|---|---|\n| Ana Ruiz | $1.500.000 |\n| Luis Mora | $2.800.000 |\n| Marta Pinto | $3.600.000 |\n| Jorge Silva | $6.000.000 |\n\n## Qué debes hacer\n1. Elabora la **planilla de nómina**: salario, auxilio, devengado, descuentos y **neto a pagar** de cada empleado.\n2. Calcula los **aportes del empleador** por empleado y en total.\n3. Calcula las **provisiones de prestaciones** (cesantías, intereses, prima y vacaciones).\n4. Calcula el **costo total mensual** para la empresa (devengado + aportes + provisiones).\n5. Escribe el **asiento contable** de causación de la nómina (gastos de personal, deducciones por pagar, salarios por pagar, aportes y provisiones).",
+  "entrega": "Un **.xlsx** con las hojas **Nómina**, **Aportes y provisiones** y **Asiento**. Parametriza porcentajes en celdas.",
+  "rubrica": [
+   {
+    "criterio": "Planilla de nómina",
+    "puntos": 30,
+    "detalle": "Devengado, auxilio, descuentos y neto por empleado."
+   },
+   {
+    "criterio": "Aportes",
+    "puntos": 20,
+    "detalle": "Porcentajes y bases correctos con la exoneración."
+   },
+   {
+    "criterio": "Provisiones",
+    "puntos": 20,
+    "detalle": "Cesantías, intereses, prima y vacaciones con sus bases."
+   },
+   {
+    "criterio": "Asiento contable",
+    "puntos": 20,
+    "detalle": "Cuentas adecuadas y partida doble."
+   },
+   {
+    "criterio": "Parametrización y orden",
+    "puntos": 10,
+    "detalle": "Porcentajes en celdas y formato claro."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Nómina",
+     "Aportes y provisiones",
+     "Asiento"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Neto a pagar de Ana Ruiz",
+    "value": 1580000.0,
+    "puntos": 8,
+    "tol": 5,
+    "abs": true,
+    "pista": "Salario + auxilio − 4% − 4%."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Neto a pagar de Jorge Silva (incluye FSP)",
+    "value": 5460000.0,
+    "puntos": 10,
+    "tol": 5,
+    "abs": true,
+    "pista": "No recibe auxilio y paga 1% adicional al fondo de solidaridad."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total devengado",
+    "value": 14300000,
+    "puntos": 8,
+    "tol": 5,
+    "abs": true,
+    "pista": "Suma de salarios + auxilios."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total descuentos a empleados",
+    "value": 1172000.0,
+    "puntos": 10,
+    "tol": 10,
+    "abs": true,
+    "pista": "Salud, pensión y FSP."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total neto a pagar",
+    "value": 13128000.0,
+    "puntos": 8,
+    "tol": 10,
+    "abs": true,
+    "pista": "Devengado − descuentos."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total aportes del empleador",
+    "value": 2296558.0,
+    "puntos": 14,
+    "tol": 20,
+    "abs": true,
+    "pista": "Pensión 12% + ARL + caja 4% sobre salarios."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total provisiones de prestaciones",
+    "value": 2974416.6666666665,
+    "puntos": 14,
+    "tol": 20,
+    "abs": true,
+    "pista": "Cesantías, intereses, prima y vacaciones."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo total mensual para la empresa",
+    "value": 19570974.666666668,
+    "puntos": 12,
+    "tol": 30,
+    "abs": true,
+    "pista": "Devengado + aportes + provisiones."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Nómina",
+    "min": 12,
+    "puntos": 11,
+    "desc": "Fórmulas en la planilla de nómina",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t06.xlsx"
+ },
+ {
+  "id": "t07",
+  "tipo": "excel",
+  "titulo": "Costos por órdenes (CIF predeterminado) y punto de equilibrio",
+  "nivel": "Intermedio",
+  "minutos": 100,
+  "subject_id": "m3s1",
+  "objetivo": "Costear órdenes de producción y analizar el equilibrio costo-volumen-utilidad.",
+  "enunciado": "## Contexto\nUna carpintería usa **costeo por órdenes de producción** con **tasa predeterminada de CIF**. Además, para uno de sus productos quiere conocer el **punto de equilibrio**.\n\n## Parte A: costeo por órdenes\n- CIF presupuestados del año: **$18.000.000**; horas de MOD presupuestadas: **1,500**. La base de aplicación son las **horas de MOD**.\n- Tarifa de MOD: **$9.000** por hora.\n- CIF **reales** incurridos en el período: **$5.050.000**.\n\n| Orden | Producto | Materia prima directa | Horas MOD | Unidades |\n|---|---|---|---|---|\n| 101 | 10 escritorios | $3.200.000 | 120 | 10 |\n| 102 | 8 bibliotecas | $5.100.000 | 200 | 8 |\n| 103 | 5 mesas de comedor | $2.450.000 | 90 | 5 |\n\n## Parte B: punto de equilibrio\nProducto \"silla ejecutiva\": precio de venta **$1.500.000**, costo variable unitario **$900.000**, costos fijos mensuales **$24.000.000**.\n\n## Qué debes hacer\n1. Calcula la **tasa predeterminada de CIF** y elabora la **hoja de costos** de cada orden (MPD, MOD, CIF aplicados, costo total y costo unitario).\n2. Calcula los **CIF aplicados** del período y la **sub o sobreaplicación** frente a los reales; indica cómo la ajustarías contablemente.\n3. Calcula el **margen de contribución**, el **punto de equilibrio en unidades y en pesos** y las unidades necesarias para una **utilidad de $18.000.000**.\n4. Construye un **gráfico** de ingresos totales vs. costos totales que muestre el punto de equilibrio.\n5. Calcula el margen de seguridad si se venden **65 unidades**.",
+  "entrega": "Un **.xlsx** con las hojas **Órdenes**, **CIF** y **Equilibrio** (con el gráfico).",
+  "rubrica": [
+   {
+    "criterio": "Hojas de costos por orden",
+    "puntos": 30,
+    "detalle": "MPD, MOD y CIF aplicados correctamente por orden."
+   },
+   {
+    "criterio": "Tasa y sub/sobreaplicación",
+    "puntos": 20,
+    "detalle": "Tasa predeterminada y ajuste explicado."
+   },
+   {
+    "criterio": "Punto de equilibrio",
+    "puntos": 25,
+    "detalle": "Cálculo en unidades, pesos y utilidad objetivo."
+   },
+   {
+    "criterio": "Gráfico y margen de seguridad",
+    "puntos": 15,
+    "detalle": "Gráfico legible; margen de seguridad correcto."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Parametrización y claridad."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Órdenes",
+     "CIF",
+     "Equilibrio"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Tasa predeterminada de CIF por hora",
+    "value": 12000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "CIF presupuestados / horas presupuestadas."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo total de la orden 101",
+    "value": 5720000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "MPD + MOD (120 h) + CIF aplicados."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo unitario de la orden 102",
+    "value": 1162500.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Costo total de la orden / 8 unidades."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Costo total de la orden 103",
+    "value": 4340000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "MPD + MOD (90 h) + CIF aplicados."
+   },
+   {
+    "tipo": "valor",
+    "desc": "CIF aplicados del período",
+    "value": 4920000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "410 horas × tarifa."
+   },
+   {
+    "tipo": "valor",
+    "desc": "CIF subaplicados",
+    "value": 130000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "CIF reales − CIF aplicados (positivo = subaplicación)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Margen de contribución unitario",
+    "value": 600000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "Precio − costo variable unitario."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Punto de equilibrio en unidades",
+    "value": 40.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Costos fijos / margen de contribución."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Punto de equilibrio en pesos",
+    "value": 60000000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Unidades de equilibrio × precio."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Unidades para utilidad objetivo",
+    "value": 70.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "(Costos fijos + utilidad) / margen de contribución."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Órdenes",
+    "min": 10,
+    "puntos": 7,
+    "desc": "Fórmulas en las hojas de costos",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Equilibrio",
+    "min": 4,
+    "puntos": 5,
+    "desc": "Fórmulas en el análisis de equilibrio",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t07.xlsx"
+ },
+ {
+  "id": "t08",
+  "tipo": "excel",
+  "titulo": "Presupuesto maestro y flujo de caja trimestral",
+  "nivel": "Avanzado",
+  "minutos": 120,
+  "subject_id": "m3s2",
+  "objetivo": "Construir un presupuesto operativo y de caja enlazado con fórmulas.",
+  "enunciado": "## Contexto\nUna empresa comercializa un solo producto y necesita su **presupuesto maestro del primer trimestre** (enero a marzo): ventas, producción, compras de materiales, mano de obra y **flujo de caja**.\n\n## Datos\n| Mes | Unidades a vender |\n|---|---|\n| Ene | 1.000 |\n| Feb | 1.200 |\n| Mar | 1.500 |\n| Abr | 1.300 |\n\n- Precio de venta: **$50.000** por unidad. Inventario inicial de producto terminado en enero: **200 unidades**.\n- **Inventario final deseado:** 20% de las ventas del mes siguiente.\n- Materiales: **2 kg por unidad a $6.000/kg** (sin inventario de materiales: se compra lo que se usa).\n- Mano de obra directa: **0,5 horas por unidad a $10.000/hora**, pagada en el mes.\n- **Ventas:** 60% de contado y 40% a crédito, cobradas el mes siguiente. Cuentas por cobrar de diciembre: **$18.000.000** (se cobran en enero).\n- **Compras de materiales:** 50% se paga en el mes y 50% el mes siguiente. Cuentas por pagar de diciembre: **$9.000.000** (se pagan en enero).\n- Pagos fijos mensuales: CIF en efectivo **$3.000.000**, administración **$2.500.000** y cuota de un préstamo **$8.000.000**. Comisión de ventas: **2% de las ventas del mes**, pagada en el mes.\n- Caja inicial: **$5.000.000**.\n\n## Qué debes hacer\n1. Presupuesto de **ventas** (unidades y valor) y de **producción** (unidades).\n2. Presupuesto de **compras de materiales** y de **mano de obra directa**.\n3. **Presupuesto de cobros** y de **pagos** por mes.\n4. **Flujo de caja** mensual con saldo final de caja de cada mes. Señala si algún mes requiere financiación.",
+  "entrega": "Un **.xlsx** con las hojas **Ventas y producción**, **Compras y MOD** y **Flujo de caja**.",
+  "rubrica": [
+   {
+    "criterio": "Presupuesto de ventas y producción",
+    "puntos": 25,
+    "detalle": "Inventarios finales y producción correctos."
+   },
+   {
+    "criterio": "Compras y MOD",
+    "puntos": 20,
+    "detalle": "Costos por unidad y pagos."
+   },
+   {
+    "criterio": "Cobros y pagos",
+    "puntos": 25,
+    "detalle": "Aplicación de los plazos de cobro y pago."
+   },
+   {
+    "criterio": "Flujo de caja",
+    "puntos": 20,
+    "detalle": "Saldos mensuales consistentes; identifica necesidades de financiación."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Parametrización, formato y claridad."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Ventas y producción",
+     "Compras y MOD",
+     "Flujo de caja"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Producción de enero (unidades)",
+    "value": 1040.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ventas + inventario final deseado − inventario inicial."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Producción de febrero (unidades)",
+    "value": 1260.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Usa el inventario final de enero como inicial."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Producción de marzo (unidades)",
+    "value": 1460.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Inventario final de marzo = 20% de las ventas de abril."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Compras de materiales de enero",
+    "value": 12480000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Producción × 2 kg × $6.000."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Cobros de enero",
+    "value": 48000000.0,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "60% de enero + cuentas por cobrar de diciembre."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Cobros de febrero",
+    "value": 56000000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "60% de febrero + 40% de enero."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Pagos totales de enero",
+    "value": 34940000.0,
+    "puntos": 12,
+    "tol": 5,
+    "abs": true,
+    "pista": "Materiales (50% + deuda de diciembre), MOD, CIF, administración, comisión y préstamo."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de caja al final de enero",
+    "value": 18060000.0,
+    "puntos": 8,
+    "tol": 5,
+    "abs": true,
+    "pista": "Caja inicial + cobros − pagos."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de caja al final de marzo",
+    "value": 69640000.0,
+    "puntos": 12,
+    "tol": 10,
+    "abs": true,
+    "pista": "Acumula los tres meses."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Flujo de caja",
+    "min": 8,
+    "puntos": 13,
+    "desc": "Fórmulas en el flujo de caja",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t08.xlsx"
+ },
+ {
+  "id": "t09",
+  "tipo": "excel",
+  "titulo": "Análisis financiero: razones y DuPont (dos años)",
+  "nivel": "Intermedio",
+  "minutos": 120,
+  "subject_id": "m3s4",
+  "objetivo": "Calcular e interpretar razones financieras y descomponer el ROE.",
+  "enunciado": "## Contexto\nDebes analizar la situación financiera de **Comercial Andina S.A.S.** comparando dos años. Cifras en **millones de pesos**. Tarifa de impuesto de renta para el ejercicio: **35%** sobre la utilidad antes de impuestos.\n\n## Estado de situación financiera\n| Cuenta | Año 1 | Año 2 |\n|---|---|---|\n| Caja y bancos | 120 | 150 |\n| Cuentas por cobrar | 360 | 420 |\n| Inventarios | 340 | 380 |\n| Propiedad, planta y equipo (neto) | 980 | 1050 |\n| Proveedores | 330 | 330 |\n| Obligaciones financieras de corto plazo | 130 | 150 |\n| Otros pasivos corrientes | 80 | 120 |\n| Pasivos de largo plazo | 460 | 500 |\n| Patrimonio | 800 | 900 |\n\n## Estado de resultados\n| Concepto | Año 1 | Año 2 |\n|---|---|---|\n| Ventas | 3150.0 | 3600.0 |\n| Costo de ventas | 2047.5 | 2340.0 |\n| Gastos operacionales | 650.0 | 720.0 |\n| Gastos financieros (intereses) | 80.0 | 90.0 |\n\n## Qué debes hacer\n1. Arma los estados completos (subtotales: activo corriente, activos totales, pasivo corriente, utilidad bruta, operacional, antes de impuestos y neta).\n2. Haz el **análisis vertical** y **horizontal** (variación absoluta y porcentual).\n3. Calcula las razones de **liquidez** (corriente, prueba ácida), **endeudamiento**, **actividad** (rotación de inventarios con costo de ventas y días de cartera sobre ventas, 365 días) y **rentabilidad** (margen bruto, margen neto, ROA, ROE).\n4. Aplica **DuPont**: margen neto × rotación de activos × multiplicador de capital = ROE.\n5. Redacta una **interpretación de 5 a 8 líneas**: ¿mejoró la empresa? ¿cuál es su principal riesgo?",
+  "entrega": "Un **.xlsx** con las hojas **Estados**, **Análisis** y **Razones** (la interpretación va en la hoja Razones o en un trabajo aparte).",
+  "rubrica": [
+   {
+    "criterio": "Estados completos",
+    "puntos": 15,
+    "detalle": "Subtotales y cuadre del balance."
+   },
+   {
+    "criterio": "Análisis vertical y horizontal",
+    "puntos": 20,
+    "detalle": "Variaciones y estructura."
+   },
+   {
+    "criterio": "Razones financieras",
+    "puntos": 30,
+    "detalle": "Fórmulas y resultados correctos para ambos años."
+   },
+   {
+    "criterio": "DuPont",
+    "puntos": 10,
+    "detalle": "Descomposición correcta del ROE."
+   },
+   {
+    "criterio": "Interpretación",
+    "puntos": 25,
+    "detalle": "Conclusiones con datos, riesgo principal y recomendaciones."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Estados",
+     "Análisis",
+     "Razones"
+    ],
+    "puntos": 4,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total activos Año 2",
+    "value": 2000,
+    "puntos": 5,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de activos corrientes y PPE."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Utilidad neta Año 2",
+    "value": 292.5,
+    "puntos": 8,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Utilidad antes de impuestos × (1 − 35%)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Razón corriente Año 2",
+    "value": 1.5833333333333333,
+    "puntos": 7,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Activo corriente / pasivo corriente."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Prueba ácida Año 2",
+    "value": 0.95,
+    "puntos": 7,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "(Activo corriente − inventarios) / pasivo corriente."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Endeudamiento Año 2",
+    "value": 0.55,
+    "puntos": 7,
+    "tol": 0.001,
+    "abs": true,
+    "pista": "Pasivo total / activo total.",
+    "alts": [
+     55.00000000000001
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Margen neto Año 2",
+    "value": 0.08125,
+    "puntos": 7,
+    "tol": 0.0005,
+    "abs": true,
+    "pista": "Utilidad neta / ventas.",
+    "alts": [
+     8.125
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "ROE Año 2",
+    "value": 0.325,
+    "puntos": 8,
+    "tol": 0.001,
+    "abs": true,
+    "pista": "Utilidad neta / patrimonio.",
+    "alts": [
+     32.5
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "ROA Año 2",
+    "value": 0.14625,
+    "puntos": 6,
+    "tol": 0.001,
+    "abs": true,
+    "pista": "Utilidad neta / activo total.",
+    "alts": [
+     14.625
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Días de cartera Año 2",
+    "value": 42.583333333333336,
+    "puntos": 7,
+    "tol": 0.1,
+    "abs": true,
+    "pista": "Cuentas por cobrar / ventas × 365."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Rotación de inventarios Año 2",
+    "value": 6.157894736842105,
+    "puntos": 6,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Costo de ventas / inventarios."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Crecimiento de ventas",
+    "value": 0.1428571428571428,
+    "puntos": 6,
+    "tol": 0.001,
+    "abs": true,
+    "pista": "Ventas Año 2 / Año 1 − 1.",
+    "alts": [
+     14.28571428571428
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Multiplicador de capital Año 1",
+    "value": 2.25,
+    "puntos": 6,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Activo total / patrimonio."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Razones",
+    "min": 14,
+    "puntos": 10,
+    "desc": "Razones calculadas con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t09.xlsx"
+ },
+ {
+  "id": "t10",
+  "tipo": "excel",
+  "titulo": "Evaluación de proyectos: VPN, TIR, B/C y sensibilidad",
+  "nivel": "Intermedio",
+  "minutos": 100,
+  "subject_id": "m3s3",
+  "objetivo": "Evaluar financieramente una inversión con funciones de Excel.",
+  "enunciado": "## Contexto\nUna empresa evalúa **ampliar su planta** con una inversión inicial y flujos netos de caja esperados durante 5 años. Cifras en **millones de pesos**; tasa de descuento (costo de oportunidad): **14%**.\n\n## Datos\n- Inversión inicial (año 0): **250**\n- Valor de salvamento al final del año 5 (se suma al flujo del año 5): **40**\n\n| Año | Flujo neto de caja |\n|---|---|\n| 1 | 70 |\n| 2 | 85 |\n| 3 | 95 |\n| 4 | 100 |\n| 5 | 110 |\n\n## Qué debes hacer\n1. Construye el **flujo de caja del proyecto** (años 0 a 5) incluyendo el valor de salvamento.\n2. Calcula **VPN** (`VNA`), **TIR** (`TIR`), **relación beneficio/costo**, **período de recuperación simple** y **descontado**.\n3. **Análisis de sensibilidad:** ¿cuánto sería el VPN si los flujos operativos fueran **10% menores**? Haz una tabla variando la tasa de descuento del 8% al 20%.\n4. Redacta tu **recomendación** (aceptar o rechazar) y qué variable vigilarías.",
+  "entrega": "Un **.xlsx** con las hojas **Flujo**, **Indicadores** y **Sensibilidad**.",
+  "rubrica": [
+   {
+    "criterio": "Flujo de caja",
+    "puntos": 15,
+    "detalle": "Estructura y valor de salvamento."
+   },
+   {
+    "criterio": "Indicadores",
+    "puntos": 35,
+    "detalle": "VPN, TIR, B/C y payback simple y descontado."
+   },
+   {
+    "criterio": "Sensibilidad",
+    "puntos": 20,
+    "detalle": "Escenario −10% y tabla por tasa."
+   },
+   {
+    "criterio": "Recomendación",
+    "puntos": 20,
+    "detalle": "Decisión argumentada con los indicadores."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Funciones financieras y formato."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Flujo",
+     "Indicadores",
+     "Sensibilidad"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "VPN del proyecto (millones)",
+    "value": 78.04387012208794,
+    "puntos": 18,
+    "tol": 0.05,
+    "abs": true,
+    "pista": "VNA de los flujos 1 a 5 (con salvamento) menos la inversión."
+   },
+   {
+    "tipo": "valor",
+    "desc": "TIR del proyecto",
+    "value": 0.24853240697244605,
+    "puntos": 14,
+    "tol": 0.0005,
+    "abs": true,
+    "pista": "Función TIR sobre los flujos 0 a 5.",
+    "alts": [
+     24.853240697244605
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Relación beneficio/costo",
+    "value": 1.3121754804883516,
+    "puntos": 10,
+    "tol": 0.005,
+    "abs": true,
+    "pista": "VP de los flujos / inversión inicial."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Período de recuperación simple (años)",
+    "value": 3.0,
+    "puntos": 12,
+    "tol": 0.02,
+    "abs": true,
+    "pista": "Años hasta que el flujo acumulado cubre la inversión (sin salvamento)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Período de recuperación descontado (años)",
+    "value": 3.9976596000000013,
+    "puntos": 14,
+    "tol": 0.05,
+    "abs": true,
+    "pista": "Igual, pero con flujos descontados."
+   },
+   {
+    "tipo": "valor",
+    "desc": "VPN con flujos operativos 10% menores",
+    "value": 47.31695776731841,
+    "puntos": 14,
+    "tol": 0.05,
+    "abs": true,
+    "pista": "Reduce los flujos 1 a 5 un 10% (el salvamento no cambia)."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Indicadores",
+    "min": 4,
+    "puntos": 7,
+    "desc": "Indicadores con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Sensibilidad",
+    "min": 6,
+    "puntos": 6,
+    "desc": "Tabla de sensibilidad con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t10.xlsx"
+ },
+ {
+  "id": "t11",
+  "tipo": "excel",
+  "titulo": "Renta de persona natural: depuración y tabla del art. 241",
+  "nivel": "Avanzado",
+  "minutos": 120,
+  "subject_id": "m4s2",
+  "objetivo": "Depurar la cédula general aplicando límites y liquidar el impuesto con la tabla progresiva.",
+  "enunciado": "## Contexto\nDebes liquidar el **impuesto de renta de una persona natural residente**, empleada, aplicando la tabla del **art. 241 ET** y los límites a rentas exentas y deducciones. *La **UVT es ilustrativa** ($50.000) para este ejercicio, y las reglas se **simplifican** para practicar: en una declaración real consulta la UVT y las normas vigentes del año gravable.*\n\n## Datos del contribuyente\n| Concepto | Valor |\n|---|---|\n| Ingresos brutos laborales del año | $120.000.000 |\n| Aportes obligatorios a salud y pensión (ingreso no constitutivo de renta) | $9.600.000 |\n| Dependientes económicos | 2 |\n| Intereses pagados por crédito de vivienda | $8.000.000 |\n| Pagos de medicina prepagada | $3.000.000 |\n| Aportes voluntarios a cuenta AFC (renta exenta) | $10.000.000 |\n\n## Reglas del ejercicio\n- **Dependientes:** deducción de **72 UVT** por dependiente (máximo 4).\n- **Intereses de vivienda:** deducción con límite de **1.200 UVT** al año.\n- **Medicina prepagada:** deducción con límite de **16 UVT mensuales** (192 UVT al año).\n- **AFC:** renta exenta con límite del **30%** del ingreso laboral y **3.800 UVT**.\n- **Renta exenta del 25%** de los pagos laborales: se calcula sobre (ingresos netos − deducciones − otras rentas exentas) con tope de **790 UVT** al año.\n- **Límite global:** rentas exentas + deducciones no pueden exceder el **40%** de los ingresos netos ni **1.340 UVT**.\n\n**Tabla del art. 241 (UVT):**\n\n| Rango en UVT | Tarifa marginal | Impuesto |\n|---|---|---|\n| 0 – 1.090 | 0% | 0 |\n| >1.090 – 1.700 | 19% | (Base − 1.090) × 19% |\n| >1.700 – 4.100 | 28% | (Base − 1.700) × 28% + 116 |\n| >4.100 – 8.670 | 33% | (Base − 4.100) × 33% + 788 |\n| >8.670 – 18.970 | 35% | (Base − 8.670) × 35% + 2.296 |\n| >18.970 – 31.000 | 37% | (Base − 18.970) × 37% + 5.901 |\n| >31.000 | 39% | (Base − 31.000) × 39% + 10.352 |\n\n## Qué debes hacer\n1. Calcula los **ingresos netos**.\n2. Calcula cada deducción y renta exenta aplicando sus **límites individuales**.\n3. Aplica el **límite global del 40% / 1.340 UVT** y determina la **renta líquida gravable** en pesos y en UVT.\n4. Calcula el **impuesto** con la tabla (usa `BUSCAR`/`SI` anidado o una tabla de rangos) y la **tarifa efectiva** sobre el ingreso bruto.\n5. Escribe una nota explicando qué rubros quedaron limitados.",
+  "entrega": "Un **.xlsx** con las hojas **Parámetros**, **Depuración** y **Impuesto**.",
+  "rubrica": [
+   {
+    "criterio": "Depuración de ingresos y deducciones",
+    "puntos": 35,
+    "detalle": "Cada rubro con su límite individual."
+   },
+   {
+    "criterio": "Límite global",
+    "puntos": 20,
+    "detalle": "Aplica el menor entre 40% y 1.340 UVT."
+   },
+   {
+    "criterio": "Cálculo con la tabla",
+    "puntos": 25,
+    "detalle": "Rango y fórmula correctos; resultado en pesos."
+   },
+   {
+    "criterio": "Tarifa efectiva y nota",
+    "puntos": 10,
+    "detalle": "Explica rubros limitados."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Parámetros en celdas y formato claro."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Parámetros",
+     "Depuración",
+     "Impuesto"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ingresos netos",
+    "value": 110400000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ingresos brutos − aportes obligatorios."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total deducciones imputables (dependientes, vivienda, prepagada)",
+    "value": 18200000,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "144 UVT + intereses vivienda + prepagada (con límites)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Renta exenta del 25%",
+    "value": 20550000.0,
+    "puntos": 12,
+    "tol": 5,
+    "abs": true,
+    "pista": "25% × (netos − deducciones − AFC), con tope de 790 UVT."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total deducciones y rentas exentas antes del límite",
+    "value": 48750000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Deducciones + AFC + renta exenta del 25%."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Límite global (40% de los ingresos netos)",
+    "value": 44160000.0,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Compara 40% de netos con 1.340 UVT: aplica el menor."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Renta líquida gravable",
+    "value": 66240000.0,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ingresos netos − rentas exentas y deducciones aceptadas."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Renta líquida gravable en UVT",
+    "value": 1324.8,
+    "puntos": 8,
+    "tol": 0.05,
+    "abs": true,
+    "pista": "Renta líquida / UVT."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Impuesto de renta en pesos",
+    "value": 2230599.9999999995,
+    "puntos": 16,
+    "tol": 50,
+    "abs": true,
+    "pista": "Segundo rango de la tabla: (UVT − 1.090) × 19%."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Depuración",
+    "min": 8,
+    "puntos": 9,
+    "desc": "Depuración con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t11.xlsx"
+ },
+ {
+  "id": "t12",
+  "tipo": "excel",
+  "titulo": "Libros de ventas y compras y liquidación del IVA",
+  "nivel": "Intermedio",
+  "minutos": 90,
+  "subject_id": "m4s3",
+  "objetivo": "Llevar libros auxiliares de IVA y liquidar el impuesto del período.",
+  "enunciado": "## Contexto\nUna empresa comercial lleva el **libro de ventas y el libro de compras** de un período y debe **liquidar el IVA** a pagar o el saldo a favor. Algunas compras **no son descontables** (se usaron en actividades que no dan derecho o son de uso no relacionado con la actividad).\n\n## Datos\n**Ventas del período:**\n\n| N.º | Base gravable / valor | Tratamiento |\n|---|---|---|\n| 1 | $12.000.000 | 19% |\n| 2 | $8.500.000 | 19% |\n| 3 | $5.000.000 | 5% |\n| 4 | $3.200.000 | 5% |\n| 5 | $15.000.000 | Exento (0%) |\n| 6 | $4.000.000 | Excluido |\n| 7 | $20.000.000 | 19% |\n| 8 | $6.750.000 | 19% |\n| 9 | $2.500.000 | Excluido |\n| 10 | $9.000.000 | Exento (0%) |\n\n**Compras del período:**\n\n| N.º | Base | Tarifa IVA | ¿IVA descontable? |\n|---|---|---|---|\n| 1 | $10.000.000 | 19% | Sí |\n| 2 | $6.000.000 | 19% | Sí |\n| 3 | $4.000.000 | 5% | Sí |\n| 4 | $3.000.000 | 19% | No |\n| 5 | $7.500.000 | 19% | Sí |\n| 6 | $2.000.000 | 19% | No |\n| 7 | $5.000.000 | 0% | Sí |\n\n## Qué debes hacer\n1. Elabora el **libro de ventas** con base, tarifa, **IVA generado** y total facturado por documento.\n2. Elabora el **libro de compras** con base, IVA y **clasificación** (descontable / no descontable). El IVA no descontable se lleva como mayor valor del costo o gasto.\n3. Resume las **bases por tratamiento** (19%, 5%, exentas, excluidas) y el total de ingresos del período.\n4. Calcula el **IVA generado**, el **IVA descontable** y el **saldo a pagar** (o a favor).\n5. Explica en 3 líneas la diferencia entre **exento** y **excluido** y cómo afectó el resultado.",
+  "entrega": "Un **.xlsx** con las hojas **Libro de ventas**, **Libro de compras** y **Liquidación IVA**.",
+  "rubrica": [
+   {
+    "criterio": "Libro de ventas",
+    "puntos": 20,
+    "detalle": "IVA por documento y totales."
+   },
+   {
+    "criterio": "Libro de compras",
+    "puntos": 25,
+    "detalle": "Clasificación descontable/no descontable."
+   },
+   {
+    "criterio": "Liquidación del IVA",
+    "puntos": 30,
+    "detalle": "IVA generado, descontable y saldo."
+   },
+   {
+    "criterio": "Exento vs. excluido",
+    "puntos": 15,
+    "detalle": "Explicación correcta y aplicada al caso."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Fórmulas y claridad."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Libro de ventas",
+     "Libro de compras",
+     "Liquidación IVA"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Base gravada al 19%",
+    "value": 47250000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ventas 1, 2, 7 y 8."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Base gravada al 5%",
+    "value": 8200000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "Ventas 3 y 4."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ingresos por operaciones exentas",
+    "value": 24000000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "Tarifa 0% con derecho a descuento."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ingresos por operaciones excluidas",
+    "value": 6500000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "No generan IVA ni dan derecho a descuento."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total ingresos del período",
+    "value": 85950000,
+    "puntos": 6,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de todas las bases."
+   },
+   {
+    "tipo": "valor",
+    "desc": "IVA generado",
+    "value": 9387500.0,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "19% sobre su base + 5% sobre su base."
+   },
+   {
+    "tipo": "valor",
+    "desc": "IVA descontable",
+    "value": 4665000.0,
+    "puntos": 16,
+    "tol": 1,
+    "abs": true,
+    "pista": "Solo las compras marcadas como descontables."
+   },
+   {
+    "tipo": "valor",
+    "desc": "IVA no descontable (mayor costo o gasto)",
+    "value": 950000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Compras 4 y 6."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Saldo de IVA a pagar",
+    "value": 4722500.0,
+    "puntos": 16,
+    "tol": 1,
+    "abs": true,
+    "pista": "IVA generado − IVA descontable."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Liquidación IVA",
+    "min": 4,
+    "puntos": 5,
+    "desc": "Liquidación con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Libro de ventas",
+    "min": 8,
+    "puntos": 4,
+    "desc": "Libro de ventas con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t12.xlsx"
+ },
+ {
+  "id": "t13",
+  "tipo": "excel",
+  "titulo": "Deterioro de cartera con matriz de provisión (NIIF 9)",
+  "nivel": "Intermedio",
+  "minutos": 75,
+  "subject_id": "m5s2",
+  "objetivo": "Aplicar el modelo simplificado de pérdida esperada y contabilizar el ajuste.",
+  "enunciado": "## Contexto\nAl cierre del período, la empresa aplica el **modelo simplificado de pérdida crediticia esperada (NIIF 9)** a sus cuentas por cobrar comerciales usando una **matriz de provisión** por antigüedad.\n\n## Datos\n| Tramo de antigüedad | Saldo de cartera | Tasa de pérdida esperada |\n|---|---|---|\n| No vencida | $280.000.000 | 1% |\n| 1 a 30 días | $120.000.000 | 3% |\n| 31 a 60 días | $60.000.000 | 8% |\n| 61 a 90 días | $35.000.000 | 20% |\n| Más de 90 días | $25.000.000 | 50% |\n\nProvisión (deterioro acumulado) ya registrada al inicio del ajuste: **$22.000.000**.\n\n## Qué debes hacer\n1. Calcula la **provisión requerida** por tramo y en total, y el **porcentaje de cobertura** sobre la cartera total.\n2. Calcula el **ajuste** del período (gasto o recuperación) frente a la provisión existente.\n3. Escribe el **asiento contable** del ajuste (gasto por deterioro de cartera / deterioro acumulado de cuentas por cobrar).\n4. Construye un **gráfico de barras** de saldo vs. provisión por tramo.\n5. Responde: ¿qué pasaría con la provisión si la cartera de más de 90 días subiera a $40.000.000? (usa la hoja para simularlo).",
+  "entrega": "Un **.xlsx** con las hojas **Matriz**, **Asiento** y **Simulación**.",
+  "rubrica": [
+   {
+    "criterio": "Matriz de provisión",
+    "puntos": 35,
+    "detalle": "Tasas aplicadas por tramo y total."
+   },
+   {
+    "criterio": "Ajuste y asiento",
+    "puntos": 30,
+    "detalle": "Ajuste y asiento balanceado."
+   },
+   {
+    "criterio": "Gráfico",
+    "puntos": 10,
+    "detalle": "Gráfico legible y rotulado."
+   },
+   {
+    "criterio": "Simulación",
+    "puntos": 15,
+    "detalle": "Escenario correcto."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Parámetros y fórmulas."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Matriz",
+     "Asiento",
+     "Simulación"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total cartera",
+    "value": 520000000,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de los cinco tramos."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Provisión del tramo 31 a 60 días",
+    "value": 4800000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Saldo × 8%."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Provisión del tramo más de 90 días",
+    "value": 12500000.0,
+    "puntos": 8,
+    "tol": 1,
+    "abs": true,
+    "pista": "Saldo × 50%."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Provisión total requerida",
+    "value": 30700000.0,
+    "puntos": 18,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de las provisiones por tramo."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ajuste del período (gasto por deterioro)",
+    "value": 8700000.0,
+    "puntos": 18,
+    "tol": 1,
+    "abs": true,
+    "pista": "Provisión requerida − provisión existente."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Cobertura sobre la cartera total",
+    "value": 0.05903846153846154,
+    "puntos": 10,
+    "tol": 0.0005,
+    "abs": true,
+    "pista": "Provisión total / cartera total.",
+    "alts": [
+     5.903846153846154
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Provisión simulada con 40 millones en el tramo > 90 días",
+    "value": 38200000.0,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Cambia el saldo del último tramo y recalcula."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Matriz",
+    "min": 6,
+    "puntos": 13,
+    "desc": "Matriz con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t13.xlsx"
+ },
+ {
+  "id": "t14",
+  "tipo": "excel",
+  "titulo": "Papeles de trabajo de auditoría: muestreo y proyección del error",
+  "nivel": "Avanzado",
+  "minutos": 100,
+  "subject_id": "m6s1",
+  "objetivo": "Seleccionar una muestra, evaluar diferencias y proyectar el error a la población.",
+  "enunciado": "## Contexto\nEres auditor de una empresa. Debes **probar la existencia y exactitud** de las **40 facturas de ventas por cobrar** del período mediante **muestreo sistemático** y **proyectar el error** a toda la población. Los datos están en la hoja **Datos** de la plantilla (importe en libros e importe verificado por confirmación).\n\n## Parámetros de la prueba\n- **Población:** 40 facturas (N.º 1 a 40).\n- **Selección sistemática:** toma **1 de cada 4**, comenzando por la factura **N.º 2** (2, 6, 10, …, 38), es decir, **10 ítems**.\n- **Error tolerable (materialidad de ejecución):** **$1.500.000** de error neto proyectado.\n\n## Qué debes hacer\n1. Calcula el **total de la población** en libros.\n2. Selecciona la muestra y registra, por ítem, el importe en libros, el verificado y la **diferencia** (sobreestimación = libros > verificado).\n3. Calcula el **error neto en la muestra**, el **error bruto** (suma de valores absolutos), el **número de ítems con error** y la **razón de error** (error neto / importe de la muestra).\n4. **Proyecta el error** a la población (razón × total población).\n5. Compara con el error tolerable y redacta la **conclusión del auditor** y qué procedimientos adicionales propondrías.",
+  "entrega": "Un **.xlsx** con las hojas **Población**, **Muestra** y **Conclusión**.",
+  "rubrica": [
+   {
+    "criterio": "Selección de la muestra",
+    "puntos": 20,
+    "detalle": "Aplica 1 de cada 4 desde la factura 2."
+   },
+   {
+    "criterio": "Cálculo de errores",
+    "puntos": 25,
+    "detalle": "Neto, bruto y razón correctos."
+   },
+   {
+    "criterio": "Proyección",
+    "puntos": 20,
+    "detalle": "Proyecta a la población."
+   },
+   {
+    "criterio": "Conclusión del auditor",
+    "puntos": 25,
+    "detalle": "Compara con el error tolerable y propone procedimientos."
+   },
+   {
+    "criterio": "Papeles de trabajo",
+    "puntos": 10,
+    "detalle": "Referencias, marcas y orden."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Población",
+     "Muestra",
+     "Conclusión"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total de la población en libros",
+    "value": 130242000,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de las 40 facturas."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Importe en libros de la muestra",
+    "value": 31334000,
+    "puntos": 12,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de las facturas 2, 6, 10, …, 38."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Error neto en la muestra",
+    "value": 490000,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "Libros − verificado (sobreestimaciones menos subestimaciones)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Error bruto en la muestra",
+    "value": 650000,
+    "puntos": 10,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de las diferencias en valor absoluto."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Ítems con error en la muestra",
+    "value": 3,
+    "puntos": 8,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Cuenta cuántas diferencias son distintas de cero."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Razón de error de la muestra",
+    "value": 0.015637965149677666,
+    "puntos": 10,
+    "tol": 0.0002,
+    "abs": true,
+    "pista": "Error neto / importe de la muestra.",
+    "alts": [
+     1.5637965149677666
+    ]
+   },
+   {
+    "tipo": "valor",
+    "desc": "Error neto proyectado a la población",
+    "value": 2036719.8570243185,
+    "puntos": 18,
+    "tol": 50,
+    "abs": true,
+    "pista": "Razón de error × total de la población."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Muestra",
+    "min": 8,
+    "puntos": 8,
+    "desc": "Muestra con fórmulas (BUSCARV/INDICE)",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Población",
+    "min": 3,
+    "puntos": 5,
+    "desc": "Población con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t14.xlsx"
+ },
+ {
+  "id": "t15",
+  "tipo": "excel",
+  "titulo": "Consolidación de estados financieros: plusvalía y PNC",
+  "nivel": "Avanzado",
+  "minutos": 120,
+  "subject_id": "m5s4",
+  "objetivo": "Elaborar la hoja de trabajo de consolidación aplicando NIIF 10 y NIIF 3.",
+  "enunciado": "## Contexto\nLa sociedad **A** adquirió el **80%** de las acciones de **B** en la fecha de adquisición por **480 millones**. Los activos netos identificables de B a valor razonable son iguales a su patrimonio contable (**500 millones**). Debes elaborar el **estado de situación financiera consolidado** de la fecha de adquisición (NIIF 10 y NIIF 3). Cifras en **millones de pesos**.\n\n## Datos\n| Cuenta | A (matriz) | B (subsidiaria) |\n|---|---|---|\n| Caja | 200 | 60 |\n| Cuentas por cobrar | 300 | 140 |\n| Inventarios | 250 | 200 |\n| Inversión en B | 480 | — |\n| Propiedad, planta y equipo | 1000 | 400 |\n| Proveedores | 400 | 180 |\n| Obligaciones financieras | 700 | 120 |\n| Patrimonio | 1130 | 500 |\n\n**Operaciones intragrupo:** las cuentas por cobrar de A incluyen **15 millones** que le debe B (registrados en proveedores de B).\n\n## Qué debes hacer\n1. Calcula la **participación no controladora (PNC)** y la **plusvalía** en la adquisición.\n2. Elabora la **hoja de trabajo de consolidación**: columnas A, B, **eliminaciones/ajustes** (débitos y créditos) y **consolidado**.\n3. Registra las eliminaciones: la **inversión de A contra el patrimonio de B**, el reconocimiento de la **PNC y la plusvalía**, y la **cuenta por cobrar/pagar intragrupo**.\n4. Presenta el **estado de situación financiera consolidado** y verifica que **activos = pasivos + patrimonio**.\n5. Explica en 3 líneas qué significa la PNC y por qué la plusvalía no se amortiza en NIIF plenas.",
+  "entrega": "Un **.xlsx** con las hojas **Hoja de trabajo** y **Consolidado**.",
+  "rubrica": [
+   {
+    "criterio": "PNC y plusvalía",
+    "puntos": 25,
+    "detalle": "Cálculo correcto con la fórmula de NIIF 3."
+   },
+   {
+    "criterio": "Eliminaciones",
+    "puntos": 30,
+    "detalle": "Eliminación de inversión y saldos intragrupo con partida doble."
+   },
+   {
+    "criterio": "Estado consolidado",
+    "puntos": 25,
+    "detalle": "Rubros y totales correctos; cuadre."
+   },
+   {
+    "criterio": "Explicación conceptual",
+    "puntos": 10,
+    "detalle": "PNC y plusvalía."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Hoja de trabajo clara."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Hoja de trabajo",
+     "Consolidado"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Participación no controladora (millones)",
+    "value": 100.0,
+    "puntos": 14,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "20% × patrimonio de B (valor razonable de activos netos)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Plusvalía (millones)",
+    "value": 80.0,
+    "puntos": 20,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Contraprestación + PNC − activos netos identificables."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Cuentas por cobrar consolidadas",
+    "value": 425,
+    "puntos": 10,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Suma menos la cuenta intragrupo."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Proveedores consolidados",
+    "value": 565,
+    "puntos": 10,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Suma menos la cuenta intragrupo."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total activos consolidados",
+    "value": 2615.0,
+    "puntos": 14,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Sin la inversión en B; con la plusvalía."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Patrimonio total consolidado (incluye PNC)",
+    "value": 1230.0,
+    "puntos": 12,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Patrimonio de A + PNC."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Patrimonio atribuible a la controladora",
+    "value": 1130,
+    "puntos": 6,
+    "tol": 0.01,
+    "abs": true,
+    "pista": "Patrimonio de A."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Consolidado",
+    "min": 6,
+    "puntos": 9,
+    "desc": "Consolidado con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t15.xlsx"
+ },
+ {
+  "id": "t16",
+  "tipo": "excel",
+  "titulo": "Caja menor: libro, arqueo y reembolso",
+  "nivel": "Básico",
+  "minutos": 60,
+  "subject_id": "m2s1",
+  "objetivo": "Llevar el libro de caja menor y controlar el efectivo con un arqueo.",
+  "enunciado": "## Contexto\nLa empresa maneja un **fondo fijo de caja menor** de **$800.000**. Al cierre debes elaborar el **arqueo**, registrar los gastos con sus comprobantes y calcular el **reembolso** que se solicita a tesorería.\n\n## Datos\n**Comprobantes de gasto del período:**\n\n| N.º | Concepto | Valor |\n|---|---|---|\n| 1 | Papelería | $85.000 |\n| 2 | Transporte | $62.000 |\n| 3 | Cafetería | $118.000 |\n| 4 | Fotocopias | $45.000 |\n| 5 | Correo y mensajería | $36.000 |\n| 6 | Aseo | $74.000 |\n| 7 | Reparaciones locativas | $150.000 |\n\n**Efectivo contado en el arqueo:** **$218.000**. Cualquier **faltante** se registra como **cuenta por cobrar al responsable del fondo**.\n\n## Qué debes hacer\n1. Elabora el **libro de caja menor** (fecha, concepto, ingreso, egreso, saldo).\n2. Elabora el **arqueo**: fondo, comprobantes, efectivo esperado, efectivo contado y diferencia.\n3. Calcula el **valor del reembolso** para dejar el fondo en su valor fijo.\n4. Escribe el **asiento de reembolso** (gastos por concepto, cuenta por cobrar por el faltante, y la salida de bancos).\n5. Calcula el **porcentaje del fondo consumido** y comenta si el monto del fondo es adecuado.",
+  "entrega": "Un **.xlsx** con las hojas **Libro de caja menor**, **Arqueo** y **Reembolso**.",
+  "rubrica": [
+   {
+    "criterio": "Libro de caja menor",
+    "puntos": 25,
+    "detalle": "Registro ordenado con saldo."
+   },
+   {
+    "criterio": "Arqueo",
+    "puntos": 30,
+    "detalle": "Efectivo esperado, contado y diferencia."
+   },
+   {
+    "criterio": "Reembolso y asiento",
+    "puntos": 30,
+    "detalle": "Valor y asiento balanceado."
+   },
+   {
+    "criterio": "Análisis del fondo",
+    "puntos": 5,
+    "detalle": "Opina sobre la suficiencia del fondo."
+   },
+   {
+    "criterio": "Orden y fórmulas",
+    "puntos": 10,
+    "detalle": "Presentación."
+   }
+  ],
+  "checks": [
+   {
+    "tipo": "hojas",
+    "names": [
+     "Libro de caja menor",
+     "Arqueo",
+     "Reembolso"
+    ],
+    "puntos": 5,
+    "desc": "Estructura del libro: hojas solicitadas",
+    "pista": "Nombra las hojas exactamente como se pide en la sección «Qué debes entregar»."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Total de gastos con comprobante",
+    "value": 570000,
+    "puntos": 14,
+    "tol": 1,
+    "abs": true,
+    "pista": "Suma de los 7 comprobantes."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Efectivo que debería haber en caja",
+    "value": 230000,
+    "puntos": 16,
+    "tol": 1,
+    "abs": true,
+    "pista": "Fondo − gastos con comprobante."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Faltante del arqueo",
+    "value": 12000,
+    "puntos": 18,
+    "tol": 1,
+    "abs": true,
+    "pista": "Efectivo esperado − efectivo contado."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Valor del reembolso",
+    "value": 582000,
+    "puntos": 20,
+    "tol": 1,
+    "abs": true,
+    "pista": "Fondo − efectivo contado (gastos + faltante)."
+   },
+   {
+    "tipo": "valor",
+    "desc": "Porcentaje del fondo consumido",
+    "value": 0.7125,
+    "puntos": 8,
+    "tol": 0.001,
+    "abs": true,
+    "pista": "Gastos / fondo.",
+    "alts": [
+     71.25
+    ]
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Arqueo",
+    "min": 3,
+    "puntos": 11,
+    "desc": "Arqueo con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   },
+   {
+    "tipo": "formulas",
+    "sheet": "Libro de caja menor",
+    "min": 6,
+    "puntos": 8,
+    "desc": "Libro de caja con fórmulas",
+    "pista": "Usa fórmulas de Excel (no valores escritos a mano) para que el modelo se actualice solo."
+   }
+  ],
+  "plantilla": "t16.xlsx"
+ },
+ {
+  "id": "w01",
+  "tipo": "trabajo",
+  "titulo": "Informe de análisis financiero para la gerencia",
+  "nivel": "Intermedio",
+  "minutos": 120,
+  "subject_id": "m3s4",
+  "objetivo": "Comunicar hallazgos financieros a un público no contable.",
+  "enunciado": "## Contexto\nEres el contador de **Comercial Andina S.A.S.** (usa los datos del **Taller T9**: estados y razones de los Años 1 y 2). El gerente no es contador y te pide un **informe ejecutivo** para decidir si solicita un **crédito de $400 millones** para ampliar bodega.\n\n## Qué debes hacer\n1. Resume en un párrafo la **situación general** (crecimiento, rentabilidad, liquidez y endeudamiento).\n2. Incluye al menos **3 tablas o gráficos** con razones clave de ambos años y su interpretación.\n3. Aplica **DuPont** para explicar qué impulsó el cambio del ROE.\n4. Identifica **2 fortalezas y 2 riesgos** y sustenta con cifras.\n5. Concluye con una **recomendación** sobre el crédito (sí/no/condicionado) y **3 acciones** concretas.\n\n## Formato\nDocumento **Word o PDF**, de **2 a 3 páginas**, con portada simple, lenguaje claro y las cifras citadas con su fuente (hoja y celda de tu taller T9).",
+  "entrega": "Un archivo **.docx** o **.pdf** de 2 a 3 páginas.",
+  "rubrica": [
+   {
+    "criterio": "Síntesis y claridad",
+    "puntos": 20,
+    "detalle": "Un gerente no contable entiende la situación en un minuto."
+   },
+   {
+    "criterio": "Uso correcto de razones",
+    "puntos": 25,
+    "detalle": "Cifras correctas y bien interpretadas."
+   },
+   {
+    "criterio": "DuPont",
+    "puntos": 15,
+    "detalle": "Explica los factores del cambio del ROE."
+   },
+   {
+    "criterio": "Riesgos y fortalezas",
+    "puntos": 15,
+    "detalle": "Sustentados con datos."
+   },
+   {
+    "criterio": "Recomendación",
+    "puntos": 15,
+    "detalle": "Decisión argumentada y acciones concretas."
+   },
+   {
+    "criterio": "Redacción y presentación",
+    "puntos": 10,
+    "detalle": "Ortografía, formato y extensión."
+   }
+  ],
+  "checks": [],
+  "plantilla": null
+ },
+ {
+  "id": "w02",
+  "tipo": "trabajo",
+  "titulo": "Caso de ética profesional: presión del gerente",
+  "nivel": "Básico",
+  "minutos": 90,
+  "subject_id": "m1s4",
+  "objetivo": "Aplicar la Ley 43 de 1990 y los principios éticos a un dilema real.",
+  "enunciado": "## Caso\nEres contador público y llevas la contabilidad de una S.A.S. mediana. Al cierre del año, el gerente general te pide que **no reconozcas una provisión por un litigio laboral** cuya pérdida es probable (los abogados estiman $180 millones) porque «afectaría el crédito que estamos tramitando con el banco». Además, te solicita **fechar al 31 de diciembre** unas facturas de venta que en realidad se expidieron el 8 de enero. Te recuerda que él te paga los honorarios y que «otros contadores sí colaboran».\n\n## Qué debes hacer\n1. Identifica los **hechos relevantes** y los **riesgos** para ti, la empresa y terceros.\n2. Analiza cada petición a la luz de los **principios éticos** (integridad, objetividad, independencia, responsabilidad, confidencialidad, competencia, etc.) y de la **Ley 43 de 1990** (fe pública).\n3. Explica qué **normas de información financiera** estarían incumplidas (provisiones y corte de ingresos).\n4. Describe tu **plan de acción** paso a paso (qué dirías, a quién escalarías, cómo dejarías evidencia y cuándo renunciarías).\n5. Redacta un **breve mensaje al gerente** (máx. 150 palabras) explicando tu posición con respeto.\n\n## Formato\nDocumento Word o PDF de **600 a 900 palabras**.",
+  "entrega": "Un archivo **.docx** o **.pdf** de 600 a 900 palabras.",
+  "rubrica": [
+   {
+    "criterio": "Identificación de hechos y riesgos",
+    "puntos": 15,
+    "detalle": "Completa y ordenada."
+   },
+   {
+    "criterio": "Aplicación de principios y Ley 43",
+    "puntos": 30,
+    "detalle": "Cita y aplica los principios pertinentes."
+   },
+   {
+    "criterio": "Normas contables incumplidas",
+    "puntos": 15,
+    "detalle": "Provisión y corte de ingresos."
+   },
+   {
+    "criterio": "Plan de acción",
+    "puntos": 20,
+    "detalle": "Realista, con evidencia y escalamiento."
+   },
+   {
+    "criterio": "Mensaje al gerente",
+    "puntos": 10,
+    "detalle": "Firme, claro y respetuoso."
+   },
+   {
+    "criterio": "Redacción",
+    "puntos": 10,
+    "detalle": "Claridad y extensión."
+   }
+  ],
+  "checks": [],
+  "plantilla": null
+ },
+ {
+  "id": "w03",
+  "tipo": "trabajo",
+  "titulo": "Memorando tributario: IVA exento vs. excluido",
+  "nivel": "Avanzado",
+  "minutos": 120,
+  "subject_id": "m4s3",
+  "objetivo": "Emitir un concepto técnico fundamentado sobre un caso de IVA.",
+  "enunciado": "## Caso\n**Alimentos del Valle S.A.S.** produce y vende tres líneas: (1) **conservas** gravadas con IVA; (2) un **producto cuya venta está excluida** de IVA; (3) un producto que **exporta** (exento). Compra insumos y servicios comunes a las tres líneas y tiene dudas: ¿puede descontar todo el IVA que paga en sus compras? ¿Cómo se trata el IVA de los insumos de la línea excluida? ¿Qué pasa con el saldo a favor generado por las exportaciones?\n\n## Qué debes hacer\nRedacta un **memorando** dirigido a la gerencia financiera con la estructura: **Hechos · Problema jurídico · Marco normativo (cita las normas que consultes, verificando su vigencia) · Análisis · Conclusión y recomendaciones**. Incluye una **tabla comparativa** exento vs. excluido y un **ejemplo numérico** (con cifras ilustrativas) de IVA descontable, proporcionalidad y saldo a favor.\n\n## Formato\nWord o PDF de **2 a 3 páginas**. Cita tus fuentes (Estatuto Tributario, doctrina DIAN, etc.) y marca claramente lo que debe verificarse con la norma vigente.",
+  "entrega": "Un archivo **.docx** o **.pdf** de 2 a 3 páginas.",
+  "rubrica": [
+   {
+    "criterio": "Hechos y problema jurídico",
+    "puntos": 15,
+    "detalle": "Bien planteados."
+   },
+   {
+    "criterio": "Marco normativo y citas",
+    "puntos": 25,
+    "detalle": "Normas pertinentes y vigencia verificada."
+   },
+   {
+    "criterio": "Análisis de exento vs. excluido",
+    "puntos": 25,
+    "detalle": "Efectos sobre descuento y devolución."
+   },
+   {
+    "criterio": "Ejemplo numérico",
+    "puntos": 15,
+    "detalle": "Cifras coherentes con la teoría."
+   },
+   {
+    "criterio": "Conclusión y recomendaciones",
+    "puntos": 10,
+    "detalle": "Prácticas y concretas."
+   },
+   {
+    "criterio": "Estructura y redacción",
+    "puntos": 10,
+    "detalle": "Memorando profesional."
+   }
+  ],
+  "checks": [],
+  "plantilla": null
+ },
+ {
+  "id": "w04",
+  "tipo": "trabajo",
+  "titulo": "Informe de control interno (COSO) sobre un caso de tesorería y compras",
+  "nivel": "Intermedio",
+  "minutos": 120,
+  "subject_id": "m6s3",
+  "objetivo": "Detectar deficiencias de control y proponer mejoras bajo COSO.",
+  "enunciado": "## Caso\nEn una distribuidora de repuestos se observa lo siguiente: (a) **una misma persona** recibe los pagos de clientes, los registra, hace la conciliación bancaria y lleva los depósitos al banco; (b) las **compras se aprueban verbalmente** y no se exigen tres cotizaciones; (c) el **inventario** se cuenta una vez al año y las diferencias se ajustan sin revisión; (d) todos los usuarios del sistema contable comparten **la misma clave** de administrador; (e) no existe **código de conducta** ni línea de reporte de irregularidades; (f) la gerencia **no revisa** indicadores mensuales.\n\n## Qué debes hacer\n1. Elabora una **matriz** con columnas: deficiencia · riesgo · **componente COSO** relacionado · tipo de control faltante (preventivo/detectivo/correctivo) · **recomendación** · prioridad (alta/media/baja) y responsable sugerido.\n2. Explica el concepto de **segregación de funciones** y propone cómo reorganizar el caso (a).\n3. Propone **3 indicadores o controles de monitoreo** para la gerencia.\n4. Redacta un **resumen ejecutivo** de media página para la junta.\n\n## Formato\nWord, PDF o Excel (la matriz en Excel y el resumen en Word son aceptables).",
+  "entrega": "Archivo(s) **.docx**, **.pdf** o **.xlsx** (matriz + resumen ejecutivo).",
+  "rubrica": [
+   {
+    "criterio": "Identificación de deficiencias y riesgos",
+    "puntos": 25,
+    "detalle": "Las 6 situaciones con su riesgo."
+   },
+   {
+    "criterio": "Clasificación COSO y tipo de control",
+    "puntos": 20,
+    "detalle": "Componentes y tipos correctos."
+   },
+   {
+    "criterio": "Recomendaciones",
+    "puntos": 25,
+    "detalle": "Viables y priorizadas."
+   },
+   {
+    "criterio": "Segregación de funciones",
+    "puntos": 10,
+    "detalle": "Propuesta clara."
+   },
+   {
+    "criterio": "Indicadores de monitoreo",
+    "puntos": 10,
+    "detalle": "Relevantes y medibles."
+   },
+   {
+    "criterio": "Resumen ejecutivo",
+    "puntos": 10,
+    "detalle": "Claro y breve."
+   }
+  ],
+  "checks": [],
+  "plantilla": null
+ }
+]

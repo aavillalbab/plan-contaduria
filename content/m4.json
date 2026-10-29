@@ -1,0 +1,79 @@
+{
+"id":"m4","orden":4,"titulo":"Tributaria y aduanera","semestres":"Semestres V–VII","descripcion":"Renta, retención, IVA, procedimiento tributario, impuestos territoriales y comercio exterior. Verifica siempre la UVT y las normas vigentes del año gravable.",
+"materias":[
+{"id":"m4s1","nombre":"Impuesto de renta de personas jurídicas","area":"TRI","descripcion":"Hecho generador, tarifa, depuración, pérdidas fiscales, tasa mínima y conciliación fiscal.",
+"temas":[["Sujetos, hecho generador y tarifas",2],["Ingresos, costos y deducciones (art. 107 ET)",3],["Renta líquida, pérdidas fiscales y tasa mínima de tributación",2],["Conciliación fiscal y diferencias contable-fiscal",2]],
+"cards":[
+["Tarifa general PJ","35% sobre la renta líquida gravable (art. 240 ET).","Zonas francas y regímenes especiales tienen tarifas distintas."],
+["Tasa mínima de tributación (TTD)","Impuesto depurado / utilidad depurada debe ser ≥ 15%; si es menor se adiciona impuesto hasta alcanzar el 15% (art. 240, par. 6 ET).","Adición = (UD × 15%) − ID."],
+["Requisitos de deducción (art. 107 ET)","Las expensas deben ser necesarias, proporcionales y tener relación de causalidad con la actividad productora de renta.","Además se exigen soportes (factura electrónica o documento soporte)."],
+["Compensación de pérdidas fiscales","Las sociedades compensan sus pérdidas fiscales con rentas líquidas ordinarias de los 12 períodos gravables siguientes.","La pérdida fiscal no se confunde con la pérdida contable."],
+["Ganancia ocasional","Tarifa del 15% sobre utilidades en venta de activos fijos poseídos dos años o más, herencias, loterías, etc.","Se liquida aparte de la renta ordinaria."]
+],
+"qs":[
+["¿Cuál es la tarifa general del impuesto de renta para personas jurídicas?",["31%","33%","35%","40%"],2,1,"El art. 240 ET fija el 35% como tarifa general vigente."],
+["Utilidad depurada $1.000M e impuesto depurado $120M. ¿Cuánto es el impuesto adicional por tasa mínima de tributación?",["$0","$30M","$150M","$120M"],1,3,"TTD = 120/1.000 = 12% < 15%. Impuesto adicional = 15% × 1.000 − 120 = $30M."],
+["Las pérdidas fiscales de las sociedades pueden compensarse en:",["Los 5 períodos siguientes","Los 8 períodos siguientes","Los 12 períodos siguientes","Sin límite de tiempo"],2,1,"Art. 147 ET: doce períodos gravables siguientes."],
+["Los criterios del art. 107 ET para la deducibilidad de un gasto son:",["Causalidad, necesidad y proporcionalidad","Antigüedad, valor y moneda","Materialidad, prudencia y oportunidad","Habitualidad, volumen y plazo"],0,1,"Además de cumplir requisitos formales de soporte."]
+]},
+{"id":"m4s2","nombre":"Renta de personas naturales y retención en la fuente","area":"TRI","descripcion":"Cédulas, tabla del art. 241, rentas exentas y mecanismo de retención.",
+"temas":[["Declarantes y clasificación de rentas",2],["Tabla del art. 241 y depuración",3],["Rentas exentas, deducciones y límite del 40%",2],["Retención en la fuente: agentes, bases y procedimiento",2]],
+"cards":[
+["Rentas de personas naturales","Cédula general (rentas de trabajo, capital y no laborales, con tabla del art. 241), cédula de pensiones y cédula de dividendos.","Se depura cada cédula y luego se aplican los límites."],
+["Tabla art. 241 ET (en UVT)","0% hasta 1.090 · 19% de 1.090 a 1.700 · 28% de 1.700 a 4.100 · 33% de 4.100 a 8.670 · 35% de 8.670 a 18.970 · 37% de 18.970 a 31.000 · 39% por encima.","Son tarifas marginales: ej. 1.800 UVT → (1.800 − 1.700) × 28% + 116 = 144 UVT."],
+["Límite de rentas exentas y deducciones","40% del ingreso neto, sin exceder 1.340 UVT anuales (art. 336 ET).","La renta exenta del 25% de rentas laborales tiene a su vez un tope anual (790 UVT)."],
+["Obligados a declarar renta (PN)","Entre otros: patrimonio bruto > 4.500 UVT al 31 de diciembre, o ingresos brutos ≥ 1.400 UVT, o consumos con tarjeta/compras/consignaciones ≥ 1.400 UVT.","Se revisan todos los topes: basta cumplir uno."],
+["Retención en la fuente","Mecanismo de recaudo anticipado: el agente retenedor descuenta una parte del impuesto al pagar. Lo retenido se acredita en la declaración de renta.","No es un impuesto independiente."]
+],
+"qs":[
+["Una persona natural tiene base gravable en la cédula general de 1.800 UVT. El impuesto según el art. 241 es:",["144 UVT","116 UVT","168 UVT","504 UVT"],0,3,"(1.800 − 1.700) × 28% + 116 = 28 + 116 = 144 UVT."],
+["Una persona natural residente tiene patrimonio bruto de 5.000 UVT al 31 de diciembre. Respecto a la obligación de declarar renta:",["Debe declarar","No debe declarar","Solo si es comerciante","Solo si tiene ingresos superiores a 3.000 UVT"],0,1,"El umbral de patrimonio bruto es 4.500 UVT; basta superar uno de los topes."],
+["El límite global a rentas exentas y deducciones es:",["40% del ingreso neto, máximo 1.340 UVT","25% sin límite","30% hasta 790 UVT","50% del ingreso bruto"],0,2,"Art. 336 ET."],
+["La retención en la fuente es:",["Un impuesto independiente","Un mecanismo de recaudo anticipado del impuesto","Una sanción tributaria","Un tributo territorial"],1,1,"Lo retenido se imputa en la declaración del impuesto correspondiente."]
+]},
+{"id":"m4s3","nombre":"IVA e impuesto nacional al consumo","area":"TRI","descripcion":"Hechos generadores, tarifas, exentos vs. excluidos, régimen de responsables y periodicidad.",
+"temas":[["Hecho generador, causación y base gravable",2],["Tarifas, bienes exentos y excluidos",2],["Responsables, periodicidad y declaración",2],["IVA descontable y saldos a favor",2],["Impuesto nacional al consumo",1]],
+"cards":[
+["Hechos generadores del IVA (art. 420 ET)","Venta e importación de bienes corporales muebles no excluidos, prestación de servicios en el territorio nacional y venta o explotación de juegos de suerte y azar, entre otros.","La tarifa general es 19%; hay tarifa diferencial del 5% para ciertos bienes y servicios."],
+["Exento vs. excluido","Exento: tarifa 0%, el productor puede descontar el IVA pagado y solicitar devolución. Excluido: no causa IVA y el IVA pagado en insumos es mayor costo.","Ej. exento: exportaciones. Excluidos: ciertos alimentos y servicios de salud."],
+["No responsables de IVA (art. 437, par. 3)","Personas naturales comerciantes y prestadores con ingresos brutos totales inferiores a 3.500 UVT que cumplan los demás requisitos del parágrafo.","Si superan los requisitos, deben inscribirse como responsables."],
+["Periodicidad del IVA (art. 600 ET)","Bimestral si los ingresos brutos del año anterior fueron ≥ 92.000 UVT; cuatrimestral si fueron menores.","El IVA se declara y paga por los períodos que fije la norma, no mensualmente."],
+["Impuesto nacional al consumo","Grava servicios de restaurantes y bares, telefonía móvil y ciertos vehículos; no genera IVA descontable.","Servicios de restaurante: tarifa del 8%."]
+],
+"qs":[
+["¿Cuál es la diferencia entre un bien exento y uno excluido de IVA?",["Ninguna","El exento tiene tarifa 0% y permite descontar el IVA pagado; el excluido no causa IVA ni permite descontar","El excluido permite devolución y el exento no","El exento paga tarifa del 5%"],1,2,"Los exentos (p. ej. exportaciones) conservan el derecho a impuestos descontables."],
+["Un comerciante vende bienes gravados con tarifa general por $10.000.000 antes de impuestos. El total facturado es:",["$11.000.000","$11.900.000","$11.500.000","$12.000.000"],1,1,"10.000.000 × 1,19 = 11.900.000."],
+["Un responsable con ingresos brutos de 100.000 UVT el año anterior declara IVA:",["Mensualmente","Bimestralmente","Cuatrimestralmente","Anualmente"],1,2,"Se declara bimestralmente cuando los ingresos son ≥ 92.000 UVT."],
+["Los servicios de restaurante están sujetos a:",["IVA del 19%","Impuesto nacional al consumo","Solo ICA","No están gravados"],1,1,"El INC no da derecho a descuento de IVA."]
+]},
+{"id":"m4s4","nombre":"Procedimiento tributario, sanciones y facturación electrónica","area":"TRI","descripcion":"RUT, declaraciones, firmeza, sanciones y documentos electrónicos.",
+"temas":[["Obligaciones formales: RUT, NIT y facturación electrónica",2],["Declaraciones: corrección y firmeza",2],["Sanciones: extemporaneidad, inexactitud y corrección",3],["Liquidación oficial, recursos y cobro",2]],
+"cards":[
+["Sanción mínima","10 UVT (art. 639 ET): ninguna sanción puede ser inferior a ese valor.","Se aplica aunque el cálculo proporcional arroje un valor menor."],
+["Sanción por extemporaneidad","5% del impuesto a cargo por cada mes o fracción de mes de retardo, sin exceder el 100% del impuesto (art. 641 ET).","Si no hay impuesto a cargo se calcula sobre otras bases (ingresos, patrimonio)."],
+["Sanción por inexactitud","100% de la diferencia entre el saldo a pagar o a favor determinado oficialmente y el declarado (art. 647 ET).","Se reduce si el contribuyente acepta o corrige oportunamente."],
+["Firmeza de la declaración","Regla general: 3 años contados desde el vencimiento del plazo para declarar (art. 714 ET).","Declaraciones con pérdidas fiscales o beneficio de auditoría tienen reglas especiales."],
+["Factura electrónica de venta","Documento con validación previa de la DIAN, identificado con el CUFE.","El documento soporte se usa para adquisiciones a sujetos no obligados a facturar."]
+],
+"qs":[
+["La sanción mínima en materia tributaria es de:",["5 UVT","10 UVT","50 UVT","100 UVT"],1,1,"Art. 639 ET."],
+["Una declaración con impuesto a cargo de $20.000.000 se presenta con 2 meses y 10 días de retraso. La sanción por extemporaneidad es:",["$1.000.000","$2.000.000","$3.000.000","$6.000.000"],2,2,"Son 3 meses o fracción: 3 × 5% = 15% × 20.000.000 = 3.000.000."],
+["El término general de firmeza de una declaración tributaria es de:",["1 año","2 años","3 años","5 años"],2,1,"Art. 714 ET, contado desde el vencimiento del plazo (o la presentación, si es extemporánea)."],
+["El CUFE en la facturación electrónica es:",["Un impuesto","El código único de factura electrónica","Un formulario de renta","Una sanción"],1,1,"Identifica de forma única cada factura validada por la DIAN."]
+]},
+{"id":"m4s5","nombre":"Impuestos territoriales y comercio exterior","area":"TRI","descripcion":"ICA, predial, tributos aduaneros y valor en aduana.",
+"temas":[["Impuesto de industria y comercio (ICA)",2],["Predial y otros impuestos locales",1],["Comercio exterior y tributos aduaneros",2]],
+"cards":[
+["ICA","Impuesto territorial (municipal o distrital) sobre actividades industriales, comerciales y de servicios. Base: ingresos brutos ordinarios y extraordinarios menos deducciones permitidas.","Marco: Ley 14 de 1983 y Decreto Ley 1333 de 1986."],
+["Avisos y tableros","Impuesto complementario al ICA: 15% del ICA para quienes usan el espacio público con publicidad visual.","Se liquida junto con el ICA."],
+["Impuesto predial","Grava la propiedad inmueble. Base: avalúo catastral. Tarifas entre 5 y 16 por mil (Ley 44 de 1990 y Ley 1450 de 2011).","Lo fijan los concejos municipales dentro de esos rangos."],
+["Tributos aduaneros","Derechos de aduana (arancel) e IVA a la importación. Base: valor en aduana. El IVA se liquida sobre valor en aduana + arancel.","Régimen: Decreto 1165 de 2019."],
+["Incoterms","Reglas de la ICC que reparten costos, riesgos y responsabilidades entre comprador y vendedor (EXW, FOB, CIF, DAP, DDP).","Definen hasta dónde asume el vendedor transporte y seguro."]
+],
+"qs":[
+["La base gravable general del ICA son:",["La utilidad neta","Los ingresos brutos ordinarios y extraordinarios, menos deducciones permitidas","El patrimonio líquido","Los activos fijos"],1,1,"Se grava el ingreso, no la utilidad."],
+["El ICA es un impuesto:",["Nacional","Territorial (municipal o distrital)","Departamental","Parafiscal"],1,1,"Lo administran los municipios y distritos."],
+["En una importación, la base para liquidar el IVA es:",["El valor FOB","El valor en aduana más los derechos de aduana","El precio de venta final","El costo de producción en el exterior"],1,2,"Se suma el arancel al valor en aduana."],
+["La base del impuesto predial es:",["El valor comercial de mercado","El avalúo catastral","El valor de la última venta","El valor de los arriendos"],1,1,"El avalúo lo fija la autoridad catastral."]
+]}
+]}

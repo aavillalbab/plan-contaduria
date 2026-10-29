@@ -1,0 +1,181 @@
+{
+ "m8s1": {
+  "recursos": [
+   {
+    "titulo": "Crear una tabla dinámica para analizar datos de una hoja de cálculo",
+    "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+    "tipo": "articulo",
+    "fuente": "Soporte de Microsoft"
+   },
+   {
+    "titulo": "¿Qué es Power Query?",
+    "url": "https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query",
+    "tipo": "herramienta",
+    "fuente": "Microsoft Learn"
+   },
+   {
+    "titulo": "Ley 1581 de 2012: protección de datos personales",
+    "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDescribir qué es un ERP, por qué concentra el riesgo de la información contable y distinguir los controles generales de los controles de aplicación.\n\n## Conceptos clave\nUn **ERP** (planificación de recursos empresariales) es un sistema integrado que centraliza módulos como contabilidad, compras, inventarios, ventas y nómina sobre una **base de datos común**. Cuando se registra una compra, el mismo dato alimenta inventarios, cuentas por pagar y contabilidad, sin digitarlo varias veces. Ventajas: menos duplicidad, trazabilidad y cierres más rápidos. Riesgo: si el control falla, el error se propaga a todos los módulos.\n\n### Controles generales de TI\nProtegen el entorno donde operan las aplicaciones:\n- **Accesos:** usuarios únicos, claves, perfiles por cargo y revisión periódica de permisos.\n- **Cambios:** pruebas y autorización antes de modificar programas o parametrizaciones.\n- **Operación:** copias de seguridad, planes de recuperación y monitoreo de procesos.\n\n### Controles de aplicación\nOperan dentro de un proceso específico: **validación de entradas** (campos obligatorios, rangos, formatos), **procesamiento** (cálculos automáticos, cuadres) y **salidas** (reportes autorizados, conciliaciones). Ambos tipos son necesarios para confiar en la información contable.\n\n### Segregación de funciones\nUna misma persona no debería poder crear un proveedor, registrar su factura y aprobar su pago. El ERP debe configurar perfiles que impidan esas combinaciones.\n\n### XBRL\nEs un lenguaje estándar para reportar información financiera en formato digital con taxonomías definidas; se usa en reportes a supervisores y mejora la comparabilidad.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** el ERP aplica un control de aplicación llamado *cruce de tres vías*: la factura se compara con la orden de compra y la recepción. La tolerancia de precio es del 2 %.\n\n1. Orden de compra: $5.000.000. Factura del proveedor: $5.150.000.\n2. Diferencia: 5.150.000 − 5.000.000 = $150.000.\n3. Porcentaje: 150.000 / 5.000.000 = **3 %**.\n4. Como 3 % supera la tolerancia de 2 %, el sistema bloquea la factura hasta que un usuario autorizado la apruebe y deje evidencia.\n\n## Puntos clave\n- El ERP integra procesos sobre una base de datos común.\n- Controles generales: accesos, cambios y operación; de aplicación: entradas, procesamiento y salidas.\n- La segregación de funciones se configura con perfiles de acceso.\n\n## Errores frecuentes\n- Creer que un ERP es un programa solo de contabilidad.\n- Compartir usuarios o conceder permisos \"por si acaso\".\n- Confiar en los controles de aplicación sin controles generales.",
+    "recursos": [
+     {
+      "titulo": "ERP: planificación de recursos empresariales",
+      "url": "https://es.wikipedia.org/wiki/Sistema_de_planificaci%C3%B3n_de_recursos_empresariales",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     },
+     {
+      "titulo": "Auditoría informática",
+      "url": "https://es.wikipedia.org/wiki/Auditor%C3%ADa_inform%C3%A1tica",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     },
+     {
+      "titulo": "Introducción a XBRL",
+      "url": "https://www.xbrl.org/the-standard/what/an-introduction-to-xbrl/",
+      "tipo": "articulo",
+      "fuente": "XBRL International"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nResumir y cruzar datos contables con tablas dinámicas y recuperar información con BUSCARX en Excel.\n\n## Conceptos clave\n### Preparar los datos\nUna tabla dinámica solo funciona bien con datos ordenados: una fila por registro, **encabezados únicos** en una sola fila, sin filas ni columnas vacías ni celdas combinadas. Conviene convertir el rango en **tabla de Excel** (Ctrl + T), para que crezca automáticamente.\n\n### Tabla dinámica\nResume miles de registros sin fórmulas. Se arma arrastrando campos a cuatro áreas:\n- **Filas:** cómo agrupas (cliente, cuenta, mes).\n- **Columnas:** un segundo criterio de comparación.\n- **Valores:** lo que calculas (suma, cuenta, promedio).\n- **Filtros** y **segmentaciones:** limitan lo que se ve.\n\nAl cambiar los datos de origen, se debe **actualizar** la tabla dinámica. Son útiles para análisis de cartera, gastos por centro de costo y conciliaciones.\n\n### BUSCARX\nReemplaza a BUSCARV, permite buscar en cualquier dirección y no depende del número de columna. Sintaxis básica, con separador de argumentos según la configuración regional (en Colombia suele ser punto y coma):\n\n`=BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra])`\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** una hoja de facturas por cobrar tiene código de cliente y valor. Se necesita el total por cliente y el nombre.\n\n| Factura | Código | Valor |\n|---|---|---|\n| 1 | C01 | 1.200.000 |\n| 2 | C02 | 800.000 |\n| 3 | C01 | 500.000 |\n| 4 | C03 | 300.000 |\n| 5 | C02 | 700.000 |\n\n1. Inserta una tabla dinámica con la tabla de facturas.\n2. Arrastra *Código* a **Filas** y *Valor* a **Valores** (suma).\n3. Resultado: C01 = 1.700.000; C02 = 1.500.000; C03 = 300.000. Total general: **3.500.000**, que debe coincidir con la suma de los datos.\n4. Para traer el nombre, con una tabla *Clientes*: `=BUSCARX(A2; Clientes[Código]; Clientes[Nombre]; \"No existe\")`.\n5. Si el código no está en la tabla, la fórmula muestra \"No existe\" en lugar de un error, y señala un dato por corregir.\n\n## Puntos clave\n- Datos en formato de tabla, sin celdas combinadas ni encabezados repetidos.\n- Las tablas dinámicas resumen y cruzan; no se actualizan solas.\n- BUSCARX busca en cualquier dirección y permite un resultado alternativo.\n- Siempre cuadra el total de la dinámica contra la fuente.\n\n## Errores frecuentes\n- Dejar filas vacías o encabezados duplicados en el origen.\n- Olvidar actualizar la tabla dinámica.\n- Buscar códigos con espacios o formato de texto distinto al número.",
+    "recursos": [
+     {
+      "titulo": "Crear una tabla dinámica para analizar datos de una hoja de cálculo",
+      "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+      "tipo": "articulo",
+      "fuente": "Soporte de Microsoft"
+     },
+     {
+      "titulo": "Función BUSCARX",
+      "url": "https://support.microsoft.com/es-es/office/buscarx-funci%C3%B3n-buscarx-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+      "tipo": "articulo",
+      "fuente": "Soporte de Microsoft"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDiferenciar los tipos de analítica, entender el flujo de datos hacia un tablero de BI y reconocer opciones para automatizar tareas contables.\n\n## Conceptos clave\n### Niveles de analítica\n- **Descriptiva:** qué pasó (ventas del mes, saldo de cartera).\n- **Diagnóstica:** por qué pasó (qué clientes explican el aumento).\n- **Predictiva:** qué podría pasar (proyección de recaudo).\n- **Prescriptiva:** qué hacer (decidir condiciones de crédito).\n\n### Del dato al tablero\nLa **inteligencia de negocios (BI)** convierte datos de varias fuentes en información para decidir. El flujo típico es ETL: **extraer** (ERP, Excel, bancos), **transformar** (limpiar, unificar formatos, eliminar duplicados) y **cargar** en un modelo. **Power Query** permite hacer esas transformaciones y repetirlas con un clic; **Power BI** modela los datos y publica tableros con indicadores. La calidad del resultado depende de la calidad del dato de origen.\n\n### Analítica en auditoría y contabilidad\nCon datos completos se pueden revisar poblaciones enteras, no solo muestras: facturas duplicadas, asientos en fin de semana, pagos justo por debajo de un límite de aprobación. Una prueba clásica es la **ley de Benford**, según la cual el primer dígito de muchos conjuntos de cifras contables es 1 en cerca de 30,1 % de los casos; desviaciones grandes ameritan revisión, no prueban fraude.\n\n### Automatización\nOpciones de menor a mayor complejidad: fórmulas y consultas actualizables, macros, flujos con herramientas de automatización y **RPA** (robots que replican tareas de teclado). Antes de automatizar, documenta el proceso y define controles: un proceso defectuoso automatizado produce errores más rápido.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** un tablero de cartera muestra los *días de venta pendientes de cobro* (DSO).\n\nDatos del trimestre (90 días): cartera al cierre $3.500.000; ventas a crédito $12.000.000.\n\n1. Fórmula: DSO = cartera / ventas a crédito × días del periodo.\n2. Cálculo: 3.500.000 / 12.000.000 × 90 = **26,25 días**.\n3. Lectura: la empresa tarda en promedio unos 26 días en cobrar. Si la política de crédito es de 30 días, el recaudo es sano.\n4. En Power BI, este indicador se actualiza con la fuente y permite filtrar por cliente o vendedor.\n\n## Puntos clave\n- Cuatro niveles de analítica: descriptiva, diagnóstica, predictiva y prescriptiva.\n- ETL: extraer, transformar y cargar.\n- Automatizar exige proceso documentado y controles.\n\n## Errores frecuentes\n- Construir tableros sin validar que los datos cuadren con la contabilidad.\n- Interpretar una anomalía estadística como prueba de fraude.\n- Automatizar sin controlar accesos ni cambios.",
+    "recursos": [
+     {
+      "titulo": "¿Qué es Power Query?",
+      "url": "https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query",
+      "tipo": "herramienta",
+      "fuente": "Microsoft Learn"
+     },
+     {
+      "titulo": "¿Qué es Power BI?",
+      "url": "https://learn.microsoft.com/es-es/power-bi/fundamentals/power-bi-overview",
+      "tipo": "herramienta",
+      "fuente": "Microsoft Learn"
+     },
+     {
+      "titulo": "Inteligencia empresarial (Business Intelligence)",
+      "url": "https://es.wikipedia.org/wiki/Inteligencia_empresarial",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAplicar la Ley 1581 de 2012 al manejo de datos de clientes, empleados y proveedores.\n\n## Conceptos clave\nLa **Ley 1581 de 2012** desarrolla el derecho de **habeas data** y establece el régimen general de protección de datos personales. Aplica a bases de datos de clientes, empleados y proveedores; la autoridad es la **SIC**.\n\n### Definiciones\n- **Dato personal:** información vinculada a una persona natural determinada o determinable.\n- **Dato sensible:** afecta la intimidad o puede generar discriminación (salud, biometría, entre otros).\n- **Titular:** la persona dueña de los datos.\n- **Responsable:** quien decide sobre la base de datos; **encargado:** quien trata los datos por cuenta del responsable (por ejemplo, un proveedor de nómina).\n\n### Reglas esenciales\n- Se requiere **autorización previa, expresa e informada** del titular, que pueda comprobarse (salvo excepciones legales).\n- Se adopta una **política de tratamiento** y medidas de seguridad, e informa la finalidad al titular.\n- Derechos del titular: conocer, actualizar, rectificar y suprimir, pedir prueba de la autorización y quejarse ante la SIC.\n- Plazos: **consultas** en 10 días hábiles; **reclamos** en 15 días hábiles.\n- La SIC puede imponer multas de hasta 2.000 SMMLV, suspender el tratamiento u ordenar el cierre. Existe el Registro Nacional de Bases de Datos; verifica quiénes deben inscribirse.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** una firma contable maneja la nómina de 40 empleados de un cliente y una base de 1.200 clientes.\n\n1. **Inventario:** identifica las bases (nómina, clientes) y qué datos sensibles contienen (exámenes médicos, huellas).\n2. **Autorización y política:** conserva la autorización de cada uno de los 40 empleados y define si la firma es responsable o encargada.\n3. **Reclamo:** un empleado solicita corregir su dirección. La firma debe responder dentro de 15 días hábiles y deja evidencia.\n4. **Seguridad:** restringe el acceso a nómina con usuarios y claves.\n\n## Puntos clave\n- Autorización previa, expresa e informada del titular.\n- Autoridad: SIC. Plazos: consultas 10 días hábiles; reclamos 15 días hábiles.\n\n## Errores frecuentes\n- Pedir datos sin informar la finalidad.\n- Enviar bases de datos por correo sin protección.",
+    "recursos": [
+     {
+      "titulo": "Ley 1581 de 2012: protección de datos personales",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Ley 1581 de 2012 (documento oficial)",
+      "url": "https://www.sic.gov.co/recursos_user/documentos/normatividad/Leyes/2012/Ley_1581_2012.pdf",
+      "tipo": "norma",
+      "fuente": "Superintendencia de Industria y Comercio"
+     }
+    ]
+   }
+  ]
+ },
+ "m8s2": {
+  "recursos": [
+   {
+    "titulo": "Función VNA (valor presente neto en Excel)",
+    "url": "https://support.microsoft.com/es-es/office/van-funci%C3%B3n-van-8672cb67-2576-4d07-b67b-ac28acf2a568",
+    "tipo": "articulo",
+    "fuente": "Soporte de Microsoft"
+   },
+   {
+    "titulo": "Valor actual neto (VAN) y su relación con la TIR",
+    "url": "https://es.wikipedia.org/wiki/Valor_actual_neto",
+    "tipo": "articulo",
+    "fuente": "Wikipedia"
+   },
+   {
+    "titulo": "Flujo de caja",
+    "url": "https://es.wikipedia.org/wiki/Flujo_de_caja",
+    "tipo": "articulo",
+    "fuente": "Wikipedia"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDescribir las etapas de un proyecto y el contenido de los estudios de mercado, técnico y organizacional que sustentan su evaluación financiera.\n\n## Conceptos clave\nUn proyecto avanza por etapas: **idea → perfil → prefactibilidad → factibilidad → diseño → ejecución**. Cada una profundiza y reduce la incertidumbre antes de comprometer más recursos. La evaluación financiera depende de los estudios previos: sus supuestos de cantidades, precios, costos y tamaño alimentan el flujo de caja.\n\n### Estudio de mercado\nResponde si hay quién compre, cuánto y a qué precio. Analiza producto, consumidores, **demanda**, **oferta**, competencia, precio y canales de distribución. Con fuentes primarias (encuestas, entrevistas) y secundarias (estadísticas, informes sectoriales) se estima la **demanda insatisfecha** (demanda menos oferta) y la parte que el proyecto espera capturar. Se proyecta además su crecimiento y se fija una política de precios coherente con los costos y con la competencia.\n\n### Estudio técnico\nDefine **tamaño** (capacidad instalada), **localización**, proceso productivo, maquinaria, requerimientos de materia prima y personal. Determina las inversiones y los costos operativos.\n\n### Estudio organizacional y legal\nDefine estructura administrativa, funciones y cargos, tipo de sociedad, permisos y trámites. Sus costos (nómina administrativa, registros, licencias) forman parte del flujo. También conviene identificar riesgos: dependencia de un proveedor, rotación de personal o requisitos regulatorios que retrasen el arranque.\n\n## Ejemplo resuelto\n> **Ejemplo (cifras ilustrativas):** un proyecto de producción local.\n\n1. Demanda anual del mercado: 120.000 unidades. Oferta existente: 95.000.\n2. Demanda insatisfecha: 120.000 − 95.000 = **25.000 unidades**.\n3. Participación objetivo: 20 %. Ventas: 25.000 × 0,20 = **5.000 unidades**.\n4. Precio de venta: $40.000. Ingresos anuales: 5.000 × 40.000 = **$200.000.000**.\n5. Estudio técnico: capacidad instalada de 6.000 unidades; utilización = 5.000 / 6.000 = **83,3 %**.\n6. Estas cifras pasan al flujo de caja del proyecto.\n\n## Puntos clave\n- Etapas: idea, perfil, prefactibilidad, factibilidad, diseño y ejecución.\n- Mercado, técnico y organizacional alimentan los supuestos del flujo.\n- Demanda insatisfecha = demanda − oferta.\n\n## Errores frecuentes\n- Suponer que toda la demanda insatisfecha será del proyecto.\n- Definir el tamaño sin considerar el mercado.\n- Omitir costos administrativos y legales.",
+    "recursos": [
+     {
+      "titulo": "Investigación de mercados",
+      "url": "https://es.wikipedia.org/wiki/Estudio_de_mercado",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConstruir el flujo de caja de un proyecto, distinguir lo que debe y no debe incluirse, y documentar los supuestos.\n\n## Conceptos clave\nEl **flujo de caja del proyecto** mide el efectivo que genera la inversión, sin importar cómo se financie. Se compone de:\n\n**Inversión inicial + flujos operativos + valor terminal**\n\nEl flujo operativo de cada periodo es: *utilidad operativa después de impuestos + depreciación − inversiones adicionales − cambios en capital de trabajo*. La depreciación se suma porque **no es salida de efectivo**, aunque reduce el impuesto.\n\n### Qué incluir y qué no\n- Incluir: inversión en activos, capital de trabajo, impuestos sobre la utilidad, valor de salvamento y recuperación del capital de trabajo.\n- Excluir: **costos hundidos** (ya ocurridos; no cambian con la decisión), como un estudio de mercado ya pagado.\n- Excluir los intereses y la amortización de deuda del flujo del proyecto (se reflejan en la tasa de descuento).\n- Incluir **costos de oportunidad** relevantes, como el arriendo de un local propio que se dejaría de percibir.\n\n### Supuestos\nTodo flujo se apoya en supuestos: volumen, precio, inflación, tasa de impuesto, vida útil y capital de trabajo. Deben ser coherentes (cifras corrientes con tasa nominal) y registrarse para poder cambiarlos en el análisis de sensibilidad.\n\n## Ejemplo resuelto\n> **Ejemplo (millones de pesos, ilustrativo):** inversión en maquinaria de $100, depreciación en línea recta a 5 años, impuesto de renta del 35 % (verifica la tarifa vigente).\n\n1. Ingresos 200; costos variables 80; costos fijos sin depreciación 40; depreciación 20.\n2. Utilidad operativa: 200 − 80 − 40 − 20 = **60**.\n3. Impuesto: 60 × 35 % = **21**. Utilidad después de impuestos: **39**.\n4. Flujo operativo: 39 + 20 de depreciación = **59**.\n5. El año 1 requiere capital de trabajo de 10: flujo del año 1 = 59 − 10 = **49**.\n6. Año 3: se recupera el capital de trabajo (10) y se vende la máquina por su valor en libros (100 − 3 × 20 = 40): 59 + 10 + 40 = **109**.\n\n| Año | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Flujo | −100 | 49 | 59 | 109 |\n\n## Puntos clave\n- Flujo = inversión inicial + flujos operativos + valor terminal.\n- La depreciación se suma de nuevo: no es efectivo.\n- Los costos hundidos no se incluyen.\n- Documenta los supuestos.\n\n## Errores frecuentes\n- Incluir costos hundidos o la depreciación como salida de caja.\n- Olvidar el impuesto, el capital de trabajo o su recuperación.\n- Mezclar flujos nominales con una tasa real.",
+    "recursos": [
+     {
+      "titulo": "Flujo de caja",
+      "url": "https://es.wikipedia.org/wiki/Flujo_de_caja",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     },
+     {
+      "titulo": "Coste de oportunidad",
+      "url": "https://es.wikipedia.org/wiki/Costo_de_oportunidad",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nCalcular e interpretar el VPN, la TIR y la relación beneficio/costo, y analizar la sensibilidad de la decisión.\n\n## Conceptos clave\n### Tasa de descuento\nSe parte del **costo de oportunidad**: el rendimiento de la mejor alternativa sacrificada. Esa es la tasa de oportunidad (TIO) que el inversionista exige como mínimo. Con ella se llevan los flujos al presente.\n\n### Valor presente neto (VPN)\nVPN = −Inversión + Σ Flujo_t / (1 + TIO)^t. Si el **VPN > 0**, el proyecto crea valor por encima de lo exigido; si es negativo, lo destruye; si es cero, es indiferente.\n\n### Tasa interna de retorno (TIR)\nEs la tasa que hace el VPN igual a cero. Si **TIR > TIO**, se acepta. Puede ser engañosa si los flujos cambian de signo varias veces, y supone reinversión a la misma tasa. Para comparar proyectos excluyentes de distinto tamaño, el VPN es el criterio más confiable, porque mide el valor creado en pesos y no solo un porcentaje.\n\n### Relación beneficio/costo (B/C)\nB/C = valor presente de beneficios / valor presente de costos. Si es **mayor que 1**, el proyecto es viable; es equivalente a un VPN positivo.\n\n### Sensibilidad y escenarios\nEl **análisis de sensibilidad** mide cuánto cambia el VPN al variar una variable clave (precio, volumen, costo). Se complementa con escenarios optimista, probable y pesimista. En un proyecto real se varía una variable a la vez (precio, volumen, costo) y se identifica cuál mueve más el VPN; esa es la variable a controlar con contratos, cobertura o seguimiento. También puede calcularse el **punto de equilibrio** de cada variable: el valor que hace el VPN igual a cero.\n\n## Ejemplo resuelto\n> **Ejemplo:** inversión de $1.000 que genera flujos de $600 al final de cada uno de dos años. TIO del 10 %.\n\n1. VP de los flujos: 600 / 1,10 + 600 / 1,21 = 545,45 + 495,87 = **1.041,32**.\n2. VPN: 1.041,32 − 1.000 = **41,32** > 0: se acepta.\n3. B/C: 1.041,32 / 1.000 = **1,04** > 1, coherente con el VPN.\n4. TIR: la tasa que iguala 600/(1+i) + 600/(1+i)² a 1.000 es aproximadamente **13,07 %**, mayor que 10 %: se acepta.\n\n### Sensibilidad\n| Escenario | Flujo anual | VPN |\n|---|---|---|\n| Pesimista (−10 %) | 540 | −62,81 |\n| Probable | 600 | 41,32 |\n| Optimista (+10 %) | 660 | 145,45 |\n\nEl flujo de equilibrio (VPN = 0) es 1.000 / 1,7355 = **576,19**, es decir, una caída de solo 3,97 %. Lectura para la decisión: el proyecto es aceptable pero frágil; conviene revisar la proyección de ventas, buscar contratos que aseguren el flujo o exigir un margen de seguridad antes de aprobarlo.\n\n## Puntos clave\n- VPN > 0, TIR > TIO y B/C > 1 llevan a la misma decisión en un proyecto individual.\n- El costo de oportunidad es la base de la tasa de descuento.\n- La sensibilidad muestra qué tan frágil es la decisión.\n\n## Errores frecuentes\n- Comparar la TIR con la tasa de financiación en lugar de la TIO.\n- Usar flujos nominales con tasas reales.\n- Presentar un VPN sin variar los supuestos clave.",
+    "recursos": [
+     {
+      "titulo": "Valor actual neto (VAN) y su relación con la TIR",
+      "url": "https://es.wikipedia.org/wiki/Valor_actual_neto",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     },
+     {
+      "titulo": "Tasa interna de retorno (TIR)",
+      "url": "https://es.wikipedia.org/wiki/Tasa_interna_de_retorno",
+      "tipo": "articulo",
+      "fuente": "Wikipedia"
+     },
+     {
+      "titulo": "Función VNA (valor presente neto en Excel)",
+      "url": "https://support.microsoft.com/es-es/office/van-funci%C3%B3n-van-8672cb67-2576-4d07-b67b-ac28acf2a568",
+      "tipo": "articulo",
+      "fuente": "Soporte de Microsoft"
+     }
+    ]
+   }
+  ]
+ }
+}

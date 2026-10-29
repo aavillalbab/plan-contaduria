@@ -1,0 +1,418 @@
+{
+ "m2s1": {
+  "recursos": [
+   {
+    "titulo": "Guía NIC 2 Inventarios",
+    "url": "https://incp.org.co/Site/publicaciones/guias/nic-2.pdf",
+    "tipo": "articulo",
+    "fuente": "INCP (Instituto Nacional de Contadores Públicos)"
+   },
+   {
+    "titulo": "IAS 16 Property, Plant and Equipment (página oficial de la norma)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "IFRS 9 Financial Instruments (página oficial de la norma)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nComprender qué se reconoce como efectivo, cómo se controla y cómo se elabora una conciliación bancaria que explique por qué el saldo del banco y el de la contabilidad no coinciden.\n\n## Conceptos clave\n### Efectivo y equivalentes de efectivo\nEl **efectivo** incluye la caja y los depósitos bancarios a la vista (cuentas corrientes y de ahorro). Los **equivalentes de efectivo** son inversiones a corto plazo, muy líquidas, convertibles en montos conocidos y con riesgo insignificante de cambio de valor (la NIC 7 las asocia con vencimientos originales de tres meses o menos). El efectivo sujeto a restricciones, como un embargo, debe revelarse en las notas.\n\n### Control del efectivo\nEs el activo más fácil de perder o desviar. Las prácticas básicas son: separar funciones (quien recibe no concilia), consignar los recaudos íntegros, usar fondos fijos de caja menor con arqueos sorpresivos y pagar con cheque o transferencia.\n\n### La conciliación bancaria\nCompara el saldo del **libro de bancos** con el **extracto** del banco. Las diferencias se dividen en dos grupos:\n\n- **Partidas que ajustan el extracto** (la empresa ya las registró y el banco aún no): los *cheques girados no cobrados* se restan y las *consignaciones en tránsito* se suman. No requieren asiento.\n- **Partidas que ajustan el libro** (el banco las registró y la empresa no): las *notas débito* (comisiones, GMF, cheques devueltos) se restan y las *notas crédito* (intereses, recaudos directos) se suman. Sí requieren asiento.\n\n> **Clave:** al final, el saldo del extracto ajustado y el del libro ajustado deben ser iguales. Ese valor es el efectivo real de la empresa.\n\n## Ejemplo resuelto\nAl 31 de diciembre el extracto muestra $52.300.000 y el libro de bancos $51.250.000. Se identifican: cheques pendientes de cobro por $3.800.000, consignación en tránsito por $2.500.000, nota débito por comisiones y GMF de $350.000 y nota crédito por un pago directo de un cliente de $100.000.\n\n1. Lado del extracto: 52.300.000 + 2.500.000 − 3.800.000 = **$51.000.000**.\n2. Lado del libro: 51.250.000 − 350.000 + 100.000 = **$51.000.000**.\n3. Ambos coinciden, así que la conciliación cuadra.\n4. Asientos: débito a gastos bancarios y crédito a bancos por $350.000; débito a bancos y crédito a cuentas por cobrar (cliente) por $100.000.\n\n## Puntos clave\n- La conciliación se hace cada mes y la prepara alguien independiente del manejo de caja.\n- Solo las partidas del lado del libro generan asientos.\n- Un cheque girado no cobrado reduce el saldo del extracto, no el del libro.\n- Las partidas conciliatorias antiguas deben investigarse.\n\n## Errores frecuentes\n- Restar del libro un cheque que ya estaba contabilizado.\n- Olvidar contabilizar notas débito o crédito y dejar el libro desactualizado.\n- Forzar la diferencia con una cuenta de \"ajustes\" sin explicarla.",
+    "recursos": [
+     {
+      "titulo": "¿Cómo hacer una conciliación bancaria? Guía completa con ejemplos",
+      "url": "https://www.youtube.com/watch?v=vtD383JdoX4",
+      "tipo": "video",
+      "fuente": "YouTube: De Maestra para Maestros"
+     },
+     {
+      "titulo": "Preparación de una conciliación bancaria (Contabilidad Financiera, Lumen)",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Financiera_(Lumen)/09%3A_Efectivo/9.03%3A_Preparaci%C3%B3n_de_una_conciliaci%C3%B3n_bancaria",
+      "tipo": "articulo",
+      "fuente": "LibreTexts Español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender cómo se reconocen y miden las cuentas por cobrar y cómo se calcula su deterioro con el modelo de pérdida crediticia esperada.\n\n## Conceptos clave\n### Cuentas por cobrar como activo financiero\nLas cuentas por cobrar comerciales nacen de ventas a crédito y son activos financieros. Se reconocen al precio de la transacción y se presentan netas del deterioro. En el Grupo 1 se aplica la **NIIF 9**; en el Grupo 2, la sección de instrumentos financieros de la NIIF para las PYMES, que usa un modelo de pérdida incurrida (verifica la edición vigente en el decreto).\n\n### Pérdida crediticia esperada\nAntes se provisionaba cuando ya había incumplimiento. La NIIF 9 cambió el enfoque: se reconoce la pérdida **esperada**, ponderada por probabilidad y descontada, sin esperar a que el cliente deje de pagar.\n\n### Enfoque simplificado y matriz de provisiones\nPara cuentas por cobrar comerciales sin componente financiero significativo se mide la pérdida esperada durante toda la vida del activo. La herramienta usual es la **matriz de provisiones**: se agrupa la cartera por antigüedad y se aplica a cada tramo un porcentaje basado en la experiencia histórica de pérdidas, ajustada por condiciones económicas actuales y esperadas.\n\n> **Clave:** el deterioro contable es independiente de la deducción fiscal de cartera de difícil cobro, que el Estatuto Tributario regula aparte. Esa diferencia puede originar impuesto diferido.\n\n## Ejemplo resuelto\nUna empresa tiene cartera de $400.000.000. Los porcentajes son ilustrativos; en la práctica salen del historial de la empresa.\n\n| Tramo | Saldo | % | Deterioro |\n|---|---|---|---|\n| Sin vencer | $250.000.000 | 1% | $2.500.000 |\n| 1 a 30 días | $80.000.000 | 3% | $2.400.000 |\n| 31 a 60 días | $40.000.000 | 8% | $3.200.000 |\n| 61 a 90 días | $20.000.000 | 20% | $4.000.000 |\n| Más de 90 días | $10.000.000 | 50% | $5.000.000 |\n| **Total** | **$400.000.000** | | **$17.100.000** |\n\nEl saldo actual de la cuenta de deterioro es $12.000.000, así que el ajuste es 17.100.000 − 12.000.000 = **$5.100.000**. Asiento: débito a gasto por deterioro y crédito a deterioro acumulado de cuentas por cobrar por $5.100.000.\n\n## Puntos clave\n- Se provisiona la pérdida esperada, no solo la ocurrida.\n- El enfoque simplificado se apoya en una matriz por antigüedad.\n- La cuenta de deterioro es una cuenta de valuación que resta al activo.\n- Si luego se recupera un valor, se reversa el deterioro.\n\n## Errores frecuentes\n- Aplicar porcentajes sin sustento histórico.\n- Registrar el gasto por el total de la matriz y no por la diferencia con el saldo previo.\n- Confundir la castigada de cartera (baja) con el deterioro.",
+    "recursos": [
+     {
+      "titulo": "Efecto de la aplicación de la NIIF 9 en el deterioro de valor de las cuentas por cobrar",
+      "url": "https://www.youtube.com/watch?v=xiR9zlNUgw0",
+      "tipo": "video",
+      "fuente": "YouTube: Actualícese Video"
+     },
+     {
+      "titulo": "Ejercicio sobre enfoque simplificado para el cálculo de pérdidas crediticias esperadas bajo NIIF 9",
+      "url": "https://www.youtube.com/watch?v=OQ0Btr1xtq0",
+      "tipo": "video",
+      "fuente": "YouTube: Dr. Luis A. Chávez"
+     },
+     {
+      "titulo": "Concepto CTCP 192 de 2021: modelo de pérdida crediticia esperada (NIIF 9)",
+      "url": "https://accounter.co/niif/modelo-de-perdida-crediticia-esperada-niif-9-concepto-ctco-192-de-2021",
+      "tipo": "articulo",
+      "fuente": "Accounter (concepto del CTCP)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAprender a medir los inventarios según la NIC 2, aplicar una fórmula de costo y reconocer el deterioro cuando el costo supera el valor neto realizable.\n\n## Conceptos clave\n### Qué son los inventarios\nSon activos mantenidos para la venta en el curso normal del negocio, en proceso de producción o como materiales que se consumirán en la producción o en la prestación de servicios.\n\n### Medición: el menor entre costo y VNR\nEl **costo** incluye compra, aranceles no recuperables, transporte y otros costos para dejar el bien en su lugar y condición actuales, menos descuentos. Excluye costos de venta y gastos administrativos generales. El **valor neto realizable (VNR)** es el precio estimado de venta menos los costos estimados para terminar y vender. Se mide al menor de los dos.\n\n### Fórmulas de costo\nPara bienes intercambiables se permiten el **costo promedio ponderado** y **PEPS (FIFO)**. El **UEPS (LIFO) no está permitido** en NIIF. Los bienes únicos se llevan por identificación específica.\n\n## Ejemplo resuelto\nInventario inicial: 100 unidades a $10.000. Se compran 300 unidades a $12.000. Se venden 250 unidades. Se aplica promedio ponderado.\n\n1. Costo disponible: 100 × 10.000 + 300 × 12.000 = $4.600.000 en 400 unidades.\n2. Costo promedio: 4.600.000 / 400 = **$11.500** por unidad.\n3. Costo de ventas: 250 × 11.500 = **$2.875.000**.\n4. Inventario final: 150 × 11.500 = **$1.725.000**.\n\nCon PEPS el costo de ventas sería 100 × 10.000 + 150 × 12.000 = $2.800.000 y el inventario final 150 × 12.000 = $1.800.000.\n\nAhora, el precio estimado de venta es $12.000 y los costos para vender, $1.000, así que el VNR es $11.000 por unidad, menor que el costo promedio. Deterioro: 150 × (11.500 − 11.000) = **$75.000**, que se registra como gasto contra una cuenta de deterioro del inventario.\n\n## Puntos clave\n- Medición: menor entre costo y VNR.\n- Promedio ponderado y PEPS son válidos; UEPS no.\n- El costo de ventas se reconoce cuando se vende el bien.\n- El deterioro se revisa en cada cierre y se reversa si el VNR se recupera, hasta el costo original.\n\n## Errores frecuentes\n- Incluir gastos de administración en el costo.\n- Comparar el costo con el precio de venta sin restar los costos de venta.\n- Cambiar de fórmula de costo sin justificación.",
+    "recursos": [
+     {
+      "titulo": "NIC 2: Valor neto realizable (VNR) y asientos contables",
+      "url": "https://www.youtube.com/watch?v=MGwqWAebXQI",
+      "tipo": "video",
+      "fuente": "YouTube: Néstor Humberto Castañeda Carrión"
+     },
+     {
+      "titulo": "Guía NIC 2 Inventarios",
+      "url": "https://incp.org.co/Site/publicaciones/guias/nic-2.pdf",
+      "tipo": "articulo",
+      "fuente": "INCP (Instituto Nacional de Contadores Públicos)"
+     },
+     {
+      "titulo": "IAS 2 Inventories (página oficial de la norma)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDeterminar el costo de una propiedad, planta y equipo (PPE), calcular su depreciación con distintos métodos y conocer las reglas de medición posterior de la NIC 16.\n\n## Conceptos clave\n### Reconocimiento y costo inicial\nUn elemento de PPE se reconoce si es probable que genere beneficios económicos futuros y su costo se puede medir con fiabilidad. El costo incluye:\n\n- Precio de compra más aranceles no recuperables, menos descuentos.\n- Costos directamente atribuibles (transporte, instalación, pruebas, honorarios profesionales).\n- La estimación inicial de desmantelamiento o restauración, cuando existe esa obligación.\n\nNo forman parte del costo la capacitación del personal ni los gastos generales de administración.\n\n### Medición posterior\nLa entidad escoge entre el **modelo del costo** (costo menos depreciación y deterioro) y el **modelo de revaluación**. Cada componente significativo se deprecia por separado.\n\n### Depreciación\nEs la distribución sistemática del **valor depreciable** (costo menos valor residual) a lo largo de la **vida útil**. Comienza cuando el activo está disponible para usar. Los terrenos no se deprecian. Vida útil, valor residual y método se revisan al menos al cierre de cada período. Métodos:\n\n- **Línea recta:** cuota igual cada año.\n- **Saldo decreciente:** tasa fija sobre el valor en libros, con cuotas altas al inicio.\n- **Unidades de producción:** según el uso real.\n\n> **Clave:** la vida útil contable se estima según el uso esperado por la empresa y no tiene que coincidir con la vida fiscal.\n\n### Costos posteriores, deterioro y baja\nLos gastos de mantenimiento y reparación del día a día van al **gasto** del período. En cambio, una mejora que aumenta la vida útil o la capacidad, o el reemplazo de un componente significativo, se **capitaliza** y el componente sustituido se da de baja. Si hay indicios de que el valor recuperable es menor al valor en libros, se aplica la NIC 36 y se reconoce una pérdida por deterioro. Un elemento se **da de baja** cuando se vende o ya no se esperan beneficios futuros; la utilidad o pérdida es la diferencia entre el precio neto de venta y el valor en libros.\n\n> **Ejemplo:** si la máquina de este tema se vende al cierre del año 2 por $75.000.000, con depreciación acumulada en línea recta de $21.000.000, el valor en libros es 92.000.000 − 21.000.000 = $71.000.000 y la utilidad en venta es 75.000.000 − 71.000.000 = $4.000.000.\n\n## Ejemplo resuelto\nSe importa una máquina. Datos: factura $80.000.000, aranceles no recuperables $4.000.000, transporte $2.500.000, instalación y pruebas $3.500.000, valor presente del desmantelamiento $2.000.000, capacitación $1.200.000 y gastos administrativos $900.000.\n\n1. Costo: 80.000.000 + 4.000.000 + 2.500.000 + 3.500.000 + 2.000.000 = **$92.000.000**. La capacitación y los gastos administrativos van al gasto.\n2. Residual: $8.000.000; vida útil: 8 años; valor depreciable: $84.000.000.\n3. **Línea recta:** 84.000.000 / 8 = **$10.500.000** al año.\n4. **Saldo decreciente (25%, es decir 2/8):** año 1, 92.000.000 × 25% = $23.000.000; año 2, (92.000.000 − 23.000.000) × 25% = $17.250.000. Nunca se deprecia por debajo del residual.\n5. **Unidades de producción:** si la capacidad es 400.000 unidades y este año se producen 60.000, la depreciación es 84.000.000 × 60.000 / 400.000 = **$12.600.000**.\n\n## Puntos clave\n- Costo = lo necesario para dejar el activo listo para usar.\n- Valor depreciable = costo − residual.\n- Se revisan vida útil, residual y método en cada cierre.\n- Los cambios en estimaciones se aplican hacia adelante.\n\n## Errores frecuentes\n- Depreciar los terrenos.\n- Llevar la capacitación al costo del activo.\n- Calcular la depreciación sobre el costo total sin restar el residual.\n- Seguir depreciando cuando el valor en libros ya llegó al residual.",
+    "recursos": [
+     {
+      "titulo": "Depreciación lineal (NIC 16)",
+      "url": "https://www.youtube.com/watch?v=-O5t3M3hSys",
+      "tipo": "video",
+      "fuente": "YouTube: TUTO CONTABLE"
+     },
+     {
+      "titulo": "NIC 16: propiedad, planta y equipo",
+      "url": "https://www.youtube.com/watch?v=LGmzEwQ25J8",
+      "tipo": "video",
+      "fuente": "YouTube: UAM Costa Rica"
+     },
+     {
+      "titulo": "IAS 16 Property, Plant and Equipment (página oficial de la norma)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   }
+  ]
+ },
+ "m2s2": {
+  "recursos": [
+   {
+    "titulo": "IAS 37 Provisions, Contingent Liabilities and Contingent Assets (página oficial)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets.html",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "IAS 12 Income Taxes (página oficial de la norma)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-12-income-taxes/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "IAS 19 Employee Benefits (página oficial de la norma)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-19-employee-benefits/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nReconocer cuándo existe un pasivo, medir un préstamo con su tabla de amortización y provisionar mensualmente las obligaciones laborales de corto plazo.\n\n## Conceptos clave\n### Definición de pasivo\nEs una **obligación presente**, surgida de sucesos pasados, cuya liquidación se espera que implique una salida de recursos con beneficios económicos. Un compromiso futuro, como un contrato que aún no se ha ejecutado, no es todavía un pasivo.\n\n### Pasivos financieros\nIncluyen préstamos bancarios, obligaciones con terceros y bonos. Se reconocen cuando la entidad se hace parte del contrato y se miden inicialmente al valor razonable, ajustado por los costos de transacción. Luego se miden al **costo amortizado**: el saldo cambia con los intereses causados y con los pagos. Se clasifican en corrientes (vencen dentro de doce meses) y no corrientes.\n\n### Obligaciones laborales\nLa NIC 19 trata los beneficios a empleados. Los de corto plazo (salarios, cesantías, intereses sobre cesantías, prima de servicios y vacaciones) se reconocen como gasto y pasivo **a medida que el empleado presta el servicio**, aunque se paguen después. Las tarifas y topes provienen del Código Sustantivo del Trabajo y se actualizan por norma; verifica los valores vigentes.\n\n## Ejemplo resuelto\n### Préstamo\nUn banco desembolsa $60.000.000 a 12 meses, con interés del 1,5% mensual y cuota fija de $5.500.800.\n\n| Mes | Interés | Abono a capital | Saldo |\n|---|---|---|---|\n| 1 | $900.000 | $4.600.800 | $55.399.200 |\n| 2 | $830.988 | $4.669.812 | $50.729.388 |\n\nEl interés del mes 1 es 60.000.000 × 1,5% = $900.000; el abono es 5.500.800 − 900.000 = $4.600.800.\n\n### Provisión laboral mensual\nPara un empleado con salario de $3.000.000 (sin auxilio de transporte, que depende del salario mínimo vigente):\n\n- Cesantías: 3.000.000 / 12 = $250.000.\n- Intereses sobre cesantías (12% anual): 3.000.000 × 12% / 12 = $30.000.\n- Prima de servicios: 3.000.000 / 12 = $250.000.\n- Vacaciones (15 días hábiles por año): 3.000.000 × 15 / 360 = $125.000.\n\nTotal mensual: **$655.000**, que se reconoce como gasto con crédito a obligaciones laborales por pagar. Los aportes a seguridad social y parafiscales se causan aparte.\n\n## Puntos clave\n- Sin obligación presente no hay pasivo.\n- El préstamo se mide a costo amortizado: el interés se calcula sobre el saldo.\n- Las prestaciones se causan mes a mes, no cuando se pagan.\n\n## Errores frecuentes\n- Calcular el interés sobre el valor original del préstamo y no sobre el saldo.\n- Reconocer las prestaciones solo al momento del pago.\n- Clasificar como no corriente la cuota que vence dentro de doce meses.",
+    "recursos": [
+     {
+      "titulo": "Qué es un pasivo contable y pasivo financiero: diferencias, ejemplos, corriente y no corriente",
+      "url": "https://www.youtube.com/watch?v=tUmtKMKDlbc",
+      "tipo": "video",
+      "fuente": "YouTube: Study with Do"
+     },
+     {
+      "titulo": "Cómo liquidar las prestaciones sociales de un trabajador",
+      "url": "https://www.youtube.com/watch?v=qDeBkcNH59k",
+      "tipo": "video",
+      "fuente": "YouTube: Profe Lucho"
+     },
+     {
+      "titulo": "Código Sustantivo del Trabajo (texto con modificaciones)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAplicar la NIC 37 para decidir si una obligación incierta se provisiona, se revela solamente o no se registra, y calcular la provisión.\n\n## Conceptos clave\n### Provisión\nEs un pasivo de **cuantía o vencimiento inciertos**. Se reconoce solo si se cumplen los tres requisitos:\n\n1. Existe una **obligación presente** (legal o implícita) por un suceso pasado.\n2. Es **probable** la salida de recursos. En la NIC 37, probable significa más probable que no (más del 50%).\n3. El importe se puede **estimar con fiabilidad**.\n\nSe mide por la **mejor estimación** del desembolso necesario para cancelar la obligación. Para una obligación única se toma el resultado más probable; para una población de casos (garantías), el valor esperado. Si el efecto del tiempo es material, se descuenta.\n\n### Pasivos contingentes\nSon obligaciones posibles, o presentes que no cumplen los criterios, y **no se reconocen**. Se **revelan** en notas salvo que la salida de recursos sea remota.\n\n### Activos contingentes\nSon activos posibles que surgen de sucesos pasados. No se reconocen. Se revelan si la entrada de beneficios es probable. Cuando el ingreso es **virtualmente cierto**, deja de ser contingente y se reconoce.\n\n| Probabilidad de salida | Tratamiento |\n|---|---|\n| Probable | Provisión y revelación |\n| Posible | Revelar pasivo contingente |\n| Remota | Normalmente nada |\n\n## Ejemplo resuelto\nAl cierre, una empresa evalúa tres asuntos:\n\n1. Demanda laboral con pérdida probable (70%), mejor estimación **$80.000.000**: se provisiona por $80.000.000.\n2. Garantías: se vendieron 500 unidades y se espera que el 8% (40 unidades) requiera reparación, con costo promedio de $150.000: 40 × 150.000 = **$6.000.000**.\n3. Demanda comercial por $50.000.000 con riesgo posible (30%): no se provisiona; se revela como pasivo contingente.\n\nUna cuarta demanda con riesgo remoto no se registra ni se revela.\n\nAsiento: débito a gasto por provisiones y crédito a provisiones por 80.000.000 + 6.000.000 = **$86.000.000**.\n\n## Puntos clave\n- Los tres requisitos deben cumplirse a la vez.\n- Provisión: se reconoce. Pasivo contingente: se revela. Activo contingente: se reconoce solo si es virtualmente cierto.\n- Las provisiones se revisan en cada cierre; si ya no son necesarias, se reversan.\n\n## Errores frecuentes\n- Provisionar por el solo hecho de que exista una demanda.\n- Reconocer un activo por una indemnización probable pero no cierta.\n- Usar una provisión para gastos futuros de operación, que la NIC 37 no permite.",
+    "recursos": [
+     {
+      "titulo": "NIC 37 Provisiones, activos y pasivos contingentes",
+      "url": "https://www.youtube.com/watch?v=0XeKBYto3NU",
+      "tipo": "video",
+      "fuente": "YouTube: iA School"
+     },
+     {
+      "titulo": "Las NIC 37: provisiones, activos contingentes y pasivos contingentes",
+      "url": "https://www.youtube.com/watch?v=PFwdAlApqX0",
+      "tipo": "video",
+      "fuente": "YouTube: Cátedra de Contabilidad Superior (UNED)"
+     },
+     {
+      "titulo": "IAS 37 Provisions, Contingent Liabilities and Contingent Assets (página oficial)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets.html",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar los componentes del patrimonio y calcular la reserva legal y la distribución de utilidades en una sociedad por acciones.\n\n## Conceptos clave\n### Componentes del patrimonio\nEl patrimonio es la **parte residual** de los activos una vez deducidos los pasivos. Sus rubros principales son:\n\n- **Capital** suscrito y pagado, y la prima en colocación de acciones.\n- **Reservas**, que son utilidades retenidas con un propósito.\n- **Resultados** del ejercicio y de ejercicios anteriores, incluidos los efectos de la adopción por primera vez de las NIIF.\n- **Otro resultado integral**, como superávits por revaluación, mientras se mantengan en patrimonio.\n\n### Reservas\nLa **reserva legal** es obligatoria para las sociedades por acciones (art. 452 del Código de Comercio): 10% de las utilidades líquidas de cada ejercicio hasta que alcance el 50% del capital suscrito. Las **reservas estatutarias** las crean los estatutos y las **ocasionales** las decide la asamblea para fines específicos; ambas son voluntarias. Las sociedades limitadas tienen una regla similar y en las S.A.S. se revisan los estatutos; verifica la norma aplicable a cada tipo.\n\n> **Clave:** la reserva legal protege a los acreedores, pues retiene recursos que no se pueden repartir como dividendos. Puede usarse para absorber pérdidas.\n\n### Distribución\nLa asamblea aprueba el proyecto de distribución con los estados financieros. Primero se absorben pérdidas y se apropia la reserva legal; el remanente se destina a dividendos o a otras reservas.\n\n## Ejemplo resuelto\nUna S.A. tiene capital suscrito de $200.000.000, reserva legal acumulada de $15.000.000 y utilidad líquida del año de $60.000.000.\n\n1. Tope: 50% × 200.000.000 = $100.000.000.\n2. Faltan por constituir: 100.000.000 − 15.000.000 = $85.000.000, así que aún se debe apropiar.\n3. Apropiación: 10% × 60.000.000 = **$6.000.000**.\n4. Reserva acumulada: 15.000.000 + 6.000.000 = $21.000.000.\n5. Utilidad disponible: 60.000.000 − 6.000.000 = **$54.000.000**, que la asamblea destina a dividendos y reservas.\n\nAsiento: débito a resultados del ejercicio y crédito a reserva legal por $6.000.000.\n\n## Puntos clave\n- La reserva legal se calcula sobre la utilidad líquida, no sobre el capital.\n- El tope es 50% del capital suscrito, no del patrimonio.\n- Las reservas voluntarias dependen de los estatutos o de la asamblea.\n\n## Errores frecuentes\n- Aplicar el 10% sobre el capital en lugar de la utilidad.\n- Seguir apropiando cuando ya se alcanzó el tope.\n- Repartir dividendos sin apropiar antes la reserva legal.",
+    "recursos": [
+     {
+      "titulo": "Contabilización de la reserva legal",
+      "url": "https://www.youtube.com/watch?v=oQAEYOe3bVc",
+      "tipo": "video",
+      "fuente": "YouTube: IFCET Contables"
+     },
+     {
+      "titulo": "Código de Comercio (Decreto 410 de 1971), texto con vigencia y jurisprudencia",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender por qué aparece el impuesto diferido y calcular un activo y un pasivo por impuesto diferido a partir de diferencias temporarias.\n\n## Conceptos clave\n### Base contable y base fiscal\nLa contabilidad (NIIF) y la norma tributaria miden algunos activos, pasivos, ingresos y gastos con reglas distintas. El **impuesto corriente** se liquida con la renta fiscal. El **impuesto diferido**, según la NIC 12, reconoce el efecto fiscal futuro de esas diferencias cuando se recuperen o liquiden.\n\n### Diferencias temporarias\nSon la diferencia entre el valor en libros y la **base fiscal** de un activo o pasivo.\n\n- **Diferencia deducible:** reducirá la renta fiscal en el futuro. Genera un **activo por impuesto diferido**. Se reconoce si es probable contar con renta gravable futura.\n- **Diferencia imponible:** aumentará la renta fiscal en el futuro. Genera un **pasivo por impuesto diferido**.\n\nEl diferido se mide con la **tarifa que se espera aplicar** cuando se reviertan las diferencias. La tarifa general del impuesto de renta de sociedades es 35%, pero verifica el valor vigente y las tarifas especiales. El detalle se concilia en Colombia con el formato 2516 de la DIAN.\n\n> **Clave:** si el activo contable es menor que su base fiscal, o el pasivo contable es mayor que su base fiscal, la diferencia es deducible.\n\n## Ejemplo resuelto\nCon tarifa de 35%:\n\n**Caso 1, provisión no deducible aún.** La empresa provisiona $20.000.000 por una garantía; fiscalmente solo se deduce cuando se pague. La base fiscal del pasivo es cero, la diferencia deducible es $20.000.000 y el activo por impuesto diferido es 20.000.000 × 35% = **$7.000.000**.\n\n**Caso 2, depreciación.** Un equipo de $100.000.000 se deprecia contablemente $20.000.000 por año y fiscalmente $10.000.000. Al final del año 1, el valor en libros es $80.000.000 y la base fiscal es $90.000.000. La diferencia deducible es $10.000.000 y el activo diferido es 10.000.000 × 35% = **$3.500.000**.\n\n**Caso 3, ingreso devengado pero gravable al cobrarse.** Si se causan intereses por $10.000.000 que fiscalmente se gravan al cobrarse, hay una diferencia imponible y un pasivo diferido de **$3.500.000**.\n\n## Puntos clave\n- Diferencia deducible genera activo; imponible genera pasivo.\n- Se calcula sobre diferencias temporarias, no sobre diferencias permanentes.\n- El diferido se reevalúa cada cierre y cuando cambian las tarifas.\n\n## Errores frecuentes\n- Reconocer el activo diferido sin evaluar si habrá renta gravable futura.\n- Usar la tarifa de hoy sin considerar la de reversión.\n- Tratar como diferido un gasto no deducible de forma permanente.",
+    "recursos": [
+     {
+      "titulo": "Activo y pasivo por impuesto diferido [NIC 12]",
+      "url": "https://www.youtube.com/watch?v=CqUTNVzdvrc",
+      "tipo": "video",
+      "fuente": "YouTube: TUTO CONTABLE"
+     },
+     {
+      "titulo": "NIC 12 Impuestos diferidos: aprende NIIF y contabilidad fácil",
+      "url": "https://www.youtube.com/watch?v=IreeGmBu0_E",
+      "tipo": "video",
+      "fuente": "YouTube: Adrián Torres, Experto en NIIF"
+     },
+     {
+      "titulo": "IAS 12 Income Taxes (página oficial de la norma)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-12-income-taxes/",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   }
+  ]
+ },
+ "m2s3": {
+  "recursos": [
+   {
+    "titulo": "Decreto 2420 de 2015, Decreto Único Reglamentario de normas de contabilidad, información financiera y aseguramiento",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=76745",
+    "tipo": "norma",
+    "fuente": "Función Pública, Gestor Normativo"
+   },
+   {
+    "titulo": "Marco Conceptual para la Información Financiera (página oficial)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   },
+   {
+    "titulo": "IAS 1 Presentation of Financial Statements (página oficial de la norma)",
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-1-presentation-of-financial-statements/",
+    "tipo": "norma",
+    "fuente": "IFRS Foundation"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nExplicar por qué y cómo Colombia adoptó las normas internacionales de información financiera y qué papel cumple cada entidad en la cadena normativa.\n\n## Conceptos clave\n### La Ley 1314 de 2009\nEs la ley que regula los **principios y normas de contabilidad e información financiera y de aseguramiento de la información** aceptados en Colombia. Su propósito es lograr un sistema único y homogéneo de alta calidad, que produzca información transparente, comparable y confiable, y que **converja** con estándares internacionales. Reconoce que la contabilidad debe reflejar la realidad económica de las transacciones y no solo su forma legal.\n\n### Quién hace qué\n- **Consejo Técnico de la Contaduría Pública (CTCP):** organismo de normalización técnica. Estudia las normas internacionales y propone su adopción, con un proceso abierto a comentarios públicos.\n- **Ministerios de Hacienda y de Comercio, Industria y Turismo:** expiden conjuntamente los decretos con las normas, con base en las propuestas del CTCP.\n- **Contaduría General de la Nación:** regula la contabilidad del sector público.\n- **Supervisores** (Superintendencias, DIAN en lo tributario): vigilan el cumplimiento dentro de sus competencias.\n\n### El Decreto Único Reglamentario 2420 de 2015\nEl DUR **compila** los decretos que adoptan las normas: el marco de cada grupo (anexos 1, 2 y 3) y las normas de aseguramiento de la información. Se modifica periódicamente para incorporar enmiendas de las normas internacionales; en 2026, por ejemplo, un decreto actualizó los anexos de los Grupos 1 y 2. Antes de citar una norma, **verifica la versión vigente**.\n\n### Implementación escalonada\nLa aplicación se hizo por grupos, entre 2014 y 2016 aproximadamente, con un período de transición y un balance de apertura bajo el nuevo marco.\n\n> **Clave:** el CTCP propone; los ministerios expiden. La ley fija el sistema y el decreto compila las normas.\n\n## Ejemplo resuelto\nUna S.A.S. mediana necesita saber cómo reconocer sus inventarios. Recorre la cadena así:\n\n1. **Ley 1314 de 2009:** establece que debe aplicar normas de información financiera.\n2. **DUR 2420 de 2015:** determina a qué grupo pertenece según sus criterios.\n3. **Anexo del grupo:** si es Grupo 2, aplica la NIIF para las PYMES.\n4. **Norma específica:** la sección de inventarios de esa norma indica la medición.\n\n## Puntos clave\n- Ley 1314: marco general y convergencia con estándares internacionales.\n- CTCP: normalización técnica; ministerios: expedición del decreto.\n- DUR 2420 de 2015: compilación vigente y actualizable.\n\n## Errores frecuentes\n- Creer que la DIAN emite las normas contables.\n- Citar un decreto derogado o modificado sin revisar su vigencia.\n- Confundir la norma contable con la norma tributaria.",
+    "recursos": [
+     {
+      "titulo": "Historia de las NIIF en Colombia",
+      "url": "https://www.youtube.com/watch?v=Hvxh5fsANNc",
+      "tipo": "video",
+      "fuente": "YouTube: Carlos Mario Tapias Agudelo"
+     },
+     {
+      "titulo": "Ley 1314 de 2009 (texto con vigencia)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1314_2009.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Decreto 2420 de 2015, Decreto Único Reglamentario de normas de contabilidad, información financiera y aseguramiento",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=76745",
+      "tipo": "norma",
+      "fuente": "Función Pública, Gestor Normativo"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nClasificar una entidad en el Grupo 1, 2 o 3 aplicando los criterios del Decreto 2420 de 2015 y reconocer el marco técnico que le corresponde.\n\n## Conceptos clave\n### Grupo 1: NIIF plenas\nAplica a emisores de valores, entidades de interés público y empresas grandes: por ejemplo, con **más de 200 trabajadores o activos superiores a 30.000 SMMLV**, siempre que cumplan además alguna de las condiciones adicionales del decreto (como vínculos con entidades extranjeras que usan NIIF plenas o un alto peso de importaciones o exportaciones). Exige mayor nivel de revelación.\n\n### Grupo 2: NIIF para las PYMES\nReúne a las entidades que **no son del Grupo 1 ni microempresas**. Su marco es simplificado, con 35 secciones, aunque la edición aplicable depende del decreto vigente.\n\n### Grupo 3: microempresas\nCumplen **todos** estos requisitos: hasta 10 trabajadores, activos totales (sin contar la vivienda) menores a 500 SMMLV e ingresos brutos anuales menores a 6.000 SMMLV. Aplican el marco simplificado del Anexo 3 del DUR 2420 de 2015. Los criterios y su evaluación se han ajustado por decretos posteriores (por ejemplo, el Decreto 1670 de 2021); verifica el texto vigente.\n\n> **Clave:** los umbrales se expresan en SMMLV, por eso se actualizan cada año con el salario mínimo. No los conviertas a pesos de memoria.\n\n### Cómo decidir\nSe sigue un orden: primero se evalúa si cumple los criterios del Grupo 1; si no, se mira si es microempresa; si no es ninguno, queda en el Grupo 2.\n\n## Ejemplo resuelto\nTres entidades:\n\n| Entidad | Trabajadores | Activos | Ingresos | Grupo |\n|---|---|---|---|---|\n| A | 8 | 300 SMMLV | 3.000 SMMLV | 3 |\n| B | 12 | 400 SMMLV | 5.000 SMMLV | 2 |\n| C | Emisor de valores | cualquiera | cualquiera | 1 |\n\n- **A:** 8 ≤ 10, 300 < 500 y 3.000 < 6.000: cumple los tres, es Grupo 3.\n- **B:** supera 10 trabajadores, aunque cumpla los otros dos, así que no es microempresa. No es Grupo 1, luego es Grupo 2.\n- **C:** al tener valores inscritos en el Registro Nacional de Valores es Grupo 1 sin importar su tamaño.\n\n## Puntos clave\n- Grupo 1: NIIF plenas; Grupo 2: NIIF para las PYMES; Grupo 3: marco simplificado.\n- La microempresa debe cumplir los tres requisitos a la vez.\n- Los umbrales dependen del salario mínimo, así que cambian cada año.\n\n## Errores frecuentes\n- Mirar un solo criterio (por ejemplo, ingresos) y no los tres.\n- Confundir el régimen tributario SIMPLE con el Grupo 3.\n- Olvidar que un emisor de valores es Grupo 1 aunque sea pequeño.",
+    "recursos": [
+     {
+      "titulo": "Decreto 2420 de 2015, Decreto Único Reglamentario de normas de contabilidad, información financiera y aseguramiento",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=76745",
+      "tipo": "norma",
+      "fuente": "Función Pública, Gestor Normativo"
+     },
+     {
+      "titulo": "Evaluación de requisitos para pertenecer al grupo 3",
+      "url": "https://www.youtube.com/watch?v=k6UBdHiig0c",
+      "tipo": "video",
+      "fuente": "YouTube: Actualícese Video"
+     },
+     {
+      "titulo": "Clasificación de las empresas según las NIIF",
+      "url": "https://www.youtube.com/watch?v=ftoEHhoqEuo",
+      "tipo": "video",
+      "fuente": "YouTube: Contabilidad desde cero"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer el propósito del Marco Conceptual, sus elementos y las características cualitativas que hacen útil la información financiera.\n\n## Conceptos clave\n### Objetivo y usuarios\nEl Marco Conceptual no es una norma que se aplique a una transacción concreta, sino la base conceptual de las NIIF. El objetivo de la información financiera de propósito general es ser útil a los **inversionistas, prestamistas y otros acreedores** actuales y potenciales para decidir si proveen recursos a la entidad.\n\n### Características cualitativas\n**Fundamentales:**\n\n- **Relevancia:** la información puede influir en las decisiones; tiene valor predictivo o confirmatorio. La *materialidad* es un aspecto de la relevancia.\n- **Representación fiel:** refleja la realidad económica de forma completa, neutral y libre de error material.\n\n**De mejora** (aumentan la utilidad si ya hay relevancia y representación fiel):\n\n- **Comparabilidad:** permite identificar similitudes y diferencias entre entidades y períodos.\n- **Verificabilidad:** observadores independientes llegarían a un acuerdo similar.\n- **Oportunidad:** llega a tiempo para influir en las decisiones.\n- **Comprensibilidad:** se presenta de forma clara y concisa.\n\n### Elementos de los estados financieros\nActivo (recurso económico presente controlado por la entidad como resultado de sucesos pasados), pasivo (obligación presente de transferir un recurso económico), patrimonio, ingresos y gastos. También se tratan el reconocimiento, la medición (costo histórico o valores corrientes) y el supuesto de **empresa en funcionamiento**.\n\n> **Clave:** sin relevancia y sin representación fiel, las características de mejora no corrigen el problema.\n\n## Ejemplo resuelto\nUna empresa descubre que omitió un gasto de $1.200.000 con una utilidad anual de $850.000.000.\n\n1. Proporción: 1.200.000 / 850.000.000 = 0,14% de la utilidad.\n2. A primera vista, no es material; la decisión de un inversionista no cambiaría.\n3. Pero la materialidad también es **cualitativa**. Si la omisión oculta el incumplimiento de una cláusula de un préstamo, o convierte una utilidad en pérdida, sí influiría en las decisiones y sería material.\n\n> **Ejemplo:** presentar el mismo hecho con políticas distintas cada año afecta la *comparabilidad*; entregar los estados financieros seis meses tarde afecta la *oportunidad*.\n\n## Puntos clave\n- Fundamentales: relevancia y representación fiel.\n- De mejora: comparabilidad, verificabilidad, oportunidad y comprensibilidad.\n- La materialidad depende de la naturaleza y de la magnitud.\n\n## Errores frecuentes\n- Listar la materialidad o la prudencia como características fundamentales independientes.\n- Creer que existe un porcentaje fijo universal de materialidad.\n- Confundir comparabilidad con uniformidad absoluta de las políticas.",
+    "recursos": [
+     {
+      "titulo": "Características cualitativas de la información financiera según el Marco Conceptual de las NIIF",
+      "url": "https://www.youtube.com/watch?v=R4uCZ5HsSTI",
+      "tipo": "video",
+      "fuente": "YouTube: Contabilidad con Lizandro GT"
+     },
+     {
+      "titulo": "Marco Conceptual para la Información Financiera (página oficial)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar los componentes de un conjunto completo de estados financieros y aplicar los principios de presentación de la NIC 1, incluida la clasificación en corriente y no corriente.\n\n## Conceptos clave\n### Estados financieros completos\nSegún la NIC 1, el conjunto completo incluye:\n\n1. Estado de situación financiera.\n2. Estado del resultado del período y otro resultado integral (en uno o dos estados).\n3. Estado de cambios en el patrimonio.\n4. Estado de flujos de efectivo.\n5. Notas con políticas contables e información explicativa.\n\nAdemás se presenta información comparativa del período anterior.\n\n### Principios de presentación\n- **Presentación razonable** y cumplimiento de las NIIF.\n- **Empresa en funcionamiento:** se evalúa al preparar los estados.\n- **Base de acumulación (devengo).**\n- **Materialidad y agrupación** de partidas similares.\n- **Prohibición de compensar** activos con pasivos o ingresos con gastos, salvo que una norma lo exija o permita.\n- **Uniformidad** en la presentación entre períodos.\n\n### Corriente y no corriente\nUn activo es **corriente** si se espera realizarlo, venderlo o consumirlo dentro del ciclo normal de operación o en los doce meses siguientes al cierre. Un pasivo es **corriente** si se espera liquidarlo en ese plazo o si no se tiene el derecho de aplazar su pago por al menos doce meses. El resto es no corriente.\n\n> **Clave:** la NIIF 18 sustituye a la NIC 1 a escala internacional con vigencia desde 2027. Verifica en el decreto cuándo y cómo se adopta en Colombia.\n\n## Ejemplo resuelto\nUn préstamo de $120.000.000 se paga en cuotas, y $30.000.000 vencen en los próximos doce meses.\n\n- Pasivo corriente: **$30.000.000**.\n- Pasivo no corriente: 120.000.000 − 30.000.000 = **$90.000.000**.\n\nEstado de situación financiera resumido:\n\n| Rubro | Valor |\n|---|---|\n| Activo corriente | $150.000.000 |\n| Activo no corriente | $350.000.000 |\n| **Total activos** | **$500.000.000** |\n| Pasivo corriente | $90.000.000 |\n| Pasivo no corriente | $110.000.000 |\n| Patrimonio | $300.000.000 |\n| **Total pasivo y patrimonio** | **$500.000.000** |\n\nSe verifica la ecuación contable: 150.000.000 + 350.000.000 = 90.000.000 + 110.000.000 + 300.000.000.\n\n## Puntos clave\n- Cinco componentes más los comparativos.\n- Se prohíbe compensar sin autorización de una norma.\n- La clasificación depende del ciclo operativo y del plazo de doce meses.\n\n## Errores frecuentes\n- Presentar solo balance y estado de resultados.\n- Compensar cuentas por cobrar con cuentas por pagar al mismo tercero sin base normativa.\n- Clasificar la porción corriente de la deuda como no corriente.",
+    "recursos": [
+     {
+      "titulo": "NIC 1 Presentación de Estados Financieros",
+      "url": "https://www.youtube.com/watch?v=OVe5cPECoI0",
+      "tipo": "video",
+      "fuente": "YouTube: elprofeallan"
+     },
+     {
+      "titulo": "IAS 1 Presentation of Financial Statements (página oficial de la norma)",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-1-presentation-of-financial-statements/",
+      "tipo": "norma",
+      "fuente": "IFRS Foundation"
+     }
+    ]
+   }
+  ]
+ },
+ "m2s4": {
+  "recursos": [
+   {
+    "titulo": "Código de Comercio (Decreto 410 de 1971), texto con vigencia y jurisprudencia",
+    "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   },
+   {
+    "titulo": "Ley 1258 de 2008: sociedad por acciones simplificada",
+    "url": "https://www.supersociedades.gov.co/documents/107391/159032/Ley+1258+del+5+de+diciembre+de+2008.pdf/32b063da-d7cc-c55f-2770-1560116b4745",
+    "tipo": "norma",
+    "fuente": "Superintendencia de Sociedades"
+   },
+   {
+    "titulo": "Ley 222 de 1995 (texto con vigencia)",
+    "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0222_1995.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDefinir quién es comerciante, cuáles son sus obligaciones legales y cómo se relacionan con la contabilidad y el registro mercantil.\n\n## Conceptos clave\n### Comerciante y actos mercantiles\nEl Código de Comercio (Decreto 410 de 1971) considera **comerciantes** a quienes se ocupan profesionalmente en alguna de las actividades que la ley califica como mercantiles (arts. 10 y 20). Pueden ser personas naturales o jurídicas. Su patrimonio organizado para la actividad se materializa en el **establecimiento de comercio**: el conjunto de bienes dispuestos por el empresario para realizar los fines de la empresa.\n\n### Obligaciones del comerciante (art. 19)\nEl artículo 19 establece que es obligación de todo comerciante:\n\n1. **Matricularse** en el registro mercantil.\n2. **Inscribir** en el registro mercantil los actos, libros y documentos que la ley exige.\n3. Llevar **contabilidad regular** de sus negocios conforme a las prescripciones legales.\n4. **Conservar** la correspondencia y demás documentos relacionados con sus negocios o actividades.\n5. Denunciar ante el juez competente la **cesación de pagos** de sus obligaciones mercantiles.\n6. Abstenerse de ejecutar actos de **competencia desleal** (regulada por la Ley 256 de 1996).\n\n### Matrícula y renovación\nLa matrícula se hace ante la **Cámara de Comercio** del domicilio y debe **renovarse cada año, a más tardar el 31 de marzo**. Cubre tanto al comerciante como a sus establecimientos de comercio. Los libros que se deben inscribir, como los de actas y de registro de accionistas, siguen las reglas de la Cámara; verifica cuáles aplican a cada tipo de empresa.\n\n> **Clave:** la matrícula mercantil es obligatoria para el comerciante; no depende del tamaño del negocio.\n\n### Contabilidad regular\nSignifica que los registros reflejan fielmente las operaciones, con soportes, según las normas vigentes (Ley 1314 de 2009 y el marco técnico que corresponda). La falta de contabilidad regular afecta la prueba en litigios y puede acarrear sanciones.\n\n## Ejemplo resuelto\nAndrés abre una tienda de abarrotes el 15 de enero de 2026 como persona natural.\n\n1. Es **comerciante**, porque compra y vende bienes de forma habitual.\n2. Debe **matricularse** y matricular su establecimiento en la Cámara de Comercio de su domicilio.\n3. Su primera renovación vence el **31 de marzo de 2027** y las siguientes, el 31 de marzo de cada año.\n4. Debe llevar contabilidad regular, guardar facturas y correspondencia, y no incurrir en competencia desleal.\n5. Si dejara de pagar sus obligaciones mercantiles, tendría el deber legal de informarlo al juez competente.\n\n## Puntos clave\n- Comerciante es quien ejerce profesionalmente actos mercantiles.\n- El artículo 19 enumera seis obligaciones.\n- La renovación de la matrícula es anual, con fecha límite 31 de marzo.\n\n## Errores frecuentes\n- Creer que solo las sociedades son comerciantes.\n- Matricular al comerciante, pero no su establecimiento de comercio.\n- Dejar la renovación para después del 31 de marzo.",
+    "recursos": [
+     {
+      "titulo": "Código de Comercio (Decreto 410 de 1971), texto con vigencia y jurisprudencia",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComparar los principales tipos de sociedad comercial en Colombia según número de socios, responsabilidad, constitución y órganos obligatorios.\n\n## Conceptos clave\n### Qué es una sociedad\nEs un contrato por el cual dos o más personas se obligan a hacer aportes para realizar actividades mercantiles y repartirse las utilidades (art. 98 del Código de Comercio). Desde la Ley 1258 de 2008 también puede constituirse por un solo accionista en la S.A.S. Al inscribirse, la sociedad es una **persona jurídica distinta** de sus socios.\n\n### Comparación\n| Rasgo | S.A.S. | Ltda. | S.A. |\n|---|---|---|---|\n| Socios | Uno o más | De 2 a 25 | Mínimo 5 accionistas |\n| Responsabilidad | Hasta el aporte | Hasta el aporte (con excepciones laborales y tributarias) | Hasta el aporte |\n| Capital | Acciones | Cuotas | Acciones |\n| Constitución | Documento privado | Escritura pública (regla general) | Escritura pública (regla general) |\n| Junta directiva | No obligatoria | No obligatoria | Obligatoria |\n| Revisor fiscal | Solo si supera umbrales | Solo si supera umbrales | Obligatorio |\n\nLa **S.A.S.** ofrece objeto social indeterminado y gran libertad estatutaria. Su constitución exige inscripción del documento en la Cámara de Comercio. Las sociedades **colectivas** y las **comanditas** tienen socios con responsabilidad solidaria e ilimitada, por lo que hoy se usan poco.\n\n> **Clave:** el revisor fiscal es obligatorio en las sociedades por acciones y, en las demás, cuando los activos brutos o ingresos superan los umbrales de la Ley 43 de 1990 (expresados en SMMLV; verifica la cifra vigente).\n\n### La responsabilidad limitada y sus límites\nEl beneficio de la limitación se pierde en casos de fraude o abuso de la forma societaria: la Ley 1258 permite extender la responsabilidad a los accionistas que utilicen la sociedad en fraude a la ley o en perjuicio de terceros.\n\n## Ejemplo resuelto\nTres socios constituyen una Ltda. con capital de $100.000.000: aportan $60.000.000, $30.000.000 y $10.000.000, y el capital se divide en 100.000 cuotas de $1.000.\n\n- Cuotas: 60.000, 30.000 y 10.000, con participaciones de 60%, 30% y 10%.\n- Si la sociedad quiebra con deudas por $130.000.000 y activos por $100.000.000, quedan $30.000.000 sin cubrir. En una **Ltda. o S.A.S.**, los socios no responden con su patrimonio personal por ese saldo, salvo las excepciones legales. En una **sociedad colectiva**, sí responderían solidaria e ilimitadamente.\n\n## Puntos clave\n- Ltda.: 2 a 25 socios. S.A.: mínimo 5 accionistas. S.A.S.: desde uno.\n- S.A.S. se constituye por documento privado; no exige junta directiva.\n- La responsabilidad limitada se pierde en casos de fraude.\n\n## Errores frecuentes\n- Pensar que una S.A.S. nunca necesita revisor fiscal.\n- Confundir cuotas (Ltda.) con acciones (S.A. y S.A.S.).\n- Suponer que la responsabilidad limitada protege frente a cualquier obligación.",
+    "recursos": [
+     {
+      "titulo": "Guía de tipos societarios (S.A.S., Ltda., S.A. y otros)",
+      "url": "https://www.camaramedellin.com.co/Portals/0/Documentos/Guias-Mercantil/NuevaGuiaTipoSocietario__2022_002.pdf",
+      "tipo": "articulo",
+      "fuente": "Cámara de Comercio de Medellín para Antioquia"
+     },
+     {
+      "titulo": "Ley 1258 de 2008: sociedad por acciones simplificada",
+      "url": "https://www.supersociedades.gov.co/documents/107391/159032/Ley+1258+del+5+de+diciembre+de+2008.pdf/32b063da-d7cc-c55f-2770-1560116b4745",
+      "tipo": "norma",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Guía 20: constitución de una S.A.S.",
+      "url": "https://www.camaramedellin.com.co/Portals/0/Documentos/Guias-Mercantil/GUIA%2020__2023_FINAL.pdf",
+      "tipo": "articulo",
+      "fuente": "Cámara de Comercio de Medellín para Antioquia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar los órganos de una sociedad, sus funciones y las reglas de la reunión ordinaria, así como los deberes de los administradores de la Ley 222 de 1995.\n\n## Conceptos clave\n### Órganos sociales\n- **Máximo órgano social:** asamblea de accionistas (S.A. y S.A.S.) o junta de socios (Ltda.). Aprueba estados financieros, distribuye utilidades y elige administradores.\n- **Junta directiva:** órgano colegiado, obligatorio en la S.A. y opcional en otros tipos.\n- **Representante legal:** ejecuta las decisiones y representa a la sociedad.\n- **Revisor fiscal:** control de legalidad y dictamen de los estados financieros, cuando es obligatorio.\n\n### Reunión ordinaria\nSe celebra al menos **una vez al año, dentro de los tres meses siguientes al cierre del ejercicio**, para examinar la situación de la sociedad, aprobar estados financieros y decidir sobre la distribución de utilidades. Si no se convoca, se reúne **por derecho propio el primer día hábil de abril**, a las 10 de la mañana, en el domicilio principal. La convocatoria exige una antelación mínima que fijan la ley y los estatutos (en general, quince días hábiles cuando se aprueban balances); en la S.A.S. los estatutos pueden regularla. Verifica el plazo aplicable.\n\n### Ley 222 de 1995\nReforma el Libro II del Código de Comercio. Define a los **administradores** y fija su deber de actuar de buena fe, con lealtad y con la diligencia de un buen hombre de negocios (art. 23). Entre sus deberes: cumplir la ley y los estatutos, permitir la labor del revisor fiscal, tratar equitativamente a los socios y evitar conflictos de interés.\n\n> **Clave:** los administradores responden por los perjuicios que causen por dolo o culpa (art. 24); quedan exentos quienes no conocieron la decisión o votaron en contra y no la ejecutaron.\n\n## Ejemplo resuelto\nUna S.A. cierra el ejercicio el 31 de diciembre de 2026.\n\n1. La reunión ordinaria debe hacerse a más tardar el **31 de marzo de 2027**.\n2. Hay 1.000 acciones suscritas y asisten accionistas con 900. La utilidad disponible después de reservas es $54.000.000.\n3. Regla general (art. 155 del Código de Comercio, para sociedades por acciones): se reparte al menos el 50% de la utilidad, es decir, **$27.000.000**, salvo que una mayoría del 78% de las acciones representadas decida otra cosa.\n4. 78% × 900 = **702 acciones**. Si los accionistas que votan por retener la utilidad suman 750 acciones, se supera el mínimo y la decisión es válida.\n\n## Puntos clave\n- La reunión ordinaria es anual y dentro de los tres primeros meses.\n- Los administradores deben actuar con lealtad y diligencia.\n\n## Errores frecuentes\n- Creer que la reunión puede hacerse después de marzo sin consecuencia.\n- Olvidar que el 78% se calcula sobre las acciones representadas, no sobre las suscritas.",
+    "recursos": [
+     {
+      "titulo": "Guía práctica para administradores",
+      "url": "https://www.supersociedades.gov.co/documents/20122/460496/Cartilla-de-Administradores.pdf/2e59c1ff-0d84-1944-be23-908cc6767d5b?t=1654291902428",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Ley 222 de 1995 (texto con vigencia)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_0222_1995.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nReconocer las causales de disolución, las etapas de la liquidación voluntaria y la diferencia entre liquidación voluntaria y proceso de insolvencia.\n\n## Conceptos clave\n### Disolución\nEs el hecho que pone fin al objeto social y abre la liquidación. No extingue de inmediato a la sociedad, que conserva su personalidad jurídica **solo para liquidarse**. Entre las causales están:\n\n- Vencimiento del término de duración pactado.\n- Imposibilidad de desarrollar el objeto social.\n- Decisión de los socios o accionistas.\n- Orden de autoridad competente.\n- En sociedades por acciones y limitadas, pérdidas que reducen el patrimonio neto por debajo del 50% del capital suscrito (art. 457 del Código de Comercio para la S.A.).\n- Otras causales previstas en la ley o en los estatutos.\n\nEn la S.A.S., la Ley 1258 y los estatutos determinan las causales; verifica cuáles aplican.\n\n### Liquidación voluntaria\nTras la disolución, la sociedad agrega \"en liquidación\" a su nombre. Etapas:\n\n1. Se inscribe la disolución en el registro mercantil.\n2. Se designa al **liquidador** (si no hay designación, actúa el representante legal).\n3. Se elabora el **inventario** del patrimonio social.\n4. Se pagan los pasivos externos según el orden de prelación legal (laborales y fiscales, entre otros).\n5. Se distribuye el remanente entre los socios.\n6. Se aprueba la **cuenta final de liquidación** y se inscribe en la Cámara de Comercio.\n\n### Insolvencia\nCuando la empresa no puede pagar sus deudas, el régimen es la **Ley 1116 de 2006**, con procesos de reorganización y de liquidación judicial. La Ley 222 de 1995 ya no es la norma central de insolvencia.\n\n> **Clave:** la liquidación voluntaria es privada y parte de la voluntad de los socios o de una causal; la judicial es controlada por un juez.\n\n## Ejemplo resuelto\n**Causal por pérdidas.** Una S.A. tiene capital suscrito de $200.000.000 y patrimonio neto de $90.000.000. El 50% del capital es $100.000.000; como 90.000.000 < 100.000.000, hay causal de disolución, que los accionistas pueden **enervar** si toman las medidas necesarias dentro del plazo legal.\n\n**Liquidación.** Se realizan activos por $180.000.000. Pasivos externos: laborales $20.000.000, DIAN $30.000.000 y proveedores $60.000.000, total $110.000.000. Remanente: 180.000.000 − 110.000.000 = **$70.000.000**.\n\nCon participaciones del 60%, 30% y 10%: $42.000.000, $21.000.000 y $7.000.000.\n\n## Puntos clave\n- La sociedad disuelta mantiene su personalidad solo para liquidarse.\n- Primero se pagan los acreedores; después se reparte el remanente.\n- Insolvencia es otro régimen (Ley 1116 de 2006).\n\n## Errores frecuentes\n- Repartir a los socios antes de pagar a los acreedores.\n- Olvidar agregar \"en liquidación\" al nombre.\n- Confundir liquidación voluntaria con liquidación judicial.",
+    "recursos": [
+     {
+      "titulo": "Capítulo VIII: Liquidación voluntaria (Circular Básica Jurídica)",
+      "url": "https://www.supersociedades.gov.co/en/web/nuestra-entidad/cap-8-liquidacion-voluntaria",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Ley 1116 de 2006: régimen de insolvencia empresarial",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/ley_1116_2006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   }
+  ]
+ }
+}

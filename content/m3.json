@@ -1,0 +1,64 @@
+{
+"id":"m3","orden":3,"titulo":"Costos, presupuestos y finanzas","semestres":"Semestres IV–V","descripcion":"Sistemas de costos, punto de equilibrio, presupuestos, finanzas corporativas y análisis financiero.",
+"materias":[
+{"id":"m3s1","nombre":"Costos: elementos y sistemas de costeo","area":"FIN","descripcion":"Elementos del costo, órdenes de producción, procesos y ABC.",
+"temas":[["Elementos del costo: MPD, MOD y CIF",2],["Sistema por órdenes de producción",2],["Sistema por procesos y unidades equivalentes",3],["Costeo basado en actividades (ABC)",2]],
+"cards":[
+["Elementos del costo","Materia prima directa (MPD), mano de obra directa (MOD) y costos indirectos de fabricación (CIF).","Costo primo = MPD + MOD. Costo de conversión = MOD + CIF."],
+["Costo vs. gasto","Los costos de producción son inventariables; los gastos de administración y ventas se llevan al resultado del período.","Un costo pasa a gasto (costo de ventas) cuando se vende el producto."],
+["Sistema por órdenes vs. por procesos","Órdenes: costos acumulados por lote o pedido específico. Procesos: producción continua y homogénea, con unidades equivalentes.","Órdenes: muebles a la medida. Procesos: cemento, bebidas."],
+["Tasa predeterminada de CIF","Tasa = CIF presupuestados / base de aplicación presupuestada (horas MOD, horas máquina…).","La diferencia entre CIF reales y aplicados (sub o sobreaplicación) se ajusta al costo de ventas o se prorratea."],
+["Costeo ABC","Asigna los CIF a actividades mediante generadores de costo (cost drivers) y luego a los productos según su consumo de actividades.","Más preciso cuando hay gran variedad de productos y CIF significativos."]
+],
+"qs":[
+["El costo primo está compuesto por:",["MPD + MOD","MOD + CIF","MPD + CIF","MPD + MOD + CIF"],0,1,"MOD + CIF es el costo de conversión; los tres elementos conforman el costo de producción."],
+["CIF presupuestados: $120.000.000; horas MOD presupuestadas: 6.000. Una orden consume 150 horas MOD. Los CIF aplicados son:",["$2.000.000","$3.000.000","$20.000","$1.800.000"],1,2,"Tasa = 120.000.000 / 6.000 = $20.000 por hora; 150 h × 20.000 = $3.000.000."],
+["El costeo por procesos es más adecuado para:",["Construcción de una vivienda","Producción masiva y homogénea","Consultoría por proyecto","Muebles a la medida"],1,1,"Los costos se acumulan por departamento o proceso y se dividen entre unidades equivalentes."],
+["En un proceso hay 1.000 unidades terminadas y 400 en proceso con 50% de avance en conversión. Unidades equivalentes de conversión (promedio ponderado):",["1.400","1.200","1.000","1.500"],1,2,"1.000 + (400 × 0,5) = 1.200."]
+]},
+{"id":"m3s2","nombre":"Costo-volumen-utilidad y presupuestos","area":"FIN","descripcion":"Punto de equilibrio, margen de contribución, presupuesto maestro y costos estándar.",
+"temas":[["Costos fijos, variables y mixtos",2],["Margen de contribución y punto de equilibrio",3],["Presupuesto maestro",2],["Costos estándar y análisis de variaciones",2]],
+"cards":[
+["Margen de contribución","Precio de venta − costo variable unitario.","Es lo que cada unidad aporta para cubrir costos fijos y generar utilidad."],
+["Punto de equilibrio","En unidades: CF / MC unitario. En pesos: CF / razón de margen de contribución (MC/precio).","Con utilidad deseada: (CF + utilidad) / MC unitario."],
+["Margen de seguridad","Ventas reales (o presupuestadas) − ventas en el punto de equilibrio.","Indica cuánto pueden caer las ventas antes de entrar en pérdidas."],
+["Presupuesto maestro","Integra los presupuestos operativos (ventas, producción, compras, MOD, CIF, gastos) y financieros (flujo de caja, estados proyectados).","Se parte siempre del presupuesto de ventas."],
+["Variaciones estándar","Precio = (Precio real − estándar) × cantidad real. Cantidad/eficiencia = (Cantidad real − estándar) × precio estándar.","Desfavorable si el costo real supera al estándar."]
+],
+"qs":[
+["Precio $50.000, costo variable unitario $30.000, costos fijos $40.000.000. El punto de equilibrio en unidades es:",["800","1.333","2.000","4.000"],2,1,"MC = 20.000; 40.000.000 / 20.000 = 2.000."],
+["Con los mismos datos, ¿cuántas unidades se requieren para una utilidad de $10.000.000?",["2.000","2.500","3.000","2.250"],1,2,"(40.000.000 + 10.000.000) / 20.000 = 2.500."],
+["El primer presupuesto que se elabora en el presupuesto maestro es el de:",["Producción","Compras","Ventas","Flujo de caja"],2,1,"De las ventas proyectadas se derivan los demás."],
+["Una variación desfavorable en el precio de los materiales ocurre cuando:",["El precio real es menor al estándar","El precio real es mayor al estándar","La cantidad real es menor a la estándar","Se produce más de lo presupuestado"],1,1,"Se pagó más por unidad de lo previsto en el estándar."]
+]},
+{"id":"m3s3","nombre":"Finanzas corporativas","area":"FIN","descripcion":"Costo de capital, evaluación de inversiones, riesgo-retorno y estructura de capital.",
+"temas":[["Valor del dinero en el tiempo y riesgo-retorno",2],["Costo de capital: WACC y CAPM",3],["Evaluación de inversiones: VPN, TIR y recuperación",3],["Estructura de capital y apalancamiento",2]],
+"cards":[
+["VPN","Suma de los flujos descontados al costo de capital menos la inversión inicial. VPN > 0 → el proyecto crea valor.","Es el criterio más consistente con la maximización de valor."],
+["TIR","Tasa que hace el VPN igual a cero. Se acepta si TIR > costo de capital.","Puede dar múltiples resultados con flujos no convencionales."],
+["WACC","WACC = E/(D+E)·Ke + D/(D+E)·Kd·(1 − T)","La deuda tiene escudo fiscal porque los intereses son deducibles."],
+["CAPM","Ke = Rf + β · (Rm − Rf)","β mide el riesgo sistemático (no diversificable)."],
+["Apalancamiento","Operativo (por costos fijos) y financiero (por deuda): amplifican la variación de utilidades. GAC = GAO × GAF.","Más apalancamiento = más riesgo y potencialmente más retorno al accionista."]
+],
+"qs":[
+["Un proyecto con VPN positivo:",["Debe rechazarse","Crea valor y su TIR supera la tasa de descuento","Tiene TIR inferior a la tasa de descuento","Es indiferente"],1,1,"VPN > 0 equivale a TIR > tasa de descuento (para flujos convencionales)."],
+["Con Rf = 8%, β = 1,2 y prima de mercado (Rm − Rf) = 6%, el costo del patrimonio por CAPM es:",["14,0%","15,2%","16,0%","7,2%"],1,2,"Ke = 8% + 1,2 × 6% = 15,2%."],
+["E = 60% con Ke = 15%; D = 40% con Kd = 10%; tasa de impuestos 35%. El WACC es:",["12,0%","11,6%","12,5%","13,0%"],1,3,"0,6 × 15% + 0,4 × 10% × (1 − 0,35) = 9% + 2,6% = 11,6%."],
+["La principal limitación del período de recuperación (payback) simple es que:",["Es muy complejo de calcular","Ignora el valor del dinero en el tiempo y los flujos posteriores a la recuperación","Siempre rechaza proyectos rentables","Exige conocer el WACC"],1,2,"Por eso se complementa con VPN y TIR (o payback descontado)."]
+]},
+{"id":"m3s4","nombre":"Análisis financiero e indicadores","area":"FIN","descripcion":"Análisis vertical/horizontal, liquidez, endeudamiento, rentabilidad, DuPont y EBITDA.",
+"temas":[["Análisis vertical y horizontal",2],["Indicadores de liquidez y endeudamiento",2],["Rentabilidad y modelo DuPont",2],["EBITDA, capital de trabajo y flujo de caja libre",2]],
+"cards":[
+["Razón corriente","Activo corriente / Pasivo corriente.","Mide la capacidad de pagar obligaciones de corto plazo."],
+["Prueba ácida","(Activo corriente − Inventarios) / Pasivo corriente.","Excluye inventarios por ser el activo corriente menos líquido."],
+["Endeudamiento","Pasivo total / Activo total.","Proporción de los activos financiada por terceros."],
+["ROE y DuPont","ROE = Margen neto × Rotación de activos × Multiplicador de capital (Activo/Patrimonio).","Permite ver si el retorno viene de margen, eficiencia o apalancamiento."],
+["EBITDA y KTNO","EBITDA: utilidad antes de intereses, impuestos, depreciaciones y amortizaciones. KTNO = Cuentas por cobrar + Inventarios − Proveedores.","El EBITDA aproxima la generación operativa de caja."]
+],
+"qs":[
+["Activo corriente $800M, inventarios $300M, pasivo corriente $400M. La prueba ácida es:",["1,25","2,00","0,75","1,50"],0,1,"(800 − 300) / 400 = 1,25."],
+["Margen neto 10%, rotación de activos 1,5 y multiplicador de capital 2. El ROE según DuPont es:",["15%","20%","30%","3%"],2,2,"0,10 × 1,5 × 2 = 0,30 = 30%."],
+["El análisis vertical consiste en:",["Comparar el mismo rubro entre períodos","Expresar cada cuenta como porcentaje de una cifra base del mismo período (total activo o ventas)","Proyectar estados financieros","Calcular el flujo de caja"],1,1,"El horizontal compara períodos; el vertical, la estructura dentro de un período."],
+["Cuentas por cobrar $200M, inventarios $300M y proveedores $250M. El KTNO es:",["$250M","$500M","$750M","$50M"],0,2,"200 + 300 − 250 = 250."]
+]}
+]}

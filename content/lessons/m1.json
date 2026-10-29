@@ -1,0 +1,413 @@
+{
+ "m1s1": {
+  "recursos": [
+   {
+    "titulo": "Decreto 2650 de 1993: Plan Único de Cuentas para comerciantes",
+    "url": "https://gestornormativo.creg.gov.co/gestor/entorno/docs/decreto_2650_1993.htm",
+    "tipo": "norma",
+    "fuente": "Gestor Normativo CREG"
+   },
+   {
+    "titulo": "¿Cuál es el plan de cuentas que debe usar una entidad? (concepto CTCP 2024)",
+    "url": "https://incp.org.co/publicaciones/2024/05/cual-es-el-plan-de-cuentas-que-debe-usar-una-entidad/",
+    "tipo": "articulo",
+    "fuente": "INCP"
+   },
+   {
+    "titulo": "Los libros de contabilidad",
+    "url": "https://incp.org.co/ContArte/?p=4138",
+    "tipo": "articulo",
+    "fuente": "INCP"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nComprender por qué la contabilidad siempre \"cuadra\": entender la ecuación patrimonial, la partida doble y las reglas de débito y crédito para registrar cualquier hecho económico.\n\n## Conceptos clave\n### La ecuación contable\nToda empresa tiene **recursos** (lo que posee) y **fuentes** que los financian (a quién se los debe). Esa idea se expresa así:\n\n`Activo = Pasivo + Patrimonio`\n\n- **Activo:** recursos controlados por la empresa de los que se espera obtener beneficios (caja, inventarios, equipos).\n- **Pasivo:** obligaciones con terceros (proveedores, bancos, impuestos por pagar).\n- **Patrimonio:** lo que queda para los dueños: aportes más utilidades acumuladas.\n\nToda transacción mantiene la igualdad: o cambian los dos lados en el mismo valor, o se compensan dentro de un mismo lado.\n\n### La partida doble\nCada hecho económico afecta **al menos dos cuentas**, y se registra con igual valor en el **débito** (izquierda) y en el **crédito** (derecha): la suma de los débitos es igual a la suma de los créditos.\n\n| Aumentan por el débito | Aumentan por el crédito |\n|---|---|\n| Activos, gastos y costos | Pasivos, patrimonio e ingresos |\n\nLas disminuciones van por el lado contrario. Débito y crédito no significan \"bueno\" o \"malo\": son solo el lado de la cuenta.\n\n> **Clave:** el débito no es \"aumentar\" ni el crédito \"disminuir\"; todo depende de la naturaleza de la cuenta.\n\n## Ejemplo resuelto\nUna papelería inicia operaciones. Veamos cómo se mueve la ecuación en cuatro hechos:\n\n1. Los socios aportan **$20.000.000** en efectivo: Débito Caja, Crédito Capital social. Activo $20.000.000 = Pasivo $0 + Patrimonio $20.000.000.\n2. Compra mercancía a crédito por **$5.000.000**: Débito Inventarios, Crédito Proveedores. Activo $25.000.000 = Pasivo $5.000.000 + Patrimonio $20.000.000.\n3. Paga en efectivo **$2.000.000** al proveedor: Débito Proveedores, Crédito Caja. Activo baja a $23.000.000 y Pasivo a $3.000.000; la igualdad se mantiene.\n4. Compra un equipo por **$8.000.000** financiado con un préstamo bancario: Débito Equipo, Crédito Obligaciones financieras. Activo $31.000.000 = Pasivo $11.000.000 + Patrimonio $20.000.000.\n\nEn cada paso, la suma de débitos fue igual a la de créditos y la ecuación se conservó.\n\n## Puntos clave\n- Activo = Pasivo + Patrimonio es el cimiento de la partida doble.\n- Σ débitos = Σ créditos en cada asiento.\n- Activos, gastos y costos aumentan por el débito; pasivos, patrimonio e ingresos, por el crédito.\n- Solo se registra lo que afecta la situación financiera de forma medible y soportada.\n\n## Errores frecuentes\n- Pensar que \"débito\" siempre significa aumento.\n- Registrar solo una cuenta: toda partida involucra mínimo dos.\n- Confundir pasivo con gasto: el pasivo es una deuda; el gasto es un consumo que reduce el patrimonio.",
+    "recursos": [
+     {
+      "titulo": "Cómo hacer una ecuación contable (ejercicio resuelto)",
+      "url": "https://www.youtube.com/watch?v=UIpXIut0Bkc",
+      "tipo": "video",
+      "fuente": "Felipe Delgado (YouTube)"
+     },
+     {
+      "titulo": "Reglas de la partida doble (ejemplos)",
+      "url": "https://www.youtube.com/watch?v=7VPiXJveEMY",
+      "tipo": "video",
+      "fuente": "Erick Gabriel Heredia Quiroz (YouTube)"
+     },
+     {
+      "titulo": "La ecuación contable básica",
+      "url": "https://www.gestiopolis.com/ecuacion-contable-basica/",
+      "tipo": "articulo",
+      "fuente": "GestioPolis"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer cómo se organiza el Plan Único de Cuentas (PUC), a qué clase pertenece cada tipo de cuenta y cómo identificar su naturaleza (débito o crédito).\n\n## Conceptos clave\n### Qué es el PUC\nUn **plan de cuentas** es el catálogo ordenado de códigos y nombres que usa una empresa para clasificar sus operaciones. En Colombia el PUC se expidió con el **Decreto 2650 de 1993** para comerciantes. Hoy el marco contable vigente son las NIF (Decreto 2420 de 2015, derivado de la Ley 1314 de 2009), por lo que cada entidad define su propio plan de cuentas; el PUC se sigue usando como **referencia práctica de codificación**, y algunos supervisores imponen planes propios a sus vigilados.\n\n### Estructura\nLos códigos van de lo general a lo particular:\n\n| Nivel | Dígitos | Ejemplo |\n|---|---|---|\n| Clase | 1 | 1 Activo |\n| Grupo | 2 | 11 Disponible |\n| Cuenta | 4 | 1105 Caja |\n| Subcuenta | 6 | 110505 Caja general |\n\nLas clases son: **1** Activo, **2** Pasivo, **3** Patrimonio, **4** Ingresos, **5** Gastos, **6** Costos de ventas, **7** Costos de producción y **8 y 9** Cuentas de orden (deudoras y acreedoras).\n\n### Naturaleza de las cuentas\n- **Naturaleza débito:** activos (1), gastos (5), costos (6 y 7). Su saldo normal es débito.\n- **Naturaleza crédito:** pasivos (2), patrimonio (3) e ingresos (4).\n- Hay cuentas **de valuación** que tienen naturaleza opuesta a su clase, como la depreciación acumulada (está en el activo, pero es crédito).\n\n> **Clave:** la clase dice casi siempre la naturaleza; las cuentas de orden no afectan la ecuación contable, solo informan.\n\n## Ejemplo resuelto\nVenta de contado de mercancía por **$1.190.000**, con IVA del 19% incluido en el precio, cuyo costo fue de **$600.000**.\n\n1. Base: $1.190.000 / 1,19 = **$1.000.000**; IVA = $1.190.000 − $1.000.000 = **$190.000**.\n2. Asiento de la venta: Débito 1105 Caja $1.190.000; Crédito 4135 Comercio al por mayor y al por menor $1.000.000; Crédito 2408 IVA por pagar $190.000.\n3. Asiento del costo: Débito 6135 Costo de ventas $600.000; Crédito 1435 Mercancías no fabricadas por la empresa $600.000.\n\nDébitos: $1.190.000 + $600.000 = $1.790.000; créditos: $1.000.000 + $190.000 + $600.000 = $1.790.000. Cuadran.\n\n## Puntos clave\n- Las clases 1 a 9 y su significado se aprenden de memoria.\n- El PUC de 1993 hoy es referencia; las NIF no obligan a un plan único.\n- La naturaleza se deduce de la clase, con excepciones por cuentas de valuación.\n\n## Errores frecuentes\n- Confundir clase 6 (costo de ventas) con clase 7 (costos de producción).\n- Creer que el IVA generado es un ingreso: es un pasivo con el Estado.\n- Dar naturaleza débito a la depreciación acumulada.",
+    "recursos": [
+     {
+      "titulo": "Naturaleza de las cuentas contables",
+      "url": "https://www.youtube.com/watch?v=dcCPlIwL3c0",
+      "tipo": "video",
+      "fuente": "Registro Contable - Profe Herbert (YouTube)"
+     },
+     {
+      "titulo": "Decreto 2650 de 1993: Plan Único de Cuentas",
+      "url": "https://gestornormativo.creg.gov.co/gestor/entorno/docs/decreto_2650_1993.htm",
+      "tipo": "norma",
+      "fuente": "Gestor Normativo CREG"
+     },
+     {
+      "titulo": "¿Cuál es el plan de cuentas que debe usar una entidad?",
+      "url": "https://incp.org.co/publicaciones/2024/05/cual-es-el-plan-de-cuentas-que-debe-usar-una-entidad/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nUbicar el papel de los soportes, los comprobantes y los libros de contabilidad dentro del ciclo contable, y recorrer el camino de un hecho económico desde el documento hasta el estado financiero.\n\n## Conceptos clave\n### Soportes y comprobantes\nUn **soporte** (o documento fuente) es la evidencia externa o interna del hecho económico: factura, recibo de caja, extracto bancario, contrato, nómina. Con él se elabora el **comprobante de contabilidad**, que resume el asiento: fecha, número, cuentas, valores y quién lo elaboró y aprobó. Sin soporte no hay registro confiable.\n\n### Libros de contabilidad\nEn Colombia el Código de Comercio y el Decreto 2649 de 1993 (que sigue siendo referencia para libros y soportes) exigen llevar libros ordenados. Los principales son:\n\n- **Libro diario:** registra cronológicamente cada asiento.\n- **Libro mayor y balance:** resume los movimientos de cada cuenta.\n- **Libro de inventarios y balances:** presenta el balance inicial y de cierre.\n- **Libros auxiliares:** detallan cuentas (por cliente, por proveedor, banco).\n\nHoy se llevan en sistemas informáticos, pero deben poder reproducirse. Los libros y papeles del comerciante se conservan por **10 años** (art. 60 del Código de Comercio, modificado por el art. 28 de la Ley 962 de 2005); incluye comprobantes y correspondencia relacionada.\n\n### El ciclo contable\n1. Documento fuente.\n2. Comprobante.\n3. Registro en el diario.\n4. Mayorización (pasar a las cuentas del mayor).\n5. Balance de prueba.\n6. Ajustes.\n7. Estados financieros.\n8. Cierre.\n\n## Ejemplo resuelto\nSe recibe una factura de compra de mercancía a crédito por **$2.000.000** más IVA del 19%.\n\n1. IVA: $2.000.000 × 0,19 = **$380.000**; total de la factura: **$2.380.000**.\n2. Comprobante: Débito Mercancías $2.000.000; Débito IVA descontable $380.000; Crédito Proveedores $2.380.000. Débitos $2.380.000 = créditos $2.380.000.\n3. Diario: se anota el asiento con su fecha y número de comprobante.\n4. Mayor: Mercancías aumenta $2.000.000 (débito), IVA descontable $380.000 (débito) y Proveedores $2.380.000 (crédito).\n5. Al fin del período, esos saldos pasan al balance de prueba.\n\n## Puntos clave\n- El soporte da validez al asiento; el comprobante lo resume.\n- Diario = orden cronológico; mayor = orden por cuenta.\n- La conservación de libros y papeles es de 10 años según el art. 60 C. Co. (Ley 962 de 2005).\n- El ciclo es repetitivo y cada período se cierra para comenzar el siguiente.\n\n## Errores frecuentes\n- Contabilizar sin factura o con soportes que no cumplen requisitos.\n- Creer que el libro diario y el mayor son lo mismo.\n- Destruir documentos antes del plazo de conservación.",
+    "recursos": [
+     {
+      "titulo": "Ciclo contable completo: del libro diario al balance",
+      "url": "https://www.youtube.com/watch?v=RyDol1KsSZU",
+      "tipo": "video",
+      "fuente": "Yubernumero (YouTube)"
+     },
+     {
+      "titulo": "Libro diario y libro mayor: cómo registrar transacciones paso a paso",
+      "url": "https://www.youtube.com/watch?v=5FjV-MAinCU",
+      "tipo": "video",
+      "fuente": "Sustraendo h Economics (YouTube)"
+     },
+     {
+      "titulo": "Los libros de contabilidad",
+      "url": "https://incp.org.co/ContArte/?p=4138",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender cómo se verifica la igualdad de los registros con el balance de prueba, cómo se ajustan las cuentas al final del período y cómo se cierran las cuentas temporales para trasladar el resultado al patrimonio.\n\n## Conceptos clave\n### Balance de prueba\nEs una lista de todas las cuentas con sus saldos, en columnas de débito y crédito. Comprueba que **Σ débitos = Σ créditos**. Si no cuadran, hay un error de registro o mayorización que debe localizarse. Pero cuidado: **que cuadre no garantiza que esté bien**. No detecta omisiones de un asiento completo, valores equivocados en ambos lados, ni cuentas mal elegidas.\n\n### Ajustes\nAl cierre hay hechos que aún no se han registrado, y se hacen asientos de ajuste para aplicar la causación (reconocer ingresos y gastos cuando ocurren, no cuando se paga). Los más comunes son:\n\n- **Gastos pagados por anticipado:** seguros, arriendos; se lleva a gasto la parte consumida.\n- **Depreciación:** distribuye el costo de un activo durante su vida útil.\n- **Gastos causados no pagados:** salarios, servicios, intereses.\n- **Ingresos recibidos por anticipado:** se reconocen según se presta el servicio.\n- **Provisiones y deterioro**, según las políticas y las NIF aplicables.\n\nDespués se prepara el **balance de prueba ajustado**.\n\n### Cierre\nSe cancelan las cuentas **temporales** (ingresos, gastos y costos) contra una cuenta de resultados, y su saldo neto (utilidad o pérdida) se traslada al patrimonio. Las cuentas de balance (activo, pasivo, patrimonio) no se cierran: sus saldos pasan al período siguiente.\n\n> **Clave:** el balance de prueba solo verifica igualdad aritmética; el juicio sobre qué ajustar es responsabilidad del contador.\n\n## Ejemplo resuelto\nBalance de prueba antes de ajustes (en pesos):\n\n| Cuenta | Débito | Crédito |\n|---|---|---|\n| Caja | 5.000.000 | |\n| Clientes | 3.000.000 | |\n| Seguros pagados por anticipado | 2.400.000 | |\n| Equipo | 12.000.000 | |\n| Gastos de administración | 6.000.000 | |\n| Costo de ventas | 4.000.000 | |\n| Proveedores | | 3.000.000 |\n| Capital | | 15.000.000 |\n| Ingresos | | 14.400.000 |\n| **Totales** | **32.400.000** | **32.400.000** |\n\nUtilidad antes de ajustes: 14.400.000 − 6.000.000 − 4.000.000 = **$4.400.000**.\n\nAjustes al 31 de diciembre:\n1. El seguro de $2.400.000 cubre 12 meses y han transcurrido 3: $2.400.000 / 12 × 3 = **$600.000**. Débito gasto de seguros, crédito seguros pagados por anticipado.\n2. El equipo de $12.000.000 se deprecia a 5 años sin valor residual: $12.000.000 / 5 = **$2.400.000**. Débito gasto por depreciación, crédito depreciación acumulada.\n\nBalance ajustado: débitos 34.800.000 = créditos 34.800.000. Utilidad ajustada: 4.400.000 − 600.000 − 2.400.000 = **$1.400.000**.\n\nCierre: se debitan los ingresos (14.400.000), se acreditan los gastos y costos, y la utilidad de 1.400.000 se lleva al patrimonio (antes de efectos de impuesto de renta, que aquí se omiten).\n\n## Puntos clave\n- Balance de prueba: verifica la igualdad aritmética, no la corrección.\n- Los ajustes aplican la causación y llevan las cifras a su valor real del período.\n- El cierre cancela cuentas temporales y traslada el resultado al patrimonio.\n- Un balance puede cuadrar y aun así tener errores.\n\n## Errores frecuentes\n- Asumir que si el balance cuadra, la contabilidad está correcta.\n- Olvidar la depreciación o los gastos causados al cierre.\n- Cerrar cuentas de balance (activo, pasivo y patrimonio) como si fueran temporales.",
+    "recursos": [
+     {
+      "titulo": "El balance de comprobación o balance de saldos",
+      "url": "https://www.youtube.com/watch?v=CNCX0uLX85g",
+      "tipo": "video",
+      "fuente": "Julio Miranda - Contabilidad (YouTube)"
+     },
+     {
+      "titulo": "Asientos de ajuste en contabilidad paso a paso",
+      "url": "https://www.youtube.com/watch?v=_TnTpvDRbGE",
+      "tipo": "video",
+      "fuente": "Sustraendo h Economics (YouTube)"
+     },
+     {
+      "titulo": "Preparar un saldo de prueba (OpenStax, Contabilidad financiera)",
+      "url": "https://espanol.libretexts.org/Bookshelves/Negocio/Contabilidad/Libro%3A_Contabilidad_Financiera_(OpenStax)/03%3A_An%C3%A1lisis_y_Registro_de_Transacciones/3.06%3A_Preparar_un_saldo_de_prueba",
+      "tipo": "articulo",
+      "fuente": "LibreTexts en español"
+     }
+    ]
+   }
+  ]
+ },
+ "m1s2": {
+  "recursos": [
+   {
+    "titulo": "Simulador de conversión de tasas de interés",
+    "url": "https://www.superfinanciera.gov.co/publicaciones/61554/consumidor-financieroinformacion-generalsimulador-de-conversion-de-tasas-de-interes-61554/",
+    "tipo": "herramienta",
+    "fuente": "Superintendencia Financiera de Colombia"
+   },
+   {
+    "titulo": "Tasa de usura (glosario)",
+    "url": "https://www.banrep.gov.co/es/glosario/tasa-usura",
+    "tipo": "articulo",
+    "fuente": "Banco de la República"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nDiferenciar el interés simple del compuesto, calcular valor futuro y valor presente, y ver por qué el interés compuesto es el estándar en finanzas y contabilidad.\n\n## Conceptos clave\n### Interés simple\nLos intereses se calculan siempre sobre el **capital inicial**. Con capital `VP`, tasa `i` por período y `n` períodos:\n\n`I = VP · i · n` y `VF = VP · (1 + i · n)`\n\nCrece de forma lineal. Se usa en operaciones de muy corto plazo o en cálculos de mora sobre un valor fijo.\n\n### Interés compuesto\nLos intereses se **capitalizan**: generan nuevos intereses. La fórmula es:\n\n`VF = VP · (1 + i)^n`   y   `VP = VF / (1 + i)^n`\n\nCrece de forma exponencial. Cuanto mayor el plazo o la tasa, mayor la diferencia con el simple. Dos reglas esenciales: la tasa `i` y el número de períodos `n` deben estar en la **misma unidad de tiempo** (mensual con meses, anual con años), y `VP` y `VF` son valores en fechas distintas: no se pueden sumar sin llevarlos a una misma fecha.\n\n> **Clave:** el valor del dinero cambia en el tiempo; \"traer a valor presente\" y \"llevar a valor futuro\" son las dos operaciones básicas.\n\n## Ejemplo resuelto\nSe invierten **$10.000.000** al **2% mensual** durante 6 meses.\n\n1. Interés simple: VF = 10.000.000 × (1 + 0,02 × 6) = 10.000.000 × 1,12 = **$11.200.000**.\n2. Interés compuesto: factor = 1,02^6 = 1,126162; VF = 10.000.000 × 1,02^6 = **$11.261.624**.\n3. Diferencia: $11.261.624 − $11.200.000 = **$61.624**, que corresponde a los intereses sobre intereses.\n\nValor presente: ¿cuánto hay que depositar hoy para tener **$15.000.000** dentro de 12 meses a 1,5% mensual compuesto? VP = 15.000.000 / 1,015^12 = **$12.545.811**.\n\n### Despejar tasa y tiempo\nTambién se puede despejar: `n = ln(VF/VP) / ln(1 + i)` e `i = (VF/VP)^(1/n) − 1`. Por ejemplo, ¿en cuántos meses se duplica un capital al 2% mensual? n = ln(2)/ln(1,02) = **35,0 meses**. Y si $10.000.000 se convierten en $11.261.624 en 6 meses, la tasa es (1,1261624)^(1/6) − 1 = **2,00% mensual**.\n\n## Puntos clave\n- Simple: base constante. Compuesto: base creciente.\n- VF = VP·(1+i)^n y VP = VF/(1+i)^n.\n- Tasa y tiempo deben ir en la misma unidad.\n- El interés compuesto es la base de créditos, inversiones y valoración de activos y pasivos.\n\n## Errores frecuentes\n- Usar una tasa anual con períodos en meses (o al revés).\n- Multiplicar i por n en el interés compuesto.\n- Redondear el factor antes de multiplicar, lo que acumula errores.",
+    "recursos": [
+     {
+      "titulo": "Ejercicios de valor futuro con interés compuesto (2 métodos)",
+      "url": "https://www.youtube.com/watch?v=0ETQJEEvgAU",
+      "tipo": "video",
+      "fuente": "Felipe Delgado (YouTube)"
+     },
+     {
+      "titulo": "Ejercicio de interés compuesto: cómo calcular el valor futuro",
+      "url": "https://www.youtube.com/watch?v=fySH2IjH_-0",
+      "tipo": "video",
+      "fuente": "Felipe Delgado (YouTube)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDistinguir entre tasa nominal y efectiva, y convertir tasas entre distintas periodicidades sin errores, que es una de las habilidades más usadas en créditos, inversiones y NIF.\n\n## Conceptos clave\n### Tasa efectiva\nEs la tasa que realmente rinde o cuesta el dinero en el período al que se refiere. Una tasa **efectiva anual (EA)** ya incluye la capitalización de los intereses dentro del año. En Colombia las entidades financieras informan las tasas de los créditos como efectivas anuales.\n\n### Tasa nominal\nEs una tasa \"de referencia\" que se enuncia con una periodicidad de capitalización, por ejemplo \"24% nominal mensual vencido\" (NM). No indica lo que realmente se cobra hasta convertirla: con `j` nominal y `m` capitalizaciones al año:\n\n`i_periódica = j / m`   y   `i_EA = (1 + j/m)^m − 1`\n\n### Equivalencia de tasas\nDos tasas son equivalentes si producen el mismo valor futuro en un mismo plazo. La relación clave es:\n\n`(1 + i_EA) = (1 + i_periódica)^m`\n\nDe modo que para pasar de EA a mensual: `i_mensual = (1 + EA)^(1/12) − 1`. **Nunca** se divide una tasa efectiva anual entre 12.\n\n### Tasa anticipada\nSi los intereses se pagan al inicio del período, la tasa anticipada `ia` se convierte a vencida con `i = ia / (1 − ia)`.\n\n> **Clave:** nominal se divide o multiplica; efectiva se convierte con potencias.\n\n## Ejemplo resuelto\n**1. Nominal a efectiva.** 24% NM: periódica mensual = 24%/12 = 2%. EA = (1 + 0,02)^12 − 1 = **26,82%**. Si fuera 12% NM: 1,01^12 − 1 = **12,68%**.\n\n**2. EA a mensual.** Una tasa del 30% EA equivale a (1,30)^(1/12) − 1 = **2,21% efectivo mensual**. Dividir 30%/12 = 2,50% sería un error. Como nominal mensual: 2,2104% × 12 = **26,53% NM**.\n\n**3. Anticipada a vencida.** 2% mensual anticipado: i = 0,02/(1 − 0,02) = **2,0408% mensual vencido**.\n\n**Comprobación:** 10.000.000 al 30% EA durante un año da 13.000.000; al 2,21% mensual compuesto durante 12 meses, 10.000.000 × (1+0,022104)^12 = 13.000.000.\n\n### Aplicación: comparar ofertas\nPara decidir entre dos alternativas se llevan ambas a la misma base, normalmente EA. Un banco ofrece una inversión al 28% NM y otro al 29% EA. El primero equivale a (1 + 0,28/12)^12 − 1 = **31,89% EA**. Aunque su número parece menor, rinde **más** que el 29% EA, porque el nominal mensual capitaliza 12 veces al año. En el ámbito financiero y contable este procedimiento se usa para calcular costos de endeudamiento, valorar instrumentos financieros y reconocer intereses con la tasa efectiva.\n\n### Otras periodicidades\nLa misma lógica sirve para cualquier período. La EA del 30% equivale a un **6,78% trimestral efectivo**, porque (1,30)^(1/4) − 1 = 0,067790. Comprobación: (1 + 0,067790)^4 = 1,3000, es decir, 1,30. Para períodos más cortos que el año se usa la raíz (exponente 1/m); para períodos más largos, la potencia. Recuerda que la tasa de usura y el interés bancario corriente en Colombia se expresan como efectivos anuales, por lo que conviene saber convertirlos a la periodicidad de las cuotas.\n\n## Puntos clave\n- Efectiva = costo real; nominal = tasa de referencia.\n- (1 + EA) = (1 + i_período)^m.\n- Una EA se convierte con raíces y potencias, no con divisiones.\n- La tasa anticipada es menor que su equivalente vencida.\n\n## Errores frecuentes\n- Dividir una tasa efectiva por 12 y llamarla mensual.\n- Comparar tasas de distinta periodicidad sin convertirlas a EA.\n- Ignorar si la tasa es vencida o anticipada.",
+    "recursos": [
+     {
+      "titulo": "Tasa nominal, tasa efectiva y tasas equivalentes",
+      "url": "https://www.youtube.com/watch?v=GhqsffGa7m8",
+      "tipo": "video",
+      "fuente": "Oscar Xavier Calderón Zamora (YouTube)"
+     },
+     {
+      "titulo": "Simulador de conversión de tasas de interés",
+      "url": "https://www.superfinanciera.gov.co/publicaciones/61554/consumidor-financieroinformacion-generalsimulador-de-conversion-de-tasas-de-interes-61554/",
+      "tipo": "herramienta",
+      "fuente": "Superintendencia Financiera de Colombia"
+     },
+     {
+      "titulo": "Intereses: tasa nominal y efectiva anual (doctrina Superfinanciera)",
+      "url": "https://www.superfinanciera.gov.co/publicaciones/18759/normativaconceptos-y-jurisprudencia-conceptoshistorico-doctrina-y-conceptos-anteriores-superintendencias-bancaria-y-de-valores-doctrina-y-conceptos-indice-generalintereses-18759/",
+      "tipo": "norma",
+      "fuente": "Superintendencia Financiera de Colombia"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nValorar series de pagos periódicos, constantes o crecientes, para resolver problemas de cuotas, ahorros, arrendamientos financieros y valoración de flujos.\n\n## Conceptos clave\n### Anualidad\nEs una serie de pagos **iguales** y **periódicos**. Es **vencida** si cada pago se hace al final del período (lo más común) y **anticipada** si se hace al inicio. Con cuota `A`, tasa `i` por período y `n` pagos:\n\n- **Valor presente (vencida):** `VP = A · [1 − (1 + i)^−n] / i`\n- **Valor futuro (vencida):** `VF = A · [(1 + i)^n − 1] / i`\n- **Anticipada:** el resultado de la vencida se multiplica por `(1 + i)`.\n\nLa periodicidad de la tasa debe coincidir con la de los pagos: cuotas mensuales exigen tasa mensual.\n\n### Gradientes\nSon series cuyos pagos **cambian** de forma regular:\n\n- **Gradiente aritmético:** cada pago aumenta (o disminuye) un valor fijo `G`. VP = A·[1 − (1+i)^−n]/i + (G/i)·{[1 − (1+i)^−n]/i − n·(1+i)^−n}, donde A es el primer pago.\n- **Gradiente geométrico:** cada pago crece un porcentaje `g`. Si i ≠ g, VP = A₁·[1 − ((1+g)/(1+i))^n] / (i − g).\n\n> **Clave:** dibuja la línea de tiempo; ubicar bien el primer pago y la fecha de valoración evita la mayoría de los errores.\n\n## Ejemplo resuelto\n**Anualidad.** 12 cuotas mensuales vencidas de **$100.000** a **1% mensual**:\n\n1. VP = 100.000 × [1 − 1,01^−12] / 0,01 = **$1.125.508**.\n2. VF = 100.000 × [1,01^12 − 1] / 0,01 = **$1.268.250**.\n3. Si las cuotas fueran anticipadas: VP = 1.125.508 × 1,01 = **$1.136.763**.\n\n**Gradiente aritmético.** Primer pago $100.000 que aumenta $10.000 cada mes durante 12 meses, al 1% mensual: VP = **$1.731.195**. Mayor que la anualidad porque los pagos crecen.\n\n**Gradiente geométrico.** Primer pago $100.000 que crece 5% por mes, 12 meses, 1% mensual: VP = 100.000 × [1 − (1,05/1,01)^12] / (0,01 − 0,05) = **$1.484.328**. Esta cifra se verificó sumando cada flujo descontado.\n\n**Cuota para una meta de ahorro.** Se despeja A de la fórmula del VF: A = VF · i / [(1 + i)^n − 1]. Para reunir **$20.000.000** en 24 meses con depósitos vencidos al 1% mensual: A = 20.000.000 × 0,01 / (1,01^24 − 1) = **$741.469** al mes.\n\n**Perpetuidad.** Si los pagos de $100.000 mensuales se prolongan indefinidamente, VP = A / i = 100.000 / 0,01 = **$10.000.000**. Es la base de varios modelos de valoración.\n\n### ¿Cuándo aparecen en la práctica?\nLas anualidades modelan cuotas de créditos, cánones de arrendamiento financiero, aportes periódicos a un fondo y bonos. Los gradientes aritméticos aparecen en pagos que suben una suma fija cada período (por ejemplo, un canon que sube un valor constante), y los geométricos en flujos que crecen con la inflación o con un incremento porcentual. En contabilidad se usan para medir pasivos por arrendamientos, instrumentos financieros y deterioro, descontando flujos futuros a su valor presente.\n\n## Puntos clave\n- Anualidad vencida: pagos al final; anticipada: al inicio (× (1+i)).\n- VP y VF de una anualidad tienen fórmulas distintas; no se confunden.\n- Gradientes: aritmético (suma G) o geométrico (multiplica por 1+g).\n- La tasa debe corresponder a la periodicidad de los pagos.\n\n## Errores frecuentes\n- Usar una tasa anual con cuotas mensuales.\n- Confundir VP con VF (el VF de 12 cuotas de $100.000 al 1% es $1.268.250, no su VP).\n- Tomar el primer pago del gradiente como el segundo.",
+    "recursos": [
+     {
+      "titulo": "Fórmulas de anualidades vencidas, anticipadas y diferidas",
+      "url": "https://www.youtube.com/watch?v=zsjOdvsvvIk",
+      "tipo": "video",
+      "fuente": "Juanpi math (YouTube)"
+     },
+     {
+      "titulo": "Valor presente de gradientes, valor futuro y anualidad",
+      "url": "https://www.youtube.com/watch?v=9j3oJdMy0oE",
+      "tipo": "video",
+      "fuente": "Alexander Carvajal (YouTube)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConstruir tablas de amortización de un crédito por los sistemas de cuota fija y de abono constante a capital, y entender qué parte de cada pago es interés y cuál es capital.\n\n## Conceptos clave\nAmortizar es pagar una deuda de forma gradual. En todo sistema, los intereses se calculan sobre el **saldo insoluto** (lo que aún se debe) y cada cuota = interés + abono a capital.\n\n### Cuota fija (sistema francés)\nLa cuota es constante: `A = P · i / [1 − (1 + i)^−n]`. Al comienzo la mayor parte es interés; con el tiempo el **abono a capital crece** y el interés disminuye.\n\n### Abono constante a capital (sistema alemán)\nEl abono a capital es siempre `P / n`. Como el saldo baja más rápido, los intereses disminuyen y la **cuota decrece** con el tiempo. Paga menos intereses totales, pero las primeras cuotas son más altas.\n\n> **Clave:** en ambos los intereses se calculan sobre el saldo; lo que cambia es cómo se reparte el pago entre interés y capital.\n\nContablemente, cada cuota se reparte: el abono reduce el pasivo financiero y el interés va al gasto financiero.\n\n## Ejemplo resuelto\nPréstamo de **$10.000.000** a 6 meses, tasa **1% mensual**.\n\n**Cuota fija:** A = 10.000.000 × 0,01 / (1 − 1,01^−6) = **$1.725.484** (redondeada).\n\n| Mes | Interés | Abono a capital | Saldo |\n|---|---|---|---|\n| 1 | 100.000 | 1.625.484 | 8.374.516 |\n| 2 | 83.745 | 1.641.739 | 6.732.778 |\n| 3 | 67.328 | 1.658.156 | 5.074.622 |\n| 4 | 50.746 | 1.674.737 | 3.399.884 |\n| 5 | 33.999 | 1.691.485 | 1.708.400 |\n| 6 | 17.084 | 1.708.400 | 0 |\n\nIntereses totales: **$352.902** (comprobación: 6 × 1.725.484 − 10.000.000 = 352.904; el ajuste de pesos se debe al redondeo de cuota).\n\n**Abono constante:** abono = 10.000.000 / 6 = **$1.666.667** (redondeado).\n\n| Mes | Interés | Abono | Cuota | Saldo |\n|---|---|---|---|---|\n| 1 | 100.000 | 1.666.667 | 1.766.667 | 8.333.333 |\n| 2 | 83.333 | 1.666.667 | 1.750.000 | 6.666.667 |\n| 6 | 16.667 | 1.666.667 | 1.683.333 | 0 |\n\nIntereses totales: **$350.000**, menores que en el sistema de cuota fija (352.902), pero con una primera cuota de $1.766.667 frente a $1.725.484.\n\n## Puntos clave\n- Interés del período = saldo insoluto × tasa.\n- Cuota fija: cuota igual y abono creciente; abono constante: cuota decreciente.\n- El saldo final debe llegar a cero.\n- Elegir un sistema depende del flujo de caja de quien paga.\n\n## Errores frecuentes\n- Calcular intereses sobre el valor original del préstamo y no sobre el saldo.\n- Olvidar convertir una tasa anual a la periodicidad de las cuotas.\n- Pensar que en el sistema de cuota fija el abono a capital es constante.",
+    "recursos": [
+     {
+      "titulo": "Sistemas de amortización de préstamos: francés, alemán y americano",
+      "url": "https://www.youtube.com/watch?v=fL37OS2SC8s",
+      "tipo": "video",
+      "fuente": "Míster Dubón (YouTube)"
+     },
+     {
+      "titulo": "Tabla de amortización con cuota fija o método francés en Excel",
+      "url": "https://www.youtube.com/watch?v=Qr-wOHsr-is",
+      "tipo": "video",
+      "fuente": "ContableFiel (YouTube)"
+     }
+    ]
+   }
+  ]
+ },
+ "m1s3": {
+  "recursos": [
+   {
+    "titulo": "El dinero y la política monetaria (El Banco de la República en las aulas, guía 2)",
+    "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/guia2_el_dinero_y_la_politica_monetaria.pdf",
+    "tipo": "articulo",
+    "fuente": "Banco de la República"
+   },
+   {
+    "titulo": "Meta de inflación (glosario)",
+    "url": "https://www.banrep.gov.co/es/glosario/meta-inflacion",
+    "tipo": "articulo",
+    "fuente": "Banco de la República"
+   },
+   {
+    "titulo": "El sector externo en la economía colombiana",
+    "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/sembc_cv.pdf",
+    "tipo": "articulo",
+    "fuente": "Banco de la República"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nEntender cómo se forman los precios en un mercado y medir la sensibilidad de la demanda al precio, una herramienta útil para fijar precios y evaluar efectos de impuestos o cambios de costos.\n\n## Conceptos clave\n### Demanda y oferta\n- **Demanda:** cantidad que los consumidores están dispuestos a comprar a cada precio. Por la **ley de la demanda**, si el precio sube, la cantidad demandada baja (curva decreciente).\n- **Oferta:** cantidad que los productores están dispuestos a vender a cada precio. Si el precio sube, la cantidad ofrecida sube (curva creciente).\n- **Equilibrio:** el precio al que cantidad demandada y ofrecida coinciden. Si el precio está por encima hay excedente; por debajo, escasez.\n\nUn cambio en el precio mueve *a lo largo* de la curva; un cambio en ingreso, gustos, precios de sustitutos o costos *desplaza* la curva.\n\n### Elasticidad precio de la demanda\nMide cuánto reacciona la cantidad demandada ante un cambio del precio:\n\n`E = %ΔCantidad demandada / %ΔPrecio`\n\n- |E| > 1: demanda **elástica** (reacciona mucho; típico de bienes de lujo o con sustitutos).\n- |E| < 1: **inelástica** (reacciona poco; típico de bienes de primera necesidad).\n- |E| = 1: elasticidad unitaria.\n\nSi la demanda es inelástica, subir el precio **aumenta** el ingreso total; si es elástica, lo disminuye.\n\n> **Clave:** la elasticidad no es la pendiente de la curva; es una relación entre variaciones porcentuales.\n\n## Ejemplo resuelto\n**Equilibrio.** Demanda Qd = 100 − 2P y oferta Qs = 20 + 2P. Igualando: 100 − 2P = 20 + 2P, de donde 80 = 4P, P = **20** y Q = 100 − 2(20) = **60**. Comprobación: Qs = 20 + 40 = 60.\n\n**Elasticidad.** El precio de un producto sube de $10.000 a $12.000 y la cantidad baja de 500 a 450 unidades.\n\n1. %ΔP = 2.000/10.000 = +20%.\n2. %ΔQ = −50/500 = −10%.\n3. E = −10%/20% = **-0,5**; |E| = 0,5 < 1: demanda inelástica. (Con el método del punto medio el valor es -0,58; ambos indican inelasticidad.)\n4. Ingreso: antes $5.000.000; después $5.400.000. Subió $400.000, como se espera con demanda inelástica.\n\n## Puntos clave\n- Equilibrio: Qd = Qs.\n- Precio mueve sobre la curva; otros factores la desplazan.\n- |E| > 1 elástica; |E| < 1 inelástica.\n- La elasticidad ayuda a anticipar el efecto en ventas e ingresos.\n\n## Errores frecuentes\n- Confundir movimiento *a lo largo* de la curva con desplazamiento de la curva.\n- Interpretar el signo negativo de E como \"inelástico\".\n- Suponer que subir precios siempre aumenta el ingreso.",
+    "recursos": [
+     {
+      "titulo": "Introducción a la elasticidad precio de la demanda",
+      "url": "https://es.khanacademy.org/economics-finance-domain/microeconomics/elasticity-tutorial/price-elasticity-tutorial/v/introduction-to-price-elasticity-of-demand-ap-microeconomics-khan-academy",
+      "tipo": "video",
+      "fuente": "Khan Academy en español"
+     },
+     {
+      "titulo": "Resumen de la lección: la demanda y sus determinantes",
+      "url": "https://es.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium/demand-curve-tutorial/a/lesson-summary-demand-and-the-determinants-of-demand",
+      "tipo": "articulo",
+      "fuente": "Khan Academy en español"
+     },
+     {
+      "titulo": "Elasticidad precio de la demanda (en 1 minuto)",
+      "url": "https://www.youtube.com/watch?v=RBiBoN6gTIM",
+      "tipo": "video",
+      "fuente": "AulaDeEconomia (YouTube)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer los tres indicadores macroeconómicos principales (crecimiento, precios y empleo), cómo se calculan y cómo se interpretan, pues afectan tasas de interés, costos, ventas y la valoración de las empresas.\n\n## Conceptos clave\n### PIB\nEl **producto interno bruto** es el valor de los bienes y servicios finales producidos en un país en un período. Por el método del gasto:\n\n`PIB = C + I + G + (X − M)`\n\nC: consumo de los hogares; I: inversión; G: gasto público; X − M: exportaciones netas. En Colombia lo mide el **DANE**. Se distingue el PIB **nominal** (a precios corrientes) del **real** (descontando la inflación), que es el que mide el crecimiento verdadero.\n\n### Inflación e IPC\nLa **inflación** es el aumento sostenido y generalizado de los precios. Se mide con el **IPC** (Índice de Precios al Consumidor), que sigue el costo de una canasta de bienes y servicios de los hogares y también lo calcula el DANE. Inflación = (IPC final / IPC inicial) − 1. Afecta salarios, contratos, tasas de interés y el costo de las empresas.\n\n### Desempleo\n`Tasa de desempleo = Desocupados / Población económicamente activa (PEA)`\n\nLa PEA agrupa ocupados y desocupados (quienes buscan trabajo activamente). No incluye a estudiantes ni a quienes no buscan empleo. El DANE la mide mediante su encuesta de hogares.\n\n> **Clave:** crecimiento real = crecimiento nominal descontada la inflación.\n\n## Ejemplo resuelto\n**PIB.** Con C = 600, I = 200, G = 150, X = 100 y M = 120 (billones de pesos, cifras ilustrativas): PIB = 600 + 200 + 150 + (100 − 120) = **930**.\n\n**Inflación.** El IPC pasa de 120,0 a 126,6: 126,6/120 − 1 = **5,5%** anual.\n\n**Crecimiento real.** Si las ventas nominales de una empresa crecieron 10%, el crecimiento real es 1,10/1,055 − 1 = **4,27%**.\n\n**Desempleo.** Con una PEA de 25.000.000 personas y 2.750.000 desocupadas: 2.750.000/25.000.000 = **11,0%**.\n\n## Puntos clave\n- PIB = C + I + G + (X − M); el DANE lo calcula.\n- Inflación = variación del IPC.\n- Desempleo = desocupados / PEA.\n- Siempre conviene comparar cifras en términos reales, no nominales.\n\n## Errores frecuentes\n- Comparar PIB nominal de años distintos sin ajustar por inflación.\n- Calcular la tasa de desempleo sobre la población total.\n- Confundir \"inflación\" (variación de precios) con \"nivel de precios\".",
+    "recursos": [
+     {
+      "titulo": "Producto Interno Bruto (PIB): ¿qué es?",
+      "url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/cuentas-nacionales/cuentas-nacionales-trimestrales",
+      "tipo": "articulo",
+      "fuente": "DANE"
+     },
+     {
+      "titulo": "Índice de Precios al Consumidor (IPC)",
+      "url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc",
+      "tipo": "articulo",
+      "fuente": "DANE"
+     },
+     {
+      "titulo": "El PIB real y el PIB nominal",
+      "url": "https://es.khanacademy.org/economics-finance-domain/macroeconomics/gdp-topic/real-nominal-gdp-tutorial/v/real-gdp-and-nominal-gdp",
+      "tipo": "video",
+      "fuente": "Khan Academy en español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDiferenciar la política monetaria de la fiscal, conocer el papel del Banco de la República y entender cómo la tasa de intervención llega al costo del crédito y a las decisiones de una empresa.\n\n## Conceptos clave\n### Banco de la República\nEs el banco central de Colombia, con **autonomía constitucional** (art. 371 de la Constitución Política). Su **Junta Directiva** define las políticas monetaria, cambiaria y crediticia. Sus funciones: emitir la moneda legal, actuar como prestamista de última instancia de los bancos, administrar las reservas internacionales y velar por la estabilidad de precios. Su objetivo de inflación es una **meta del 3%** (con rango de tolerancia de ±1 punto).\n\n### Política monetaria\nManeja la cantidad de dinero y las tasas de interés. Su herramienta principal es la **tasa de intervención** (o de política monetaria):\n\n- **Sube la tasa:** el crédito se encarece, baja el consumo y la inversión, y se modera la inflación.\n- **Baja la tasa:** el crédito se abarata y se estimula la actividad económica.\n\nLa transmisión no es inmediata: opera con rezagos a través de las tasas bancarias, el crédito, el tipo de cambio y las expectativas.\n\n### Política fiscal\nLa maneja el **Gobierno**: gasto público e impuestos. Un mayor gasto o menores impuestos estimulan la demanda; lo contrario la modera. Las finanzas públicas se rigen por reglas como la regla fiscal.\n\n| | Monetaria | Fiscal |\n|---|---|---|\n| Autoridad | Banco de la República | Gobierno y Congreso |\n| Instrumentos | Tasas, liquidez | Gasto público e impuestos |\n\n> **Clave:** ambas buscan estabilidad macroeconómica, con instrumentos y autoridades distintos.\n\n## Ejemplo resuelto\nUna empresa tiene un crédito de **$100.000.000** a una tasa del **15% EA** con pago de intereses anuales. Tras alzas de la tasa de política, la tasa de su crédito pasa a **17% EA**.\n\n1. Interés anual antes: 100.000.000 × 0,15 = **$15.000.000**.\n2. Interés anual después: 100.000.000 × 0,17 = **$17.000.000**.\n3. Mayor costo financiero: $2.000.000 al año, que reduce la utilidad antes de impuestos.\n\nPor eso, los contadores y analistas siguen las decisiones de la Junta Directiva: afectan el costo de la deuda, el flujo de caja y el valor de los activos financieros.\n\n## Puntos clave\n- Banco de la República: autonomía (art. 371 C.P.) y meta de inflación de 3%.\n- Tasa de intervención más alta → crédito más caro → menor inflación.\n- Fiscal: Gobierno; monetaria: banco central.\n- La política monetaria actúa con rezagos.\n\n## Errores frecuentes\n- Pensar que el Banco de la República fija el presupuesto o los impuestos.\n- Creer que subir la tasa baja los precios de inmediato.\n- Confundir tasa de intervención con la tasa que cobra un banco a sus clientes.",
+    "recursos": [
+     {
+      "titulo": "¿Qué es la política monetaria?",
+      "url": "https://www.youtube.com/watch?v=b2Es9oIP9BE",
+      "tipo": "video",
+      "fuente": "Banco de la República (YouTube)"
+     },
+     {
+      "titulo": "Tasa de interés de intervención o de política monetaria",
+      "url": "https://www.banrep.gov.co/es/glosario/tasa-interes-politica-monetaria",
+      "tipo": "articulo",
+      "fuente": "Banco de la República"
+     },
+     {
+      "titulo": "Política monetaria y política fiscal",
+      "url": "https://es.khanacademy.org/economics-finance-domain/old-macroeconomics/aggregate-supply-demand-topic-old/monetary-fiscal-policy/v/monetary-and-fiscal-policy",
+      "tipo": "video",
+      "fuente": "Khan Academy en español"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nComprender cómo se relaciona Colombia con el resto del mundo, qué es la tasa de cambio y cómo sus movimientos afectan a importadores, exportadores y a la contabilidad.\n\n## Conceptos clave\n### Sector externo y balanza de pagos\nLa **balanza de pagos** registra las transacciones entre residentes y no residentes. Tiene dos grandes cuentas:\n\n- **Cuenta corriente:** comercio de bienes y servicios, rentas (intereses y utilidades) y transferencias (como las remesas).\n- **Cuenta financiera:** inversión extranjera, deuda y otros flujos de capital; muestra cómo se financia un déficit o dónde se colocan los excedentes.\n\n### Tasa de cambio\nEs el precio de una moneda en términos de otra: cuántos pesos cuesta un dólar. Colombia tiene un régimen de **tasa de cambio flotante**, determinada por la oferta y demanda de divisas. La **TRM** (tasa representativa del mercado) es la tasa promedio del día y la certifica la Superintendencia Financiera.\n\n- **Depreciación del peso (devaluación):** se necesitan más pesos por dólar. Encarece las importaciones y favorece las exportaciones.\n- **Apreciación del peso (revaluación):** menos pesos por dólar. Abarata las importaciones y resta competitividad a las exportaciones.\n\nUn peso depreciado presiona la inflación porque encarece bienes e insumos importados.\n\n### Efecto contable\nLas partidas en moneda extranjera se convierten a pesos con la tasa de cambio aplicable (NIC 21 / Sección 30 de NIIF para Pymes). Las **diferencias en cambio** surgen de la variación de la tasa entre el reconocimiento y el pago.\n\n> **Clave:** devaluación = más pesos por dólar: sube el costo de lo importado y el ingreso de lo exportado, medido en pesos.\n\n## Ejemplo resuelto\nCifras ilustrativas, no tasas reales. Un importador debe pagar **US$20.000**. La tasa pasa de **$4.000** a **$4.400** por dólar (depreciación de 10%).\n\n1. Costo antes: 20.000 × 4.000 = **$80.000.000**.\n2. Costo después: 20.000 × 4.400 = **$88.000.000**.\n3. Mayor costo: $8.000.000, es decir, 10%.\n\nUn exportador que vende **US$10.000** recibe 10.000 × 4.000 = $40.000.000 antes y 10.000 × 4.400 = $44.000.000 después: $4.000.000 más en pesos.\n\n## Puntos clave\n- Balanza de pagos: cuenta corriente y financiera.\n- Colombia tiene tasa de cambio flotante; la TRM la certifica la Superfinanciera.\n- Devaluación: importaciones más caras, exportaciones más competitivas.\n- Las diferencias en cambio se reconocen en los estados financieros.\n\n## Errores frecuentes\n- Creer que la devaluación es buena o mala para todos: depende de si se importa o se exporta.\n- Confundir devaluación (régimen fijo) con depreciación (régimen flotante); en la práctica se usan casi como sinónimos.\n- Ignorar las deudas en dólares al evaluar el efecto de la tasa de cambio.",
+    "recursos": [
+     {
+      "titulo": "¿Cómo puedo entender la balanza de pagos?",
+      "url": "https://www.banrep.gov.co/es/puedo-entender-balanza-pagos",
+      "tipo": "articulo",
+      "fuente": "Banco de la República"
+     },
+     {
+      "titulo": "Diferencia entre devaluación, revaluación, depreciación y apreciación",
+      "url": "https://www.banrep.gov.co/es/cual-diferencia-devaluacion-revaluacion-depreciacion-y-apreciacion-moneda",
+      "tipo": "articulo",
+      "fuente": "Banco de la República"
+     },
+     {
+      "titulo": "Devaluación: todo lo que tienes que saber explicado fácil",
+      "url": "https://www.youtube.com/watch?v=Dg4OErgVWNg",
+      "tipo": "video",
+      "fuente": "Ensamble de Ideas (YouTube)"
+     }
+    ]
+   }
+  ]
+ },
+ "m1s4": {
+  "recursos": [
+   {
+    "titulo": "Ley 43 de 1990 (Gestor Normativo)",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66148",
+    "tipo": "norma",
+    "fuente": "Función Pública"
+   },
+   {
+    "titulo": "Junta Central de Contadores: funciones e integración de su tribunal disciplinario",
+    "url": "https://incp.org.co/sala-de-prensa/2021/10/junta-central-de-contadores-cuales-son-sus-funciones-y-como-esta-integrado-su-tribunal-disciplinario/",
+    "tipo": "articulo",
+    "fuente": "INCP"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nConocer la Ley 43 de 1990 como norma base de la profesión, qué significa que el contador público dé fe pública y qué responsabilidades se derivan de su firma.\n\n## Conceptos clave\n### La Ley 43 de 1990\nReglamenta la profesión de contador público en Colombia: define quién es contador público, los requisitos para ejercer (título universitario e inscripción ante la Junta Central de Contadores), la fe pública, el código de ética y el régimen disciplinario. Se complementa con la **Ley 1314 de 2009**, que regula los principios y normas de contabilidad, información financiera y aseguramiento de la información, y con los decretos que la desarrollan (como el Decreto 2420 de 2015).\n\n### Fe pública (art. 10)\nLa atestación o firma de un contador público en actos propios de su profesión hace **presumir, salvo prueba en contrario**, que el acto se ajusta a los requisitos legales y que las cifras reflejan fielmente la situación financiera. Es decir:\n\n- Es una **presunción legal**, no una verdad absoluta: se puede desvirtuar con pruebas.\n- Los terceros (bancos, DIAN, socios, proveedores) confían en la firma del contador.\n- No garantiza resultados económicos futuros ni sustituye la auditoría o la revisoría fiscal.\n\n### Responsabilidad\nLa fe pública genera responsabilidad **civil** (indemnizar perjuicios), **penal** (p. ej., por falsedades documentales) y **disciplinaria** (ante la Junta Central de Contadores). Además, las normas tributarias contemplan sanciones propias para contadores que incumplen deberes en las declaraciones o certificaciones que firman.\n\n> **Clave:** firmar es atestar; el contador responde por lo que certifica, así lo haya ordenado el cliente o el empleador.\n\n## Ejemplo resuelto\nUn contador certifica estados financieros con una utilidad de **$500.000.000**. Luego se descubre que incluyeron ventas ficticias por **$120.000.000**.\n\n1. Utilidad real: 500.000.000 − 120.000.000 = **$380.000.000**.\n2. Sobrestimación: 120.000.000 / 500.000.000 = **24%** de la cifra certificada; frente a la real, 31,6%.\n3. Efecto de la presunción: el banco y los socios confiaron en la cifra firmada. Como la presunción admite prueba en contrario, quien perjudicó a terceros debe responder si se demuestra que la cifra no era fiel.\n4. Consecuencias posibles: reclamación civil de perjuicios, investigación penal si hay falsedad y proceso disciplinario ante la JCC. Ser engañado por el cliente puede atenuar, pero no elimina automáticamente la responsabilidad si no se hicieron las verificaciones debidas.\n\n## Puntos clave\n- Ley 43 de 1990: norma base de la profesión; Ley 1314 de 2009: normas contables y de aseguramiento.\n- Art. 10: fe pública como presunción legal, salvo prueba en contrario.\n- Responsabilidad civil, penal y disciplinaria.\n- La firma exige verificación previa y soportes.\n\n## Errores frecuentes\n- Pensar que la fe pública equivale a una garantía de resultados.\n- Firmar por solicitud del cliente sin revisar soportes.\n- Creer que la fe pública aplica a cualquier documento: aplica a actos propios de la profesión.",
+    "recursos": [
+     {
+      "titulo": "Ley 43 de 1990 (Gestor Normativo)",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66148",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     },
+     {
+      "titulo": "Ley 43 de 1990",
+      "url": "https://relatoria.colombiacompra.gov.co/normativa/ley-43-de-1990/",
+      "tipo": "norma",
+      "fuente": "Colombia Compra Eficiente"
+     },
+     {
+      "titulo": "Análisis de la Ley 43 de 1990 (Código de ética del contador público colombiano)",
+      "url": "https://www.youtube.com/watch?v=wjgJG0KecGY",
+      "tipo": "video",
+      "fuente": "EN BOGA TEX SAS (YouTube)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer los principios éticos del contador público (art. 37 de la Ley 43 de 1990) y aplicarlos con un método para resolver dilemas profesionales.\n\n## Conceptos clave\n### Los principios del art. 37\nSegún la ley, la actuación del contador debe regirse por estos principios:\n\n1. **Integridad:** honestidad y rectitud, sin participar en información falsa o engañosa.\n2. **Objetividad:** juicio imparcial, sin conflictos de interés ni presiones.\n3. **Independencia:** libertad frente a intereses que comprometan el criterio (clave en revisoría fiscal y aseguramiento).\n4. **Responsabilidad:** asumir las consecuencias de sus actos profesionales.\n5. **Confidencialidad:** guardar reserva de la información del cliente, salvo obligación legal.\n6. **Observancia de las disposiciones normativas:** cumplir la ley y las normas técnicas.\n7. **Competencia y actualización profesional:** aceptar solo encargos que pueda ejecutar y mantenerse actualizado.\n8. **Difusión y colaboración:** contribuir al desarrollo de la profesión.\n9. **Respeto entre colegas.**\n10. **Conducta ética:** actuar con decoro y evitar lo que desprestigie la profesión.\n\nPara efectos de aseguramiento, la regulación colombiana incorpora también el código de ética internacional del IESBA/IFAC (verifica el anexo y texto vigentes del Decreto 2420 de 2015).\n\n### Cómo resolver un dilema\n1. Identificar los hechos.\n2. Identificar los principios en conflicto.\n3. Consultar la norma aplicable.\n4. Evaluar alternativas y consecuencias.\n5. Decidir, documentar y, si es necesario, renunciar al encargo.\n\n> **Clave:** aceptar un trabajo para el que no se tiene competencia viola el principio de competencia y actualización profesional.\n\n## Ejemplo resuelto\nUn cliente pide no registrar una obligación de **$80.000.000** para \"mejorar\" la imagen ante un banco. Activos: $400.000.000; pasivo registrado: $170.000.000.\n\n1. Hechos: el pasivo real es $170.000.000 + $80.000.000 = **$250.000.000**.\n2. Efecto: endeudamiento (pasivo/activo) reportado 170.000.000/400.000.000 = **42,5%**; real 250.000.000/400.000.000 = **62,5%**.\n3. Principios vulnerados: integridad, objetividad, observancia normativa y responsabilidad.\n4. Decisión: registrar el pasivo, documentar la solicitud; si el cliente insiste, no firmar y evaluar la renuncia.\n\n## Puntos clave\n- El art. 37 enumera diez principios; hay que reconocerlos en cada caso.\n- Competencia: no aceptar encargos que superen la formación.\n- Confidencialidad: reserva, salvo obligación legal.\n- La ética se aplica con un método y se documenta.\n\n## Errores frecuentes\n- Confundir independencia con simple distancia física del cliente.\n- Revelar información confidencial a un tercero sin base legal.\n- Aceptar presiones del cliente o jefe como si eximieran de responsabilidad.",
+    "recursos": [
+     {
+      "titulo": "Código de ética profesional del contador público",
+      "url": "https://www.youtube.com/watch?v=PHu4jY60R7E",
+      "tipo": "video",
+      "fuente": "Momento Contable (YouTube)"
+     },
+     {
+      "titulo": "Ley 43 de 1990",
+      "url": "https://relatoria.colombiacompra.gov.co/normativa/ley-43-de-1990/",
+      "tipo": "norma",
+      "fuente": "Colombia Compra Eficiente"
+     },
+     {
+      "titulo": "Ley 43 de 1990 (Gestor Normativo)",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66148",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nIdentificar la autoridad que vigila la profesión, sus funciones y las sanciones disciplinarias posibles, para entender cómo se hace efectiva la responsabilidad ética del contador.\n\n## Conceptos clave\n### Junta Central de Contadores (JCC)\nEs la **autoridad que inscribe a los contadores, expide la tarjeta profesional y ejerce la inspección y vigilancia disciplinaria** de la profesión. Está adscrita al Ministerio de Comercio, Industria y Turismo. Cuenta con un **Tribunal Disciplinario** y, entre sus funciones, vigila que solo ejerzan los inscritos, suspende o cancela inscripciones y denuncia a quienes ejerzan sin estarlo.\n\nLa JCC es **distinta** de la DIAN (impuestos), la Supersociedades (supervisión de sociedades) y el CTCP (Consejo Técnico de la Contaduría Pública, que emite orientaciones técnicas).\n\n### Régimen disciplinario\nSegún la gravedad de la falta, las sanciones son:\n\n1. **Amonestación escrita.**\n2. **Multa.**\n3. **Suspensión de la inscripción.**\n4. **Cancelación de la inscripción.**\n\nLa graduación depende de la falta, los antecedentes y el daño causado. Las faltas más graves (como certificar información falsa) merecen las sanciones más severas. El procedimiento se rige por reglas de la JCC y el debido proceso: queja o investigación de oficio, indagación, cargos, descargos, pruebas, decisión y recursos. La JCC ha expedido resoluciones sobre el procedimiento; verifica la vigente.\n\n### Otras responsabilidades\nLa sanción disciplinaria es independiente de la civil, penal y de las sanciones tributarias (Estatuto Tributario, arts. 659 y 660, para contadores que incumplen deberes en declaraciones).\n\n> **Clave:** un mismo hecho puede originar responsabilidades paralelas ante distintas autoridades.\n\n## Ejemplo resuelto\nUn contador firma la certificación de unos estados financieros sin revisar los soportes de una cartera de **$200.000.000**, y 40% resulta inexistente.\n\n1. Cartera inexistente: 200.000.000 × 0,40 = **$80.000.000**.\n2. Principios afectados: integridad, competencia y observancia normativa; vulnera la fe pública de su firma.\n3. Autoridad: la JCC puede abrir investigación por queja o de oficio.\n4. Graduación: se evalúan la gravedad (monto y engaño a terceros), antecedentes y daño causado. Sin antecedentes y con corrección oportuna podría ser amonestación o multa; con dolo y perjuicio grave, suspensión o cancelación.\n5. Paralelamente pueden surgir acciones civiles o penales.\n\n## Puntos clave\n- JCC: inscribe, expide tarjeta profesional y sanciona.\n- Cuatro sanciones: amonestación, multa, suspensión y cancelación.\n- No es lo mismo que DIAN, Supersociedades o CTCP.\n- Las responsabilidades disciplinaria, civil, penal y tributaria son independientes.\n\n## Errores frecuentes\n- Creer que la DIAN o la Supersociedades sancionan disciplinariamente a los contadores.\n- Pensar que una sanción disciplinaria excluye la responsabilidad civil o penal.\n- Ejercer sin tarjeta profesional vigente.",
+    "recursos": [
+     {
+      "titulo": "Junta Central de Contadores: funciones e integración de su tribunal disciplinario",
+      "url": "https://incp.org.co/sala-de-prensa/2021/10/junta-central-de-contadores-cuales-son-sus-funciones-y-como-esta-integrado-su-tribunal-disciplinario/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "Régimen disciplinario del contador público, Ley 43 de 1990",
+      "url": "https://www.youtube.com/watch?v=aKo_cnS82jw",
+      "tipo": "video",
+      "fuente": "Derecho Disciplinario (YouTube)"
+     },
+     {
+      "titulo": "Ley 43 de 1990 (Gestor Normativo)",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66148",
+      "tipo": "norma",
+      "fuente": "Función Pública"
+     }
+    ]
+   }
+  ]
+ }
+}

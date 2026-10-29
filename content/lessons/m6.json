@@ -1,0 +1,372 @@
+{
+ "m6s1": {
+  "recursos": [
+   {
+    "titulo": "Decreto 2420 de 2015: marco técnico de contabilidad, información financiera y aseguramiento",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=76745",
+    "tipo": "norma",
+    "fuente": "Función Pública (Gestor Normativo)"
+   },
+   {
+    "titulo": "Objetivos globales del auditor independiente (NIA 200)",
+    "url": "https://www.gestiopolis.com/objetivos-globales-del-auditor-independiente-nia-200/",
+    "tipo": "articulo",
+    "fuente": "GestioPolis"
+   },
+   {
+    "titulo": "NIA 700: formación de una opinión e informe sobre estados financieros",
+    "url": "https://videohighlight.com/v/KbSPXX5fQhM",
+    "tipo": "video",
+    "fuente": "Auditool (video, vía VideoHighlight)"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nComprender qué es un trabajo de aseguramiento, qué nivel de seguridad ofrece una auditoría de estados financieros y cuál es el marco normativo (NIA) que la regula en Colombia.\n\n## Conceptos clave\n### Qué es aseguramiento\nUn **trabajo de aseguramiento** es aquel en el que un profesional independiente emite una conclusión que aumenta la confianza de los usuarios en una información, medida frente a unos criterios. Intervienen tres partes: el **profesional** que concluye, la **parte responsable** (en una auditoría, la administración que prepara los estados financieros) y los **usuarios previstos** (socios, bancos, proveedores). Además hay una materia objeto de análisis, unos criterios (por ejemplo, las NIIF), evidencia y un informe escrito.\n\n### Seguridad razonable y limitada\nSegún la NIA 200, la auditoría de estados financieros da **seguridad razonable**: un nivel alto, pero **no absoluto**, de que los estados están libres de incorrección material. Nunca es absoluta por las **limitaciones inherentes**: se examinan muestras, hay juicio en las estimaciones, existen controles que pueden eludirse y el costo de auditar debe ser proporcional al beneficio. Otros trabajos dan seguridad **limitada** (revisiones) o ninguna.\n\n### Marco normativo\nLas NIA las emite el IAASB (IFAC). En Colombia, la Ley 1314 de 2009 y el Decreto Único Reglamentario 2420 de 2015 incorporan el marco técnico de aseguramiento de la información. Existe un proyecto de decreto de 2026 que actualiza ese marco: **verifica la versión vigente** antes de citar numerales. Junto con las NIA, el auditor cumple normas de ética e independencia (Ley 43 de 1990 y Código de Ética) y de control de calidad de la firma.\n\n### Actitud del auditor\nLa NIA 200 exige **escepticismo profesional** (mente alerta, cuestionar la evidencia) y **juicio profesional** (decidir con formación y experiencia). Debe planificar y ejecutar la auditoría reconociendo que pueden existir incorrecciones materiales por error o por fraude.\n\n## Ejemplo resuelto\nUna firma recibe cuatro encargos. Se clasifica así:\n\n| Encargo | Tipo | Seguridad |\n|---|---|---|\n| Auditoría de estados financieros anuales | Aseguramiento (NIA) | Razonable |\n| Revisión de información financiera intermedia | Aseguramiento | Limitada |\n| Procedimientos acordados con el banco | Servicio relacionado | Ninguna: se informan hallazgos |\n| Compilación de estados financieros | Servicio relacionado | Ninguna |\n\n> **Clave:** solo la auditoría permite expresar una opinión de seguridad razonable sobre los estados financieros.\n\n## Puntos clave\n- Aseguramiento = profesional independiente + parte responsable + usuarios + criterios + evidencia + informe.\n- Seguridad razonable: alta, nunca absoluta.\n- El auditor aplica escepticismo y juicio profesional.\n- Verifica siempre la versión vigente del marco técnico en Colombia.\n\n## Errores frecuentes\n- Creer que una auditoría garantiza ausencia total de fraude o error.\n- Confundir revisión (seguridad limitada) con auditoría.\n- Olvidar que la responsabilidad de preparar los estados financieros es de la administración, no del auditor.",
+    "recursos": [
+     {
+      "titulo": "Objetivos globales del auditor independiente (NIA 200)",
+      "url": "https://www.gestiopolis.com/objetivos-globales-del-auditor-independiente-nia-200/",
+      "tipo": "articulo",
+      "fuente": "GestioPolis"
+     },
+     {
+      "titulo": "Decreto 2420 de 2015: marco técnico de contabilidad, información financiera y aseguramiento",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=76745",
+      "tipo": "norma",
+      "fuente": "Función Pública (Gestor Normativo)"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nAprender cómo el auditor planea el trabajo: entiende la entidad, evalúa riesgos, fija la materialidad y decide cuánta prueba sustantiva necesita.\n\n## Conceptos clave\n### Planeación\nLa planeación (NIA 300) define la estrategia global y el plan de auditoría: alcance, momento de las pruebas, equipo y áreas de riesgo. No es una fase aislada; se actualiza durante todo el trabajo. Parte del conocimiento de la entidad, su sector, sus controles y su marco contable (NIA 315).\n\n### Riesgo de auditoría\nEs el riesgo de emitir una opinión inadecuada cuando los estados financieros contienen incorrecciones materiales. Se expresa así:\n\n`RA = riesgo inherente (RI) x riesgo de control (RC) x riesgo de detección (RD)`\n\n- **Riesgo inherente:** susceptibilidad de una cuenta a error antes de considerar controles (estimaciones complejas, transacciones inusuales).\n- **Riesgo de control:** que los controles de la entidad no prevengan ni detecten la incorrección.\n- **Riesgo de detección:** que los procedimientos del auditor no descubran la incorrección. Es el único que el auditor controla: si RI y RC son altos, reduce RD con más pruebas sustantivas.\n\n### Materialidad (NIA 320)\nEs el importe a partir del cual las incorrecciones, solas o agregadas, pueden influir en las decisiones económicas de los usuarios. Se determina con juicio profesional, usando una referencia (utilidad antes de impuestos, ingresos, activos) y un porcentaje de práctica. Hay tres niveles:\n1. **Materialidad global** para los estados financieros en conjunto.\n2. **Materialidad de ejecución**, inferior a la global, para cubrir el riesgo de incorrecciones no detectadas.\n3. **Umbral de claramente trivial**, por debajo del cual no se acumulan las diferencias.\n\nTambién se considera la naturaleza: una incorrección pequeña que oculta un incumplimiento legal puede ser material.\n\n### De la valoración del riesgo a la respuesta\nCon el entendimiento de la entidad y de su control interno, el auditor **identifica y valora los riesgos de incorrección material** a nivel de estados financieros y de afirmaciones (existencia, integridad, valuación, derechos y obligaciones, presentación). Los riesgos que exigen atención especial son **riesgos significativos**: típicamente fraude, transacciones complejas, partes relacionadas y estimaciones muy subjetivas (NIA 315 y 240). La NIA 330 exige diseñar **respuestas**: pruebas de controles cuando se confía en ellos y pruebas sustantivas cuyo alcance crece con el riesgo. Si el riesgo es alto, el auditor aplica más pruebas, cerca del cierre, con evidencia más fiable y elementos de sorpresa.\n\n## Ejemplo resuelto\nUna empresa tiene utilidad antes de impuestos de $2.000.000.000. El auditor usa 5 % como referencia de práctica:\n\n1. Materialidad global: 2.000.000.000 x 5 % = **$100.000.000**.\n2. Materialidad de ejecución al 75 %: 100.000.000 x 0,75 = **$75.000.000**.\n3. Umbral trivial al 5 % de la global: 100.000.000 x 0,05 = **$5.000.000**.\n\nRiesgo de detección con RA objetivo de 5 %, RI = 80 % y RC = 50 %: RD = 0,05 / (0,80 x 0,50) = **12,5 %**. Si el control es poco confiable (RC = 100 %): RD = 0,05 / 0,80 = **6,25 %**. Un RD menor exige más pruebas sustantivas.\n\n> **Clave:** los porcentajes son referencias de práctica, no los fija la norma.\n\n## Puntos clave\n- La planeación es continua y se basa en el entendimiento del negocio.\n- El auditor solo gestiona directamente el riesgo de detección.\n- Materialidad de ejecución < materialidad global.\n\n## Errores frecuentes\n- Aplicar un porcentaje fijo sin juicio sobre la naturaleza de las partidas.\n- Fijar la materialidad una vez y no revisarla si cambian las circunstancias.\n- Reducir pruebas sustantivas cuando el riesgo de control es alto.",
+    "recursos": [
+     {
+      "titulo": "NIA 320: importancia relativa en la planeación y realización de una auditoría",
+      "url": "https://videohighlight.com/v/7Noup6unaNc",
+      "tipo": "video",
+      "fuente": "Auditool (video, vía VideoHighlight)"
+     },
+     {
+      "titulo": "NIA 315: identificación y evaluación de los riesgos de error material",
+      "url": "https://videohighlight.com/v/3mB3AsMKMRs",
+      "tipo": "video",
+      "fuente": "Auditool (video, vía VideoHighlight)"
+     },
+     {
+      "titulo": "Importancia de la materialidad en la planificación y ejecución de las auditorías",
+      "url": "https://incp.org.co/publicaciones/2024/11/importancia-de-la-materialidad-en-la-planificacion-y-ejecucion-de-las-auditorias/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender qué es evidencia de auditoría suficiente y adecuada, cuáles procedimientos la generan y cómo juzgar su fiabilidad.\n\n## Conceptos clave\n### Evidencia suficiente y adecuada (NIA 500)\nLa **evidencia de auditoría** es la información que el auditor usa para sustentar su opinión. **Suficiencia** es la cantidad: depende del riesgo de incorrección y de la calidad de la evidencia. **Adecuación** es la calidad: combina **relevancia** (se relaciona con la afirmación probada) y **fiabilidad** (confianza que merece la fuente).\n\n### Fiabilidad\nEn general es mayor cuando la evidencia:\n- proviene de fuentes externas e independientes;\n- se obtiene directamente por el auditor y no por la administración;\n- es documental y original, no verbal ni fotocopia;\n- surge de una entidad con controles efectivos.\n\nLa **confirmación externa directa** es más fiable que la indagación oral.\n\n### Procedimientos de auditoría\n| Procedimiento | Qué hace |\n|---|---|\n| Inspección | Examina registros, documentos o activos |\n| Observación | Mira un proceso, como un conteo físico |\n| Indagación | Pregunta a personal informado |\n| Confirmación externa | Respuesta directa de un tercero |\n| Recálculo | Verifica exactitud aritmética |\n| Reejecución | Repite un procedimiento o control |\n| Procedimientos analíticos | Compara cifras y relaciones esperadas |\n\nSe aplican como **pruebas de controles** (¿operan los controles?) o **pruebas sustantivas** (detalle de saldos y analíticos). Los elementos se pueden probar al 100 %, seleccionar de forma específica o por **muestreo** (NIA 530). Todo queda documentado en papeles de trabajo (NIA 230).\n\n### Afirmaciones que se prueban\nCada procedimiento responde a una **afirmación** de la administración. Por ejemplo, la confirmación de cuentas por cobrar prueba **existencia** y **derechos**; el recálculo de depreciación prueba **valuación**; el conteo físico de inventarios prueba **existencia**; la revisión de ventas posteriores al cierre prueba **corte**; y los procedimientos analíticos detectan relaciones inusuales entre cifras (por ejemplo, ventas que suben 40 % con costos que no se mueven).\n\n### Información generada por la entidad y expertos\nCuando el auditor usa informes del sistema contable debe comprobar que sean **completos y exactos**. Si recurre a un experto (por ejemplo, un avaluador), evalúa su competencia, capacidad y objetividad y la razonabilidad de sus hipótesis. Si aparece información contradictoria sobre un asunto significativo, debe investigarla y documentarla: la evidencia incongruente no se descarta.\n\n## Caso práctico\nCuentas por cobrar: saldo en libros $480.000.000 de 40 clientes (continuando con la materialidad de ejecución de $75.000.000 y el umbral trivial de $5.000.000).\n\n1. **Confirmación:** se seleccionan los 5 mayores clientes, que suman $312.000.000. Cobertura: 312 / 480 = **65 %**.\n2. El cliente C responde $58.000.000 y los libros dicen $64.000.000: diferencia de **$6.000.000**. Supera el umbral trivial, así que se investiga (pago en tránsito, corte) y se acumula.\n3. **Recálculo** de depreciación: equipo de $120.000.000 a 10 años, valor residual cero = $12.000.000 por año. La entidad registró $15.000.000: diferencia de **$3.000.000**, por debajo del umbral trivial.\n\n> **Clave:** ninguna diferencia supera la materialidad de ejecución, pero el auditor sigue evaluando su efecto acumulado.\n\n## Puntos clave\n- Evidencia = suficiente (cantidad) + adecuada (relevancia y fiabilidad).\n- Fuente externa y directa pesa más que interna e indirecta.\n- Se combinan procedimientos según la afirmación y el riesgo.\n\n## Errores frecuentes\n- Aceptar solo explicaciones orales de la gerencia.\n- Confirmar saldos a través del cliente y no directamente.\n- Confundir más cantidad de evidencia débil con mejor evidencia.\n- No documentar la conclusión de cada prueba.",
+    "recursos": [
+     {
+      "titulo": "NIA 500: evidencia de auditoría",
+      "url": "https://videohighlight.com/v/_s8hBGwwwBU",
+      "tipo": "video",
+      "fuente": "Auditool (video, vía VideoHighlight)"
+     },
+     {
+      "titulo": "Evidencia de auditoría: la base de la opinión (NIA 500)",
+      "url": "https://incp.org.co/ContArte/?p=2687",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nSaber cómo el auditor forma su opinión y la comunica en el informe, y cuándo la modifica (NIA 700, 705 y 706).\n\n## Conceptos clave\n### Formación de la opinión (NIA 700)\nCon la evidencia obtenida, el auditor concluye si los estados financieros están preparados, en todos los aspectos materiales, conforme al marco de información aplicable y si se logró seguridad razonable. El informe comienza con la **opinión**, sigue con la **base de la opinión** (declaración de independencia y evidencia) y describe responsabilidades de la administración y del auditor. Para ciertas entidades se agregan **asuntos clave de auditoría** (NIA 701).\n\n### Tipos de opinión (NIA 705)\nLa opinión puede ser **no modificada** (favorable, sin salvedades) o **modificada**. La modificación depende de la causa y de si el efecto es generalizado:\n\n| Situación | No generalizada | Generalizada |\n|---|---|---|\n| Incorrección material | Con salvedades | Adversa (desfavorable) |\n| Sin evidencia suficiente y adecuada (limitación al alcance) | Con salvedades | Abstención de opinión |\n\nUna opinión adversa exige incorrecciones **materiales y generalizadas**; la abstención procede cuando no se obtuvo evidencia suficiente y los efectos posibles serían materiales y generalizados.\n\n### Párrafos de énfasis y otros asuntos (NIA 706)\nNo modifican la opinión. El **párrafo de énfasis** remite a una revelación ya presentada y fundamental para los usuarios; el de **otros asuntos** informa algo no presentado en los estados financieros. Ejemplo: incertidumbre importante sobre negocio en marcha ya revelada (NIA 570).\n\n## Ejemplo resuelto\nMaterialidad global: $100.000.000. Activos totales: $5.000.000.000.\n\n1. **Caso A:** inventarios sobrevalorados en $350.000.000. Es material (supera 100.000.000) y equivale a 350 / 5.000 = **7 %** de los activos: no generalizado. Opinión **con salvedades**.\n2. **Caso B:** varias incorrecciones materiales afectan cartera, inventarios e ingresos, es decir, la mayor parte de los estados. Opinión **adversa**.\n3. **Caso C:** la administración impide auditar una filial que representa gran parte de los activos y los efectos posibles serían generalizados. **Abstención de opinión**.\n\n> **Clave:** primero se identifica la causa (incorrección o limitación) y luego se mide si es generalizada.\n\n## Puntos clave\n- La NIA 705 distingue tres modificaciones: salvedades, adversa y abstención.\n- Adversa = incorrección material y generalizada.\n- Abstención = falta de evidencia, no desacuerdo.\n- El párrafo de énfasis no cambia la opinión.\n\n## Errores frecuentes\n- Emitir abstención cuando el problema es una incorrección conocida.\n- Usar un párrafo de énfasis para reemplazar una salvedad necesaria.\n- Omitir en el informe el importe o la revelación afectados.",
+    "recursos": [
+     {
+      "titulo": "NIA 705: modificaciones a la opinión en el informe del auditor independiente",
+      "url": "https://videohighlight.com/v/_TtMZai24aM",
+      "tipo": "video",
+      "fuente": "Auditool (video, vía VideoHighlight)"
+     },
+     {
+      "titulo": "NIA 700: formación de una opinión e informe sobre estados financieros",
+      "url": "https://videohighlight.com/v/KbSPXX5fQhM",
+      "tipo": "video",
+      "fuente": "Auditool (video, vía VideoHighlight)"
+     },
+     {
+      "titulo": "Tipos de opinión y modelos de informe de auditoría",
+      "url": "https://incp.org.co/ContArte/contenidos/2023/09/tipos-de-opinion-y-modelos-de-informe-de-auditoria/",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     }
+    ]
+   }
+  ]
+ },
+ "m6s2": {
+  "recursos": [
+   {
+    "titulo": "Guía de órganos de fiscalización: revisoría fiscal",
+    "url": "https://www.supersociedades.gov.co/documents/guest/Doctrina-Jurisprudencia-Pedagogia/Pedagogia/Supervision-societaria-pedagogia/Guías/GUIA-ORGANOS-DE-FISCALIZACION.pdf",
+    "tipo": "articulo",
+    "fuente": "Superintendencia de Sociedades"
+   },
+   {
+    "titulo": "Código de Comercio, arts. 203 a 215 (revisor fiscal)",
+    "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr006.html",
+    "tipo": "norma",
+    "fuente": "Secretaría del Senado"
+   },
+   {
+    "titulo": "El papel de la revisoría fiscal frente al soborno transnacional, el lavado de activos y la financiación del terrorismo",
+    "url": "https://www.youtube.com/watch?v=p4FISuZWHn0",
+    "tipo": "video",
+    "fuente": "Superintendencia de Sociedades (YouTube)"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nIdentificar qué sociedades deben tener revisor fiscal en Colombia y qué requisitos debe cumplir quien ejerce el cargo.\n\n## Conceptos clave\n### Quiénes están obligados\nLa revisoría fiscal es una función de fiscalización exclusiva de contadores públicos. Deben tenerla:\n- Las **sociedades por acciones** y las **sucursales de sociedades extranjeras** (Código de Comercio, art. 203).\n- Cualquier sociedad comercial cuyos **activos brutos** a 31 de diciembre del año anterior sean **iguales o superiores a 5.000 SMMLV** y/o cuyos **ingresos brutos** del año anterior sean **iguales o superiores a 3.000 SMMLV** (Ley 43 de 1990, art. 13, parágrafo 2). Basta cumplir **uno** de los dos umbrales.\n- Las sociedades donde la administración no corresponde a todos los socios, si lo pide un número de socios excluidos de la administración que represente al menos 20 % del capital.\n- Las que lo dispongan los estatutos u otras leyes (por ejemplo, ciertas entidades vigiladas).\n\nLas S.A.S. se ajustan al criterio de los umbrales; confirma la regla especial de la Ley 1258 de 2008 en la norma vigente. No se indican valores en pesos: consulta el SMMLV del año.\n\n### Requisitos y elección\nQuien ejerce debe ser **contador público con tarjeta profesional vigente** (Junta Central de Contadores) y estar libre de incompatibilidades. Una persona no puede ser revisor en más de **cinco sociedades por acciones** (art. 215). Si se nombra una firma, designa un contador que ejerza personalmente y un suplente. Lo elige la **asamblea general o junta de socios** por mayoría absoluta; su periodo coincide con el de la junta directiva o el que fijen los estatutos, y puede ser removido libremente por el mismo órgano.\n\n## Ejemplo resuelto\nCuatro sociedades a 31 de diciembre del año anterior:\n\n| Sociedad | Activos | Ingresos | ¿Revisor fiscal? |\n|---|---|---|---|\n| A S.A. | 800 SMMLV | 600 SMMLV | Sí, por ser sociedad por acciones |\n| B Ltda. | 5.200 SMMLV | 1.800 SMMLV | Sí: activos >= 5.000 |\n| C Ltda. | 4.200 SMMLV | 2.900 SMMLV | No: ningún umbral se alcanza |\n| D Ltda. | 3.000 SMMLV | 3.000 SMMLV | Sí: ingresos >= 3.000 |\n\n> **Clave:** se mide con cifras al 31 de diciembre del año anterior y basta un solo umbral.\n\n## Puntos clave\n- Obligación por tipo societario o por umbrales de activos o ingresos.\n- Solo contadores públicos con tarjeta profesional.\n- Elegido por socios; nunca por la gerencia.\n\n## Errores frecuentes\n- Exigir que se cumplan ambos umbrales a la vez.\n- Medir los umbrales con cifras del año en curso.\n- Creer que una Ltda. pequeña nunca necesita revisor fiscal.",
+    "recursos": [
+     {
+      "titulo": "Guía de órganos de fiscalización: revisoría fiscal",
+      "url": "https://www.supersociedades.gov.co/documents/guest/Doctrina-Jurisprudencia-Pedagogia/Pedagogia/Supervision-societaria-pedagogia/Guías/GUIA-ORGANOS-DE-FISCALIZACION.pdf",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Código de Comercio, arts. 203 a 215 (revisor fiscal)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer las funciones del revisor fiscal del artículo 207 del Código de Comercio y entender por qué su labor es de fiscalización integral y no solo de auditoría financiera.\n\n## Conceptos clave\n### Fiscalización integral\nMientras el auditor externo opina sobre los estados financieros, el revisor fiscal vigila también la **legalidad**, los **estatutos**, la **contabilidad** y el **control interno** durante todo el año. Actúa en interés de los socios y de la sociedad, con función de interés público. No administra: **no coadministra**, porque perdería independencia.\n\n### Funciones del artículo 207\n1. Cerciorarse de que las operaciones se ajusten a los estatutos y a las decisiones de la asamblea y la junta directiva.\n2. Dar cuenta **oportuna y por escrito** de las irregularidades a la asamblea, junta de socios, junta directiva o gerente.\n3. Colaborar con las entidades de inspección y vigilancia.\n4. Velar por que la contabilidad y las actas se lleven con regularidad y por la conservación de correspondencia y comprobantes.\n5. Inspeccionar los bienes de la sociedad y los que tenga en custodia.\n6. Impartir instrucciones y pedir informes para mantener control permanente sobre los valores sociales.\n7. Firmar los balances junto con su dictamen o informe.\n8. Convocar a asamblea o junta extraordinaria cuando lo considere necesario.\n9. Cumplir las demás atribuciones legales o estatutarias compatibles.\n10. Reportar a la UIAF las operaciones sospechosas (numeral agregado por la Ley 1762 de 2015).\n\n### Cómo se ejecuta\nCon **NIA** para la auditoría de estados financieros y con normas de aseguramiento (ISAE 3000) para los pronunciamientos sobre control interno y cumplimiento; verifica los anexos vigentes del Decreto 2420 de 2015. Debe planificar, obtener evidencia y conservar papeles de trabajo.\n\n### Alcance práctico durante el año\nEn la práctica, la revisoría combina visitas periódicas con el cierre anual. Asiste a las reuniones de la asamblea y, con derecho a voz, de la junta cuando se le cita; revisa actas, contratos y pagos de aportes a la seguridad social; verifica el cumplimiento tributario y societario; evalúa el control interno y comunica oportunamente las deficiencias a la administración; y hace seguimiento a las recomendaciones anteriores. Su trabajo es **preventivo**: busca que el hecho se corrija antes de convertirse en un perjuicio. Por eso la ley le da acceso a libros, documentos y bienes, y la administración debe colaborar con la información que solicite.\n\n## Caso práctico\nEl gerente firma un contrato por un valor que según los estatutos requiere autorización previa de la junta directiva, y no la obtuvo.\n\n1. El revisor **verifica** el hecho con el contrato, los estatutos y las actas (num. 1).\n2. Informa **por escrito** y de inmediato a la junta directiva (num. 2).\n3. Si no se corrige y es grave, **convoca** asamblea extraordinaria (num. 8).\n4. No anula ni modifica el contrato: reporta, no decide.\n5. Considera el efecto en su informe a la asamblea sobre el cumplimiento de estatutos.\n\n> **Clave:** el deber de informar es oportuno; esperar al cierre del año equivale a incumplirlo.\n\n## Puntos clave\n- Función permanente y preventiva, no solo de cierre.\n- Reporta; no administra ni corrige personalmente.\n- Su dictamen acompaña los balances firmados.\n\n## Errores frecuentes\n- Reducir la revisoría a opinar sobre estados financieros.\n- Dejar de informar por considerar bajo el monto de la irregularidad.\n- Asumir funciones de administración o de contador.",
+    "recursos": [
+     {
+      "titulo": "Código de Comercio, arts. 203 a 215 (revisor fiscal)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "Guía de órganos de fiscalización: revisoría fiscal",
+      "url": "https://www.supersociedades.gov.co/documents/guest/Doctrina-Jurisprudencia-Pedagogia/Pedagogia/Supervision-societaria-pedagogia/Guías/GUIA-ORGANOS-DE-FISCALIZACION.pdf",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nDistinguir el dictamen sobre los estados financieros del informe a la asamblea y conocer su contenido básico.\n\n## Conceptos clave\n### Dictamen sobre estados financieros (art. 208)\nEs la opinión profesional sobre la razonabilidad de los estados financieros. Debe expresar si se obtuvo la información necesaria, si el examen siguió normas de auditoría, si la contabilidad se lleva conforme a las normas legales y técnicas, si los estados reflejan fielmente la situación financiera y los resultados, y las salvedades que tenga. Se firma junto con los estados financieros. Los tipos de opinión son los de la NIA 705: sin salvedades, con salvedades, adversa y abstención.\n\n### Informe a la asamblea o junta (art. 209)\nEs distinto del dictamen: informa si los **actos de los administradores se ajustan a los estatutos y a las órdenes de la asamblea**, si la correspondencia, comprobantes y libros de actas y de accionistas se llevan y conservan debidamente y si existen y son adecuadas las medidas de **control interno** y de conservación y custodia de los bienes. Puede presentarse en un documento o en dos, según práctica del revisor; confirma el modelo vigente.\n\n### Informes especiales y oportunidad\nAdemás hay informes sobre temas como libros de actas, prevención de LA/FT, o requeridos por supervisores. El dictamen debe estar disponible antes de la reunión ordinaria de la asamblea, que se celebra dentro de los tres meses siguientes al cierre del ejercicio (art. 422 C. Co.).\n\n## Caso práctico\nResultados de la revisión de una sociedad:\n\n| Asunto | Hallazgo | Conclusión |\n|---|---|---|\n| Estados financieros | Razonables, sin incorrecciones materiales | Opinión sin salvedades |\n| Estatutos | Gerente compró activos sin autorización de junta | Salvedad en cumplimiento |\n| Control interno | Las conciliaciones bancarias no se revisan | Control interno con deficiencias, comunicadas por escrito |\n\nEl revisor firma el dictamen con opinión limpia sobre estados financieros y entrega el informe con la salvedad de cumplimiento y la deficiencia de control, explicando su causa.\n\n> **Clave:** un mismo trabajo puede producir una opinión limpia sobre estados financieros y salvedades sobre cumplimiento.\n\n## Puntos clave\n- Dictamen = opinión sobre estados financieros (art. 208).\n- Informe = cumplimiento de administradores, libros y control interno (art. 209).\n- Lo suscribe el revisor fiscal junto con los estados financieros.\n\n## Errores frecuentes\n- Mezclar sin distinguirlas las opiniones sobre estados financieros y sobre cumplimiento.\n- Entregar el dictamen sin fundamentar las salvedades.\n- Firmar estados financieros sin haber concluido el trabajo.",
+    "recursos": [
+     {
+      "titulo": "Tipos de opinión y modelos de informe de auditoría",
+      "url": "https://incp.org.co/ContArte/contenidos/2023/09/tipos-de-opinion-y-modelos-de-informe-de-auditoria/",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     },
+     {
+      "titulo": "Código de Comercio, arts. 203 a 215 (revisor fiscal)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer las incompatibilidades que protegen la independencia del revisor fiscal y las responsabilidades civil, penal y disciplinaria en que puede incurrir.\n\n## Conceptos clave\n### Incompatibilidades e inhabilidades\nSegún el artículo 205 del Código de Comercio no puede ser revisor fiscal:\n- el **socio** o asociado de la sociedad o de sus subordinadas;\n- quien tenga **parentesco o vínculo matrimonial** con administradores, directivos, cajero, auditor o contador, dentro de los grados que fija la norma (verifica el texto: cuarto grado de consanguinidad, segundo de afinidad o primero civil);\n- quien desempeñe **otro cargo** en la sociedad o en sus subordinadas, ni durante el periodo.\n\nEl artículo 215 limita a **cinco** las sociedades por acciones en las que una persona puede ser revisor. La Ley 43 de 1990 agrega restricciones temporales entre ser contador o auditor interno y luego revisor fiscal, o a la inversa; consulta los artículos 48 a 51 vigentes.\n\n### Responsabilidad\n- **Civil:** responde por los perjuicios causados a la sociedad, socios o terceros por negligencia o dolo (art. 211).\n- **Penal:** puede responder si, a sabiendas, autoriza balances con inexactitudes graves o incumple deberes legales.\n- **Disciplinaria:** ante la Junta Central de Contadores, por faltas a la ética y a las normas profesionales.\n- **Anticorrupción:** si conoce actos de corrupción, debe denunciarlos en el término legal (Ley 1474 de 2011; confirma el plazo vigente).\n\n## Ejemplo resuelto\nUna contadora es revisora fiscal de 4 sociedades anónimas y 3 limitadas.\n\n1. Solo cuentan las sociedades **por acciones**: 4.\n2. Límite: 5. Puede aceptar **una más** por acciones (4 + 1 = 5).\n3. Una sexta sociedad por acciones sería incompatible. Las limitadas no suman para este tope.\n\nSegundo caso: el hijo del revisor es nombrado gerente de la sociedad que audita. Hay parentesco con un administrador dentro del primer grado: debe **renunciar** o la sociedad debe reemplazar al revisor.\n\n> **Clave:** la independencia se pierde por vínculos personales, económicos o laborales.\n\n## Puntos clave\n- Art. 205 protege la independencia; art. 215 limita la carga de trabajo.\n- Responsabilidad civil (art. 211), penal, disciplinaria y deber de denunciar corrupción.\n- Un revisor no puede ser socio ni tener otro cargo en la compañía.\n\n## Errores frecuentes\n- Contar todas las sociedades, y no solo las por acciones, para el tope de cinco.\n- Pensar que la responsabilidad solo es civil.\n- Aceptar el cargo con parientes en la administración.",
+    "recursos": [
+     {
+      "titulo": "Guía de órganos de fiscalización: revisoría fiscal",
+      "url": "https://www.supersociedades.gov.co/documents/guest/Doctrina-Jurisprudencia-Pedagogia/Pedagogia/Supervision-societaria-pedagogia/Guías/GUIA-ORGANOS-DE-FISCALIZACION.pdf",
+      "tipo": "articulo",
+      "fuente": "Superintendencia de Sociedades"
+     },
+     {
+      "titulo": "Código de Comercio, arts. 203 a 215 (revisor fiscal)",
+      "url": "https://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr006.html",
+      "tipo": "norma",
+      "fuente": "Secretaría del Senado"
+     },
+     {
+      "titulo": "El papel de la revisoría fiscal frente al soborno transnacional, el lavado de activos y la financiación del terrorismo",
+      "url": "https://www.youtube.com/watch?v=p4FISuZWHn0",
+      "tipo": "video",
+      "fuente": "Superintendencia de Sociedades (YouTube)"
+     }
+    ]
+   }
+  ]
+ },
+ "m6s3": {
+  "recursos": [
+   {
+    "titulo": "Marco integrado de control interno 2013: ¿qué actualizaciones trae?",
+    "url": "https://incp.org.co/?p=14758",
+    "tipo": "articulo",
+    "fuente": "INCP"
+   },
+   {
+    "titulo": "Gestión del riesgo empresarial (COSO ERM 2017)",
+    "url": "https://incp.org.co/ContArte/contenidos/2018/07/gestion-del-riesgo-empresarial/",
+    "tipo": "articulo",
+    "fuente": "INCP ContArte"
+   },
+   {
+    "titulo": "The IIA's Three Lines Model (declaraciones de posición del IIA)",
+    "url": "https://www.theiia.org/ThreeLines",
+    "tipo": "articulo",
+    "fuente": "The Institute of Internal Auditors (IIA)"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nComprender el marco COSO 2013 de control interno: sus objetivos, cinco componentes y 17 principios, y aplicarlo para evaluar controles concretos.\n\n## Conceptos clave\n### Qué es el control interno\nSegún COSO, es un proceso que realizan la junta, la dirección y el personal para dar **seguridad razonable** sobre el logro de objetivos de tres categorías: **operaciones** (eficacia y eficiencia), **reporte** (información financiera y no financiera confiable) y **cumplimiento** (leyes y normas). Seguridad razonable, no absoluta: los controles pueden eludirse por colusión o por la administración.\n\n### Cinco componentes y 17 principios\n| Componente | Principios | Idea central |\n|---|---|---|\n| Ambiente de control | 1 a 5 | Integridad, supervisión de la junta, estructura, talento, responsabilidades |\n| Evaluación de riesgos | 6 a 9 | Objetivos claros, identificar riesgos, riesgo de fraude, cambios |\n| Actividades de control | 10 a 12 | Controles que mitigan riesgos, controles de tecnología, políticas |\n| Información y comunicación | 13 a 15 | Información de calidad, comunicación interna y externa |\n| Actividades de monitoreo | 16 y 17 | Evaluaciones continuas o independientes y comunicación de deficiencias |\n\nPara que el control interno sea eficaz, los cinco componentes y sus principios deben estar **presentes y funcionando** de forma integrada.\n\n### Tipos de controles\n- **Preventivos:** evitan el error (autorización previa de una compra).\n- **Detectivos:** lo identifican después (conciliación bancaria).\n- **Correctivos:** lo corrigen (ajuste y reproceso).\n\n### Segregación de funciones\nSeparar **autorización, custodia, registro y ejecución** para que una persona no controle una transacción completa. Reduce el riesgo de error y fraude.\n\n### Limitaciones y deficiencias\nAun bien diseñado, el control interno tiene límites: errores humanos, colusión entre empleados, elusión por la dirección, y la relación costo-beneficio. Una **deficiencia** existe cuando un control no está presente, no está bien diseñado o no opera como se previó. Si la deficiencia es grave, el marco habla de **deficiencia importante**; se comunica a la junta y a la dirección para corregirla. Los controles de **tecnología** (accesos, cambios, respaldos) son parte de las actividades de control, porque la mayoría de procesos contables dependen de sistemas.\n\n### Cómo se evalúa\nSe evalúa el **diseño** (¿mitiga el riesgo?) y la **operación** (¿funcionó durante el periodo?) con indagación, observación, inspección y reejecución. Un auditor o revisor fiscal usa esta evaluación para decidir cuánta confianza deposita en los controles y cuántas pruebas sustantivas aplica.\n\n## Caso práctico\nEn una empresa, un empleado solicita compras, las aprueba, recibe la mercancía y registra el pago.\n\n1. **Diagnóstico:** concentra cuatro funciones incompatibles; falla la segregación y la actividad de control.\n2. **Riesgo:** puede crear un proveedor ficticio y pagar sin ser detectado.\n3. **Rediseño:** un empleado solicita, el jefe autoriza, bodega recibe, contabilidad registra, tesorería paga (control preventivo) y la conciliación mensual detecta diferencias (control detectivo).\n4. **Prueba:** de 25 conciliaciones revisadas, 2 no tienen firma de revisión: desviación de 2 / 25 = **8 %**. Si la tasa tolerable fijada por el auditor es 5 %, el control **no se considera efectivo** y se amplían pruebas sustantivas.\n\n> **Clave:** la tasa tolerable es un juicio del auditor, no un valor de la norma.\n\n## Puntos clave\n- COSO 2013: 5 componentes, 17 principios, 3 categorías de objetivos.\n- Preventivo evita, detectivo identifica, correctivo repara.\n- Sin segregación de funciones, un solo empleado puede cometer y ocultar fraude.\n\n## Errores frecuentes\n- Pensar que COSO es una lista de controles en vez de un marco de principios.\n- Confundir actividades de control con todo el control interno.\n- Suponer que un buen control elimina todo riesgo.",
+    "recursos": [
+     {
+      "titulo": "Marco integrado de control interno 2013: ¿qué actualizaciones trae?",
+      "url": "https://incp.org.co/?p=14758",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender cómo COSO ERM 2017 integra la gestión de riesgos con la estrategia y el desempeño, y aprender a priorizar riesgos con una matriz.\n\n## Conceptos clave\n### Qué es la gestión de riesgos empresariales\n**ERM** es la cultura, capacidades y prácticas que una organización integra con la definición de su estrategia y su ejecución para gestionar riesgos y crear valor. Un **riesgo** es la posibilidad de que un evento afecte el logro de objetivos. El marco de 2017 complementa al de control interno; no lo reemplaza, pues el control interno es parte de la gestión de riesgos.\n\n### Cinco componentes y 20 principios\n1. **Gobernanza y cultura:** supervisión de la junta, estructura, compromiso con valores, talento (5 principios).\n2. **Estrategia y establecimiento de objetivos:** contexto, apetito de riesgo, alternativas estratégicas, objetivos (4).\n3. **Desempeño:** identificar, evaluar, priorizar, responder y desarrollar la visión de portafolio (5).\n4. **Revisión y ajustes:** cambios, revisión del desempeño y mejora (3).\n5. **Información, comunicación y reporte:** uso de la información, comunicación y reporte (3).\n\nTotal: 5 + 4 + 5 + 3 + 3 = **20 principios**.\n\n### Evaluación y respuesta\nLos riesgos se evalúan por **probabilidad** e **impacto** (severidad). El **apetito de riesgo** es la cantidad de riesgo que la organización busca asumir; las respuestas típicas son aceptar, evitar, reducir, compartir o aprovechar.\n\n## Ejemplo resuelto\nMatriz con escala 1 a 5 (puntaje = probabilidad x impacto). La entidad decide actuar sobre riesgos con puntaje igual o superior a 12.\n\n| Riesgo | Prob. | Impacto | Puntaje |\n|---|---|---|---|\n| Ciberataque | 3 | 5 | 15 |\n| Devaluación | 4 | 3 | 12 |\n| Pérdida de proveedor clave | 3 | 3 | 9 |\n| Incumplimiento tributario | 2 | 4 | 8 |\n\n1. Se priorizan ciberataque (15) y devaluación (12).\n2. Para el ciberataque se implementan copias de respaldo y segmentación de redes, que bajan la probabilidad a 2.\n3. Riesgo residual: 2 x 5 = **10**, inferior a 12, que la dirección acepta y monitorea.\n4. Para la devaluación se **comparte** el riesgo con coberturas.\n\n> **Clave:** el riesgo residual es el que queda después de aplicar la respuesta.\n\n## Puntos clave\n- ERM 2017: 5 componentes y 20 principios, enlazados con estrategia y desempeño.\n- Evaluar = probabilidad x impacto; comparar con el apetito.\n- Hay cinco respuestas posibles, no solo mitigar.\n\n## Errores frecuentes\n- Tratar ERM como un ejercicio anual de cumplimiento, no como parte de la estrategia.\n- Confundir apetito (lo que se busca asumir) con tolerancia (variación aceptable).\n- Dar por eliminado un riesgo que solo se mitigó.",
+    "recursos": [
+     {
+      "titulo": "Gestión del riesgo empresarial (COSO ERM 2017)",
+      "url": "https://incp.org.co/ContArte/contenidos/2018/07/gestion-del-riesgo-empresarial/",
+      "tipo": "articulo",
+      "fuente": "INCP ContArte"
+     },
+     {
+      "titulo": "¿Qué hay de nuevo respecto a la gestión de riesgos? COSO ERM 2017",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/estandares-internacionales/nia/2017/09/que-hay-de-nuevo-respecto-a-la-gestion-de-riesgos-coso-erm-2017/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nExplicar el modelo de tres líneas del IIA y ubicar los roles de gestión, riesgos y cumplimiento, auditoría interna y aseguramiento externo.\n\n## Conceptos clave\n### De las tres líneas de defensa al modelo de tres líneas\nEl IIA actualizó en 2020 el antiguo modelo de las \"tres líneas de defensa\". El nuevo enfoque no es solo defensivo: busca que la gobernanza y la gestión del riesgo ayuden a crear valor mediante roles claros, alineación y colaboración. El IIA ha anunciado versiones actualizadas posteriores; verifica la vigente en su sitio.\n\n### Roles\n| Rol | Quién | Qué hace |\n|---|---|---|\n| Órgano de gobierno | Junta directiva | Supervisa y responde ante los grupos de interés |\n| Primera línea | Gestión operativa | Gestiona los riesgos del día a día y mantiene controles |\n| Segunda línea | Gestión de riesgos y cumplimiento | Asesora, apoya y monitorea a la primera línea |\n| Tercera línea | Auditoría interna | Ofrece aseguramiento **objetivo e independiente** a la junta |\n| Aseguramiento externo | Revisor fiscal, auditores externos, reguladores | Aseguramiento adicional fuera de la organización |\n\nLa auditoría interna es independiente de la gestión, por lo que reporta al órgano de gobierno. Si la misma persona asume funciones de segunda y tercera línea, se requieren salvaguardas para proteger la objetividad.\n\n### Principios que guían el modelo\nGobernanza, roles del órgano de gobierno, roles de gestión (primera y segunda línea), independencia de la tercera línea y creación y protección de valor.\n\n## Caso práctico\nUna empresa descubre pagos duplicados a proveedores.\n\n1. **Primera línea (tesorería y compras):** son dueños del riesgo; debían validar facturas antes de pagar.\n2. **Segunda línea (riesgos y cumplimiento):** define el estándar de validación y monitorea indicadores de duplicados.\n3. **Tercera línea (auditoría interna):** evalúa de forma independiente si el diseño y operación de los controles son adecuados y reporta a la junta.\n4. **Aseguramiento externo (revisor fiscal):** considera el hallazgo en su evaluación del control interno y en su informe a la asamblea.\n5. **Junta:** exige el plan de remediación y seguimiento.\n\n> **Clave:** quien opera el control no puede ser quien lo evalúa de forma independiente.\n\n## Puntos clave\n- 1.ª línea: gestión operativa; 2.ª: riesgos y cumplimiento; 3.ª: auditoría interna.\n- La tercera línea da aseguramiento objetivo a la junta.\n- El modelo se adapta al tamaño y estructura de cada organización.\n\n## Errores frecuentes\n- Pensar que la auditoría interna gestiona o es dueña del riesgo.\n- Delegar toda la gestión del riesgo en la segunda línea.\n- Confundir auditoría interna con revisoría fiscal: la primera pertenece a la organización, la segunda es una función legal de fiscalización.",
+    "recursos": [
+     {
+      "titulo": "The IIA's Three Lines Model (declaraciones de posición del IIA)",
+      "url": "https://www.theiia.org/ThreeLines",
+      "tipo": "articulo",
+      "fuente": "The Institute of Internal Auditors (IIA)"
+     },
+     {
+      "titulo": "IIA actualiza el modelo de tres líneas (comunicado de julio de 2020)",
+      "url": "https://www.theiia.org/en/content/communications/2020/july/20-july-2020-iia-issues-important-update-to-three-lines-model/",
+      "tipo": "articulo",
+      "fuente": "The Institute of Internal Auditors (IIA)"
+     },
+     {
+      "titulo": "El modelo de tres líneas: una herramienta importante para el éxito de toda organización",
+      "url": "https://incp.org.co/?p=64203",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   }
+  ]
+ },
+ "m6s4": {
+  "recursos": [
+   {
+    "titulo": "SAGRILAFT y Régimen de Medidas Mínimas: circulares y normativa",
+    "url": "https://www.supersociedades.gov.co/web/asuntos-economicos-societarios/sagrilaft",
+    "tipo": "norma",
+    "fuente": "Superintendencia de Sociedades"
+   },
+   {
+    "titulo": "Guía de buenas prácticas del ROS",
+    "url": "https://uiaf.gov.co/sites/default/files/2024-06/Guia_de_buenas_pr%C3%A1cticas_del_ROS__0.pdf",
+    "tipo": "articulo",
+    "fuente": "UIAF"
+   },
+   {
+    "titulo": "Pedagogía LA/FT: curso virtual de la Superintendencia de Sociedades",
+    "url": "https://www.supersociedades.gov.co/en/web/asuntos-economicos-societarios/pedagogia-laft",
+    "tipo": "curso",
+    "fuente": "Superintendencia de Sociedades"
+   }
+  ],
+  "temas": [
+   {
+    "clase": "## Objetivo\nEntender qué es el fraude, por qué ocurre según el triángulo del fraude y qué señales de alerta debe reconocer un contador o auditor.\n\n## Conceptos clave\n### Fraude y error\nUn **error** es involuntario; el **fraude** es un acto **intencional** para obtener una ventaja ilegítima. La NIA 240 explica que el auditor no determina jurídicamente si hubo fraude, pero debe evaluar su riesgo, aplicar escepticismo profesional y responder a él. Presume riesgo de fraude en el **reconocimiento de ingresos** y en la **elusión de controles por la administración**.\n\n### Tipos\n- **Información financiera fraudulenta** (manipular estados financieros).\n- **Apropiación indebida de activos** (robo de efectivo, inventarios, nómina).\n- **Corrupción** (sobornos, conflictos de interés).\n\n### Triángulo del fraude (Cressey)\n| Elemento | Significado | Ejemplo |\n|---|---|---|\n| Presión (incentivo) | Necesidad financiera o meta de resultados | Deudas personales, bonos por metas |\n| Oportunidad | Posibilidad de cometerlo sin ser detectado | Débil segregación de funciones |\n| Racionalización | Justificación interna | \"Me lo debe la empresa\" |\n\nLos controles internos buscan reducir la **oportunidad**, el elemento que la organización puede gestionar más directamente. Algunos autores añaden la **capacidad** (diamante del fraude).\n\n### Señales de alerta\nUn estudio sobre fraude ocupacional, citado por el INCP, halló al menos una señal en el 92 % de los casos; las más frecuentes fueron **vivir por encima de sus medios** (44 %) y **dificultades financieras conocidas** (33 %). También: relación inusualmente cercana con proveedores, control excesivo, resistencia a tomar vacaciones o a compartir tareas. Una señal no prueba el fraude: obliga a investigar.\n\n## Caso práctico\nAna, jefe de nómina, tiene deudas personales (presión). Ella crea y aprueba las altas de empleados sin revisión de otra área (oportunidad) y piensa que su salario es injusto (racionalización). Registra 3 empleados ficticios con salario de $2.500.000 cada uno durante 12 meses.\n\n1. Pérdida: 3 x 2.500.000 x 12 = **$90.000.000**, sin contar prestaciones.\n2. Señales: el auditor nota nombres sin afiliación, pagos a cuentas repetidas y ausencia de vacaciones.\n3. Controles: aprobación de altas por recursos humanos, conciliación de nómina contra afiliaciones y rotación de funciones.\n\n> **Clave:** corregir la oportunidad es lo más efectivo; presión y racionalización dependen de cada persona.\n\n## Puntos clave\n- Fraude = intencional; error = no intencional.\n- Triángulo: presión, oportunidad y racionalización.\n- Las señales de alerta orientan la investigación; no la sustituyen.\n\n## Errores frecuentes\n- Descartar una señal porque el empleado es de confianza.\n- Creer que solo los mandos bajos cometen fraude.\n- Pensar que el auditor es responsable de prevenir el fraude: esa responsabilidad es de la administración.",
+    "recursos": [
+     {
+      "titulo": "Triángulo de fraude del ejecutivo",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/informacion-para-empresas/auditoria/2015/07/triangulo-de-fraude-del-ejecutivo/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "Banderas rojas en la conducta de los defraudadores",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/informacion-para-empresas/auditoria/2015/11/banderas-rojas-en-la-conducta-de-los-defraudadores/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     },
+     {
+      "titulo": "La lectura adecuada de las banderas rojas podría prevenir el fraude en su empresa",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/informacion-para-empresas/auditoria/2016/02/la-lectura-adecuada-de-las-banderas-rojas-podria-prevenir-el-fraude-en-su-empresa/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nConocer los sistemas de autocontrol para prevenir el lavado de activos y la financiación del terrorismo (SAGRILAFT) y el programa contra el soborno transnacional (PTEE).\n\n## Conceptos clave\n### Lavado de activos y sus fases\nEl lavado de activos busca dar **apariencia de legalidad** a recursos de origen ilícito (en Colombia es delito, art. 323 del Código Penal). Tiene tres fases: **colocación** (introducir el dinero al sistema), **estratificación o diversificación** (moverlo para borrar su rastro) e **integración** (reincorporarlo como riqueza lícita).\n\n### SAGRILAFT\nEs el **Sistema de Autocontrol y Gestión del Riesgo Integral de LA/FT/FPADM** (lavado de activos, financiación del terrorismo y de la proliferación de armas de destrucción masiva) que la Superintendencia de Sociedades exige a las empresas que cumplan sus criterios. Está en el Capítulo X de la Circular Básica Jurídica, modificado por la Circular Externa 100-000016 de 2020 y reformas posteriores. La Superintendencia emitió una nueva Circular Básica Jurídica en 2026: **verifica la numeración vigente**. Las empresas que no están obligadas al SAGRILAFT pueden estar sujetas a un **régimen de medidas mínimas**.\n\nSus etapas: **identificación, medición, control y monitoreo** del riesgo. Sus elementos: política aprobada por el órgano de administración, **oficial de cumplimiento**, capacitación, divulgación, y registro de reportes. Los factores de riesgo incluyen contrapartes, productos, canales y jurisdicciones.\n\n### PTEE\nEl **Programa de Transparencia y Ética Empresarial** busca prevenir el **soborno transnacional** y la corrupción (Ley 1778 de 2016). Complementa al SAGRILAFT: uno vigila el origen del dinero; el otro, los pagos indebidos a funcionarios. La Superintendencia lo regula también en su circular básica jurídica.\n\n## Caso práctico\nUn cliente deposita en efectivo, con su empresa de fachada, 20 consignaciones de $9.000.000 en distintas oficinas.\n\n1. Total: 20 x 9.000.000 = **$180.000.000**: fraccionamiento (colocación).\n2. Luego transfiere el dinero a cuentas de terceros y a otro país (estratificación).\n3. Finalmente compra un inmueble a nombre de un familiar (integración).\n\nUna empresa que vende a ese cliente debe identificar el riesgo, aplicar debida diligencia, monitorear la operación y reportar si la considera sospechosa.\n\n> **Clave:** el sistema de autocontrol es continuo, no un documento que se firma una vez.\n\n## Puntos clave\n- Tres fases: colocación, estratificación e integración.\n- SAGRILAFT = LA/FT/FPADM; PTEE = soborno transnacional.\n- Etapas: identificar, medir, controlar y monitorear.\n\n## Errores frecuentes\n- Creer que el sistema se limita a tener una política escrita.\n- Confundir SAGRILAFT con PTEE.\n- Olvidar que el oficial de cumplimiento debe ser independiente y tener capacidad de decisión.",
+    "recursos": [
+     {
+      "titulo": "Elementos y etapas del SAGRILAFT",
+      "url": "https://www.youtube.com/watch?v=OFVrTMPQi5c",
+      "tipo": "video",
+      "fuente": "Superintendencia de Sociedades (YouTube)"
+     },
+     {
+      "titulo": "Régimen de Autocontrol y Gestión del Riesgo Integral de LA/FT/FPADM",
+      "url": "https://www.youtube.com/watch?v=PkpVzQ6Ytck",
+      "tipo": "video",
+      "fuente": "Superintendencia de Sociedades (YouTube)"
+     },
+     {
+      "titulo": "SAGRILAFT y Régimen de Medidas Mínimas: circulares y normativa",
+      "url": "https://www.supersociedades.gov.co/web/asuntos-economicos-societarios/sagrilaft",
+      "tipo": "norma",
+      "fuente": "Superintendencia de Sociedades"
+     }
+    ]
+   },
+   {
+    "clase": "## Objetivo\nEntender la debida diligencia sobre contrapartes y el reporte de operaciones sospechosas (ROS) a la UIAF.\n\n## Conceptos clave\n### Debida diligencia\nEs el conjunto de procesos para **conocer a las contrapartes**: cualquier persona natural o jurídica con la que la empresa tenga vínculos comerciales o de negocios (clientes, proveedores, distribuidores, socios). Según la doctrina de la Superintendencia de Sociedades, no importa el nombre (usuario, consumidor, proveedor): todas requieren análisis. Incluye:\n- verificar identidad y actividad económica;\n- identificar al **beneficiario final**, quien realmente controla o se beneficia, y a las **personas expuestas políticamente (PEP)**;\n- consultar listas restrictivas y vinculantes;\n- entender el origen de fondos y la coherencia de las transacciones con su perfil.\n\nLa **debida diligencia intensificada** se aplica a contrapartes de mayor riesgo (PEP, jurisdicciones riesgosas, operaciones en efectivo o activos virtuales).\n\n### Operación inusual y sospechosa\nUna **operación inusual** se sale de los parámetros normales de la contraparte. Es **sospechosa** cuando, por su número, cantidad o características, no cuadra con las prácticas del negocio y no tiene justificación razonable tras analizarla.\n\n### Reporte de operaciones sospechosas (ROS)\nSe envía a la **UIAF** (Unidad de Información y Análisis Financiero) a través del sistema SIREL, de forma **inmediata** cuando se determina la sospecha. El reporte:\n- no es una denuncia ni requiere certeza del delito;\n- es **confidencial**: no se informa a la contraparte;\n- hecho de buena fe, **no genera responsabilidad** para quien reporta (Ley 190 de 1995; confirma el artículo);\n- debe incluir soportes. El revisor fiscal también debe reportar (art. 207, num. 10, C. Co.).\n\n## Caso práctico\nUn cliente nuevo paga 12 veces en efectivo $9.500.000 en un mes, mientras su actividad declarada es una tienda pequeña.\n\n1. Total: 12 x 9.500.000 = **$114.000.000**. Incoherente con su perfil.\n2. Se aplica debida diligencia intensificada: se pide el origen de fondos, se identifica al beneficiario final y se revisa la actividad.\n3. Si no hay justificación razonable, el oficial de cumplimiento envía el **ROS** por SIREL de inmediato.\n4. El equipo comercial **no avisa** al cliente y conserva los soportes.\n\n> **Clave:** reportar no es acusar; es cumplir el deber de alertar a la autoridad competente.\n\n## Puntos clave\n- Debida diligencia sobre todas las contrapartes, con énfasis en beneficiario final y PEP.\n- ROS inmediato a la UIAF, confidencial y de buena fe.\n- Operación inusual no siempre es sospechosa.\n\n## Errores frecuentes\n- Esperar certeza del delito antes de reportar.\n- Alertar al cliente sobre el reporte.\n- Aplicar debida diligencia solo a clientes y no a proveedores y distribuidores.",
+    "recursos": [
+     {
+      "titulo": "Reporte de operaciones sospechosas a la UIAF",
+      "url": "https://www.youtube.com/watch?v=cF501eYBDLg",
+      "tipo": "video",
+      "fuente": "Superintendencia de Sociedades (YouTube)"
+     },
+     {
+      "titulo": "Guía de buenas prácticas del ROS",
+      "url": "https://uiaf.gov.co/sites/default/files/2024-06/Guia_de_buenas_pr%C3%A1cticas_del_ROS__0.pdf",
+      "tipo": "articulo",
+      "fuente": "UIAF"
+     },
+     {
+      "titulo": "Supersociedades y la debida diligencia en el SAGRILAFT",
+      "url": "https://incp.org.co/publicaciones/infoincp-publicaciones/impuestos/nacionales/2022/09/supersociedades-se-refirio-a-la-debida-diligencia-en-el-sagrilaft/",
+      "tipo": "articulo",
+      "fuente": "INCP"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+"id":"m2","orden":2,"titulo":"Contabilidad intermedia y marco normativo","semestres":"Semestres III–IV","descripcion":"Activos, pasivos, patrimonio, marco normativo colombiano y derecho comercial.",
+"materias":[
+{"id":"m2s1","nombre":"Activos: efectivo, cartera, inventarios y PPE","area":"CON","descripcion":"Reconocimiento y medición de los principales activos.",
+"temas":[["Efectivo y conciliaciones bancarias",2],["Cuentas por cobrar y deterioro",2],["Inventarios",2],["Propiedades, planta y equipo y depreciación",3]],
+"cards":[
+["Conciliación bancaria","Compara el saldo del libro de bancos con el extracto para identificar partidas conciliatorias.","Típicas: cheques girados no cobrados, consignaciones en tránsito, notas débito/crédito no contabilizadas."],
+["Inventarios (NIC 2)","Se miden al menor entre el costo y el valor neto realizable (VNR).","Fórmulas: costo promedio ponderado o PEPS. El UEPS no está permitido en NIIF."],
+["Depreciación","Distribución sistemática del valor depreciable durante la vida útil. Métodos: línea recta, saldo decreciente, unidades de producción.","Valor depreciable = costo − valor residual."],
+["Deterioro de cartera (NIIF 9)","Se reconoce la pérdida crediticia esperada; para cuentas comerciales se usa el enfoque simplificado (matriz de provisiones).","Ya no se espera a que ocurra el incumplimiento para provisionar."],
+["Costo de una PPE (NIC 16)","Precio de compra + aranceles no recuperables + costos directamente atribuibles + estimación inicial de desmantelamiento.","No incluye capacitación del personal ni gastos generales de administración."]
+],
+"qs":[
+["Un equipo cuesta $100.000.000, vida útil de 5 años y valor residual de $10.000.000. La depreciación anual en línea recta es:",["$20.000.000","$18.000.000","$22.000.000","$16.000.000"],1,1,"(100.000.000 − 10.000.000) / 5 = 18.000.000."],
+["Según la NIC 2, los inventarios se miden:",["Siempre al costo histórico","Al menor entre el costo y el valor neto realizable","Al valor de reposición","Al mayor entre costo y valor de mercado"],1,1,"Se aplica el menor entre costo y VNR para no sobrevalorar el activo."],
+["En una conciliación bancaria, un cheque girado y aún no cobrado por el beneficiario:",["Se resta del saldo según extracto","Se suma al saldo según extracto","Se resta del saldo en libros","Se registra como gasto"],0,2,"La empresa ya lo contabilizó, pero el banco aún no lo debitó: se resta del saldo del extracto."],
+["¿Cuál NO forma parte del costo inicial de una propiedad, planta y equipo?",["Aranceles de importación","Costos de instalación","Capacitación del personal que la operará","Preparación del sitio"],2,2,"La NIC 16 excluye costos de capacitación del personal."]
+]},
+{"id":"m2s2","nombre":"Pasivos, provisiones y patrimonio","area":"CON","descripcion":"Pasivos, NIC 37, patrimonio, reservas e impuesto diferido.",
+"temas":[["Pasivos financieros y obligaciones laborales",2],["Provisiones, pasivos y activos contingentes (NIC 37)",2],["Patrimonio: capital, reservas y utilidades",2],["Introducción al impuesto diferido (NIC 12)",2]],
+"cards":[
+["Definición de pasivo","Obligación presente surgida de sucesos pasados, cuya liquidación se espera que implique salida de recursos con beneficios económicos.","Debe existir obligación presente: los compromisos futuros no son pasivos."],
+["Provisión (NIC 37)","Pasivo de cuantía o vencimiento inciertos. Se reconoce si hay obligación presente, es probable la salida de recursos y puede estimarse fiablemente.","Probable = más probable que no (>50%)."],
+["Pasivo y activo contingente","Pasivo contingente: se revela en notas, no se reconoce. Activo contingente: se revela si la entrada es probable; se reconoce solo cuando es virtualmente cierta.","Si la salida de recursos es remota, normalmente no se revela."],
+["Reserva legal (art. 452 C. Co.)","Sociedades por acciones: 10% de las utilidades líquidas de cada ejercicio hasta alcanzar el 50% del capital suscrito.","Es obligatoria; las reservas estatutarias y ocasionales son voluntarias."],
+["Impuesto diferido (NIC 12)","Surge de diferencias temporarias entre la base contable y la fiscal: activo por impuesto diferido (diferencias deducibles) y pasivo (diferencias imponibles).","Se concilia con el formato 2516 de la DIAN."]
+],
+"qs":[
+["Según la NIC 37, una provisión se reconoce cuando:",["Es posible (pero no probable) la salida de recursos","Existe obligación presente, salida de recursos probable y estimación fiable","Solo hay sentencia judicial en firme","Siempre que exista una demanda"],1,2,"Se requieren los tres criterios: obligación presente, probabilidad de salida y fiabilidad en la estimación."],
+["La reserva legal de una sociedad por acciones debe constituirse hasta alcanzar:",["10% del capital suscrito","50% del capital suscrito","100% del capital suscrito","30% del patrimonio"],1,1,"Se apropia 10% de las utilidades líquidas hasta llegar al 50% del capital suscrito."],
+["Un litigio contra la empresa con probabilidad remota de pérdida:",["Se provisiona","Se revela como pasivo contingente","Normalmente no se reconoce ni se revela","Se reconoce como activo"],2,2,"Solo se revelan pasivos contingentes si la salida de recursos no es remota."],
+["Un activo contingente se reconoce en el balance cuando:",["Es posible","Es probable","Es virtualmente cierto","Nunca se reconoce"],2,2,"Cuando la realización del ingreso es virtualmente cierta deja de ser contingente y se reconoce."]
+]},
+{"id":"m2s3","nombre":"Marco normativo contable colombiano","area":"CON","descripcion":"Ley 1314 de 2009, grupos NIF, marco conceptual y presentación de estados financieros.",
+"temas":[["Ley 1314 de 2009 y convergencia a NIIF",2],["Grupos 1, 2 y 3: criterios de clasificación",2],["Marco conceptual y características cualitativas",2],["Presentación de estados financieros (NIC 1)",2]],
+"cards":[
+["Ley 1314 de 2009","Regula los principios y normas de contabilidad e información financiera y de aseguramiento de la información aceptados en Colombia.","El CTCP es el organismo de normalización técnica; el DUR 2420 de 2015 compila las normas."],
+["Grupo 1","Aplica NIIF plenas: emisores de valores, entidades de interés público y empresas grandes (p. ej., más de 200 trabajadores o activos superiores a 30.000 SMMLV) que cumplan las condiciones del DUR.","Requiere preparar estados financieros con mayor nivel de revelación."],
+["Grupo 2","NIIF para las PYMES: entidades que no son del Grupo 1 ni microempresas.","Marco simplificado de 35 secciones."],
+["Grupo 3 (microempresas)","Hasta 10 trabajadores, activos totales (sin vivienda) menores a 500 SMMLV e ingresos brutos anuales menores a 6.000 SMMLV.","Aplican el marco simplificado del Anexo 3 del DUR 2420/2015."],
+["Características cualitativas","Fundamentales: relevancia y representación fiel. De mejora: comparabilidad, verificabilidad, oportunidad y comprensibilidad.","Los estados financieros completos (NIC 1): situación financiera, resultado integral, cambios en el patrimonio, flujos de efectivo y notas."]
+],
+"qs":[
+["¿Qué entidad es el organismo de normalización técnica de las normas contables en Colombia?",["Consejo Técnico de la Contaduría Pública (CTCP)","DIAN","Junta Central de Contadores","Supersociedades"],0,1,"La Ley 1314 de 2009 le asigna al CTCP la normalización técnica."],
+["Una empresa con 8 trabajadores, activos de 300 SMMLV e ingresos de 3.000 SMMLV normalmente aplica:",["Grupo 1","Grupo 2","Grupo 3","Solo el Estatuto Tributario"],2,2,"Cumple los criterios de microempresa (≤10 trabajadores, activos <500 SMMLV, ingresos <6.000 SMMLV)."],
+["El conjunto completo de estados financieros según la NIC 1 incluye:",["Solo balance y estado de resultados","Estado de situación financiera, resultado integral, cambios en el patrimonio, flujos de efectivo y notas","Solo las notas","El presupuesto anual"],1,1,"Son cinco componentes, más los comparativos."],
+["Las características cualitativas fundamentales de la información financiera son:",["Comparabilidad y verificabilidad","Relevancia y representación fiel","Oportunidad y comprensibilidad","Materialidad y prudencia"],1,2,"Las otras son características de mejora."]
+]},
+{"id":"m2s4","nombre":"Derecho comercial y sociedades","area":"LEG","descripcion":"Comerciante, tipos de sociedades, órganos sociales y liquidación.",
+"temas":[["Comerciante y obligaciones mercantiles",2],["Tipos societarios: S.A.S., Ltda., S.A.",2],["Órganos sociales y reuniones (Ley 222 de 1995)",2],["Disolución y liquidación",2]],
+"cards":[
+["Obligaciones del comerciante (art. 19 C. Co.)","Matricularse en el registro mercantil, inscribir libros y documentos, llevar contabilidad regular, conservar la correspondencia y abstenerse de competencia desleal.","Se renueva la matrícula cada año, a más tardar el 31 de marzo."],
+["S.A.S. (Ley 1258 de 2008)","Uno o más accionistas, responsabilidad limitada al aporte, constitución por documento privado, objeto social indeterminado.","No exige junta directiva; el revisor fiscal solo es obligatorio si supera los umbrales de la Ley 43/1990."],
+["Sociedad limitada","Entre 2 y 25 socios; responsabilidad limitada a los aportes; capital dividido en cuotas.","Los socios responden por obligaciones laborales y tributarias en ciertos casos."],
+["Reunión ordinaria","Se celebra al menos una vez al año, dentro de los tres meses siguientes al cierre del ejercicio, para aprobar estados financieros y distribuir utilidades.","Si no se convoca, se reúne por derecho propio el primer día hábil de abril."],
+["Ley 222 de 1995","Reforma el Libro II del Código de Comercio: deberes de administradores, estados financieros, grupos empresariales y grupos de control, liquidación.","El régimen de insolvencia hoy está en la Ley 1116 de 2006."]
+],
+"qs":[
+["Para constituir una S.A.S. se requiere:",["Escritura pública siempre","Documento privado inscrito en la Cámara de Comercio","Autorización previa de la Supersociedades","Un mínimo de dos accionistas"],1,1,"La Ley 1258 permite constituirla por documento privado (escritura pública solo si se aportan inmuebles)."],
+["El número máximo de socios de una sociedad limitada es:",["5","10","25","50"],2,1,"Entre 2 y 25 socios."],
+["La reunión ordinaria de la asamblea o junta de socios se realiza:",["Dentro de los tres primeros meses de cada año","Cada semestre","Cuando lo decida el gerente","Solo en diciembre"],0,1,"Para examinar la situación de la sociedad y aprobar estados financieros."],
+["La responsabilidad de los accionistas de una S.A.S. es, en general:",["Solidaria e ilimitada","Limitada al monto de sus aportes","Subsidiaria","Inexistente"],1,2,"Salvo que se use la sociedad en fraude a la ley o en perjuicio de terceros, caso en que se les puede extender la responsabilidad."]
+]}
+]}
